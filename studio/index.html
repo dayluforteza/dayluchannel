@@ -16,10 +16,18 @@
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="index.html"><i>DF</i>Daylu Forteza</a>
-    <ul><li><a href="about.html" data-page="about">About me</a></li><li><a href="services.html" data-page="services">Services</a></li><li><a href="websites.html" data-page="websites">Web development<b class="badge">Main</b></a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul>
-    <a class="btn btn--primary btn--sm" href="contact.html">Tell me your case</a>
+    <nav class="menu" aria-label="Main"><ul><li><a href="index.html" data-page="index">Home</a></li><li class="has-sub"><a href="services.html" data-page="services">Services<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a><div class="sub"><div class="wrap sub__grid"><a class="sub__item" href="service-systems.html" data-sv="systems"><span class="mono">01</span><strong>Systems</strong><span>Computers, servers and system services</span></a><a class="sub__item" href="service-networks.html" data-sv="networks"><span class="mono">02</span><strong>Networks</strong><span>Cabling, routers, switches and Wi-Fi</span></a><a class="sub__item" href="service-maintenance.html" data-sv="maintenance"><span class="mono">03</span><strong>Maintenance</strong><span>Diagnosis and preventive care</span></a><a class="sub__item" href="service-security.html" data-sv="security"><span class="mono">04</span><strong>Security</strong><span>Settings, permissions and backups</span></a><a class="sub__item sub__item--main" href="service-web-development.html" data-sv="web"><span class="mono">05</span><strong>Web development<b class="badge">Main</b></strong><span>Websites from €1,000</span></a><a class="sub__item" href="service-training.html" data-sv="training"><span class="mono">06</span><strong>Training</strong><span>Training and buying advice</span></a><a class="sub__all" href="services.html">All services <i>›</i></a></div></div></li><li><a href="projects.html" data-page="projects">Projects</a></li><li><a href="about.html" data-page="about">About me</a></li><li><a href="how-i-work.html" data-page="how">How I work</a></li><li><a href="resources.html" data-page="resources">Resources</a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul></nav>
+    <a class="btn btn--primary btn--sm nav__cta" href="find-your-solution.html">Find your solution</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="sheet" aria-label="Open menu"><span></span><span></span></button>
   </div>
 </header>
+<div class="sheet" id="sheet" hidden>
+  <div class="wrap sheet__in">
+    <ul class="sheet__pages"><li><a href="index.html" data-page="index">Home</a></li><li><a href="services.html" data-page="services">Services</a></li><li><a href="projects.html" data-page="projects">Projects</a></li><li><a href="about.html" data-page="about">About me</a></li><li><a href="how-i-work.html" data-page="how">How I work</a></li><li><a href="resources.html" data-page="resources">Resources</a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul>
+    <div class="sheet__sv"><p class="mono">Services</p><ul><li><a href="service-systems.html">Systems</a></li><li><a href="service-networks.html">Networks</a></li><li><a href="service-maintenance.html">Maintenance</a></li><li><a href="service-security.html">Security</a></li><li><a href="service-web-development.html">Web development <b class="badge">Main</b></a></li><li><a href="service-training.html">Training</a></li></ul></div>
+    <div class="sheet__foot"><a class="btn btn--primary" href="find-your-solution.html">Find your solution</a><a class="btn btn--ghost" href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a><p>+34 663 01 19 14 · info@dayluforteza.com</p></div>
+  </div>
+</div>
 <main id="top">
 <!-- HERO: the client's whole stack, exploded on scroll -->
   <section class="hero" id="hero" aria-labelledby="hero-h">
@@ -127,8 +135,7 @@
         <h2 class="h-l" id="areas-h">One technician for the whole stack.</h2>
         <p class="lead" style="margin-top:18px">From the first cable to the contact form on your website, the same person diagnoses, fixes and explains.</p>
       </div>
-      <div class="bento">
-        <article class="tile tile--wide">
+      <div class="bento"><a class="tile tile--wide tile--link" href="service-systems.html">
           <p class="mono">01 · Systems</p>
           <h3>Computers set up properly.</h3>
           <p>Installation and configuration of Windows, Windows Server and macOS, with users, permissions and updates under control.</p>
@@ -143,8 +150,8 @@
               <g font-family="var(--mono)" font-size="11" fill="currentColor" fill-opacity=".55"><text x="120" y="88" text-anchor="middle">USER 01</text><text x="260" y="88" text-anchor="middle">USER 02</text><text x="400" y="88" text-anchor="middle">USER 03</text></g>
             </svg>
           </div>
-        </article>
-        <article class="tile tile--wide">
+        <span class="more-link">Details ›</span></a>
+<a class="tile tile--wide tile--link" href="service-networks.html">
           <p class="mono">02 · Networks</p>
           <h3>Wi-Fi in every room.</h3>
           <p>Structured cabling, labelled patch panels and access points placed where the signal is needed.</p>
@@ -158,8 +165,8 @@
               <g stroke="var(--accent)" stroke-width="1.5" fill="none" class="pulse"><path d="M96 150a20 20 0 0 1 28 0M88 142a32 32 0 0 1 44 0"/><path d="M246 150a20 20 0 0 1 28 0M238 142a32 32 0 0 1 44 0"/><path d="M396 150a20 20 0 0 1 28 0M388 142a32 32 0 0 1 44 0"/></g>
             </svg>
           </div>
-        </article>
-        <article class="tile">
+        <span class="more-link">Details ›</span></a>
+<a class="tile tile--link" href="service-maintenance.html">
           <p class="mono">03 · Maintenance</p>
           <h3>Checked before it fails.</h3>
           <p>Quarterly reviews of tills, office machines and the network, with a written status report.</p>
@@ -172,8 +179,8 @@
               <g fill="var(--accent)"><rect x="84" y="49" width="70" height="14" rx="7"/><rect x="84" y="85" width="110" height="14" rx="7"/><rect x="84" y="121" width="90" height="14" rx="7"/><rect x="84" y="157" width="130" height="14" rx="7" class="pulse"/></g>
             </svg>
           </div>
-        </article>
-        <article class="tile">
+        <span class="more-link">Details ›</span></a>
+<a class="tile tile--link" href="service-security.html">
           <p class="mono">04 · Security</p>
           <h3>Three copies, verified.</h3>
           <p>From one external disk to three tested copies on different media, one of them off site.</p>
@@ -186,8 +193,8 @@
               <g font-family="var(--mono)" font-size="10" fill="currentColor" text-anchor="middle"><text x="70" y="168">DISK</text><text x="170" y="168">NAS</text><text x="270" y="168">CLOUD</text></g>
             </svg>
           </div>
-        </article>
-        <article class="tile">
+        <span class="more-link">Details ›</span></a>
+<a class="tile tile--link" href="service-web-development.html">
           <p class="mono">05 · Web</p>
           <h3>A site that explains you.</h3>
           <p>Corporate sites and landing pages in HTML, CSS, JavaScript, PHP and MySQL, built for the phone first.</p>
@@ -203,8 +210,8 @@
               <rect x="240" y="142" width="46" height="26" rx="6" fill="var(--accent-soft)"/>
             </svg>
           </div>
-        </article>
-        <article class="tile tile--full">
+        <span class="more-link">Main service · Details ›</span></a>
+<a class="tile tile--full tile--link" href="service-training.html">
           <p class="mono">06 · Training</p>
           <h3>You understand your own setup.</h3>
           <p>Since 2017 I have taught people how to use their technology. Every job ends with a walkthrough and a written summary you can keep.</p>
@@ -215,26 +222,34 @@
               <g font-family="var(--mono)" font-size="12" fill="currentColor" fill-opacity=".6" text-anchor="middle"><text x="160" y="88">WHAT WAS DONE</text><text x="420" y="88">WHY</text><text x="680" y="88">HOW TO USE IT</text><text x="940" y="88">WRITTEN SUMMARY</text></g>
             </svg>
           </div>
-        </article>
-      </div>
-      <div class="hero__cta" style="margin-top:48px"><a class="btn btn--primary" href="services.html">See every service in depth</a></div>
+        <span class="more-link">Details ›</span></a></div>
     </div>
   </section>
 
+  <section id="webfeat" class="band" aria-labelledby="wf2-h">
+    <div class="wrap webfeat">
+      <div>
+        <p class="eyebrow">Main service</p>
+        <h2 class="h-l" id="wf2-h">Websites, written by hand. From €1,000.</h2>
+        <p class="lead" style="margin-top:18px">A site that explains what you do, works on the phone and stays in your name: domain, hosting, code and content.</p>
+        <div class="hero__cta" style="justify-content:flex-start"><a class="btn btn--primary" href="service-web-development.html">See web development</a><a class="btn btn--ghost" href="contact.html">Ask for a quote ›</a></div>
+      </div>
+      <div class="devices" aria-hidden="true">
+        <div class="dv dv--desk"><div class="bar"><i></i><i></i><i></i></div><div class="wire"><div class="b b--h"></div><div class="b" style="width:52%"></div><div class="b b--a"></div><div class="grid3"><i></i><i></i><i></i></div></div></div>
+        <div class="dv dv--tab"><div class="wire"><div class="b b--h"></div><div class="b"></div><div class="b b--a" style="width:60%"></div><div class="grid3"><i></i><i></i></div></div></div>
+        <div class="dv dv--phone"><div class="wire"><div class="b b--h" style="height:12px"></div><div class="b" style="height:6px"></div><div class="b b--a" style="width:70%;height:12px"></div><div class="grid3"><i></i></div></div></div>
+      </div>
+    </div>
+  </section>
 
-  
-  <!-- EXPLORE -->
   <section id="explore" style="background: var(--bg-2)" aria-labelledby="ex-h">
     <div class="wrap">
-      <div class="center">
-        <p class="eyebrow">Explore</p>
-        <h2 class="h-l" id="ex-h">Go as deep as you want.</h2>
-      </div>
+      <div class="center"><p class="eyebrow">Explore</p><h2 class="h-l" id="ex-h">Go as deep as you want.</h2></div>
       <div class="explore">
-        <a class="xcard wide" href="services.html" style="background:var(--bg)"><div><p class="mono">Services</p><h3>Each service, opened up.</h3><p>Problems, results, what is included and who it is for. Plus an office network you can click through.</p></div><span class="go">See the services <i>›</i></span></a>
-        <a class="xcard wide dark" href="websites.html"><div><p class="mono">Websites</p><h3>Your site, your name, your code.</h3><p>Hand-written websites from €1,000, with domain and hosting in your name.</p></div><span class="go">See how a site is built <i>›</i></span></a>
-        <a class="xcard" href="method.html" style="background:var(--bg)"><div><p class="mono">Method</p><h3>Six stages, no mystery.</h3><p>What happens from the first message to the handover.</p></div><span class="go">See the method <i>›</i></span></a>
-        <a class="xcard" href="about.html" style="background:var(--bg)"><div><p class="mono">About</p><h3>The person behind it.</h3><p>Trajectory, qualifications and how I work.</p></div><span class="go">Read my story <i>›</i></span></a>
+        <a class="xcard wide" href="find-your-solution.html" style="background:var(--bg)"><div><p class="mono">Find your solution</p><h3>Not sure what you need?</h3><p>Pick the problem that sounds like yours and see how it is solved.</p></div><span class="go">Find your solution <i>›</i></span></a>
+        <a class="xcard wide dark" href="how-i-work.html"><div><p class="mono">How I work</p><h3>Six stages, no mystery.</h3><p>From the first message to the handover, with scope and price in writing.</p></div><span class="go">See how I work <i>›</i></span></a>
+        <a class="xcard" href="projects.html" style="background:var(--bg)"><div><p class="mono">Projects</p><h3>How I would approach it.</h3><p>Nine concepts across networks, systems, security and web.</p></div><span class="go">See the projects <i>›</i></span></a>
+        <a class="xcard" href="about.html" style="background:var(--bg)"><div><p class="mono">About me</p><h3>The person behind it.</h3><p>Trajectory, tools and how I work.</p></div><span class="go">Read my story <i>›</i></span></a>
         <a class="xcard" href="contact.html" style="background:var(--bg)"><div><p class="mono">Contact</p><h3>One message is enough.</h3><p>WhatsApp, phone or email. By appointment in Málaga.</p></div><span class="go">Get in touch <i>›</i></span></a>
       </div>
     </div>
@@ -253,11 +268,11 @@
   <div class="wrap">
     <div class="cols">
       <div class="brand"><a class="logo" href="index.html"><i>DF</i>Daylu Forteza</a><p>IT services and digital solutions in Málaga and the metro area. By appointment, on site or remote.</p></div>
-      <div><h4>Pages</h4><ul><li><a href="about.html">About me</a></li><li><a href="services.html">Services</a></li><li><a href="websites.html">Web development</a></li><li><a href="method.html">Method</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-      <div><h4>Services</h4><ul><li><a href="services.html">Systems</a></li><li><a href="services.html">Networks</a></li><li><a href="services.html">Maintenance</a></li><li><a href="services.html">Security</a></li><li><a href="websites.html">Web development</a></li><li><a href="services.html">Training</a></li></ul></div>
-      <div><h4>Contact</h4><ul><li>+34 663 01 19 14</li><li>info@dayluforteza.com</li><li><a href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a></li></ul></div>
+      <div><h4>Services</h4><ul><li><a href="service-systems.html">Systems</a></li><li><a href="service-networks.html">Networks</a></li><li><a href="service-maintenance.html">Maintenance</a></li><li><a href="service-security.html">Security</a></li><li><a href="service-web-development.html">Web development</a></li><li><a href="service-training.html">Training</a></li></ul></div>
+      <div><h4>Website</h4><ul><li><a href="projects.html">Projects</a></li><li><a href="about.html">About me</a></li><li><a href="how-i-work.html">How I work</a></li><li><a href="resources.html">Resources</a></li><li><a href="find-your-solution.html">Find your solution</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li>+34 663 01 19 14</li><li>info@dayluforteza.com</li><li><a href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a></li><li><a href="contact.html">Contact page</a></li></ul></div>
     </div>
-    <div class="legal"><span>© 2026 Daylu Forteza · All rights reserved</span><span>Málaga, Spain</span></div>
+    <div class="legal"><span>© 2026 Daylu Forteza · All rights reserved</span><span>Málaga, Spain · By appointment</span></div>
   </div>
 </footer>
 <script src="assets/site.js"></script>

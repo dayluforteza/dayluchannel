@@ -10,7 +10,23 @@
 
   /* current page in the nav */
   const page = document.body.dataset.page;
-  $$('.nav ul a').forEach(a => { if (a.dataset.page === page) a.setAttribute('aria-current', 'page'); });
+  $$('a[data-page]').forEach(a => { if (a.dataset.page === page) a.setAttribute('aria-current', 'page'); });
+  const here = location.pathname.split('/').pop() || 'index.html';
+  $$('.sub__item, .sheet__sv a').forEach(a => { if (a.getAttribute('href') === here) a.setAttribute('aria-current', 'page'); });
+
+  /* menu sheet (phone and tablet) */
+  const burger = document.querySelector('.burger'), sheet = $('sheet');
+  if (burger && sheet) {
+    const setOpen = open => {
+      burger.setAttribute('aria-expanded', open); burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      sheet.hidden = !open; document.body.classList.toggle('menu-open', open);
+      if (open) { const f = sheet.querySelector('a'); f && f.focus({ preventScroll: true }); }
+    };
+    burger.addEventListener('click', () => setOpen(burger.getAttribute('aria-expanded') !== 'true'));
+    sheet.addEventListener('click', e => { if (e.target.closest('a')) setOpen(false); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !sheet.hidden) { setOpen(false); burger.focus(); } });
+    addEventListener('resize', () => { if (innerWidth > 1120 && !sheet.hidden) setOpen(false); });
+  }
 
   /* soft page transition between the site's own pages */
   if (!reduced) document.addEventListener('click', e => {
@@ -309,6 +325,25 @@
     [['es-places', places.length, 'place', 'places'], ['es-prov', lit.size, 'province', 'provinces'], ['es-links', links, 'connection', 'connections']].forEach(([id, n, one, many]) => { $(id).textContent = n; $(id).nextElementSibling.textContent = n === 1 ? one : many; });
     $('es-list').innerHTML = places.map(p => `<li>${p.name}<span>${p.note || p.province}</span></li>`).join('');
     if (reduced) $$('.ring', es).forEach(r => r.remove());
+  }
+
+
+  /* project filters */
+  const filters = $('filters');
+  if (filters) {
+    const cards = $$('#pgrid .pcard');
+    $$('button', filters).forEach(b => b.addEventListener('click', () => {
+      const f = b.dataset.f;
+      $$('button', filters).forEach(x => x.setAttribute('aria-pressed', x === b));
+      cards.forEach((c, i) => { const show = f === 'all' || c.dataset.cat === f; c.classList.toggle('out', !show); c.classList.remove('pop'); if (show && !reduced) { void c.offsetWidth; c.style.animationDelay = (i % 6) * 40 + 'ms'; c.classList.add('pop'); } });
+    }));
+  }
+
+  /* hiring steps light up while reading */
+  const hire = $('hire');
+  if (hire) {
+    const items = $$('li', hire);
+    loops.push(() => { const mid = innerHeight * 0.62; items.forEach(li => li.classList.toggle('on', reduced || li.getBoundingClientRect().top < mid)); });
   }
 
   /* copy buttons */

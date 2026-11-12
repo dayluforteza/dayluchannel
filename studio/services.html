@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Services · Daylu Forteza</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="IT services in detail: structured cabling, network equipment, servers, operating systems, system services, maintenance, security and training in Málaga.">
+<meta name="description" content="Six IT services in Málaga: systems, networks, maintenance, security, web development and training.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -16,117 +16,125 @@
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="index.html"><i>DF</i>Daylu Forteza</a>
-    <ul><li><a href="about.html" data-page="about">About me</a></li><li><a href="services.html" data-page="services">Services</a></li><li><a href="websites.html" data-page="websites">Web development<b class="badge">Main</b></a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul>
-    <a class="btn btn--primary btn--sm" href="contact.html">Tell me your case</a>
+    <nav class="menu" aria-label="Main"><ul><li><a href="index.html" data-page="index">Home</a></li><li class="has-sub"><a href="services.html" data-page="services">Services<svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a><div class="sub"><div class="wrap sub__grid"><a class="sub__item" href="service-systems.html" data-sv="systems"><span class="mono">01</span><strong>Systems</strong><span>Computers, servers and system services</span></a><a class="sub__item" href="service-networks.html" data-sv="networks"><span class="mono">02</span><strong>Networks</strong><span>Cabling, routers, switches and Wi-Fi</span></a><a class="sub__item" href="service-maintenance.html" data-sv="maintenance"><span class="mono">03</span><strong>Maintenance</strong><span>Diagnosis and preventive care</span></a><a class="sub__item" href="service-security.html" data-sv="security"><span class="mono">04</span><strong>Security</strong><span>Settings, permissions and backups</span></a><a class="sub__item sub__item--main" href="service-web-development.html" data-sv="web"><span class="mono">05</span><strong>Web development<b class="badge">Main</b></strong><span>Websites from €1,000</span></a><a class="sub__item" href="service-training.html" data-sv="training"><span class="mono">06</span><strong>Training</strong><span>Training and buying advice</span></a><a class="sub__all" href="services.html">All services <i>›</i></a></div></div></li><li><a href="projects.html" data-page="projects">Projects</a></li><li><a href="about.html" data-page="about">About me</a></li><li><a href="how-i-work.html" data-page="how">How I work</a></li><li><a href="resources.html" data-page="resources">Resources</a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul></nav>
+    <a class="btn btn--primary btn--sm nav__cta" href="find-your-solution.html">Find your solution</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="sheet" aria-label="Open menu"><span></span><span></span></button>
   </div>
 </header>
+<div class="sheet" id="sheet" hidden>
+  <div class="wrap sheet__in">
+    <ul class="sheet__pages"><li><a href="index.html" data-page="index">Home</a></li><li><a href="services.html" data-page="services">Services</a></li><li><a href="projects.html" data-page="projects">Projects</a></li><li><a href="about.html" data-page="about">About me</a></li><li><a href="how-i-work.html" data-page="how">How I work</a></li><li><a href="resources.html" data-page="resources">Resources</a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul>
+    <div class="sheet__sv"><p class="mono">Services</p><ul><li><a href="service-systems.html">Systems</a></li><li><a href="service-networks.html">Networks</a></li><li><a href="service-maintenance.html">Maintenance</a></li><li><a href="service-security.html">Security</a></li><li><a href="service-web-development.html">Web development <b class="badge">Main</b></a></li><li><a href="service-training.html">Training</a></li></ul></div>
+    <div class="sheet__foot"><a class="btn btn--primary" href="find-your-solution.html">Find your solution</a><a class="btn btn--ghost" href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a><p>+34 663 01 19 14 · info@dayluforteza.com</p></div>
+  </div>
+</div>
 <main id="top">
 
   <section class="page-hero" aria-labelledby="ph-h">
     <div class="wrap">
       <p class="crumb"><a href="index.html">Daylu Forteza</a><span>/</span><span>Services</span></p>
-      <h1 class="h-xl" id="ph-h">Every service, in detail.</h1>
-      <p class="lead">What each job includes, what you keep when it is done and who it is for. From the first cable to the services that make an office work.</p>
-      <div class="jump"><a href="#catalogue">Catalogue</a><a href="#scope">What I do and don’t</a><a href="#finder">Diagnosis</a><a href="#office">Inside an office</a></div>
+      <h1 class="h-xl" id="ph-h">Six services. One technician.</h1>
+      <p class="lead">Choose a service to see the problems it solves, what it includes, how it goes and the questions people ask about it.</p>
+      <div class="jump"><a href="#areas">The six services</a><a href="#scope">What I do and don’t</a><a href="#office">Inside an office</a></div>
     </div>
     <div class="glyph" aria-hidden="true"><svg viewBox="0 0 300 300" fill="none"><g class="spin"><circle cx="150" cy="150" r="130" stroke="var(--line)" stroke-dasharray="4 8"/></g><circle cx="150" cy="150" r="22" fill="var(--accent)"/><g stroke="var(--accent)" stroke-width="2"><path d="M150 150 60 80M150 150l90-70M150 150 60 220M150 150l90 70M150 150V30M150 150v120"/></g><g fill="var(--bg)" stroke="var(--fg)" stroke-opacity=".5" stroke-width="2"><circle cx="60" cy="80" r="14"/><circle cx="240" cy="80" r="14"/><circle cx="60" cy="220" r="14"/><circle cx="240" cy="220" r="14"/><circle cx="150" cy="30" r="14"/><circle cx="150" cy="270" r="14"/></g></svg></div>
   </section>
-
-  <!-- CATALOGUE -->
-  <section id="catalogue" aria-label="Service catalogue">
-    <div class="wrap cat">
-      <nav class="cat__index" aria-label="Services on this page">
-        <p class="mono">Catalogue</p>
-        <ol id="cat-index"><li><a href="#cabling"><span class="mono">01</span>Structured cabling</a></li><li><a href="#network"><span class="mono">02</span>Network equipment</a></li><li><a href="#servers"><span class="mono">03</span>Servers</a></li><li><a href="#systems"><span class="mono">04</span>Operating systems</a></li><li><a href="#services-config"><span class="mono">05</span>System services</a></li><li><a href="#maintenance"><span class="mono">06</span>Maintenance and diagnosis</a></li><li><a href="#security"><span class="mono">07</span>Security and backups</a></li><li><a href="#training"><span class="mono">08</span>Training and advice</a></li><li class="hl"><a href="websites.html"><span class="mono">★</span>Web development</a></li></ol>
-      </nav>
-      <div class="cat__body">
-          <article class="svc" id="cabling">
-            <p class="mono">01 · Structured cabling</p>
-            <h2>Cabling that anyone can read.</h2>
-            <p class="svc__lead">Installation and organisation of the network cabling of a home, office or shop: from the wall socket to the patch panel, with every point tested and named.</p>
-            <div class="svc__art draw" aria-hidden="true"><svg viewBox="0 0 520 260" fill="none"><rect x="30" y="40" width="200" height="180" rx="14" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"/><g fill="var(--bg)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"><rect x="50" y="70" width="20" height="16" rx="3"/><rect x="80" y="70" width="20" height="16" rx="3"/><rect x="110" y="70" width="20" height="16" rx="3"/><rect x="140" y="70" width="20" height="16" rx="3"/><rect x="170" y="70" width="20" height="16" rx="3"/><rect x="200" y="70" width="20" height="16" rx="3"/><rect x="50" y="100" width="20" height="16" rx="3"/><rect x="80" y="100" width="20" height="16" rx="3"/><rect x="110" y="100" width="20" height="16" rx="3"/><rect x="140" y="100" width="20" height="16" rx="3"/><rect x="170" y="100" width="20" height="16" rx="3"/><rect x="200" y="100" width="20" height="16" rx="3"/></g><g font-family="var(--mono)" font-size="9" fill="currentColor" fill-opacity=".6"><text x="52" y="140">A1</text><text x="82" y="140">A2</text><text x="112" y="140">A3</text><text x="142" y="140">A4</text><text x="172" y="140">A5</text><text x="202" y="140">A6</text></g><path class="d" style="--len:900" d="M60 86 C 60 190, 330 60, 330 150 M90 86 C 90 200, 400 80, 400 150 M120 86 C 120 210, 470 90, 470 150" stroke="var(--accent)" stroke-width="2"/><g fill="var(--accent)"><rect x="315" y="150" width="30" height="40" rx="6"/><rect x="385" y="150" width="30" height="40" rx="6"/><rect x="455" y="150" width="30" height="40" rx="6"/></g><g font-family="var(--mono)" font-size="10" fill="currentColor" fill-opacity=".7" text-anchor="middle"><text x="330" y="210">DESK 1</text><text x="400" y="210">DESK 2</text><text x="470" y="210">DESK 3</text></g></svg></div>
-            <div class="svc__grid">
-              <div><h3>What it includes</h3><ul class="svc__inc"><li>Cable runs planned room by room</li><li>Network sockets and patch panel installed</li><li>Every point tested before it is closed</li><li>Labels on both ends of each cable</li><li>Cabinet tidied, existing cabling reused where it holds</li></ul></div>
-              <div><h3>You keep</h3><ul class="svc__keep"><li>Labelled cabinet</li><li>Network diagram</li><li>Test results per point</li></ul><h3 style="margin-top:22px">Ideal for</h3><div class="chips"><span>Offices setting up</span><span>Shops moving premises</span><span>Homes with many devices</span></div></div>
-            </div>
-          </article>
-          <article class="svc" id="network">
-            <p class="mono">02 · Network equipment</p>
-            <h2>Routers, switches and Wi-Fi, configured.</h2>
-            <p class="svc__lead">Installation and configuration of the devices that move your data: the router, the switches and the access points, set up for the building and the way you work.</p>
-            <div class="svc__art draw" aria-hidden="true"><svg viewBox="0 0 520 260" fill="none"><path class="d" style="--len:900" d="M260 60v50M260 140 110 200M260 140v60M260 140l150 60" stroke="var(--accent)" stroke-width="2"/><rect x="200" y="30" width="120" height="34" rx="9" fill="var(--accent)"/><text x="260" y="52" text-anchor="middle" font-family="var(--mono)" font-size="11" fill="#fff">ROUTER</text><rect x="190" y="108" width="140" height="34" rx="9" fill="var(--fg)"/><text x="260" y="130" text-anchor="middle" font-family="var(--mono)" font-size="11" fill="var(--bg)">SWITCH · 24P</text><g fill="var(--bg)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"><rect x="70" y="200" width="80" height="30" rx="8"/><rect x="220" y="200" width="80" height="30" rx="8"/><rect x="370" y="200" width="80" height="30" rx="8"/></g><g font-family="var(--mono)" font-size="10" fill="currentColor" text-anchor="middle"><text x="110" y="219">AP-1</text><text x="260" y="219">VLAN STAFF</text><text x="410" y="219">AP-2</text></g><g stroke="var(--accent)" stroke-width="1.5" class="pulse"><path d="M94 190a22 22 0 0 1 32 0M86 182a34 34 0 0 1 48 0"/><path d="M394 190a22 22 0 0 1 32 0M386 182a34 34 0 0 1 48 0"/></g></svg></div>
-            <div class="svc__grid">
-              <div><h3>What it includes</h3><ul class="svc__inc"><li>Router configured, default passwords changed</li><li>Switches installed and ports assigned</li><li>Access points placed where coverage is measured</li><li>Separate network for guests or customers</li><li>Remote access by VPN when you need it</li></ul></div>
-              <div><h3>You keep</h3><ul class="svc__keep"><li>Configuration summary</li><li>Coverage check per room</li><li>Admin access handed over</li></ul><h3 style="margin-top:22px">Ideal for</h3><div class="chips"><span>Offices</span><span>Shops with POS and cameras</span><span>Homes with poor Wi-Fi</span></div></div>
-            </div>
-          </article>
-          <article class="svc" id="servers">
-            <p class="mono">03 · Servers</p>
-            <h2>A server that the office can rely on.</h2>
-            <p class="svc__lead">Installation, configuration and maintenance of Windows Server: the central machine that holds users, shared files and the services the office depends on.</p>
-            <div class="svc__art draw" aria-hidden="true"><svg viewBox="0 0 520 260" fill="none"><g fill="var(--fg)"><rect x="190" y="30" width="140" height="44" rx="8"/><rect x="190" y="82" width="140" height="44" rx="8"/><rect x="190" y="134" width="140" height="44" rx="8"/></g><g fill="var(--accent)"><circle cx="210" cy="52" r="5" class="pulse"/><circle cx="210" cy="104" r="5" class="pulse" style="animation-delay:.4s"/><circle cx="210" cy="156" r="5" class="pulse" style="animation-delay:.8s"/></g><g font-family="var(--mono)" font-size="10" fill="var(--bg)"><text x="226" y="56">USERS · GROUPS</text><text x="226" y="108">SHARED FILES</text><text x="226" y="160">BACKUP</text></g><path class="d" style="--len:700" d="M190 104H90v100M330 104h100v100M260 178v26" stroke="var(--accent)" stroke-width="2"/><g fill="var(--bg)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"><rect x="50" y="204" width="80" height="30" rx="8"/><rect x="220" y="204" width="80" height="30" rx="8"/><rect x="390" y="204" width="80" height="30" rx="8"/></g><g font-family="var(--mono)" font-size="10" fill="currentColor" text-anchor="middle"><text x="90" y="223">ADMIN</text><text x="260" y="223">STAFF</text><text x="430" y="223">GUEST</text></g></svg></div>
-            <div class="svc__grid">
-              <div><h3>What it includes</h3><ul class="svc__inc"><li>Windows Server installed and updated</li><li>Users, groups and permissions per person</li><li>Shared folders with the right access</li><li>Backups of the server scheduled and tested</li><li>Maintenance and status reviews</li></ul></div>
-              <div><h3>You keep</h3><ul class="svc__keep"><li>Users and permissions map</li><li>Backup and restore test</li><li>Admin documentation</li></ul><h3 style="margin-top:22px">Ideal for</h3><div class="chips"><span>Offices with several desks</span><span>Businesses that grew without order</span><span>Teams sharing files</span></div></div>
-            </div>
-          </article>
-          <article class="svc" id="systems">
-            <p class="mono">04 · Operating systems</p>
-            <h2>Windows and macOS set up properly.</h2>
-            <p class="svc__lead">Installation and configuration of the operating system on each computer, so it is stable, updated and ready for the work you do.</p>
-            <div class="svc__art draw" aria-hidden="true"><svg viewBox="0 0 520 260" fill="none"><g stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"><rect x="40" y="40" width="130" height="90" rx="10"/><rect x="195" y="40" width="130" height="90" rx="10"/><rect x="350" y="40" width="130" height="90" rx="10"/></g><g fill="var(--accent)"><rect x="56" y="104" width="98" height="8" rx="4"/><rect x="211" y="104" width="98" height="8" rx="4"/><rect x="366" y="104" width="98" height="8" rx="4"/></g><g font-family="var(--mono)" font-size="11" fill="currentColor" fill-opacity=".65" text-anchor="middle"><text x="105" y="82">WINDOWS</text><text x="260" y="82">WINDOWS</text><text x="415" y="82">macOS</text></g><path class="d" style="--len:600" d="M105 130v40h310v-40M260 130v40" stroke="var(--accent)" stroke-width="2"/><rect x="200" y="186" width="120" height="40" rx="10" fill="var(--accent)"/><text x="260" y="211" text-anchor="middle" font-family="var(--mono)" font-size="11" fill="#fff">BASE SETUP</text></svg></div>
-            <div class="svc__grid">
-              <div><h3>What it includes</h3><ul class="svc__inc"><li>Clean installation or repair of Windows and macOS</li><li>Updates, drivers and peripherals</li><li>Software installed with clear licences</li><li>Data migrated and checked from the old machine</li><li>The same base setup on every desk</li></ul></div>
-              <div><h3>You keep</h3><ul class="svc__keep"><li>Base image for new machines</li><li>Software and licence list</li><li>Data check after migration</li></ul><h3 style="margin-top:22px">Ideal for</h3><div class="chips"><span>New computers</span><span>Machines that slowed down</span><span>Offices that want every desk the same</span></div></div>
-            </div>
-          </article>
-          <article class="svc" id="services-config">
-            <p class="mono">05 · System services</p>
-            <h2>The services that make an office work together.</h2>
-            <p class="svc__lead">Configuration of the services that connect people and machines: who can sign in, which folders they see, how they print, where the copies go and how they connect from outside.</p>
-            <div class="svc__art draw" aria-hidden="true"><svg viewBox="0 0 520 260" fill="none"><circle cx="260" cy="130" r="40" fill="var(--accent)"/><text x="260" y="134" text-anchor="middle" font-family="var(--mono)" font-size="11" fill="#fff">SERVICES</text><g class="d" stroke="var(--accent)" stroke-width="2" style="--len:200"><path class="d" style="--len:200" d="M260 90V44M296 112l64-38M296 148l64 38M260 170v46M224 148l-64 38M224 112l-64-38"/></g><g fill="var(--bg)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"><rect x="210" y="16" width="100" height="30" rx="8"/><rect x="350" y="56" width="100" height="30" rx="8"/><rect x="350" y="176" width="100" height="30" rx="8"/><rect x="210" y="214" width="100" height="30" rx="8"/><rect x="70" y="176" width="100" height="30" rx="8"/><rect x="70" y="56" width="100" height="30" rx="8"/></g><g font-family="var(--mono)" font-size="10" fill="currentColor" text-anchor="middle"><text x="260" y="35">USERS</text><text x="400" y="75">FOLDERS</text><text x="400" y="195">PRINTING</text><text x="260" y="233">BACKUP</text><text x="120" y="195">VPN</text><text x="120" y="75">PERMISSIONS</text></g></svg></div>
-            <div class="svc__grid">
-              <div><h3>What it includes</h3><ul class="svc__inc"><li>User accounts and permissions</li><li>Shared folders and network drives</li><li>Network printers for every desk</li><li>Automatic backups to disk, NAS or cloud</li><li>VPN access from home</li></ul></div>
-              <div><h3>You keep</h3><ul class="svc__keep"><li>Access list per person</li><li>Service settings summary</li><li>Written guide for daily use</li></ul><h3 style="margin-top:22px">Ideal for</h3><div class="chips"><span>Small offices</span><span>Clinics and studios</span><span>Teams that work from home part of the week</span></div></div>
-            </div>
-          </article>
-          <article class="svc" id="maintenance">
-            <p class="mono">06 · Maintenance and diagnosis</p>
-            <h2>Know what failed, and why.</h2>
-            <p class="svc__lead">Analysis of incidents with checks and tests until the cause is clear, then the fix, and a plan so it does not come back.</p>
-            <div class="svc__art draw" aria-hidden="true"><svg viewBox="0 0 520 260" fill="none"><g font-family="var(--mono)" font-size="10" fill="currentColor" fill-opacity=".55"><text x="40" y="60">JAN</text><text x="40" y="104">APR</text><text x="40" y="148">JUL</text><text x="40" y="192">OCT</text></g><g stroke="currentColor" stroke-opacity=".18"><path d="M90 56h390M90 100h390M90 144h390M90 188h390"/></g><g fill="var(--accent)"><rect x="90" y="48" width="120" height="16" rx="8"/><rect x="90" y="92" width="180" height="16" rx="8"/><rect x="90" y="136" width="150" height="16" rx="8"/><rect x="90" y="180" width="220" height="16" rx="8" class="pulse"/></g><g font-family="var(--mono)" font-size="10" fill="#fff"><text x="100" y="60">REVIEW</text><text x="100" y="104">REVIEW + DISK</text><text x="100" y="148">REVIEW</text><text x="100" y="192">REVIEW + REPORT</text></g></svg></div>
-            <div class="svc__grid">
-              <div><h3>What it includes</h3><ul class="svc__inc"><li>Hardware and software diagnosis</li><li>Preventive and corrective maintenance</li><li>Performance tuning without new hardware</li><li>On-site and remote support</li><li>Records of every intervention</li></ul></div>
-              <div><h3>You keep</h3><ul class="svc__keep"><li>Diagnosis report</li><li>Maintenance calendar</li><li>Status report after each review</li></ul><h3 style="margin-top:22px">Ideal for</h3><div class="chips"><span>Freelancers who cannot stop</span><span>Shops with one critical till</span><span>Offices without IT staff</span></div></div>
-            </div>
-          </article>
-          <article class="svc" id="security">
-            <p class="mono">07 · Security and backups</p>
-            <h2>Realistic protection, tested.</h2>
-            <p class="svc__lead">Basic, preventive security: configuration, updates, passwords, permissions and copies you have actually restored.</p>
-            <div class="svc__art draw" aria-hidden="true"><svg viewBox="0 0 520 260" fill="none"><rect x="226" y="24" width="68" height="48" rx="10" fill="var(--fg)"/><text x="260" y="53" text-anchor="middle" font-family="var(--mono)" font-size="11" fill="var(--bg)">DATA</text><path class="d" style="--len:600" d="M260 72v40M260 112H120v50M260 112v50M260 112h140v50" stroke="var(--accent)" stroke-width="2"/><g fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.5"><rect x="80" y="162" width="80" height="46" rx="10"/><rect x="220" y="162" width="80" height="46" rx="10"/><rect x="360" y="162" width="80" height="46" rx="10"/></g><g font-family="var(--mono)" font-size="10" fill="currentColor" text-anchor="middle"><text x="120" y="190">DISK</text><text x="260" y="190">NAS</text><text x="400" y="190">OFF SITE</text></g><text x="260" y="240" text-anchor="middle" font-family="var(--mono)" font-size="10" fill="var(--accent)">RESTORE TESTED ✓</text></svg></div>
-            <div class="svc__grid">
-              <div><h3>What it includes</h3><ul class="svc__inc"><li>Security settings reviewed</li><li>Updates and protection configured</li><li>Password and access advice</li><li>Backups set up on different media</li><li>Shared folders and permissions checked</li></ul></div>
-              <div><h3>You keep</h3><ul class="svc__keep"><li>Risks ordered by real impact</li><li>Backup restore test</li><li>Written guidelines</li></ul><h3 style="margin-top:22px">Ideal for</h3><div class="chips"><span>People with photos and no copy</span><span>Freelancers with client data</span><span>Shops and offices</span></div></div>
-            </div>
-          </article>
-          <article class="svc" id="training">
-            <p class="mono">08 · Training and advice</p>
-            <h2>Use your own technology with confidence.</h2>
-            <p class="svc__lead">Personal training and buying advice, adapted to what you already know, on your own equipment and programs.</p>
-            <div class="svc__art draw" aria-hidden="true"><svg viewBox="0 0 520 260" fill="none"><path class="d" style="--len:500" d="M60 180h400" stroke="var(--accent)" stroke-width="2"/><g fill="var(--bg)" stroke="var(--accent)" stroke-width="2"><circle cx="110" cy="180" r="9"/><circle cx="230" cy="180" r="9"/><circle cx="350" cy="180" r="9"/><circle cx="440" cy="180" r="9"/></g><g font-family="var(--mono)" font-size="10" fill="currentColor" fill-opacity=".7" text-anchor="middle"><text x="110" y="150">WHAT YOU KNOW</text><text x="230" y="150">GOAL</text><text x="350" y="150">PRACTICE</text><text x="440" y="150">ON YOUR OWN</text></g><rect x="380" y="60" width="110" height="50" rx="10" fill="var(--accent)"/><text x="435" y="90" text-anchor="middle" font-family="var(--mono)" font-size="11" fill="#fff">AUTONOMY</text></svg></div>
-            <div class="svc__grid">
-              <div><h3>What it includes</h3><ul class="svc__inc"><li>One-to-one or small-group sessions</li><li>Classes for every level</li><li>Advice before buying equipment</li><li>Support while a new tool is rolled out</li><li>A short written guide to keep</li></ul></div>
-              <div><h3>You keep</h3><ul class="svc__keep"><li>Session plan</li><li>Written guide</li><li>Follow-up questions answered</li></ul><h3 style="margin-top:22px">Ideal for</h3><div class="chips"><span>Home users</span><span>Small teams</span><span>Businesses about to invest</span></div></div>
-            </div>
-          </article>
-          <a class="svc svc--web" href="websites.html">
-            <p class="mono">★ Main service · Web development</p>
-            <h2>Websites, written by hand, from €1,000.</h2>
-            <p class="svc__lead">Corporate sites and landing pages designed for the phone first, with domain and hosting in your name. This is where I am putting most of my time right now.</p>
-            <span class="go">See the web development page <i>›</i></span>
-          </a>
+<!-- AREAS -->
+  <section id="areas" aria-labelledby="areas-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Six services</p>
+        <h2 class="h-l" id="areas-h">One technician for the whole stack.</h2>
+        <p class="lead" style="margin-top:18px">From the first cable to the contact form on your website, the same person diagnoses, fixes and explains.</p>
       </div>
+      <div class="bento"><a class="tile tile--wide tile--link" href="service-systems.html">
+          <p class="mono">01 · Systems</p>
+          <h3>Computers set up properly.</h3>
+          <p>Installation and configuration of Windows, Windows Server and macOS, with users, permissions and updates under control.</p>
+          <div class="art draw">
+            <svg viewBox="0 0 520 220" fill="none" preserveAspectRatio="xMidYMax meet">
+              <g stroke="currentColor" stroke-opacity=".35" stroke-width="1.5">
+                <rect x="60" y="40" width="120" height="84" rx="10"/><rect x="200" y="40" width="120" height="84" rx="10"/><rect x="340" y="40" width="120" height="84" rx="10"/>
+              </g>
+              <path class="d" style="--len:600" d="M120 124v40h280v-40M260 124v40" stroke="var(--accent)" stroke-width="2"/>
+              <rect x="210" y="164" width="100" height="40" rx="10" fill="var(--accent)"/>
+              <text x="260" y="189" text-anchor="middle" font-family="var(--mono)" font-size="12" fill="#fff">BASE IMAGE</text>
+              <g font-family="var(--mono)" font-size="11" fill="currentColor" fill-opacity=".55"><text x="120" y="88" text-anchor="middle">USER 01</text><text x="260" y="88" text-anchor="middle">USER 02</text><text x="400" y="88" text-anchor="middle">USER 03</text></g>
+            </svg>
+          </div>
+        <span class="more-link">Details ›</span></a>
+<a class="tile tile--wide tile--link" href="service-networks.html">
+          <p class="mono">02 · Networks</p>
+          <h3>Wi-Fi in every room.</h3>
+          <p>Structured cabling, labelled patch panels and access points placed where the signal is needed.</p>
+          <div class="art draw">
+            <svg viewBox="0 0 520 220" fill="none" preserveAspectRatio="xMidYMax meet">
+              <path class="d" style="--len:900" d="M260 70v40M260 110 110 160M260 110l0 50M260 110l150 50" stroke="var(--accent)" stroke-width="2"/>
+              <rect x="220" y="40" width="80" height="30" rx="8" fill="var(--accent)"/>
+              <text x="260" y="60" text-anchor="middle" font-family="var(--mono)" font-size="11" fill="#fff">ROUTER</text>
+              <g fill="var(--bg)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.5"><rect x="80" y="160" width="60" height="26" rx="7"/><rect x="230" y="160" width="60" height="26" rx="7"/><rect x="380" y="160" width="60" height="26" rx="7"/></g>
+              <g font-family="var(--mono)" font-size="10" fill="currentColor" fill-opacity=".6" text-anchor="middle"><text x="110" y="177">AP-1</text><text x="260" y="177">AP-2</text><text x="410" y="177">AP-3</text></g>
+              <g stroke="var(--accent)" stroke-width="1.5" fill="none" class="pulse"><path d="M96 150a20 20 0 0 1 28 0M88 142a32 32 0 0 1 44 0"/><path d="M246 150a20 20 0 0 1 28 0M238 142a32 32 0 0 1 44 0"/><path d="M396 150a20 20 0 0 1 28 0M388 142a32 32 0 0 1 44 0"/></g>
+            </svg>
+          </div>
+        <span class="more-link">Details ›</span></a>
+<a class="tile tile--link" href="service-maintenance.html">
+          <p class="mono">03 · Maintenance</p>
+          <h3>Checked before it fails.</h3>
+          <p>Quarterly reviews of tills, office machines and the network, with a written status report.</p>
+          <div class="art draw">
+            <svg viewBox="0 0 340 220" fill="none" preserveAspectRatio="xMidYMax meet">
+              <g font-family="var(--mono)" font-size="10" fill="currentColor" fill-opacity=".55">
+                <text x="40" y="60">JAN</text><text x="40" y="96">APR</text><text x="40" y="132">JUL</text><text x="40" y="168">OCT</text>
+              </g>
+              <g stroke="currentColor" stroke-opacity=".18"><path d="M84 56h220M84 92h220M84 128h220M84 164h220"/></g>
+              <g fill="var(--accent)"><rect x="84" y="49" width="70" height="14" rx="7"/><rect x="84" y="85" width="110" height="14" rx="7"/><rect x="84" y="121" width="90" height="14" rx="7"/><rect x="84" y="157" width="130" height="14" rx="7" class="pulse"/></g>
+            </svg>
+          </div>
+        <span class="more-link">Details ›</span></a>
+<a class="tile tile--link" href="service-security.html">
+          <p class="mono">04 · Security</p>
+          <h3>Three copies, verified.</h3>
+          <p>From one external disk to three tested copies on different media, one of them off site.</p>
+          <div class="art draw">
+            <svg viewBox="0 0 340 220" fill="none" preserveAspectRatio="xMidYMax meet">
+              <rect x="138" y="30" width="64" height="44" rx="10" fill="var(--fg)"/>
+              <text x="170" y="57" text-anchor="middle" font-family="var(--mono)" font-size="11" fill="var(--bg)">DATA</text>
+              <path class="d" style="--len:500" d="M170 74v30M170 104H70v40M170 104v40M170 104h100v40" stroke="var(--accent)" stroke-width="2"/>
+              <g fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.5"><rect x="36" y="144" width="68" height="40" rx="9"/><rect x="136" y="144" width="68" height="40" rx="9"/><rect x="236" y="144" width="68" height="40" rx="9"/></g>
+              <g font-family="var(--mono)" font-size="10" fill="currentColor" text-anchor="middle"><text x="70" y="168">DISK</text><text x="170" y="168">NAS</text><text x="270" y="168">CLOUD</text></g>
+            </svg>
+          </div>
+        <span class="more-link">Details ›</span></a>
+<a class="tile tile--link" href="service-web-development.html">
+          <p class="mono">05 · Web</p>
+          <h3>A site that explains you.</h3>
+          <p>Corporate sites and landing pages in HTML, CSS, JavaScript, PHP and MySQL, built for the phone first.</p>
+          <div class="art draw">
+            <svg viewBox="0 0 340 220" fill="none" preserveAspectRatio="xMidYMax meet">
+              <rect x="40" y="30" width="200" height="150" rx="12" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"/>
+              <rect x="60" y="56" width="110" height="12" rx="6" fill="var(--fg)"/>
+              <rect x="60" y="76" width="70" height="8" rx="4" fill="currentColor" fill-opacity=".25"/>
+              <rect x="60" y="96" width="54" height="16" rx="8" fill="var(--accent)"/>
+              <rect x="226" y="80" width="74" height="130" rx="14" fill="var(--bg)" stroke="var(--accent)" stroke-width="1.5"/>
+              <rect x="240" y="104" width="46" height="8" rx="4" fill="var(--fg)"/>
+              <rect x="240" y="120" width="30" height="12" rx="6" fill="var(--accent)"/>
+              <rect x="240" y="142" width="46" height="26" rx="6" fill="var(--accent-soft)"/>
+            </svg>
+          </div>
+        <span class="more-link">Main service · Details ›</span></a>
+<a class="tile tile--full tile--link" href="service-training.html">
+          <p class="mono">06 · Training</p>
+          <h3>You understand your own setup.</h3>
+          <p>Since 2017 I have taught people how to use their technology. Every job ends with a walkthrough and a written summary you can keep.</p>
+          <div class="art draw" style="height:180px">
+            <svg viewBox="0 0 1100 180" fill="none" preserveAspectRatio="xMidYMax meet">
+              <path class="d" style="--len:1100" d="M60 120h980" stroke="var(--accent)" stroke-width="2"/>
+              <g fill="var(--bg)" stroke="var(--accent)" stroke-width="2"><circle cx="160" cy="120" r="9"/><circle cx="420" cy="120" r="9"/><circle cx="680" cy="120" r="9"/><circle cx="940" cy="120" r="9"/></g>
+              <g font-family="var(--mono)" font-size="12" fill="currentColor" fill-opacity=".6" text-anchor="middle"><text x="160" y="88">WHAT WAS DONE</text><text x="420" y="88">WHY</text><text x="680" y="88">HOW TO USE IT</text><text x="940" y="88">WRITTEN SUMMARY</text></g>
+            </svg>
+          </div>
+        <span class="more-link">Details ›</span></a></div>
     </div>
   </section>
 <!-- SCOPE: what I do and what I don't -->
@@ -163,29 +171,6 @@
       </div>
     </div>
   </section>
-
-  <!-- SYMPTOM FINDER -->
-  <section id="finder" style="background: var(--bg-2)" aria-labelledby="finder-h">
-    <div class="wrap">
-      <div class="center">
-        <p class="eyebrow">Diagnosis</p>
-        <h2 class="h-l" id="finder-h">When technology fails, everything stops.</h2>
-        <p class="lead" style="margin-top:18px">Pick the problem that sounds like yours. You do not need the technical name for it.</p>
-      </div>
-      <div class="finder">
-        <ul class="symptoms" id="symptoms"></ul>
-        <aside class="diagnosis" id="diagnosis" aria-live="polite">
-          <p class="mono" id="dx-area">Maintenance and diagnosis</p>
-          <h3 id="dx-title">The computer takes forever to start.</h3>
-          <p id="dx-text">Usually startup programs, a full disk or an ageing hard drive. A diagnosis tells you which, before anything is replaced.</p>
-          <ol id="dx-steps"></ol>
-          <div class="meter"><i id="dx-meter"></i></div>
-          <div class="meter-l"><span>One visit</span><span>Ongoing plan</span></div>
-        </aside>
-      </div>
-    </div>
-  </section>
-
 
   <!-- OFFICE: interactive network anatomy -->
   <section id="office" class="band" aria-labelledby="office-h">
@@ -245,46 +230,11 @@
     </div>
   </section>
 
-  <!-- CONCEPTS -->
-  <section id="work" aria-labelledby="work-h">
-    <div class="wrap">
-      <div class="center">
-        <p class="eyebrow">Concepts</p>
-        <h2 class="h-l" id="work-h">How I would approach it.</h2>
-      </div>
-      <div class="concepts">
-        <article class="concept"><p class="mono"><span>Networks</span><span>Concept</span></p><h3>Office network for five desks</h3><p>Wired and Wi-Fi coverage in every room, with the installation documented.</p></article>
-        <article class="concept"><p class="mono"><span>Cabling</span><span>Concept</span></p><h3>A comms cabinet anyone can read</h3><p>Every patch cable labelled and mapped on a diagram.</p></article>
-        <article class="concept"><p class="mono"><span>Security</span><span>Concept</span></p><h3>From one backup to three</h3><p>Three verified copies on different media instead of one external disk.</p></article>
-        <article class="concept"><p class="mono"><span>Web</span><span>Concept</span></p><h3>Corporate site for a professional studio</h3><p>Editorial structure, service pages and a form connected to request handling.</p></article>
-        <article class="concept"><p class="mono"><span>Web</span><span>Concept</span></p><h3>Landing page for a local service</h3><p>One page with one action: ask for a quote.</p></article>
-        <article class="concept"><p class="mono"><span>Hardware</span><span>Concept</span></p><h3>Phased renewal for an accountancy</h3><p>Upgrades where they help, replacement only where it adds real speed.</p></article>
-      </div>
-      <p class="note">These are design concepts that show how I work, not finished client jobs.</p>
-    </div>
-  </section>
-
-
-  <!-- RESOURCES -->
-  <section id="resources" aria-labelledby="res-h">
-    <div class="wrap">
-      <div class="center">
-        <p class="eyebrow">Resources</p>
-        <h2 class="h-l" id="res-h">Clear explanations of what fails, and why.</h2>
-      </div>
-      <div class="res">
-        <a href="https://dayluforteza.es/recursos" target="_blank" rel="noopener"><p class="mono"><span>Maintenance</span><span>29 Oct 2026</span></p><h3>Why your computer is slow, and what to do before buying another</h3><p>The usual causes and how each one is checked.</p><span class="go">Read the article ›</span></a>
-        <a href="https://dayluforteza.es/recursos" target="_blank" rel="noopener"><p class="mono"><span>Networks</span><span>29 Oct 2026</span></p><h3>The Wi-Fi does not reach: how it is really diagnosed</h3><p>How signal is measured, and when you need a cable or an access point.</p><span class="go">Read the article ›</span></a>
-        <a href="https://dayluforteza.es/recursos" target="_blank" rel="noopener"><p class="mono"><span>Web</span><span>29 Oct 2026</span></p><h3>What a small business website needs in 2026</h3><p>Speed, clarity and a real way to receive enquiries. The rest is optional.</p><span class="go">Read the article ›</span></a>
-      </div>
-    </div>
-  </section>
-
   
   <section class="cta band" aria-labelledby="cta-h">
     <div class="wrap">
       <p class="eyebrow">Next step</p>
-      <h2 class="h-xl" id="cta-h">Recognise your problem?</h2>
+      <h2 class="h-xl" id="cta-h">Tell me your case.</h2>
       <p class="lead">A short description is enough to start. If it is not something I can help with, I will tell you who can.</p>
       <div class="hero__cta"><a class="btn btn--primary" href="contact.html">Tell me your case</a><a class="btn btn--ghost" href="https://wa.me/34663011914" target="_blank" rel="noopener">Write on WhatsApp ›</a></div>
     </div>
@@ -294,11 +244,11 @@
   <div class="wrap">
     <div class="cols">
       <div class="brand"><a class="logo" href="index.html"><i>DF</i>Daylu Forteza</a><p>IT services and digital solutions in Málaga and the metro area. By appointment, on site or remote.</p></div>
-      <div><h4>Pages</h4><ul><li><a href="about.html">About me</a></li><li><a href="services.html">Services</a></li><li><a href="websites.html">Web development</a></li><li><a href="method.html">Method</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-      <div><h4>Services</h4><ul><li><a href="services.html">Systems</a></li><li><a href="services.html">Networks</a></li><li><a href="services.html">Maintenance</a></li><li><a href="services.html">Security</a></li><li><a href="websites.html">Web development</a></li><li><a href="services.html">Training</a></li></ul></div>
-      <div><h4>Contact</h4><ul><li>+34 663 01 19 14</li><li>info@dayluforteza.com</li><li><a href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a></li></ul></div>
+      <div><h4>Services</h4><ul><li><a href="service-systems.html">Systems</a></li><li><a href="service-networks.html">Networks</a></li><li><a href="service-maintenance.html">Maintenance</a></li><li><a href="service-security.html">Security</a></li><li><a href="service-web-development.html">Web development</a></li><li><a href="service-training.html">Training</a></li></ul></div>
+      <div><h4>Website</h4><ul><li><a href="projects.html">Projects</a></li><li><a href="about.html">About me</a></li><li><a href="how-i-work.html">How I work</a></li><li><a href="resources.html">Resources</a></li><li><a href="find-your-solution.html">Find your solution</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li>+34 663 01 19 14</li><li>info@dayluforteza.com</li><li><a href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a></li><li><a href="contact.html">Contact page</a></li></ul></div>
     </div>
-    <div class="legal"><span>© 2026 Daylu Forteza · All rights reserved</span><span>Málaga, Spain</span></div>
+    <div class="legal"><span>© 2026 Daylu Forteza · All rights reserved</span><span>Málaga, Spain · By appointment</span></div>
   </div>
 </footer>
 <script src="assets/site.js"></script>
