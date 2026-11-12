@@ -1,0 +1,59 @@
+<!-- OFFICE: interactive network anatomy -->
+  <section id="office" class="band" aria-labelledby="office-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Inside a small office</p>
+        <h2 class="h-l" id="office-h">Every box on this map is something I check.</h2>
+        <p class="lead" style="margin-top:18px">Tap a device to see what I look at there and what you keep when I leave.</p>
+      </div>
+      <div class="office">
+        <div class="map"><svg viewBox="70 30 880 470" role="group" aria-label="Network map of a small office">
+          <defs>
+            <path id="w-ir" d="M500 92 V150"/>
+            <path id="w-rs" d="M500 196 V250"/>
+            <path id="w-ap1" d="M500 296 C500 340 150 330 150 380"/>
+            <path id="w-pc" d="M500 296 C500 350 330 360 330 410"/>
+            <path id="w-nas" d="M500 296 V430"/>
+            <path id="w-pos" d="M500 296 C500 350 670 360 670 410"/>
+            <path id="w-ap2" d="M500 296 C500 340 850 330 850 380"/>
+            <path id="w-vpn" d="M560 173 C700 173 760 120 850 120"/>
+          </defs>
+          <g class="wires">
+            <use href="#w-ir" class="wire"/><use href="#w-rs" class="wire"/><use href="#w-ap1" class="wire"/><use href="#w-pc" class="wire"/>
+            <use href="#w-nas" class="wire"/><use href="#w-pos" class="wire"/><use href="#w-ap2" class="wire"/><use href="#w-vpn" class="wire vpn"/>
+          </g>
+          <g class="packets" id="packets">
+            <circle r="4" class="pk"><animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#w-ir"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="1.4s" begin=".4s" repeatCount="indefinite"><mpath href="#w-rs"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#w-ap1"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="2.2s" begin=".6s" repeatCount="indefinite"><mpath href="#w-pc"/></animateMotion></circle>
+            <circle r="4" class="pk2"><animateMotion dur="2.8s" begin="1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#w-nas"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="2.4s" begin=".2s" repeatCount="indefinite"><mpath href="#w-pos"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="2.6s" begin="1.2s" repeatCount="indefinite"><mpath href="#w-ap2"/></animateMotion></circle>
+            <circle r="4" class="pk2"><animateMotion dur="3s" repeatCount="indefinite"><mpath href="#w-vpn"/></animateMotion></circle>
+          </g>
+          <g class="node" data-n="0" tabindex="0" role="button" aria-label="Internet line"><rect x="430" y="46" width="140" height="46" rx="23"/><text x="500" y="74" text-anchor="middle">Internet</text></g>
+          <g class="node" data-n="1" tabindex="0" role="button" aria-label="Router"><rect x="440" y="150" width="120" height="46" rx="12"/><text x="500" y="171" text-anchor="middle">Router</text><text class="sub" x="500" y="186" text-anchor="middle">GATEWAY</text></g>
+          <g class="node" data-n="2" tabindex="0" role="button" aria-label="Switch and cabling"><rect x="420" y="250" width="160" height="46" rx="12"/><text x="500" y="271" text-anchor="middle">Switch</text><text class="sub" x="500" y="286" text-anchor="middle">PATCH PANEL</text></g>
+          <g class="node" data-n="3" tabindex="0" role="button" aria-label="Wi-Fi access points"><rect x="90" y="380" width="120" height="46" rx="12"/><text x="150" y="401" text-anchor="middle">Access point</text><text class="sub" x="150" y="416" text-anchor="middle">RECEPTION</text></g>
+          <g class="node" data-n="4" tabindex="0" role="button" aria-label="Computers"><rect x="270" y="410" width="120" height="46" rx="12"/><text x="330" y="431" text-anchor="middle">Computers</text><text class="sub" x="330" y="446" text-anchor="middle">5 DESKS</text></g>
+          <g class="node" data-n="5" tabindex="0" role="button" aria-label="Backup storage"><rect x="440" y="430" width="120" height="46" rx="12"/><text x="500" y="451" text-anchor="middle">NAS</text><text class="sub" x="500" y="466" text-anchor="middle">BACKUPS</text></g>
+          <g class="node" data-n="6" tabindex="0" role="button" aria-label="Printer and card terminal"><rect x="610" y="410" width="120" height="46" rx="12"/><text x="670" y="431" text-anchor="middle">Printer · POS</text><text class="sub" x="670" y="446" text-anchor="middle">FIXED IP</text></g>
+          <g class="node" data-n="3" tabindex="0" role="button" aria-label="Wi-Fi access points"><rect x="790" y="380" width="120" height="46" rx="12"/><text x="850" y="401" text-anchor="middle">Access point</text><text class="sub" x="850" y="416" text-anchor="middle">MEETING ROOM</text></g>
+          <g class="node" data-n="7" tabindex="0" role="button" aria-label="Remote access"><rect x="790" y="97" width="150" height="46" rx="12"/><text x="865" y="118" text-anchor="middle">Laptop at home</text><text class="sub" x="865" y="133" text-anchor="middle">VPN</text></g>
+        </svg></div>
+        <div>
+          <div class="panel" id="op" aria-live="polite">
+            <p class="mono" id="op-k">Router</p>
+            <h3 id="op-t">The front door of your network.</h3>
+            <p id="op-d">Everything goes through it, so it is the first thing I review.</p>
+            <h4>What I check</h4>
+            <ul id="op-c"></ul>
+          </div>
+          <p class="office-hint">The packets show live traffic. Orange ones are backups and remote work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
