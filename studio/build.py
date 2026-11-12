@@ -139,7 +139,7 @@ def service_page(s):
     if k == 'web':
         jumps += [('web', 'The offer'), ('build', 'How it is built'), ('own', 'Ownership')]
         detail = P('WEBSITES') + P('BUILD') + OWN
-    jumps += [('includes', 'Includes'), ('steps', 'How it goes')]
+    jumps += [('includes', 'Includes')] + ([] if k == 'web' else [('steps', 'How it goes')])
     if s['faq'] or k == 'web':
         jumps.append(('sfaq', 'Questions'))
     glyph = 'websites' if k == 'web' else 'services'
@@ -194,35 +194,37 @@ def service_page(s):
   <section id="other" aria-labelledby="ot-h">
     <div class="wrap"><p class="eyebrow">Other services</p><h2 class="h-m" id="ot-h">Often needed together.</h2><div class="others">{others}</div></div>
   </section>'''
-    body = hero + problems + gets + detail + includes + steps + faq + other + cta(s['cta'] + '.', 'Tell me the case with whatever detail you have. You get a reasoned diagnosis, with no commitment and no unnecessary jargon.')
+    body = hero + problems + gets + detail + includes + ('' if k == 'web' else steps) + faq + other + cta(s['cta'] + '.', 'Tell me the case with whatever detail you have. You get a reasoned diagnosis, with no commitment and no unnecessary jargon.')
     body = body.replace('<a class="btn btn--primary" href="contact.html">Tell me your case</a>', f'<a class="btn btn--primary" href="contact.html">{s["cta"]}</a>')
     page(s['file'], 'services', f'{s["name"]} · Daylu Forteza', s['lead'][:150].rsplit(' ', 1)[0] + '.', body)
 
 
 # ---------- home ----------
-WEBFEAT = '''
-  <section id="webfeat" class="band" aria-labelledby="wf2-h">
-    <div class="wrap webfeat">
-      <div>
-        <p class="eyebrow">Main service</p>
-        <h2 class="h-l" id="wf2-h">Websites, written by hand. From €1,000.</h2>
-        <p class="lead" style="margin-top:18px">A site that explains what you do, works on the phone and stays in your name: domain, hosting, code and content.</p>
-        <div class="hero__cta" style="justify-content:flex-start"><a class="btn btn--primary" href="service-web-development.html">See web development</a><a class="btn btn--ghost" href="contact.html">Ask for a quote ›</a></div>
-      </div>
-      <div class="devices" aria-hidden="true">
-        <div class="dv dv--desk"><div class="bar"><i></i><i></i><i></i></div><div class="wire"><div class="b b--h"></div><div class="b" style="width:52%"></div><div class="b b--a"></div><div class="grid3"><i></i><i></i><i></i></div></div></div>
-        <div class="dv dv--tab"><div class="wire"><div class="b b--h"></div><div class="b"></div><div class="b b--a" style="width:60%"></div><div class="grid3"><i></i><i></i></div></div></div>
-        <div class="dv dv--phone"><div class="wire"><div class="b b--h" style="height:12px"></div><div class="b" style="height:6px"></div><div class="b b--a" style="width:70%;height:12px"></div><div class="grid3"><i></i></div></div></div>
-      </div>
+HOME_SV = """
+  <section id="home-services" aria-labelledby="hs-h">
+    <div class="wrap">
+      <div class="hs-head"><div><p class="eyebrow">Services</p><h2 class="h-l" id="hs-h">What I can do for you.</h2></div><a class="btn btn--ghost" href="services.html">All services ›</a></div>
+      <ul class="hs">""" + ''.join(f'<li><a class="hs__row{" hs__row--main" if s["key"] == "web" else ""}" href="{s["file"]}"><span class="mono">{s["n"]}</span><strong>{s["name"]}{" " + BADGE if s["key"] == "web" else ""}</strong><span class="hs__line">{SUBLINE[s["key"]]}</span><i>›</i></a></li>' for s in SERVICES) + """</ul>
     </div>
   </section>
-'''
+"""
+WEBTEASE = """
+  <section id="webtease" class="band" aria-labelledby="wt-h">
+    <div class="wrap center">
+      <p class="eyebrow">Main service</p>
+      <h2 class="h-xl" id="wt-h">Websites from €1,000.</h2>
+      <p class="lead" style="margin-top:20px">The offer, how a site gets built and what you own at the end, all on one page.</p>
+      <div class="hero__cta"><a class="btn btn--primary" href="service-web-development.html">See web development</a></div>
+    </div>
+  </section>
+"""
+
 EXPLORE2 = '''
   <section id="explore" style="background: var(--bg-2)" aria-labelledby="ex-h">
     <div class="wrap">
       <div class="center"><p class="eyebrow">Explore</p><h2 class="h-l" id="ex-h">Go as deep as you want.</h2></div>
       <div class="explore">
-        <a class="xcard wide" href="find-your-solution.html" style="background:var(--bg)"><div><p class="mono">Find your solution</p><h3>Not sure what you need?</h3><p>Pick the problem that sounds like yours and see how it is solved.</p></div><span class="go">Find your solution <i>›</i></span></a>
+        <a class="xcard wide" href="find-your-solution.html" style="background:var(--bg)"><div><p class="mono">Find your solution</p><h3>Describe the problem. Get the service.</h3><p>Nine common cases, each one linked to the service that solves it.</p></div><span class="go">Find your solution <i>›</i></span></a>
         <a class="xcard wide dark" href="how-i-work.html"><div><p class="mono">How I work</p><h3>Six stages, no mystery.</h3><p>From the first message to the handover, with scope and price in writing.</p></div><span class="go">See how I work <i>›</i></span></a>
         <a class="xcard" href="projects.html" style="background:var(--bg)"><div><p class="mono">Projects</p><h3>How I would approach it.</h3><p>Nine concepts across networks, systems, security and web.</p></div><span class="go">See the projects <i>›</i></span></a>
         <a class="xcard" href="about.html" style="background:var(--bg)"><div><p class="mono">About me</p><h3>The person behind it.</h3><p>Trajectory, tools and how I work.</p></div><span class="go">Read my story <i>›</i></span></a>
@@ -232,7 +234,7 @@ EXPLORE2 = '''
   </section>
 '''
 page('index.html', 'index', 'Daylu Forteza', 'IT services and websites in Málaga: systems, networks, maintenance, security, web development and training by Daylu Forteza.',
-     P('HERO') + P('STATEMENT') + COVER + service_tiles() + WEBFEAT + EXPLORE2 + cta())
+     P('HERO') + P('STATEMENT') + HOME_SV + WEBTEASE + EXPLORE2 + cta())
 
 # ---------- services overview ----------
 page('services.html', 'services', 'Services · Daylu Forteza', 'Six IT services in Málaga: systems, networks, maintenance, security, web development and training.',
@@ -259,8 +261,8 @@ page('projects.html', 'projects', 'Projects · Daylu Forteza', 'Projects and con
 
 # ---------- about ----------
 page('about.html', 'about', 'About me · Daylu Forteza', 'Who Daylu Forteza is: IT technician in Málaga, trajectory, environments and the tools behind the work.',
-     page_hero('about', 'About me', 'Hi, I am Daylu.', 'IT technician and web developer in Málaga. Training, support and hands-on work since 2017, with the same care for one laptop as for a whole office.', [('intro', 'Who I am'), ('trajectory', 'Trajectory'), ('worked', 'Where I have worked'), ('stack', 'Tools'), ('values', 'How I work')])
-     + INTRO + TIMELINE + ENVS + STACK + VALUES + P('ABOUT') + cta())
+     page_hero('about', 'About me', 'Hi, I am Daylu.', 'IT technician and web developer in Málaga. Training, support and hands-on work since 2017, with the same care for one laptop as for a whole office.', [('intro', 'Who I am'), ('trajectory', 'Trajectory'), ('stack', 'Tools'), ('values', 'How I work')])
+     + INTRO + TIMELINE + STACK + VALUES + cta())
 
 # ---------- how I work ----------
 HIRE = f'''
@@ -272,7 +274,7 @@ HIRE = f'''
   </section>
 '''
 page('how-i-work.html', 'how', 'How I work · Daylu Forteza', 'How Daylu Forteza works: six stages, written scope and price, documented handover.',
-     page_hero('method', 'How I work', 'First I understand. Then we fix it.', 'You do not need technical words to explain what is happening. You always know where your case is, what comes next and what it costs.', [('method', 'Six stages'), ('hiring', 'Hiring'), ('modes', 'Ways to work'), ('handover', 'Handover'), ('faq', 'Questions')])
+     page_hero('method', 'How I work', 'Six stages, from your message to the handover.', 'You do not need technical words to explain what is happening. You always know where your case is, what comes next and what it costs.', [('method', 'Six stages'), ('hiring', 'Hiring'), ('modes', 'Ways to work'), ('handover', 'Handover'), ('faq', 'Questions')])
      + P('METHOD') + HIRE + P('WAYS_TO_WORK') + P('HANDOVER') + P('FAQ') + cta())
 
 # ---------- resources ----------

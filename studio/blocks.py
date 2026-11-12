@@ -46,16 +46,15 @@ INTRO = """
       <div class="intro__text">
         <p class="eyebrow">Who I am</p>
         <h2 class="h-l" id="in-h">An IT technician who explains every step.</h2>
-        <p>I am Daylu Forteza, an IT technician trained in network computer systems administration (ASIR) and microcomputer systems and networks (SMR).</p>
-        <p>Since 2017 I have combined technology with teaching, helping people understand and use it better. Since 2018 I have also worked in technical support, on site and remotely: repairs, incidents, networks and systems, including specialised equipment and software in the healthcare sector.</p>
-        <p>That taught me something I bring to every job: behind each technical problem there is a person who needs it solved. Knowing systems is half the work. The other half is listening, explaining and choosing the fix that still makes sense in a year.</p>
+        <p>I am Daylu Forteza, IT technician and web developer in Málaga. I look after the technology of homes, professionals and small businesses: their computers, their network, their copies and their website.</p>
+        <p>Behind each technical problem there is a person who needs it solved. Knowing systems is half the work. The other half is listening, explaining and choosing the fix that still makes sense in a year.</p>
+        <p>My training and the places I have worked are on the timeline below.</p>
       </div>
       <aside class="idcard" aria-label="Profile">
         <div class="idcard__top"><i>DF</i><div><strong>Daylu Forteza</strong><span>IT technician · Web developer</span></div></div>
         <dl>
           <div><dt>Based in</dt><dd>Málaga, Spain</dd></div>
-          <div><dt>Working since</dt><dd>2017</dd></div>
-          <div><dt>Works</dt><dd>On site and remote</dd></div>
+                    <div><dt>Works</dt><dd>On site and remote</dd></div>
           <div><dt>Availability</dt><dd>By appointment</dd></div>
           <div><dt>Main focus</dt><dd>Websites and systems</dd></div>
         </dl>
@@ -127,10 +126,9 @@ WEBFAQ = """
       <div class="center"><p class="eyebrow">Questions</p><h2 class="h-l" id="wf-h">Before you ask for a quote.</h2></div>
       <div class="faq">
         <details><summary><span>Can I update the website myself?</span></summary><p>Yes, if you need to. I can deliver it with a simple editor and show you how to change the content that updates often.</p></details>
-        <details><summary><span>Are domain and hosting included?</span></summary><p>They can be part of the proposal. The cost depends on the provider and the expected traffic, and they are always in your name.</p></details>
+        <details><summary><span>Are domain and hosting included?</span></summary><p>They can be part of the proposal. Their cost depends on the provider and the traffic you expect.</p></details>
         <details><summary><span>How long does it take?</span></summary><p>It depends on the number of sections and on when texts and images are ready. The proposal shows the phases and the expected dates.</p></details>
         <details><summary><span>Do you guarantee first place on Google?</span></summary><p>No, and be wary of anyone who does. You get the technical base and the content ready to rank with real work.</p></details>
-        <details><summary><span>What does €1,000 include?</span></summary><p>A landing page or a compact corporate site with structure, copy, design, responsive build, a working form, publishing and setup in your name. Larger sites get a fixed quote first.</p></details>
       </div>
     </div>
   </section>
@@ -255,7 +253,7 @@ VALUES = f'''
       <div class="values">
         <article class="value"><span class="ic">{ICON['commit']}</span><h3>Committed</h3><p>Once I take a job, it is finished, tested and explained. Nothing is left half done.</p></article>
         <article class="value"><span class="ic">{ICON['care']}</span><h3>Meticulous</h3><p>Every cable labelled, every change written down. Work that the next person can read.</p></article>
-        <article class="value"><span class="ic">{ICON['straight']}</span><h3>Straight</h3><p>If something is not worth paying for, I say so, even when it means less work for me.</p></article>
+        <article class="value"><span class="ic">{ICON['straight']}</span><h3>Straight</h3><p>Every option comes with its limits, not only the one I would prefer to sell.</p></article>
         <article class="value"><span class="ic">{ICON['adapt']}</span><h3>Adaptable</h3><p>A retired neighbour or a busy office: the explanation and the pace fit the person.</p></article>
       </div>
     </div>

@@ -136,14 +136,15 @@
       ['New computers arrived badly configured.', 'Systems', 'Default settings, no updates, every user as administrator.', ['Review each machine', 'Set users and permissions', 'Leave one base image for the next ones'], 35],
       ['The computer is slow and you do not know whether to replace it.', 'Systems', 'Sometimes an upgrade is enough. Sometimes it is not. You get the numbers to decide.', ['Measure what is slowing it down', 'Price the upgrade and the replacement', 'You choose, with the facts'], 20],
       ['You have no backups and you lose files.', 'Security', 'One copy on one disk is not a backup. Three verified copies on different media are.', ['Find what must be saved', 'Set up three copies, one off site', 'Test a restore with you'], 65],
-      ['Your website does not exist or does not say what you do.', 'Web development', 'A site that explains your service and makes it easy to contact you. From €1,000.', ['Agree what the site must achieve', 'Write the structure and copy', 'Build, test and publish in your name'], 50],
+      ['Your website does not exist or does not say what you do.', 'Web development', 'A site that explains your service and makes it easy to contact you.', ['Agree what the site must achieve', 'Write the structure and copy', 'Build, test and publish in your name'], 50],
       ['Nobody ever explained how your own setup works.', 'Training', 'You should be able to run your own tools without calling someone each time.', ['Walk through your setup together', 'Write a short guide for you', 'Answer follow-up questions'], 30]
     ];
     const show = i => {
       const d = data[i];
       $('dx-title').textContent = d[0]; $('dx-area').textContent = d[1]; $('dx-text').textContent = d[2];
       $('dx-steps').innerHTML = d[3].map(s => `<li>${s}</li>`).join('');
-      $('dx-meter').style.setProperty('--w', d[4] + '%');
+      const SVF = { 'Maintenance and diagnosis': ['service-maintenance.html', 'Maintenance'], 'Networks and infrastructure': ['service-networks.html', 'Networks'], 'Systems': ['service-systems.html', 'Systems'], 'Security': ['service-security.html', 'Security'], 'Web development': ['service-web-development.html', 'Web development'], 'Training': ['service-training.html', 'Training'] };
+      const lk = $('dx-link'); if (lk && SVF[d[1]]) { lk.href = SVF[d[1]][0]; lk.textContent = `See the ${SVF[d[1]][1]} service`; }
       $$('button', list).forEach((b, j) => b.setAttribute('aria-pressed', j === i));
     };
     data.forEach((d, i) => {

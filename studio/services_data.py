@@ -47,7 +47,7 @@ SERVICES = [
        faq=[('Do you do advanced security audits?', 'No. My work is basic, preventive security: settings, updates, permissions and copies. If your case needs a specialised audit or a certification, I tell you and point you to the right profile.'), ('Where should I keep my backups?', 'The practical rule is at least two copies on different media, one of them outside the computer. The exact solution depends on your data and your budget.'), ('Is the free antivirus enough?', 'It can be in many cases if the system is updated and the habits are good. I assess your use before recommending you pay for anything.')]),
   dict(key='web', file='service-web-development.html', n='05', area='Digital solutions', name='Web development',
        title='Your business, explained in one website.',
-       lead='A website is much more than a business card: it presents your business, explains your services and makes it easy for clients to contact you. I build sites adapted to each project, with a clear structure, careful design and a comfortable experience on computer, tablet and phone. From €1,000.',
+       lead='A website is much more than a business card: it presents your business, explains your services and makes it easy for clients to contact you. I build sites adapted to each project, with a clear structure, careful design and a comfortable experience on computer, tablet and phone.',
        cta='Ask for a website quote',
        blocks=[],
        problems=['An old website that does not show the quality of your work', 'A design that breaks on the phone, where most visits arrive', 'Forms that never reach anyone', 'Slow loading that sends people away before they read', 'Content that does not explain what you do or who you help'],
