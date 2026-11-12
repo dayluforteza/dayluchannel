@@ -274,7 +274,189 @@ form.brief { max-width: 940px; margin: 20px auto 0; text-align: left; border: 1p
 footer { border-top: 1px solid var(--line); padding-block: 36px 48px; color: var(--muted); font-size: 13px; }
 footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 
+
+/* intro */
+@keyframes rise { from { opacity: .01; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+.js .hero__head > * { animation: rise 1s var(--ease) both; }
+.js .hero__head > *:nth-child(2) { animation-delay: .08s; }
+.js .hero__head > *:nth-child(3) { animation-delay: .2s; }
+.js .hero__head > *:nth-child(4) { animation-delay: .32s; }
+.js .stack .layer { animation: rise 1.2s var(--ease) both; }
+.js .stack .layer[data-i="1"] { animation-delay: .1s; } .js .stack .layer[data-i="2"] { animation-delay: .2s; } .js .stack .layer[data-i="3"] { animation-delay: .3s; }
+
+/* deep dive: horizontal chapters */
+.deep { height: 600vh; padding: 0; position: relative; }
+.deep__pin { position: sticky; top: 52px; height: calc(100vh - 52px); height: calc(100svh - 52px); overflow: hidden; display: flex; flex-direction: column; justify-content: center; gap: 28px; }
+.deep__head { display: flex; justify-content: space-between; align-items: end; gap: 24px; }
+.deep__head .h-l { font-size: clamp(32px, 4vw, 52px); }
+.deep__dots { display: flex; gap: 8px; }
+.deep__dots i { width: 28px; height: 4px; border-radius: 4px; background: var(--line); transition: background .3s, width .3s var(--ease); }
+.deep__dots i.on { background: var(--accent); width: 44px; }
+.deep__track { display: flex; gap: 24px; padding-left: max(24px, calc((100vw - var(--wrap)) / 2)); padding-right: 24px; will-change: transform; }
+.chapter { flex: 0 0 min(var(--wrap), calc(100vw - 48px)); background: var(--bg-2); border-radius: 32px; padding: clamp(28px, 4vw, 52px); display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(24px, 4vw, 56px); max-height: calc(100svh - 230px); overflow: hidden; }
+.chapter__l { display: grid; align-content: space-between; gap: 24px; min-width: 0; }
+.chapter__n { font: 600 clamp(64px, 9vw, 120px)/.9 var(--display); letter-spacing: -.06em; color: var(--accent); }
+.chapter h3 { font-size: clamp(28px, 3vw, 40px); margin-top: 14px; }
+.chapter .intro { color: var(--muted); margin-top: 12px; font-size: 16px; max-width: 40ch; }
+.chapter .qa { border-top: 1px solid var(--line); padding-top: 16px; font-size: 15px; }
+.chapter .qa b { display: block; font-weight: 500; margin-bottom: 4px; }
+.chapter .qa span { color: var(--muted); }
+.chapter__r { display: grid; gap: 22px; align-content: start; min-width: 0; }
+.chapter__r h4 { margin: 0 0 8px; font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.chapter__r ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 7px; font-size: 15.5px; }
+.chapter__r ul li { display: grid; grid-template-columns: 16px 1fr; gap: 8px; }
+.chapter__r ul.solves li::before { content: "—"; color: var(--muted); }
+.chapter__r ul.gets li::before { content: ""; width: 8px; height: 8px; margin-top: 8px; border-radius: 50%; background: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips span { font-size: 13px; padding: 6px 11px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); }
+@media (max-width: 860px), (max-height: 620px) {
+  .deep { height: auto; padding-block: 96px; }
+  .deep__pin { position: static; height: auto; overflow: visible; }
+  .deep__dots { display: none; }
+  .deep__track { flex-direction: column; padding-inline: max(24px, env(safe-area-inset-left, 0px)) max(24px, env(safe-area-inset-right, 0px)); transform: none !important; }
+  .chapter { flex: none; grid-template-columns: 1fr; max-height: none; }
+}
+
+/* scope: do / don't */
+.scope-grid { display: grid; grid-template-columns: 1fr 1fr; margin-top: 72px; border-radius: 32px; overflow: hidden; border: 1px solid var(--line); }
+.scope-col { padding: clamp(28px, 4vw, 56px); display: grid; gap: 22px; align-content: start; }
+.scope-col + .scope-col { border-left: 1px solid var(--line); background: var(--bg-2); }
+.scope-col h3 { font-size: clamp(26px, 3vw, 36px); display: flex; align-items: center; gap: 14px; }
+.scope-col h3 i { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font-style: normal; font-size: 18px; }
+.scope-col.do h3 i { background: var(--accent); color: #fff; }
+.scope-col.dont h3 i { background: var(--fg); color: var(--bg); }
+.scope-col ul { margin: 0; padding: 0; list-style: none; display: grid; }
+.scope-col li { padding: 16px 0; border-top: 1px solid var(--line); display: grid; gap: 4px; }
+.scope-col li b { font-weight: 500; font-size: 17px; letter-spacing: -.01em; }
+.scope-col li span { color: var(--muted); font-size: 15px; }
+@media (max-width: 860px) { .scope-grid { grid-template-columns: 1fr; } .scope-col + .scope-col { border-left: 0; border-top: 1px solid var(--line); } }
+
+/* office diagram */
+.office { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 40px; margin-top: 64px; align-items: center; }
+.office svg { width: 100%; height: auto; display: block; overflow: visible; }
+.office .node { cursor: pointer; outline: none; }
+.office .node rect { fill: var(--band-2); stroke: var(--band-line); stroke-width: 1.5; transition: stroke .25s, fill .25s; }
+.office .node text { fill: var(--band-fg); font: 500 15px var(--text); }
+.office .node .sub { fill: var(--band-muted); font: 400 11px var(--mono); letter-spacing: .06em; }
+.office .node:hover rect, .office .node:focus-visible rect, .office .node.on rect { stroke: var(--band-accent); fill: #1b2140; }
+.office .wire { stroke: var(--band-line); stroke-width: 2; fill: none; }
+.office .wire.vpn { stroke-dasharray: 6 6; }
+.office .pk { fill: var(--band-accent); }
+.office .pk2 { fill: #e08a4c; }
+.panel { border: 1px solid var(--band-line); border-radius: 26px; padding: 32px; background: var(--band-2); min-height: 340px; }
+.panel .mono { color: var(--band-accent); }
+.panel h3 { font-size: 28px; margin-top: 10px; }
+.panel p { color: var(--band-muted); margin-top: 10px; font-size: 16px; }
+.panel h4 { margin: 22px 0 8px; font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--band-muted); }
+.panel ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; font-size: 15.5px; }
+.panel ul li { display: grid; grid-template-columns: 18px 1fr; }
+.panel ul li::before { content: "✓"; color: var(--band-accent); }
+.office-hint { margin-top: 18px; color: var(--band-muted); font-size: 14px; }
+@media (max-width: 900px) { .office { grid-template-columns: 1fr; } }
+.office .map { min-width: 0; }
+@media (max-width: 640px) { .office .map { overflow-x: auto; margin-inline: -24px; padding-inline: 24px; } .office .map svg { width: 640px; max-width: none; } }
+
+/* handover fan */
+.handover { height: 260vh; padding: 0; position: relative; }
+.handover__pin { position: sticky; top: 52px; height: calc(100vh - 52px); height: calc(100svh - 52px); overflow: hidden; display: grid; grid-template-rows: auto 1fr; padding-top: clamp(48px, 9vh, 110px); }
+.fan { position: relative; }
+.doc { position: absolute; left: 50%; top: 46%; width: clamp(180px, 19vw, 250px); aspect-ratio: 3 / 4; margin-left: calc(clamp(180px, 19vw, 250px) / -2); margin-top: calc(clamp(180px, 19vw, 250px) * -.66); background: var(--bg); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 40px 80px -40px rgba(0,0,0,.35); padding: 20px; display: grid; grid-template-rows: auto auto 1fr auto; gap: 10px; will-change: transform; }
+.doc .mono { color: var(--accent); font-size: 10px; }
+.doc strong { font-size: 16px; font-weight: 600; letter-spacing: -.02em; line-height: 1.2; }
+.doc .lines { display: grid; gap: 7px; align-content: start; }
+.doc .lines i { height: 6px; border-radius: 3px; background: var(--line); }
+.doc .lines i:nth-child(3n) { width: 70%; }
+.doc .lines i:nth-child(4n) { width: 52%; }
+.doc .foot { display: flex; justify-content: space-between; align-items: center; font: 500 10px var(--mono); color: var(--muted); }
+.doc .foot b { width: 18px; height: 18px; border-radius: 50%; background: var(--accent-soft); box-shadow: inset 0 0 0 3px var(--accent); }
+@media (max-width: 760px) {
+  .handover { height: auto; padding-block: 96px; }
+  .handover__pin { position: static; height: auto; padding-top: 0; }
+  .fan { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 40px; }
+  .doc { position: relative; left: auto; top: auto; margin: 0; width: auto; transform: none !important; }
+}
+
+/* website build */
+.build { height: 360vh; padding: 0; position: relative; }
+.build__pin { position: sticky; top: 52px; height: calc(100vh - 52px); height: calc(100svh - 52px); overflow: hidden; display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 56px; align-items: center; }
+.bsteps { list-style: none; margin: 28px 0 0; padding: 0; display: grid; gap: 4px; }
+.bsteps li { display: grid; grid-template-columns: 40px 1fr; padding: 12px 0; border-bottom: 1px solid var(--line); opacity: .35; transition: opacity .35s; }
+.bsteps li.on { opacity: 1; }
+.bsteps b { font: 500 12px/1.9 var(--mono); color: var(--accent); }
+.bsteps strong { font-weight: 500; font-size: 18px; letter-spacing: -.01em; }
+.bsteps span { grid-column: 2; color: var(--muted); font-size: 14.5px; }
+.browser { position: relative; aspect-ratio: 16 / 11; border-radius: 20px; background: var(--band-2); border: 1px solid var(--band-line); overflow: hidden; }
+.browser .bar { height: 34px; border-bottom: 1px solid var(--band-line); display: flex; align-items: center; gap: 7px; padding-inline: 14px; }
+.browser .bar i { width: 10px; height: 10px; border-radius: 50%; background: var(--band-line); }
+.browser .bar span { margin-left: 12px; font: 400 11px var(--mono); color: var(--band-muted); }
+.canvas { position: absolute; inset: 34px 0 0; padding: 6%; display: grid; grid-template-rows: auto auto 1fr; gap: 6%; }
+.bp { transition: opacity .6s var(--ease), transform .6s var(--ease), background .6s, color .6s; }
+.b-goal { position: absolute; right: 6%; top: 12%; background: #f5d76e; color: #1b1c20; border-radius: 6px; padding: 12px 14px; font: 500 13px/1.35 var(--text); width: 190px; transform: rotate(2deg); box-shadow: 0 10px 20px -10px rgba(0,0,0,.5); }
+.b-nav { display: flex; gap: 12px; align-items: center; }
+.b-nav i { height: 8px; width: 46px; border-radius: 4px; border: 1px dashed var(--band-line); }
+.b-nav i:first-child { width: 70px; }
+.b-hero { display: grid; gap: 10px; }
+.b-hero .t { height: 26px; width: 62%; max-width: 100%; border-radius: 6px; border: 1px dashed var(--band-line); font: 600 22px/26px var(--display); letter-spacing: -.03em; color: transparent; overflow: hidden; white-space: nowrap; }
+.b-hero .l { height: 10px; width: 46%; border-radius: 5px; border: 1px dashed var(--band-line); }
+.b-hero .c { height: 30px; width: 130px; border-radius: 999px; border: 1px dashed var(--band-line); }
+.b-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4%; align-items: stretch; }
+.b-cards i { border-radius: 12px; border: 1px dashed var(--band-line); }
+.b-code { position: absolute; right: 6%; top: 14%; font: 400 11px/1.6 var(--mono); color: #8fe3a7; background: rgba(0,0,0,.55); border-radius: 10px; padding: 10px 14px; opacity: 0; }
+.b-check { position: absolute; left: 6%; bottom: 7%; display: grid; gap: 6px; background: var(--band); border: 1px solid var(--band-line); border-radius: 12px; padding: 12px 14px; font-size: 12.5px; color: var(--band-fg); opacity: 0; }
+.b-check span::before { content: "✓ "; color: #8fe3a7; }
+.b-phone { position: absolute; right: 4%; top: 16%; width: 15%; aspect-ratio: 9 / 19; border-radius: 16px; border: 2px solid var(--band-line); background: var(--band); opacity: 0; transform: translateY(20px); }
+.browser[data-s="0"] .b-goal { opacity: 1; }
+.browser:not([data-s="0"]) .b-goal { opacity: 0; transform: translateY(-14px) rotate(2deg); }
+.browser[data-s="2"] .b-hero .t, .browser[data-s="3"] .b-hero .t, .browser[data-s="4"] .b-hero .t, .browser[data-s="5"] .b-hero .t { color: var(--band-fg); border-color: transparent; width: auto; white-space: normal; height: auto; font-size: clamp(16px, 1.6vw, 22px); line-height: 1.15; }
+.browser[data-s="3"] .b-hero .c, .browser[data-s="4"] .b-hero .c, .browser[data-s="5"] .b-hero .c { background: var(--band-accent); border-color: transparent; }
+.browser[data-s="3"] .b-cards i, .browser[data-s="4"] .b-cards i, .browser[data-s="5"] .b-cards i { background: linear-gradient(135deg, #22306b, #2b4cff); border-color: transparent; }
+.browser[data-s="3"] .b-nav i, .browser[data-s="4"] .b-nav i, .browser[data-s="5"] .b-nav i, .browser[data-s="2"] .b-hero .l, .browser[data-s="3"] .b-hero .l, .browser[data-s="4"] .b-hero .l, .browser[data-s="5"] .b-hero .l { background: var(--band-line); border-color: transparent; }
+.browser[data-s="4"] .b-code, .browser[data-s="5"] .b-code { opacity: 1; }
+.browser[data-s="4"] .b-phone, .browser[data-s="5"] .b-phone { opacity: 1; transform: none; }
+.browser[data-s="5"] .b-check { opacity: 1; }
+.browser[data-s="4"] .canvas, .browser[data-s="5"] .canvas { padding-right: 24%; }
+.browser[data-s="5"] .b-cards { opacity: .35; }
+.canvas { transition: padding .6s var(--ease); }
+.browser[data-s="5"] .b-code { opacity: 0; }
+@media (max-width: 900px) {
+  .build { height: auto; padding-block: 96px; }
+  .build__pin { position: static; height: auto; grid-template-columns: 1fr; gap: 32px; overflow: visible; }
+  .bsteps li { opacity: 1; }
+  .b-goal { display: none; }
+}
+
+/* numbers */
+.numbers { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; margin-top: 72px; }
+.num { border-top: 1px solid var(--line); padding-top: 18px; }
+.num strong { display: block; font: 600 clamp(48px, 6vw, 80px)/1 var(--display); letter-spacing: -.05em; font-variant-numeric: tabular-nums; }
+.num span { color: var(--muted); font-size: 15px; display: block; margin-top: 10px; }
+@media (max-width: 760px) { .numbers { grid-template-columns: 1fr 1fr; } }
+
+/* resources */
+.res { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 64px; }
+.res a { text-decoration: none; background: var(--bg-2); border-radius: 26px; padding: 30px; display: grid; gap: 12px; align-content: start; min-height: 250px; transition: transform .4s var(--ease); }
+.res a:hover { transform: translateY(-3px); }
+.res .mono { color: var(--muted); display: flex; justify-content: space-between; }
+.res h3 { font-size: 22px; letter-spacing: -.02em; line-height: 1.2; }
+.res p { color: var(--muted); font-size: 15px; }
+.res .go { color: var(--accent); font-size: 15px; margin-top: auto; }
+@media (max-width: 900px) { .res { grid-template-columns: 1fr; } }
+
+/* faq */
+.faq { max-width: 860px; margin: 64px auto 0; border-top: 1px solid var(--line); }
+.faq details { border-bottom: 1px solid var(--line); }
+.faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; gap: 24px; padding: 22px 4px; font-size: 19px; font-weight: 500; letter-spacing: -.015em; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-weight: 300; font-size: 26px; line-height: 1; color: var(--accent); transition: transform .3s var(--ease); }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { color: var(--muted); padding: 0 4px 24px; max-width: 68ch; }
+.faq .tagline { font: 500 11px/1 var(--mono); color: var(--accent); letter-spacing: .08em; text-transform: uppercase; margin-right: 10px; }
+
 @media (prefers-reduced-motion: reduce) {
+  .deep, .handover, .build { height: auto; padding-block: 96px; }
+  .deep__pin, .handover__pin, .build__pin { position: static; height: auto; overflow: visible; }
+  .deep__track { flex-wrap: wrap; transform: none !important; }
+  .js .hero__head > *, .js .stack .layer { animation: none; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation: none !important; }
   .hero { height: auto; }
@@ -293,10 +475,12 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
     <a class="logo" href="#top"><i>DF</i>Daylu Forteza</a>
     <ul>
       <li><a href="#areas">Services</a></li>
-      <li><a href="#finder">Diagnosis</a></li>
+      <li><a href="#deep">In depth</a></li>
+      <li><a href="#scope">Scope</a></li>
       <li><a href="#method">Method</a></li>
       <li><a href="#web">Websites</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#faq">FAQ</a></li>
     </ul>
     <a class="btn btn--primary btn--sm" href="#contact">Tell me your case</a>
   </div>
@@ -472,6 +656,126 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
     </div>
   </section>
 
+
+  <!-- DEEP DIVE: six chapters, scrolled sideways -->
+  <section class="deep" id="deep" aria-labelledby="deep-h">
+    <div class="deep__pin">
+      <div class="wrap deep__head">
+        <div><p class="eyebrow">In depth</p><h2 class="h-l" id="deep-h">Each service, opened up.</h2></div>
+        <div class="deep__dots" id="deep-dots" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="deep__track" id="deep-track">
+          <article class="chapter" aria-label="Systems">
+            <div class="chapter__l">
+              <div><div class="chapter__n">01</div><p class="mono" style="color:var(--muted);margin-top:18px">Systems</p><h3>Computers set up properly.</h3><p class="intro">I review, configure and optimise your machines on Windows, Windows Server and macOS so they stay stable and fit the work you do.</p></div>
+              <p class="qa"><b>Will I lose my files if the system is reinstalled?</b><span>They should not be lost: the backup is part of the job. I check with you what to keep and verify it at the end.</span></p>
+            </div>
+            <div class="chapter__r">
+              <div><h4>Problems it solves</h4><ul class="solves"><li>A new computer that still is not ready for daily work</li><li>A machine that struggles with a few tabs open</li><li>Data spread across folders, external disks and old accounts</li></ul></div>
+              <div><h4>What you get</h4><ul class="gets"><li>Stable, updated machines adapted to how you work</li><li>Users and permissions so each person sees what they should</li><li>Data migrated and checked, nothing lost on the way</li></ul></div>
+              <div><h4>Includes</h4><div class="chips"><span>OS installation</span><span>Peripherals</span><span>Windows Server</span><span>Hardware upgrades</span><span>Shared resources</span><span>Renewal advice</span></div></div>
+              <div><h4>Who it is for</h4><div class="chips"><span>Home users</span><span>Freelancers</span><span>Offices with several desks</span><span>Businesses that grew without order</span></div></div>
+            </div>
+          </article>
+          <article class="chapter" aria-label="Networks">
+            <div class="chapter__l">
+              <div><div class="chapter__n">02</div><p class="mono" style="color:var(--muted);margin-top:18px">Networks</p><h3>A connection you can stop thinking about.</h3><p class="intro">I install, organise and configure the network of your home, office or shop, from the internet line to every device.</p></div>
+              <p class="qa"><b>Can I extend the Wi-Fi without building work?</b><span>Often yes, with cabled access points where possible or a mesh network where not. I explain the limits of each.</span></p>
+            </div>
+            <div class="chapter__r">
+              <div><h4>Problems it solves</h4><ul class="solves"><li>Wi-Fi that drops when several people connect</li><li>Unlabelled cables and cabinets nobody understands</li><li>Printers or card terminals that stop responding</li></ul></div>
+              <div><h4>What you get</h4><ul class="gets"><li>Stable coverage with access points in the right place</li><li>Labelled, documented cabling: no more guessing</li><li>A base ready to add devices without starting over</li></ul></div>
+              <div><h4>Includes</h4><div class="chips"><span>Cabling</span><span>Routers and switches</span><span>Access points</span><span>Local networks</span><span>VPN for remote access</span><span>Connectivity diagnosis</span></div></div>
+              <div><h4>Who it is for</h4><div class="chips"><span>Homes with poor coverage</span><span>Offices setting up</span><span>Shops with POS and cameras</span><span>Businesses moving premises</span></div></div>
+            </div>
+          </article>
+          <article class="chapter" aria-label="Maintenance">
+            <div class="chapter__l">
+              <div><div class="chapter__n">03</div><p class="mono" style="color:var(--muted);margin-top:18px">Maintenance</p><h3>Know what failed, and why.</h3><p class="intro">When something breaks, getting it running again is half the job. The other half is understanding what happened so it does not return.</p></div>
+              <p class="qa"><b>Will I know if it can be fixed before I pay?</b><span>Yes. I diagnose first and explain the options: repair, upgrade or replacement. You decide.</span></p>
+            </div>
+            <div class="chapter__r">
+              <div><h4>Problems it solves</h4><ul class="solves"><li>Computers that start slowly or freeze for no clear reason</li><li>Errors that come and go and nobody can reproduce</li><li>Overheating, noise or sudden shutdowns</li></ul></div>
+              <div><h4>What you get</h4><ul class="gets"><li>A clear cause, not a blind diagnosis</li><li>Fewer repeat incidents thanks to preventive care</li><li>Early warning when a component starts to fail</li></ul></div>
+              <div><h4>Includes</h4><div class="chips"><span>Hardware and software diagnosis</span><span>Preventive and corrective care</span><span>On-site and remote support</span><span>Performance tuning</span><span>Written records</span></div></div>
+              <div><h4>Who it is for</h4><div class="chips"><span>Home users</span><span>Freelancers who cannot stop</span><span>Shops with one critical till</span><span>Offices without IT staff</span></div></div>
+            </div>
+          </article>
+          <article class="chapter" aria-label="Security">
+            <div class="chapter__l">
+              <div><div class="chapter__n">04</div><p class="mono" style="color:var(--muted);margin-top:18px">Security</p><h3>Realistic protection.</h3><p class="intro">Security starts with well-configured systems and good habits. I reduce the risk of losing data or access, without complicating your day.</p></div>
+              <p class="qa"><b>Is the free antivirus enough?</b><span>Often, if the system is updated and the habits are good. I check your use before recommending you pay for anything.</span></p>
+            </div>
+            <div class="chapter__r">
+              <div><h4>Problems it solves</h4><ul class="solves"><li>The same password everywhere and accounts nobody controls</li><li>Backups that exist but were never restored</li><li>Shared folders open to everyone</li></ul></div>
+              <div><h4>What you get</h4><ul class="gets"><li>Tested backups: you know you can recover</li><li>Less risk of losing data or account access</li><li>Clear criteria to tell a real warning from a scam</li></ul></div>
+              <div><h4>Includes</h4><div class="chips"><span>Security settings review</span><span>Updates and protection</span><span>Passwords and access</span><span>Backup setup</span><span>Permissions review</span></div></div>
+              <div><h4>Who it is for</h4><div class="chips"><span>People with photos and no copy</span><span>Freelancers with client data</span><span>Shops with POS terminals</span><span>Offices that cannot stop</span></div></div>
+            </div>
+          </article>
+          <article class="chapter" aria-label="Web">
+            <div class="chapter__l">
+              <div><div class="chapter__n">05</div><p class="mono" style="color:var(--muted);margin-top:18px">Web</p><h3>A site that explains what you do.</h3><p class="intro">Corporate sites and landing pages with a clear structure, careful design and a comfortable experience on phone, tablet and desktop.</p></div>
+              <p class="qa"><b>Do domain and hosting come included?</b><span>They can be part of the proposal. The cost depends on the provider and the expected traffic, and it is always in your name.</span></p>
+            </div>
+            <div class="chapter__r">
+              <div><h4>Problems it solves</h4><ul class="solves"><li>An old site that does not show the quality of your work</li><li>A layout that breaks on the phone</li><li>Forms that never reach anyone</li></ul></div>
+              <div><h4>What you get</h4><ul class="gets"><li>A digital image that matches the level of your service</li><li>A structure that tells visitors what to do next</li><li>Content written for people, not for machines</li></ul></div>
+              <div><h4>Includes</h4><div class="chips"><span>Corporate sites</span><span>Landing pages</span><span>Responsive design</span><span>Web copy</span><span>Updates and maintenance</span><span>Tool integrations</span></div></div>
+              <div><h4>Who it is for</h4><div class="chips"><span>Professionals</span><span>Shops without a site</span><span>New service launches</span><span>Brands renewing their image</span></div></div>
+            </div>
+          </article>
+          <article class="chapter" aria-label="Training">
+            <div class="chapter__l">
+              <div><div class="chapter__n">06</div><p class="mono" style="color:var(--muted);margin-top:18px">Training</p><h3>Use your own technology with confidence.</h3><p class="intro">My background as a trainer lets me adapt every explanation to what you already know, from first steps to technical questions.</p></div>
+              <p class="qa"><b>Is the training official or certified?</b><span>No. I do not issue official qualifications. It is practical training so you can use your technology on your own.</span></p>
+            </div>
+            <div class="chapter__r">
+              <div><h4>Problems it solves</h4><ul class="solves"><li>You depend on someone else for every small change</li><li>Nobody explained how your own systems work</li><li>A new tool arrived and almost nobody uses it</li></ul></div>
+              <div><h4>What you get</h4><ul class="gets"><li>Explanations at your level, assuming nothing</li><li>More independence in daily tasks</li><li>Purchases made with criteria, without unnecessary spend</li></ul></div>
+              <div><h4>Includes</h4><div class="chips"><span>Personal training</span><span>Classes for every level</span><span>Buying advice</span><span>Tool roll-out support</span></div></div>
+              <div><h4>Who it is for</h4><div class="chips"><span>Home users</span><span>Freelancers</span><span>Small teams</span><span>Businesses about to invest</span></div></div>
+            </div>
+          </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCOPE: what I do and what I don't -->
+  <section id="scope" aria-labelledby="scope-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Scope</p>
+        <h2 class="h-l" id="scope-h">What I do. And what I don’t.</h2>
+        <p class="lead" style="margin-top:18px">Knowing the limits is part of the service. If your case is outside them, you hear it from me on day one.</p>
+      </div>
+      <div class="scope-grid">
+        <div class="scope-col do">
+          <h3><i aria-hidden="true">✓</i>I do</h3>
+          <ul>
+            <li><b>Diagnose before touching anything</b><span>First the cause, then the fix.</span></li>
+            <li><b>Put scope and price in writing</b><span>Before any work starts, never after.</span></li>
+            <li><b>Back up your data before an install</b><span>And check it is all there at the end.</span></li>
+            <li><b>Label and document every installation</b><span>Diagram, labels and a written summary.</span></li>
+            <li><b>Test a restore of your backups with you</b><span>A copy nobody has restored is not a backup.</span></li>
+            <li><b>Register domain and hosting in your name</b><span>Your website stays yours.</span></li>
+          </ul>
+        </div>
+        <div class="scope-col dont">
+          <h3><i aria-hidden="true">✕</i>I don’t</h3>
+          <ul>
+            <li><b>Promise first place on Google</b><span>Be wary of anyone who does.</span></li>
+            <li><b>Run advanced security audits or certifications</b><span>I point you to the right specialist instead.</span></li>
+            <li><b>Issue official qualifications</b><span>Training is practical, not certified.</span></li>
+            <li><b>Sell you what you do not need</b><span>Even when it means less work for me.</span></li>
+            <li><b>Replace hardware that an upgrade can save</b><span>You get the numbers to decide.</span></li>
+            <li><b>Leave you depending on me</b><span>Passwords, documents and access are handed over.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- SYMPTOM FINDER -->
   <section id="finder" style="background: var(--bg-2)" aria-labelledby="finder-h">
     <div class="wrap">
@@ -490,6 +794,65 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
           <div class="meter"><i id="dx-meter"></i></div>
           <div class="meter-l"><span>One visit</span><span>Ongoing plan</span></div>
         </aside>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- OFFICE: interactive network anatomy -->
+  <section id="office" class="band" aria-labelledby="office-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Inside a small office</p>
+        <h2 class="h-l" id="office-h">Every box on this map is something I check.</h2>
+        <p class="lead" style="margin-top:18px">Tap a device to see what I look at there and what you keep when I leave.</p>
+      </div>
+      <div class="office">
+        <div class="map"><svg viewBox="70 30 880 470" role="group" aria-label="Network map of a small office">
+          <defs>
+            <path id="w-ir" d="M500 92 V150"/>
+            <path id="w-rs" d="M500 196 V250"/>
+            <path id="w-ap1" d="M500 296 C500 340 150 330 150 380"/>
+            <path id="w-pc" d="M500 296 C500 350 330 360 330 410"/>
+            <path id="w-nas" d="M500 296 V430"/>
+            <path id="w-pos" d="M500 296 C500 350 670 360 670 410"/>
+            <path id="w-ap2" d="M500 296 C500 340 850 330 850 380"/>
+            <path id="w-vpn" d="M560 173 C700 173 760 120 850 120"/>
+          </defs>
+          <g class="wires">
+            <use href="#w-ir" class="wire"/><use href="#w-rs" class="wire"/><use href="#w-ap1" class="wire"/><use href="#w-pc" class="wire"/>
+            <use href="#w-nas" class="wire"/><use href="#w-pos" class="wire"/><use href="#w-ap2" class="wire"/><use href="#w-vpn" class="wire vpn"/>
+          </g>
+          <g class="packets" id="packets">
+            <circle r="4" class="pk"><animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#w-ir"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="1.4s" begin=".4s" repeatCount="indefinite"><mpath href="#w-rs"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#w-ap1"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="2.2s" begin=".6s" repeatCount="indefinite"><mpath href="#w-pc"/></animateMotion></circle>
+            <circle r="4" class="pk2"><animateMotion dur="2.8s" begin="1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#w-nas"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="2.4s" begin=".2s" repeatCount="indefinite"><mpath href="#w-pos"/></animateMotion></circle>
+            <circle r="4" class="pk"><animateMotion dur="2.6s" begin="1.2s" repeatCount="indefinite"><mpath href="#w-ap2"/></animateMotion></circle>
+            <circle r="4" class="pk2"><animateMotion dur="3s" repeatCount="indefinite"><mpath href="#w-vpn"/></animateMotion></circle>
+          </g>
+          <g class="node" data-n="0" tabindex="0" role="button" aria-label="Internet line"><rect x="430" y="46" width="140" height="46" rx="23"/><text x="500" y="74" text-anchor="middle">Internet</text></g>
+          <g class="node" data-n="1" tabindex="0" role="button" aria-label="Router"><rect x="440" y="150" width="120" height="46" rx="12"/><text x="500" y="171" text-anchor="middle">Router</text><text class="sub" x="500" y="186" text-anchor="middle">GATEWAY</text></g>
+          <g class="node" data-n="2" tabindex="0" role="button" aria-label="Switch and cabling"><rect x="420" y="250" width="160" height="46" rx="12"/><text x="500" y="271" text-anchor="middle">Switch</text><text class="sub" x="500" y="286" text-anchor="middle">PATCH PANEL</text></g>
+          <g class="node" data-n="3" tabindex="0" role="button" aria-label="Wi-Fi access points"><rect x="90" y="380" width="120" height="46" rx="12"/><text x="150" y="401" text-anchor="middle">Access point</text><text class="sub" x="150" y="416" text-anchor="middle">RECEPTION</text></g>
+          <g class="node" data-n="4" tabindex="0" role="button" aria-label="Computers"><rect x="270" y="410" width="120" height="46" rx="12"/><text x="330" y="431" text-anchor="middle">Computers</text><text class="sub" x="330" y="446" text-anchor="middle">5 DESKS</text></g>
+          <g class="node" data-n="5" tabindex="0" role="button" aria-label="Backup storage"><rect x="440" y="430" width="120" height="46" rx="12"/><text x="500" y="451" text-anchor="middle">NAS</text><text class="sub" x="500" y="466" text-anchor="middle">BACKUPS</text></g>
+          <g class="node" data-n="6" tabindex="0" role="button" aria-label="Printer and card terminal"><rect x="610" y="410" width="120" height="46" rx="12"/><text x="670" y="431" text-anchor="middle">Printer · POS</text><text class="sub" x="670" y="446" text-anchor="middle">FIXED IP</text></g>
+          <g class="node" data-n="3" tabindex="0" role="button" aria-label="Wi-Fi access points"><rect x="790" y="380" width="120" height="46" rx="12"/><text x="850" y="401" text-anchor="middle">Access point</text><text class="sub" x="850" y="416" text-anchor="middle">MEETING ROOM</text></g>
+          <g class="node" data-n="7" tabindex="0" role="button" aria-label="Remote access"><rect x="790" y="97" width="150" height="46" rx="12"/><text x="865" y="118" text-anchor="middle">Laptop at home</text><text class="sub" x="865" y="133" text-anchor="middle">VPN</text></g>
+        </svg></div>
+        <div>
+          <div class="panel" id="op" aria-live="polite">
+            <p class="mono" id="op-k">Router</p>
+            <h3 id="op-t">The front door of your network.</h3>
+            <p id="op-d">Everything goes through it, so it is the first thing I review.</p>
+            <h4>What I check</h4>
+            <ul id="op-c"></ul>
+          </div>
+          <p class="office-hint">The packets show live traffic. Orange ones are backups and remote work.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -516,6 +879,19 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
           <li><b>06</b><h3>Support</h3><p>If it makes sense, maintenance or improvements. If it does not, I will say so.</p></li>
         </ol>
       </div>
+    </div>
+  </section>
+
+
+  <!-- HANDOVER: what you keep -->
+  <section class="handover" id="handover" aria-labelledby="hand-h">
+    <div class="handover__pin">
+      <div class="wrap center">
+        <p class="eyebrow">Handover</p>
+        <h2 class="h-l" id="hand-h">You keep the paperwork.</h2>
+        <p class="lead" style="margin-top:18px">Every job ends with documents you own, so the next person who opens the cabinet knows exactly what is there.</p>
+      </div>
+      <div class="fan" id="fan"><article class="doc"><p class="mono">Report</p><strong>Diagnosis</strong><div class="lines"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="foot"><span>What failed and why</span><b></b></div></article><article class="doc"><p class="mono">Proposal</p><strong>Scope and price</strong><div class="lines"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="foot"><span>Before any work</span><b></b></div></article><article class="doc"><p class="mono">Diagram</p><strong>Network map and labels</strong><div class="lines"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="foot"><span>Every cable named</span><b></b></div></article><article class="doc"><p class="mono">Summary</p><strong>Work carried out</strong><div class="lines"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="foot"><span>In plain words</span><b></b></div></article><article class="doc"><p class="mono">Test</p><strong>Restore check</strong><div class="lines"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="foot"><span>Your backup, proven</span><b></b></div></article></div>
     </div>
   </section>
 
@@ -547,6 +923,39 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
           <p class="own"><strong>No first place on Google promised.</strong> Be wary of anyone who promises it. You get the technical base and the content ready to rank with real work.</p>
           <div class="hero__cta" style="justify-content:flex-start"><a class="btn btn--primary" href="#contact">Ask for a website quote</a></div>
         </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BUILD: a website assembling -->
+  <section class="build band" id="build" aria-labelledby="build-h">
+    <div class="wrap build__pin">
+      <div>
+        <p class="eyebrow">How a site gets built</p>
+        <h2 class="h-l" id="build-h" style="font-size:clamp(32px,4vw,52px)">From a sticky note to a launch.</h2>
+        <ol class="bsteps" id="bsteps">
+          <li class="on"><b>01</b><strong>Listen</strong><span>What the site must achieve and who it is for.</span></li>
+          <li><b>02</b><strong>Structure</strong><span>Sections, hierarchy and the path a visitor takes.</span></li>
+          <li><b>03</b><strong>Copy</strong><span>Words that say what you do, written for people.</span></li>
+          <li><b>04</b><strong>Design</strong><span>Type, colour and images that match your service.</span></li>
+          <li><b>05</b><strong>Build</strong><span>Hand-written, responsive code with working forms.</span></li>
+          <li><b>06</b><strong>Verify</strong><span>Publishing, tests, speed and final adjustments.</span></li>
+        </ol>
+      </div>
+      <div class="browser" id="browser" data-s="0" aria-hidden="true">
+        <div class="bar"><i></i><i></i><i></i><span>yourbusiness.es</span></div>
+        <div class="canvas">
+          <div class="b-nav bp"><i></i><i></i><i></i><i></i></div>
+          <div class="b-hero bp"><div class="t">Physiotherapy in Málaga centre</div><div class="l"></div><div class="c"></div></div>
+          <div class="b-cards bp"><i></i><i></i><i></i></div>
+        </div>
+        <div class="b-goal bp">Goal: more bookings from people who find us on the phone.</div>
+        <pre class="b-code bp">&lt;section class="hero"&gt;
+  &lt;h1&gt;Physiotherapy…&lt;/h1&gt;
+  &lt;a href="#book"&gt;Book&lt;/a&gt;</pre>
+        <div class="b-phone bp"></div>
+        <div class="b-check bp"><span>Phone, tablet, desktop</span><span>Form reaches the inbox</span><span>Load speed measured</span><span>Domain in your name</span></div>
       </div>
     </div>
   </section>
@@ -593,6 +1002,13 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
         <h2 class="h-l" id="about-h">Daylu Forteza, IT technician.</h2>
         <p class="lead" style="margin-top:18px">Behind every technical problem there is a person who needs it solved. I listen, explain and fix it so it still makes sense in a year.</p>
       </div>
+      <div class="numbers" id="numbers">
+        <div class="num"><strong data-count="__Y17__">0</strong><span>years teaching technology, since 2017</span></div>
+        <div class="num"><strong data-count="__Y18__">0</strong><span>years in technical support, since 2018</span></div>
+        <div class="num"><strong data-count="6">0</strong><span>service areas, one technician</span></div>
+        <div class="num"><strong data-count="4">0</strong><span>qualifications, including Cisco CCNA</span></div>
+      </div>
+
       <div class="about">
         <ol class="tl">
           <li><p class="mono">2017</p><h3>Teaching technology</h3><p>Training people to understand and use their computers and software.</p></li>
@@ -632,6 +1048,33 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
         <article class="concept"><p class="mono"><span>Hardware</span><span>Concept</span></p><h3>Phased renewal for an accountancy</h3><p>Upgrades where they help, replacement only where it adds real speed.</p></article>
       </div>
       <p class="note">These are design concepts that show how I work, not finished client jobs.</p>
+    </div>
+  </section>
+
+
+  <!-- RESOURCES -->
+  <section id="resources" aria-labelledby="res-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Resources</p>
+        <h2 class="h-l" id="res-h">Clear explanations of what fails, and why.</h2>
+      </div>
+      <div class="res">
+        <a href="https://dayluforteza.es/recursos" target="_blank" rel="noopener"><p class="mono"><span>Maintenance</span><span>29 Oct 2026</span></p><h3>Why your computer is slow, and what to do before buying another</h3><p>The usual causes and how each one is checked.</p><span class="go">Read the article ›</span></a>
+        <a href="https://dayluforteza.es/recursos" target="_blank" rel="noopener"><p class="mono"><span>Networks</span><span>29 Oct 2026</span></p><h3>The Wi-Fi does not reach: how it is really diagnosed</h3><p>How signal is measured, and when you need a cable or an access point.</p><span class="go">Read the article ›</span></a>
+        <a href="https://dayluforteza.es/recursos" target="_blank" rel="noopener"><p class="mono"><span>Web</span><span>29 Oct 2026</span></p><h3>What a small business website needs in 2026</h3><p>Speed, clarity and a real way to receive enquiries. The rest is optional.</p><span class="go">Read the article ›</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" style="background: var(--bg-2)" aria-labelledby="faq-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Questions</p>
+        <h2 class="h-l" id="faq-h">Asked before every job.</h2>
+      </div>
+      <div class="faq"><details><summary><span><span class="tagline">Systems</span>Can I keep the program I always use?</span></summary><p>In most cases, yes. If it is old or depends on a specific system version, I tell you before starting so we can weigh alternatives.</p></details><details><summary><span><span class="tagline">Networks</span>Do I need to rewire my office?</span></summary><p>Not always. I first check the quality of what is there. If the cabling holds the network, I adapt the configuration and equipment.</p></details><details><summary><span><span class="tagline">Networks</span>Do you leave documentation of the installation?</span></summary><p>Yes. Labels, a network diagram and a summary of the configuration, so any future review starts from something clear.</p></details><details><summary><span><span class="tagline">Maintenance</span>Can you check my computer remotely?</span></summary><p>Many system and software issues can be solved remotely. Physical faults, like a failing disk or memory, need a visit or a drop-off.</p></details><details><summary><span><span class="tagline">Maintenance</span>Is preventive maintenance worth it?</span></summary><p>For work machines, almost always. Checking the disk, updating and cleaning avoids stoppages that cost more than the review.</p></details><details><summary><span><span class="tagline">Security</span>Where should I keep my backups?</span></summary><p>At least two copies on different media, one of them outside the computer. The exact setup depends on your data and budget.</p></details><details><summary><span><span class="tagline">Web</span>Can I update the website myself?</span></summary><p>Yes, if you need to. I can deliver it with a simple editor and show you how to change the content that updates often.</p></details><details><summary><span><span class="tagline">Web</span>How long does a corporate website take?</span></summary><p>It depends on the number of sections and on when texts and images are ready. The proposal shows the phases and the expected dates.</p></details><details><summary><span><span class="tagline">Training</span>Do you train groups?</span></summary><p>Yes, small groups, with the content adapted to the level of the whole group. We agree it before the first session.</p></details></div>
     </div>
   </section>
 
@@ -782,6 +1225,69 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   const sio = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) setStage(stages.indexOf(e.target)); }), { rootMargin: '-45% 0px -45% 0px' });
   if (!reduced) stages.forEach(s => sio.observe(s));
   stages.forEach((s, i) => s.addEventListener('mouseenter', () => setStage(i)));
+
+
+  /* years */
+  const Y = new Date().getFullYear();
+  document.querySelectorAll('[data-count="__Y17__"]').forEach(e => e.dataset.count = Y - 2017);
+  document.querySelectorAll('[data-count="__Y18__"]').forEach(e => e.dataset.count = Y - 2018);
+  const cio = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return; cio.unobserve(e.target);
+    e.target.querySelectorAll('[data-count]').forEach(el => {
+      const n = +el.dataset.count; if (reduced) { el.textContent = n; return; }
+      const t0 = performance.now(); const tick = t => { const k = clamp((t - t0) / 1400); el.textContent = Math.round(n * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(tick); }; requestAnimationFrame(tick);
+    });
+  }), { threshold: .4 });
+  const numsEl = document.getElementById('numbers'); if (numsEl) { numsEl.querySelectorAll('[data-count]').forEach(el => el.textContent = el.dataset.count); cio.observe(numsEl); }
+
+  /* deep: horizontal chapters */
+  const deep = document.getElementById('deep'), track = document.getElementById('deep-track'), dots = [...document.querySelectorAll('#deep-dots i')];
+  const fan = [...document.querySelectorAll('#fan .doc')], hand = document.getElementById('handover');
+  const build = document.getElementById('build'), browser = document.getElementById('browser'), bsteps = [...document.querySelectorAll('#bsteps li')];
+  const pinned = el => getComputedStyle(el.firstElementChild).position === 'sticky';
+  function frame2() {
+    const vh = innerHeight;
+    if (!reduced && pinned(deep)) {
+      const r = deep.getBoundingClientRect(); const p = clamp(-r.top / (r.height - vh));
+      const step = track.children[0].offsetWidth + 24;
+      const q = p * 5, base = Math.min(4, Math.floor(q)), f = clamp(q - base), t = clamp((f - .3) / .4), e = q >= 5 ? 5 : base + t * t * (3 - 2 * t);
+      track.style.transform = `translate3d(${(-e * step).toFixed(1)}px,0,0)`;
+      const k = Math.min(5, Math.round(e)); dots.forEach((d, i) => d.classList.toggle('on', i === k));
+    }
+    if (!reduced && pinned(hand)) {
+      const r = hand.getBoundingClientRect(); const p = clamp(-r.top / (r.height - vh) * 1.25);
+      const e = 1 - Math.pow(1 - p, 3); const w = fan[0].offsetWidth;
+      fan.forEach((d, i) => { const o = i - 2; d.style.transform = `translate(${(o * e * w * 1.02).toFixed(1)}px, ${(Math.abs(o) * e * 22).toFixed(1)}px) rotate(${(o * e * 5).toFixed(2)}deg)`; d.style.zIndex = 10 - Math.abs(o); });
+    }
+    if (pinned(build) && !reduced) {
+      const r = build.getBoundingClientRect(); const p = clamp(-r.top / (r.height - vh));
+      const k = Math.min(5, Math.floor(p * 6)); browser.dataset.s = k; bsteps.forEach((li, i) => li.classList.toggle('on', i === k));
+    } else { browser.dataset.s = 5; }
+  }
+  addEventListener('scroll', () => requestAnimationFrame(frame2), { passive: true });
+  addEventListener('resize', () => requestAnimationFrame(frame2));
+  frame2();
+
+  /* office map */
+  const ON = [
+    ['Internet line', 'Where it all starts.', 'Your provider’s line. I check what you pay for against what actually arrives.', ['Real speed measured at the router', 'Provider equipment and contract checked', 'Backup line considered for critical shops']],
+    ['Router', 'The front door of your network.', 'Everything goes through it, so it is the first thing I review.', ['Firmware updated, default password changed', 'Wi-Fi channels set for the building', 'Guest network kept apart from work devices']],
+    ['Switch and cabling', 'The part nobody looks at until it fails.', 'Structured cabling and a patch panel where every cable has a name.', ['Every patch cable labelled', 'Network diagram drawn and handed over', 'Existing cabling tested before replacing it']],
+    ['Access points', 'Wi-Fi in the rooms where you work.', 'Coverage measured room by room, access points cabled where possible.', ['Signal measured in each room', 'Mesh only where a cable cannot reach', 'Stable when several people connect']],
+    ['Computers', 'Five desks that behave the same.', 'One base setup, separate users and a controlled update routine.', ['System updated and licences clear', 'Users and permissions per person', 'Data migrated and checked']],
+    ['NAS and backups', 'Copies you have actually restored.', 'Three copies on different media, one of them outside the office.', ['Automatic copies scheduled', 'One copy off site', 'A restore tested together with you']],
+    ['Printer and card terminal', 'Devices that stop dropping off.', 'Printers and POS terminals get fixed addresses so they are always found.', ['Fixed IP for each device', 'Drivers installed on every desk', 'Tested from each computer']],
+    ['Remote access', 'Your office, from home, safely.', 'A VPN so you reach your files from outside without opening the network to everyone.', ['VPN set up on the router', 'Access per person, easy to revoke', 'Tested from outside the office']]
+  ];
+  const nodes = [...document.querySelectorAll('#office .node')];
+  function showNode(n) {
+    const d = ON[n]; $('op-k').textContent = d[0]; $('op-t').textContent = d[1]; $('op-d').textContent = d[2];
+    $('op-c').innerHTML = d[3].map(x => `<li>${x}</li>`).join('');
+    nodes.forEach(g => g.classList.toggle('on', +g.dataset.n === n));
+  }
+  nodes.forEach(g => { const n = +g.dataset.n; g.addEventListener('click', () => showNode(n)); g.addEventListener('mouseenter', () => showNode(n)); g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showNode(n); } }); });
+  showNode(1);
+  if (reduced) document.getElementById('packets').remove();
 
   /* copy buttons */
   document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', () => {
