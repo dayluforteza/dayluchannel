@@ -169,7 +169,7 @@ COVER = f'''
         <p class="lead" style="margin-top:18px">From one laptop at home to an office full of desks. I adapt to the size and the pace of each client. Choose yours.</p>
       </div>
       <div class="chips-row" id="who" role="group" aria-label="Type of client">
-        <button type="button" data-k="home">Home</button><button type="button" data-k="freelancer">Freelancer</button><button type="button" data-k="shop">Shop</button><button type="button" data-k="office">Office</button><button type="button" data-k="clinic">Clinic</button><button type="button" data-k="school">School</button><button type="button" data-k="startup">New business</button>
+        <button type="button" data-k="home">Home user</button><button type="button" data-k="freelancer">Freelancer</button><button type="button" data-k="shop">Shop</button><button type="button" data-k="office">Office</button><button type="button" data-k="clinic">Clinic</button><button type="button" data-k="school">School</button><button type="button" data-k="startup">New business</button>
       </div>
       <div class="cover">
         <div class="cover-map" aria-hidden="true">

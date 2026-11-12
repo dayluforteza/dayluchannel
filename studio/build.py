@@ -55,6 +55,7 @@ def nav():
   <div class="wrap">
     <a class="logo" href="index.html"><i>DF</i>Daylu Forteza</a>
     <nav class="menu" aria-label="Main"><ul>{items}</ul></nav>
+    {{LANGMENU}}
     <a class="btn btn--primary btn--sm nav__cta" href="find-your-solution.html">Find your solution</a>
     <button class="burger" type="button" aria-expanded="false" aria-controls="sheet" aria-label="Open menu"><span></span><span></span></button>
   </div>
@@ -63,7 +64,7 @@ def nav():
   <div class="wrap sheet__in">
     <ul class="sheet__pages">{sheet_pg}</ul>
     <div class="sheet__sv"><p class="mono">Services</p><ul>{sheet_sv}</ul></div>
-    <div class="sheet__foot"><a class="btn btn--primary" href="find-your-solution.html">Find your solution</a><a class="btn btn--ghost" href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a><p>+34 663 01 19 14 · info@dayluforteza.com</p></div>
+    <div class="sheet__foot"><a class="btn btn--primary" href="find-your-solution.html">Find your solution</a><a class="btn btn--ghost" href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a><p>+34 663 01 19 14 · info@dayluforteza.com</p>{{LANGROW}}</div>
   </div>
 </div>
 '''
@@ -90,11 +91,32 @@ def fixlinks(h):
              .replace('href="method.html"', 'href="how-i-work.html"'))
 
 
+from i18n import LANGS, translate, lang_menu, lang_row
+
+FAB = """<div class="fab">
+  <a class="fab__top" href="#top" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  <a class="fab__wa" href="https://wa.me/34663011914" target="_blank" rel="noopener" aria-label="Write on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9.2 8.2c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.1-.1.3 0 .5.5.9 1.3 1.7 2.2 2.2.2.1.4.1.5 0l.6-.6c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5v.5c0 .3-.1.6-.4.8-.5.4-1.2.6-1.9.5-2.6-.4-5.3-3-5.8-5.6-.1-.7.1-1.4.4-1.9Z" fill="currentColor"/></svg><span>WhatsApp</span></a>
+</div>
+"""
+
+
 def page(fname, group, title, desc, body):
     extra = '<script src="assets/spain.js"></script>\n<script src="assets/places.js"></script>\n' if fname == 'contact.html' else ''
     out = (head(title, desc) + f'<body data-page="{group}">\n' + nav() + '<main id="top">\n' + fixlinks(body) + '</main>\n'
-           + FOOT + extra + '<script src="assets/site.js"></script>\n</body>\n</html>\n')
-    pathlib.Path(fname).write_text(out)
+           + FOOT + FAB + extra + '<script src="assets/site.js"></script>\n</body>\n</html>\n')
+    for code, *_ in LANGS:
+        html = out if code == 'en' else translate(out, code, fname)
+        html = html.replace('{LANGMENU}', lang_menu(code, fname)).replace('{LANGROW}', lang_row(code, fname))
+        alt = ''.join(f'<link rel="alternate" hreflang="{c}" href="{("" if code == "en" else "../") + ("" if c == "en" else c + "/") + fname}">' for c, *_ in LANGS)
+        html = html.replace('</head>', alt + '\n</head>', 1)
+        if code == 'en':
+            pathlib.Path(fname).write_text(html)
+        else:
+            html = (html.replace('<html lang="en">', f'<html lang="{code}">')
+                        .replace('href="assets/', 'href="../assets/').replace('src="assets/', 'src="../assets/')
+                        .replace('<script src="../assets/site.js">', f'<script src="../assets/i18n-{code}.js"></script>\n<script src="../assets/site.js">'))
+            pathlib.Path(code).mkdir(exist_ok=True)
+            pathlib.Path(code, fname).write_text(html)
 
 
 # ---------- catalogue blocks, by id ----------
@@ -121,6 +143,14 @@ def service_tiles():
 
 def lis(xs, cls=''):
     return ''.join(f'<li{cls}>{x}</li>' for x in xs)
+
+
+def _desc(text, limit=158):
+    out = ''
+    for sent in re.split(r'(?<=[.!?])\s+', text):
+        if out and len(out) + len(sent) + 1 > limit: break
+        out = (out + ' ' + sent).strip()
+    return out
 
 
 def service_page(s):
@@ -196,7 +226,7 @@ def service_page(s):
   </section>'''
     body = hero + problems + gets + detail + includes + ('' if k == 'web' else steps) + faq + other + cta(s['cta'] + '.', 'Tell me the case with whatever detail you have. You get a reasoned diagnosis, with no commitment and no unnecessary jargon.')
     body = body.replace('<a class="btn btn--primary" href="contact.html">Tell me your case</a>', f'<a class="btn btn--primary" href="contact.html">{s["cta"]}</a>')
-    page(s['file'], 'services', f'{s["name"]} · Daylu Forteza', s['lead'][:150].rsplit(' ', 1)[0] + '.', body)
+    page(s['file'], 'services', f'{s["name"]} · Daylu Forteza', _desc(s['lead']), body)
 
 
 # ---------- home ----------
@@ -290,4 +320,6 @@ page('find-your-solution.html', 'find', 'Find your solution · Daylu Forteza', '
 # ---------- contact ----------
 contact = P('CONTACT').replace('<h2 class="h-xl" id="contact-h">Tell me your case.</h2>', '<h1 class="h-xl" id="contact-h">Tell me your case.</h1>').replace('class="contact band"', 'class="contact" style="padding-top:clamp(110px,14vw,170px)"')
 page('contact.html', 'contact', 'Contact · Daylu Forteza', 'Contact Daylu Forteza in Málaga by WhatsApp, phone or email, and see the places where Daylu Forteza works.', contact + MAP)
-print('built', len(SERVICES) + 8, 'pages')
+from i18n import report
+report()
+print('built', len(SERVICES) + 8, 'pages x', len(LANGS), 'languages')

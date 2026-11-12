@@ -2,6 +2,8 @@
   const root = document.documentElement;
   root.classList.add('js');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const L = window.I18N || {};
+  const t = s => (s in L ? L[s] : s);
   const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
   const $ = id => document.getElementById(id);
   const $$ = (s, c = document) => [...c.querySelectorAll(s)];
@@ -18,7 +20,7 @@
   const burger = document.querySelector('.burger'), sheet = $('sheet');
   if (burger && sheet) {
     const setOpen = open => {
-      burger.setAttribute('aria-expanded', open); burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      burger.setAttribute('aria-expanded', open); burger.setAttribute('aria-label', open ? t('Close menu') : t('Open menu'));
       sheet.hidden = !open; document.body.classList.toggle('menu-open', open);
       if (open) { const f = sheet.querySelector('a'); f && f.focus({ preventScroll: true }); }
     };
@@ -107,6 +109,7 @@
       school: ['School', [0, 1, 4, 5], ['A computer room with one base image on every machine', 'Classroom Wi-Fi that holds a full group', 'Training for staff on the tools they actually use', 'A website for courses and enrolment']],
       startup: ['New business', [0, 1, 3, 4], ['Equipment chosen for the job, without overspending', 'The network installed before you open the doors', 'A website ready for launch day', 'Accounts, passwords and backups set up right from the start']]
     };
+    const TITLE = { home: 'For a home', freelancer: 'For a freelancer', shop: 'For a shop', office: 'For an office', clinic: 'For a clinic', school: 'For a school', startup: 'For a new business' };
     const cells = $$('#cover-svg .cell'), count = $('cover-n'), arc = $('cover-arc'), title = $('jobs-t'), list = $('jobs-l');
     const L = 2 * Math.PI * 182;
     arc.style.strokeDasharray = L;
@@ -115,11 +118,11 @@
       $$('button', chipsRow).forEach(b => b.setAttribute('aria-pressed', b.dataset.k === k));
       cells.forEach((c, i) => { const lit = on.includes(i); c.style.opacity = lit ? 1 : .22; c.querySelector('.dot').setAttribute('fill', lit ? 'var(--accent)' : 'var(--line)'); });
       arc.style.strokeDashoffset = L * (1 - on.length / 6);
-      title.textContent = `For a ${name.toLowerCase()}`;
-      list.innerHTML = jobs.map((j, i) => `<li style="animation-delay:${i * 60}ms">${j}</li>`).join('');
+      title.textContent = t(TITLE[k]);
+      list.innerHTML = jobs.map((j, i) => `<li style="animation-delay:${i * 60}ms">${t(j)}</li>`).join('');
       const target = on.length; let n = +count.textContent || 0;
       if (reduced) count.textContent = target; else { const step = () => { n += Math.sign(target - n); count.textContent = n; if (n !== target) setTimeout(step, 70); }; step(); }
-      $('cover-of').textContent = 'of 6 areas covered';
+      $('cover-of').textContent = t('of 6 areas covered');
     }
     $$('button', chipsRow).forEach(b => b.addEventListener('click', () => pick(b.dataset.k)));
     pick('freelancer');
@@ -139,17 +142,18 @@
       ['Your website does not exist or does not say what you do.', 'Web development', 'A site that explains your service and makes it easy to contact you.', ['Agree what the site must achieve', 'Write the structure and copy', 'Build, test and publish in your name'], 50],
       ['Nobody ever explained how your own setup works.', 'Training', 'You should be able to run your own tools without calling someone each time.', ['Walk through your setup together', 'Write a short guide for you', 'Answer follow-up questions'], 30]
     ];
+    const CHIP = { 'Maintenance and diagnosis': 'Maintenance', 'Networks and infrastructure': 'Networks', 'Systems': 'Systems', 'Security': 'Security', 'Web development': 'Web', 'Training': 'Training' };
     const show = i => {
       const d = data[i];
-      $('dx-title').textContent = d[0]; $('dx-area').textContent = d[1]; $('dx-text').textContent = d[2];
-      $('dx-steps').innerHTML = d[3].map(s => `<li>${s}</li>`).join('');
-      const SVF = { 'Maintenance and diagnosis': ['service-maintenance.html', 'Maintenance'], 'Networks and infrastructure': ['service-networks.html', 'Networks'], 'Systems': ['service-systems.html', 'Systems'], 'Security': ['service-security.html', 'Security'], 'Web development': ['service-web-development.html', 'Web development'], 'Training': ['service-training.html', 'Training'] };
-      const lk = $('dx-link'); if (lk && SVF[d[1]]) { lk.href = SVF[d[1]][0]; lk.textContent = `See the ${SVF[d[1]][1]} service`; }
+      $('dx-title').textContent = t(d[0]); $('dx-area').textContent = t(d[1]); $('dx-text').textContent = t(d[2]);
+      $('dx-steps').innerHTML = d[3].map(s => `<li>${t(s)}</li>`).join('');
+      const SVF = { 'Maintenance and diagnosis': ['service-maintenance.html', 'See the Maintenance service'], 'Networks and infrastructure': ['service-networks.html', 'See the Networks service'], 'Systems': ['service-systems.html', 'See the Systems service'], 'Security': ['service-security.html', 'See the Security service'], 'Web development': ['service-web-development.html', 'See the Web development service'], 'Training': ['service-training.html', 'See the Training service'] };
+      const lk = $('dx-link'); if (lk && SVF[d[1]]) { lk.href = SVF[d[1]][0]; lk.textContent = t(SVF[d[1]][1]); }
       $$('button', list).forEach((b, j) => b.setAttribute('aria-pressed', j === i));
     };
     data.forEach((d, i) => {
       const li = document.createElement('li');
-      li.innerHTML = `<button type="button" aria-pressed="false"><span class="mono">${String(i + 1).padStart(2, '0')}</span><span>${d[0]}</span><span class="chip">${d[1].split(' ')[0]}</span></button>`;
+      li.innerHTML = `<button type="button" aria-pressed="false"><span class="mono">${String(i + 1).padStart(2, '0')}</span><span>${t(d[0])}</span><span class="chip">${t(CHIP[d[1]])}</span></button>`;
       li.firstChild.addEventListener('click', () => show(i));
       list.appendChild(li);
     });
@@ -171,7 +175,7 @@
     });
     ring.innerHTML = html;
     const segs = $$('[data-seg]', ring), stages = $$('#stages li');
-    const set = k => { segs.forEach((s, i) => s.setAttribute('opacity', i <= k ? 1 : .15)); stages.forEach((s, i) => s.classList.toggle('on', i === k)); $('ring-n').textContent = '0' + (k + 1); $('ring-l').textContent = names[k]; };
+    const set = k => { segs.forEach((s, i) => s.setAttribute('opacity', i <= k ? 1 : .15)); stages.forEach((s, i) => s.classList.toggle('on', i === k)); $('ring-n').textContent = '0' + (k + 1); $('ring-l').textContent = t(names[k]); };
     set(reduced ? 5 : 0);
     const sio = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) set(stages.indexOf(e.target)); }), { rootMargin: '-45% 0px -45% 0px' });
     if (!reduced) stages.forEach(s => sio.observe(s));
@@ -243,7 +247,7 @@
       ['Printer and card terminal', 'Devices that stop dropping off.', 'Printers and POS terminals get fixed addresses so they are always found.', ['Fixed IP for each device', 'Drivers installed on every desk', 'Tested from each computer']],
       ['Remote access', 'Your office, from home, safely.', 'A VPN so you reach your files from outside without opening the network to everyone.', ['VPN set up on the router', 'Access per person, easy to revoke', 'Tested from outside the office']]
     ];
-    const show = n => { const d = ON[n]; $('op-k').textContent = d[0]; $('op-t').textContent = d[1]; $('op-d').textContent = d[2]; $('op-c').innerHTML = d[3].map(x => `<li>${x}</li>`).join(''); nodes.forEach(g => g.classList.toggle('on', +g.dataset.n === n)); };
+    const show = n => { const d = ON[n]; $('op-k').textContent = t(d[0]); $('op-t').textContent = t(d[1]); $('op-d').textContent = t(d[2]); $('op-c').innerHTML = d[3].map(x => `<li>${t(x)}</li>`).join(''); nodes.forEach(g => g.classList.toggle('on', +g.dataset.n === n)); };
     nodes.forEach(g => { const n = +g.dataset.n; g.addEventListener('click', () => show(n)); g.addEventListener('mouseenter', () => show(n)); g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(n); } }); });
     show(1);
     if (reduced && $('packets')) $('packets').remove();
@@ -311,7 +315,7 @@
       const [bx, by] = pt(base);
       gDots.append(el('circle', { cx: bx, cy: by, r: 26, class: 'onsite' }), el('circle', { cx: bx, cy: by, r: 10, class: 'ring' }), el('circle', { cx: bx, cy: by, r: 10, class: 'ring r2' }), el('circle', { cx: bx, cy: by, r: 6, class: 'base' }));
       const lb = el('text', { x: bx + 32, y: by - 6, class: 'lbl' }); lb.textContent = base.name;
-      const ls = el('text', { x: bx + 32, y: by + 9, class: 'lbl-s' }); ls.textContent = 'BASE · ON SITE';
+      const ls = el('text', { x: bx + 32, y: by + 9, class: 'lbl-s' }); ls.textContent = t('BASE · ON SITE');
       gDots.append(lb, ls);
     }
     clients.forEach(c => { const [x, y] = pt(c); gDots.appendChild(el('circle', { cx: x, cy: y, r: 4.5, class: 'dot' })); });
@@ -323,8 +327,8 @@
     });
     const mio = new IntersectionObserver(e => { if (e[0].isIntersecting) { drawIn(); mio.disconnect(); } }, { threshold: .3 });
     mio.observe(es);
-    [['es-places', places.length, 'place', 'places'], ['es-prov', lit.size, 'province', 'provinces'], ['es-links', links, 'connection', 'connections']].forEach(([id, n, one, many]) => { $(id).textContent = n; $(id).nextElementSibling.textContent = n === 1 ? one : many; });
-    $('es-list').innerHTML = places.map(p => `<li>${p.name}<span>${p.note || p.province}</span></li>`).join('');
+    [['es-places', places.length, 'place', 'places'], ['es-prov', lit.size, 'province', 'provinces'], ['es-links', links, 'connection', 'connections']].forEach(([id, n, one, many]) => { $(id).textContent = n; $(id).nextElementSibling.textContent = t(n === 1 ? one : many); });
+    $('es-list').innerHTML = places.map(p => `<li>${p.name}<span>${t(p.note || p.province)}</span></li>`).join('');
     if (reduced) $$('.ring', es).forEach(r => r.remove());
   }
 
@@ -350,8 +354,8 @@
   /* copy buttons */
   $$('[data-copy]').forEach(b => b.addEventListener('click', () => {
     const el = $(b.dataset.copy), text = el.textContent.trim();
-    const done = () => { b.textContent = 'Copied'; setTimeout(() => b.textContent = 'Copy', 1600); };
-    const fallback = () => { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected'; };
+    const done = () => { b.textContent = t('Copied'); setTimeout(() => b.textContent = t('Copy'), 1600); };
+    const fallback = () => { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = t('Selected'); };
     try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
   }));
 
@@ -363,12 +367,28 @@
     $('b-err').hidden = !!msg; $('b-msg').setAttribute('aria-invalid', !msg);
     if (!msg) { $('b-msg').focus(); return; }
     const name = $('b-name').value.trim();
-    const text = `Hello Daylu${name ? ', I am ' + name : ''}. About: ${$('b-area').value}. ${msg}`;
+    const text = t('Hello Daylu') + (name ? t(', I am ') + name : '') + '. ' + t('About:') + ' ' + $('b-area').value + '. ' + msg;
     const a = document.createElement('a');
     a.href = 'https://wa.me/34663011914?text=' + encodeURIComponent(text); a.target = '_blank'; a.rel = 'noopener';
     document.body.appendChild(a); a.click(); a.remove();
-    $('b-status').textContent = 'WhatsApp should open with your message. If it does not, copy the number above.';
+    $('b-status').textContent = t('WhatsApp should open with your message. If it does not, copy the number above.');
   });
+
+  /* floating buttons: back to top shows once the page has scrolled */
+  const toTop = document.querySelector('.fab__top');
+  if (toTop) {
+    loops.push(() => toTop.classList.toggle('on', scrollY > innerHeight * 0.8));
+    toTop.addEventListener('click', e => { e.preventDefault(); scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' }); });
+  }
+
+  /* language menu */
+  const lang = document.querySelector('.lang');
+  if (lang) {
+    const lb = lang.querySelector('button');
+    lb.addEventListener('click', () => { const o = lb.getAttribute('aria-expanded') !== 'true'; lb.setAttribute('aria-expanded', o); });
+    document.addEventListener('click', e => { if (!lang.contains(e.target)) lb.setAttribute('aria-expanded', 'false'); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.setAttribute('aria-expanded', 'false'); });
+  }
 
   onScroll(); loops.forEach(f => f());
 })();
