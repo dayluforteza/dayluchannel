@@ -243,6 +243,74 @@
     });
   }
 
+
+  /* catalogue index follows the reading position */
+  const catIdx = $('cat-index');
+  if (catIdx) {
+    const links = $$('a[href^="#"]', catIdx);
+    const blocks = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+    const kio = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) links.forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id)); }), { rootMargin: '-40% 0px -55% 0px' });
+    blocks.forEach(b => kio.observe(b));
+  }
+
+  /* Spain map */
+  const es = $('es-svg');
+  if (es && window.SPAIN) {
+    const S = window.SPAIN, places = (window.PLACES || []).slice();
+    const NS = 'http://www.w3.org/2000/svg';
+    const el = (n, a) => { const e = document.createElementNS(NS, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
+    const proj = (lon, lat) => { if (lon < -12.5 && lat < 30) { lon += 5; lat += 7; } return [(lon - S.lon0) * S.k * S.s, (S.lat1 - lat) * S.s]; };
+    es.setAttribute('viewBox', `0 0 ${S.w} ${S.h}`);
+    const norm = t => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const lit = new Set(places.map(p => norm(p.province)));
+    const gProv = el('g', {});
+    S.provinces.forEach(pr => {
+      const names = pr.name.split('/').map(norm);
+      const path = el('path', { d: pr.d, class: 'prov' + (names.some(n => lit.has(n)) ? ' lit' : '') });
+      const t = el('title', {}); t.textContent = pr.name; path.appendChild(t); gProv.appendChild(path);
+    });
+    es.appendChild(gProv);
+    const [cx, cy, cw, ch] = S.canary;
+    es.appendChild(el('rect', { x: cx - 6, y: cy - 6, width: cw + 12, height: ch + 12, rx: 8, class: 'frame' }));
+    const base = places.find(p => p.type === 'base') || places[0];
+    const clients = places.filter(p => p !== base);
+    const pt = p => proj(p.lon, p.lat);
+    const gLinks = el('g', {}), gDots = el('g', {});
+    es.append(gLinks, gDots);
+    const curve = (a, b, bend = .18) => { const mx = (a[0] + b[0]) / 2, my = (a[1] + b[1]) / 2, dx = b[0] - a[0], dy = b[1] - a[1]; return `M${a[0]} ${a[1]} Q${mx - dy * bend} ${my + dx * bend} ${b[0]} ${b[1]}`; };
+    let links = 0;
+    const all = [];
+    if (base) clients.forEach(c => { all.push(el('path', { d: curve(pt(base), pt(c)), class: 'link' })); links++; });
+    const seen = new Set();
+    clients.forEach((c, i) => {
+      let best = -1, bd = Infinity;
+      clients.forEach((o, j) => { if (i === j) return; const d = (c.lon - o.lon) ** 2 + (c.lat - o.lat) ** 2; if (d < bd) { bd = d; best = j; } });
+      if (best < 0) return;
+      const key = [i, best].sort().join('-'); if (seen.has(key)) return; seen.add(key);
+      all.push(el('path', { d: curve(pt(c), pt(clients[best]), -.12), class: 'link mesh' })); links++;
+    });
+    all.forEach(l => gLinks.appendChild(l));
+    if (base) {
+      const [bx, by] = pt(base);
+      gDots.append(el('circle', { cx: bx, cy: by, r: 26, class: 'onsite' }), el('circle', { cx: bx, cy: by, r: 10, class: 'ring' }), el('circle', { cx: bx, cy: by, r: 10, class: 'ring r2' }), el('circle', { cx: bx, cy: by, r: 6, class: 'base' }));
+      const lb = el('text', { x: bx + 32, y: by - 6, class: 'lbl' }); lb.textContent = base.name;
+      const ls = el('text', { x: bx + 32, y: by + 9, class: 'lbl-s' }); ls.textContent = 'BASE · ON SITE';
+      gDots.append(lb, ls);
+    }
+    clients.forEach(c => { const [x, y] = pt(c); gDots.appendChild(el('circle', { cx: x, cy: y, r: 4.5, class: 'dot' })); });
+    const drawIn = () => all.forEach((l, i) => {
+      if (l.classList.contains('mesh') || reduced) return;
+      const L = l.getTotalLength(); l.style.strokeDasharray = L; l.style.strokeDashoffset = L;
+      l.style.transition = `stroke-dashoffset 1.4s ${i * .12}s cubic-bezier(.22,1,.36,1)`;
+      requestAnimationFrame(() => requestAnimationFrame(() => { l.style.strokeDashoffset = 0; }));
+    });
+    const mio = new IntersectionObserver(e => { if (e[0].isIntersecting) { drawIn(); mio.disconnect(); } }, { threshold: .3 });
+    mio.observe(es);
+    [['es-places', places.length, 'place', 'places'], ['es-prov', lit.size, 'province', 'provinces'], ['es-links', links, 'connection', 'connections']].forEach(([id, n, one, many]) => { $(id).textContent = n; $(id).nextElementSibling.textContent = n === 1 ? one : many; });
+    $('es-list').innerHTML = places.map(p => `<li>${p.name}<span>${p.note || p.province}</span></li>`).join('');
+    if (reduced) $$('.ring', es).forEach(r => r.remove());
+  }
+
   /* copy buttons */
   $$('[data-copy]').forEach(b => b.addEventListener('click', () => {
     const el = $(b.dataset.copy), text = el.textContent.trim();

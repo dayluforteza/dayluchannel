@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Contact · Daylu Forteza</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Contact Daylu Forteza in Málaga by WhatsApp, phone or email.">
+<meta name="description" content="Contact Daylu Forteza in Málaga by WhatsApp, phone or email, and see the places he works in.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -16,13 +16,13 @@
 <header class="nav">
   <div class="wrap">
     <a class="logo" href="index.html"><i>DF</i>Daylu Forteza</a>
-    <ul><li><a href="services.html" data-page="services">Services</a></li><li><a href="method.html" data-page="method">Method</a></li><li><a href="websites.html" data-page="websites">Websites</a></li><li><a href="about.html" data-page="about">About</a></li></ul>
+    <ul><li><a href="about.html" data-page="about">About me</a></li><li><a href="services.html" data-page="services">Services</a></li><li><a href="websites.html" data-page="websites">Web development<b class="badge">Main</b></a></li><li><a href="contact.html" data-page="contact">Contact</a></li></ul>
     <a class="btn btn--primary btn--sm" href="contact.html">Tell me your case</a>
   </div>
 </header>
 <main id="top">
 <!-- CONTACT -->
-  <section id="contact" class="contact band" style="padding-top:clamp(110px,14vw,170px)" aria-labelledby="contact-h">
+  <section id="contact" class="contact" style="padding-top:clamp(110px,14vw,170px)" aria-labelledby="contact-h">
     <div class="wrap">
       <p class="eyebrow">Contact</p>
       <h1 class="h-xl" id="contact-h">Tell me your case.</h1>
@@ -43,18 +43,39 @@
       </form>
     </div>
   </section>
+
+  <!-- MAP -->
+  <section id="map" class="band" aria-labelledby="map-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Where I work</p>
+        <h2 class="h-l" id="map-h">A map that grows with every client.</h2>
+        <p class="lead" style="margin-top:18px">Based in Málaga, on site across the metro area and remote anywhere in Spain. Each place I work in joins the network.</p>
+      </div>
+      <div class="es">
+        <div class="es__map"><svg id="es-svg" role="img" aria-label="Map of Spain with the places Daylu Forteza works in"></svg></div>
+        <aside class="es__side">
+          <div class="es__stats"><div><strong id="es-places">0</strong><span>places</span></div><div><strong id="es-prov">0</strong><span>provinces</span></div><div><strong id="es-links">0</strong><span>connections</span></div></div>
+          <ol class="es__list" id="es-list"></ol>
+          <p class="es__legend"><i class="lg-base"></i>Base &nbsp; <i class="lg-site"></i>Client location &nbsp; <i class="lg-line"></i>Connection</p>
+        </aside>
+      </div>
+    </div>
+  </section>
 </main>
 <footer class="site">
   <div class="wrap">
     <div class="cols">
       <div class="brand"><a class="logo" href="index.html"><i>DF</i>Daylu Forteza</a><p>IT services and digital solutions in Málaga and the metro area. By appointment, on site or remote.</p></div>
-      <div><h4>Pages</h4><ul><li><a href="services.html">Services</a></li><li><a href="method.html">Method</a></li><li><a href="websites.html">Websites</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Pages</h4><ul><li><a href="about.html">About me</a></li><li><a href="services.html">Services</a></li><li><a href="websites.html">Web development</a></li><li><a href="method.html">Method</a></li><li><a href="contact.html">Contact</a></li></ul></div>
       <div><h4>Services</h4><ul><li><a href="services.html">Systems</a></li><li><a href="services.html">Networks</a></li><li><a href="services.html">Maintenance</a></li><li><a href="services.html">Security</a></li><li><a href="websites.html">Web development</a></li><li><a href="services.html">Training</a></li></ul></div>
       <div><h4>Contact</h4><ul><li>+34 663 01 19 14</li><li>info@dayluforteza.com</li><li><a href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a></li></ul></div>
     </div>
     <div class="legal"><span>© 2026 Daylu Forteza · All rights reserved</span><span>Málaga, Spain</span></div>
   </div>
 </footer>
+<script src="assets/spain.js"></script>
+<script src="assets/places.js"></script>
 <script src="assets/site.js"></script>
 </body>
 </html>

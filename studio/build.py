@@ -6,7 +6,7 @@ def fix(h):
     h = h.replace('href="#contact"', 'href="contact.html"')
     return h
 
-NAV = [('index','index.html','Home'),('services','services.html','Services'),('method','method.html','Method'),('websites','websites.html','Websites'),('about','about.html','About')]
+NAV = [('index','index.html','Home'),('about','about.html','About me'),('services','services.html','Services'),('websites','websites.html','Web development'),('contact','contact.html','Contact')]
 
 def head(title, desc):
     return f'''<!doctype html>
@@ -26,7 +26,7 @@ def head(title, desc):
 '''
 
 def nav():
-    items = ''.join(f'<li><a href="{h}" data-page="{k}">{t}</a></li>' for k,h,t in NAV[1:])
+    items = ''.join(f'<li><a href="{h}" data-page="{k}">{t}{"<b class=\"badge\">Main</b>" if k=="websites" else ""}</a></li>' for k,h,t in NAV[1:])
     return f'''<header class="nav">
   <div class="wrap">
     <a class="logo" href="index.html"><i>DF</i>Daylu Forteza</a>
@@ -40,7 +40,7 @@ FOOT = '''<footer class="site">
   <div class="wrap">
     <div class="cols">
       <div class="brand"><a class="logo" href="index.html"><i>DF</i>Daylu Forteza</a><p>IT services and digital solutions in Málaga and the metro area. By appointment, on site or remote.</p></div>
-      <div><h4>Pages</h4><ul><li><a href="services.html">Services</a></li><li><a href="method.html">Method</a></li><li><a href="websites.html">Websites</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Pages</h4><ul><li><a href="about.html">About me</a></li><li><a href="services.html">Services</a></li><li><a href="websites.html">Web development</a></li><li><a href="method.html">Method</a></li><li><a href="contact.html">Contact</a></li></ul></div>
       <div><h4>Services</h4><ul><li><a href="services.html">Systems</a></li><li><a href="services.html">Networks</a></li><li><a href="services.html">Maintenance</a></li><li><a href="services.html">Security</a></li><li><a href="websites.html">Web development</a></li><li><a href="services.html">Training</a></li></ul></div>
       <div><h4>Contact</h4><ul><li>+34 663 01 19 14</li><li>info@dayluforteza.com</li><li><a href="https://wa.me/34663011914" target="_blank" rel="noopener">WhatsApp ›</a></li></ul></div>
     </div>
@@ -85,9 +85,129 @@ def page_hero(key, crumb, h1, lead, jumps=()):
 '''
 
 def page(key, title, desc, body):
-    html = head(title, desc) + f'<body data-page="{key}">\n' + nav() + '<main id="top">\n' + fix(body) + '</main>\n' + FOOT + '<script src="assets/site.js"></script>\n</body>\n</html>\n'
+    extra = '<script src="assets/spain.js"></script>\n<script src="assets/places.js"></script>\n' if key == 'contact' else ''
+    html = head(title, desc) + f'<body data-page="{key}">\n' + nav() + '<main id="top">\n' + fix(body) + '</main>\n' + FOOT + extra + '<script src="assets/site.js"></script>\n</body>\n</html>\n'
     pathlib.Path(f'{"index" if key=="index" else key}.html').write_text(html)
     return html
+
+
+INTRO = """
+  <!-- INTRO -->
+  <section id="intro" aria-labelledby="in-h">
+    <div class="wrap intro">
+      <div class="intro__text">
+        <p class="eyebrow">Who I am</p>
+        <h2 class="h-l" id="in-h">An IT technician who explains every step.</h2>
+        <p>I am Daylu Forteza, an IT technician trained in network computer systems administration (ASIR) and microcomputer systems and networks (SMR).</p>
+        <p>Since 2017 I have combined technology with teaching, helping people understand and use it better. Since 2018 I have also worked in technical support, on site and remotely: repairs, incidents, networks and systems, including specialised equipment and software in the healthcare sector.</p>
+        <p>That taught me something I bring to every job: behind each technical problem there is a person who needs it solved. Knowing systems is half the work. The other half is listening, explaining and choosing the fix that still makes sense in a year.</p>
+      </div>
+      <aside class="idcard" aria-label="Profile">
+        <div class="idcard__top"><i>DF</i><div><strong>Daylu Forteza</strong><span>IT technician · Web developer</span></div></div>
+        <dl>
+          <div><dt>Based in</dt><dd>Málaga, Spain</dd></div>
+          <div><dt>Working since</dt><dd>2017</dd></div>
+          <div><dt>Works</dt><dd>On site and remote</dd></div>
+          <div><dt>Availability</dt><dd>By appointment</dd></div>
+          <div><dt>Main focus</dt><dd>Websites and systems</dd></div>
+        </dl>
+        <a class="btn btn--primary" href="contact.html">Tell me your case</a>
+      </aside>
+    </div>
+  </section>
+"""
+
+ENVS = """
+  <!-- ENVIRONMENTS -->
+  <section id="worked" style="background: var(--bg-2)" aria-labelledby="env-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Where I have worked</p>
+        <h2 class="h-l" id="env-h">Different places, the same standard.</h2>
+        <p class="lead" style="margin-top:18px">Each environment asked for something different. Together they shaped how I work today.</p>
+      </div>
+      <div class="envs">
+        <article class="env"><p class="mono">Training · since 2017</p><h3>Classrooms and one-to-one sessions</h3><p>Teaching technology to people of every level. Patience, clear language, nothing assumed.</p><span class="env__k">Explaining</span></article>
+        <article class="env"><p class="mono">Support · since 2018</p><h3>Technical support, on site and remote</h3><p>Repairs, incidents and configuration of networks and systems, under time pressure.</p><span class="env__k">Solving</span></article>
+        <article class="env"><p class="mono">Healthcare</p><h3>Specialised equipment and software</h3><p>Systems where a failure affects patients. Every change careful, every step written down.</p><span class="env__k">Precision</span></article>
+      </div>
+    </div>
+  </section>
+"""
+
+STACK_ITEMS = [("Systems",["Windows","Windows Server","macOS","Users and permissions","Shared resources"]),("Networks",["Structured cabling","Routers","Switches","Access points","VPN","Cisco routing and switching"]),("Support",["Diagnosis","Preventive maintenance","Remote support","Backups","Hardware upgrades"]),("Web",["HTML","CSS","JavaScript","PHP","MySQL","Responsive design"])]
+row1 = ' '.join(x for _,xs in STACK_ITEMS[:2] for x in xs).split(' ')
+def mq(items): return ''.join(f'<span>{x}</span>' for x in items)
+ALL = [x for _,xs in STACK_ITEMS for x in xs]
+STACK = f"""
+  <!-- STACK -->
+  <section id="stack" aria-labelledby="st-h">
+    <div class="wrap center">
+      <p class="eyebrow">What I work with</p>
+      <h2 class="h-l" id="st-h">The tools behind the work.</h2>
+    </div>
+    <div class="marquee" aria-hidden="true"><div class="marquee__row">{mq(ALL[:11]*2)}</div><div class="marquee__row rev">{mq(ALL[11:]*2)}</div></div>
+    <div class="wrap">
+      <div class="stackgrid">{''.join(f'<div class="sg"><h3>{g}</h3><ul>{"".join(f"<li>{x}</li>" for x in xs)}</ul></div>' for g,xs in STACK_ITEMS)}</div>
+    </div>
+  </section>
+"""
+
+OWN = """
+  <!-- OWNERSHIP -->
+  <section id="own" aria-labelledby="own-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Ownership</p>
+        <h2 class="h-l" id="own-h">At launch, you get four keys.</h2>
+        <p class="lead" style="margin-top:18px">Nothing stays tied to me. If one day you want another person to look after your site, you hand them these.</p>
+      </div>
+      <div class="keys draw">
+        <article class="key"><span class="key__n">01</span><h3>Domain</h3><p>Registered in your name, with the access details.</p></article>
+        <article class="key"><span class="key__n">02</span><h3>Hosting</h3><p>Your account with the provider, not a reseller’s.</p></article>
+        <article class="key"><span class="key__n">03</span><h3>Code</h3><p>Standard HTML, CSS and JavaScript any developer can read.</p></article>
+        <article class="key"><span class="key__n">04</span><h3>Content</h3><p>Texts and images you can edit or take with you.</p></article>
+      </div>
+    </div>
+  </section>
+"""
+
+WEBFAQ = """
+  <!-- WEB FAQ -->
+  <section id="webfaq" style="background: var(--bg-2)" aria-labelledby="wf-h">
+    <div class="wrap">
+      <div class="center"><p class="eyebrow">Questions</p><h2 class="h-l" id="wf-h">Before you ask for a quote.</h2></div>
+      <div class="faq">
+        <details><summary><span>Can I update the website myself?</span></summary><p>Yes, if you need to. I can deliver it with a simple editor and show you how to change the content that updates often.</p></details>
+        <details><summary><span>Are domain and hosting included?</span></summary><p>They can be part of the proposal. The cost depends on the provider and the expected traffic, and they are always in your name.</p></details>
+        <details><summary><span>How long does it take?</span></summary><p>It depends on the number of sections and on when texts and images are ready. The proposal shows the phases and the expected dates.</p></details>
+        <details><summary><span>Do you guarantee first place on Google?</span></summary><p>No, and be wary of anyone who does. You get the technical base and the content ready to rank with real work.</p></details>
+        <details><summary><span>What does €1,000 include?</span></summary><p>A landing page or a compact corporate site with structure, copy, design, responsive build, a working form, publishing and setup in your name. Larger sites get a fixed quote first.</p></details>
+      </div>
+    </div>
+  </section>
+"""
+
+MAP = """
+  <!-- MAP -->
+  <section id="map" class="band" aria-labelledby="map-h">
+    <div class="wrap">
+      <div class="center">
+        <p class="eyebrow">Where I work</p>
+        <h2 class="h-l" id="map-h">A map that grows with every client.</h2>
+        <p class="lead" style="margin-top:18px">Based in Málaga, on site across the metro area and remote anywhere in Spain. Each place I work in joins the network.</p>
+      </div>
+      <div class="es">
+        <div class="es__map"><svg id="es-svg" role="img" aria-label="Map of Spain with the places Daylu Forteza works in"></svg></div>
+        <aside class="es__side">
+          <div class="es__stats"><div><strong id="es-places">0</strong><span>places</span></div><div><strong id="es-prov">0</strong><span>provinces</span></div><div><strong id="es-links">0</strong><span>connections</span></div></div>
+          <ol class="es__list" id="es-list"></ol>
+          <p class="es__legend"><i class="lg-base"></i>Base &nbsp; <i class="lg-site"></i>Client location &nbsp; <i class="lg-line"></i>Connection</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+"""
 
 # ---------- new blocks ----------
 cells_xy = [(260,78),(409,164),(409,336),(260,422),(111,336),(111,164)]
@@ -199,25 +319,26 @@ areas = areas.replace('<div class="bento">','<div class="bento">',1)
 areas = areas.replace('</div>\n    </div>\n  </section>', '</div>\n      <div class="hero__cta"><a class="btn btn--primary" href="services.html">See every service in depth</a></div>\n    </div>\n  </section>',1) if False else areas
 areas = re.sub(r'(<div class="bento">.*</div>)(\s*</div>\s*</section>)', lambda m: m.group(1)+'\n      <div class="hero__cta" style="margin-top:48px"><a class="btn btn--primary" href="services.html">See every service in depth</a></div>'+m.group(2), areas, flags=re.S)
 
+
 page('index','Daylu Forteza','IT services and websites in Málaga: systems, networks, maintenance, security, web development and training by Daylu Forteza.',
   P('HERO') + P('STATEMENT') + COVER + areas + EXPLORE + cta())
 
-page('services','Services · Daylu Forteza','Six IT services in depth: systems, networks, maintenance, security, web and training in Málaga.',
-  page_hero('services','Services','Six services. One technician.','Each service with the problems it solves, what you get, what it includes and who it is for. Then the limits, a diagnosis tool and an office you can click through.',[('deep','In depth'),('scope','What I do and don’t'),('finder','Diagnosis'),('office','Inside an office')])
-  + P('DEEP_DIVE') + P('SCOPE') + P('SYMPTOM_FINDER') + P('OFFICE') + cta('Recognise your problem?'))
+page('about','About me · Daylu Forteza','Who Daylu Forteza is: IT technician in Málaga, trajectory, environments and the tools he works with.',
+  page_hero('about','About me','Hi, I am Daylu.','IT technician and web developer in Málaga. Training, support and hands-on work since 2017, with the same care for one laptop as for a whole office.',[('intro','Who I am'),('trajectory','Trajectory'),('worked','Where I have worked'),('stack','Tools'),('values','How I work')])
+  + INTRO + TIMELINE + ENVS + STACK + VALUES + P('ABOUT') + cta())
+
+page('services','Services · Daylu Forteza','IT services in detail: structured cabling, network equipment, servers, operating systems, system services, maintenance, security and training in Málaga.',
+  page_hero('services','Services','Every service, in detail.','What each job includes, what you keep when it is done and who it is for. From the first cable to the services that make an office work.',[('catalogue','Catalogue'),('scope','What I do and don’t'),('finder','Diagnosis'),('office','Inside an office')])
+  + P('CATALOGUE') + P('SCOPE') + P('SYMPTOM_FINDER') + P('OFFICE') + P('CONCEPTS') + P('RESOURCES') + cta('Recognise your problem?'))
+
+page('websites','Web development · Daylu Forteza','Hand-written websites from €1,000 in Málaga, with domain, hosting and code in the client’s name.',
+  page_hero('websites','Web development','Your business, explained in one website.','Corporate sites and landing pages written by hand, designed for the phone first and registered in your name. From €1,000.',[('web','The offer'),('build','How it is built'),('own','Ownership'),('webfaq','Questions')])
+  + P('WEBSITES') + P('BUILD') + OWN + WEBFAQ + cta('Ask for a website quote.','Tell me what your business does and what the site must achieve. You get a fixed quote before any work starts.'))
 
 page('method','Method · Daylu Forteza','How Daylu Forteza works: six stages, written scope and price, documented handover.',
   page_hero('method','Method','First I understand. Then we fix it.','You do not need technical words to explain what is happening. You always know where your case is, what comes next and what it costs.',[('method','Six stages'),('handover','Handover'),('modes','Ways to work'),('faq','Questions')])
   + P('METHOD') + P('HANDOVER') + P('WAYS_TO_WORK') + P('FAQ') + cta())
 
-page('websites','Websites · Daylu Forteza','Hand-written websites from €1,000 in Málaga, with domain and hosting in the client’s name.',
-  page_hero('websites','Websites','A website that explains what you do.','Corporate sites and landing pages written by hand, designed for the phone first and registered in your name.',[('web','The offer'),('build','How it is built')])
-  + P('WEBSITES') + P('BUILD') + cta('Ask for a website quote.','Tell me what your business does and what the site must achieve. You get a fixed quote before any work starts.'))
-
-page('about','About · Daylu Forteza','Daylu Forteza, IT technician in Málaga: trajectory, qualifications and way of working.',
-  page_hero('about','About','Daylu Forteza, IT technician.','Training, support and hands-on work since 2017. The same care for a single laptop as for a whole office.',[('trajectory','Trajectory'),('values','How I work'),('about','Qualifications'),('work','Concepts')])
-  + TIMELINE + VALUES + P('ABOUT') + P('CONCEPTS') + P('RESOURCES') + cta())
-
-contact = P('CONTACT').replace('<h2 class="h-xl" id="contact-h">Tell me your case.</h2>','<h1 class="h-xl" id="contact-h">Tell me your case.</h1>').replace('class="contact band"','class="contact band" style="padding-top:clamp(110px,14vw,170px)"')
-page('contact','Contact · Daylu Forteza','Contact Daylu Forteza in Málaga by WhatsApp, phone or email.', contact)
+contact = P('CONTACT').replace('<h2 class="h-xl" id="contact-h">Tell me your case.</h2>','<h1 class="h-xl" id="contact-h">Tell me your case.</h1>').replace('class="contact band"','class="contact" style="padding-top:clamp(110px,14vw,170px)"')
+page('contact','Contact · Daylu Forteza','Contact Daylu Forteza in Málaga by WhatsApp, phone or email, and see the places he works in.', contact + MAP)
 print('built')
