@@ -4,7 +4,8 @@ the strings the page script writes). build.py calls translate() per page; missin
 import json, pathlib, re
 
 # code, name in its own language, short label. Add a language here once i18n/<code>.json is complete.
-LANGS = [('en', 'English', 'EN'), ('es', 'Español', 'ES')]
+LANGS = [('en', 'English', 'EN'), ('es', 'Español', 'ES'), ('pt', 'Português', 'PT'), ('fr', 'Français', 'FR'), ('de', 'Deutsch', 'DE'), ('it', 'Italiano', 'IT'), ('ca', 'Català', 'CA')]
+HTMLLANG = {'pt': 'pt-PT'}
 PLANNED = 7  # the menu is built for seven languages
 
 _D = {}

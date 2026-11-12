@@ -91,7 +91,7 @@ def fixlinks(h):
              .replace('href="method.html"', 'href="how-i-work.html"'))
 
 
-from i18n import LANGS, translate, lang_menu, lang_row
+from i18n import LANGS, HTMLLANG, translate, lang_menu, lang_row
 
 FAB = """<div class="fab">
   <a class="fab__top" href="#top" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -112,7 +112,7 @@ def page(fname, group, title, desc, body):
         if code == 'en':
             pathlib.Path(fname).write_text(html)
         else:
-            html = (html.replace('<html lang="en">', f'<html lang="{code}">')
+            html = (html.replace('<html lang="en">', f'<html lang="{HTMLLANG.get(code, code)}">')
                         .replace('href="assets/', 'href="../assets/').replace('src="assets/', 'src="../assets/')
                         .replace('<script src="../assets/site.js">', f'<script src="../assets/i18n-{code}.js"></script>\n<script src="../assets/site.js">'))
             pathlib.Path(code).mkdir(exist_ok=True)

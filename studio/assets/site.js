@@ -314,7 +314,7 @@
     if (base) {
       const [bx, by] = pt(base);
       gDots.append(el('circle', { cx: bx, cy: by, r: 26, class: 'onsite' }), el('circle', { cx: bx, cy: by, r: 10, class: 'ring' }), el('circle', { cx: bx, cy: by, r: 10, class: 'ring r2' }), el('circle', { cx: bx, cy: by, r: 6, class: 'base' }));
-      const lb = el('text', { x: bx + 32, y: by - 6, class: 'lbl' }); lb.textContent = base.name;
+      const lb = el('text', { x: bx + 32, y: by - 6, class: 'lbl' }); lb.textContent = t(base.name);
       const ls = el('text', { x: bx + 32, y: by + 9, class: 'lbl-s' }); ls.textContent = t('BASE · ON SITE');
       gDots.append(lb, ls);
     }
@@ -328,7 +328,7 @@
     const mio = new IntersectionObserver(e => { if (e[0].isIntersecting) { drawIn(); mio.disconnect(); } }, { threshold: .3 });
     mio.observe(es);
     [['es-places', places.length, 'place', 'places'], ['es-prov', lit.size, 'province', 'provinces'], ['es-links', links, 'connection', 'connections']].forEach(([id, n, one, many]) => { $(id).textContent = n; $(id).nextElementSibling.textContent = t(n === 1 ? one : many); });
-    $('es-list').innerHTML = places.map(p => `<li>${p.name}<span>${t(p.note || p.province)}</span></li>`).join('');
+    $('es-list').innerHTML = places.map(p => `<li>${t(p.name)}<span>${t(p.note || p.province)}</span></li>`).join('');
     if (reduced) $$('.ring', es).forEach(r => r.remove());
   }
 

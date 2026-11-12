@@ -1,0 +1,1001 @@
+0	Chi sono · Daylu Forteza
+1	Chi è Daylu Forteza: tecnico informatico a Málaga, il suo percorso e gli strumenti con cui lavora.
+2	Principale
+3	Home
+4	Servizi
+5	Sistemi
+6	Computer, server e servizi di sistema
+7	Reti
+8	Cablaggio, router, switch e Wi-Fi
+9	Manutenzione
+10	Diagnosi e manutenzione preventiva
+11	Sicurezza
+12	Impostazioni, permessi e backup
+13	Sviluppo web
+14	Siti da 1.000 €
+15	Formazione
+16	Formazione e consulenza sugli acquisti
+17	Tutti i servizi
+18	Progetti
+19	Chi sono
+20	Come lavoro
+21	Risorse
+22	Contatti
+23	Trova la tua soluzione
+24	Apri il menu
+25	Chiudi il menu
+26	Lingua
+27	WhatsApp ›
+28	Raccontami il tuo caso
+29	Prossimo passo
+30	Raccontami il tuo caso.
+31	Basta una breve descrizione per iniziare. Se non è qualcosa in cui posso aiutarti, ti dico chi può farlo.
+32	Scrivimi su WhatsApp ›
+33	Servizi informatici e soluzioni digitali a Málaga e dintorni. Su appuntamento, in presenza o da remoto.
+34	Il sito
+35	Pagina contatti
+36	© 2026 Daylu Forteza · Tutti i diritti riservati
+37	Málaga, Spagna · Su appuntamento
+38	Torna su
+39	Scrivimi su WhatsApp
+40	Servizio principale
+41	Ciao, sono Daylu.
+42	Tecnico informatico e sviluppatore web a Málaga. Formazione, assistenza e lavoro sul campo dal 2017, con la stessa cura per un portatile come per un intero ufficio.
+43	Chi sono
+44	Percorso
+45	Strumenti
+46	Un tecnico che ti spiega ogni passaggio.
+47	Sono Daylu Forteza, tecnico informatico e sviluppatore web a Málaga. Mi occupo della tecnologia di privati, professionisti e piccole imprese: i loro computer, la rete, i backup e il sito web.
+48	Dietro ogni problema tecnico c’è una persona che ha bisogno di una soluzione. Conoscere i sistemi è metà del lavoro. L’altra metà è ascoltare, spiegare e scegliere la soluzione che avrà ancora senso tra un anno.
+49	La mia formazione e i posti in cui ho lavorato li trovi nel percorso qui sotto.
+50	Profilo
+51	Tecnico informatico · Sviluppatore web
+52	Sede
+53	Málaga, Spagna
+54	Modalità
+55	In presenza e da remoto
+56	Disponibilità
+57	Su appuntamento
+58	Specializzazione
+59	Siti web e sistemi
+60	Come sono arrivato fin qui.
+61	Formazione, assistenza e lavoro sul campo, passo dopo passo. Ogni tappa mi ha lasciato qualcosa che oggi porto in ogni lavoro.
+62	Formazione
+63	Sistemi microinformatici e reti
+64	La base: assemblare, installare e collegare computer e reti.
+65	Sistemi operativi
+66	Diploma tecnico superiore
+67	Amministrazione di sistemi informatici in rete
+68	Server, servizi, sicurezza e amministrazione di reti complete.
+69	Certificazione
+70	IT Essentials e CCNA Routing and Switching
+71	Routing, switching e come si progettano le reti vere.
+72	Insegnare la tecnologia
+73	Aiutare le persone a capire e usare la propria tecnologia. Lì ho imparato a spiegare senza dare nulla per scontato.
+74	Corsi
+75	Tutti i livelli
+76	Assistenza tecnica
+77	Assistenza in presenza e da remoto
+78	Riparazioni, guasti e configurazione di reti e sistemi, giorno dopo giorno.
+79	Riparazioni
+80	Guasti
+81	Da remoto
+82	Sanità
+83	Settore specializzato
+84	Apparecchiature e software in ambito sanitario
+85	Un lavoro in cui un guasto ricade sui pazienti: per questo ogni passaggio è attento e documentato.
+86	Software specialistico
+87	Sistemi critici
+88	Oggi
+89	In proprio
+90	Servizi informatici e siti web a Málaga
+91	Sistemi, reti, manutenzione, sicurezza, web e formazione per ogni tipo di cliente.
+92	Prossimamente
+93	Il tuo progetto
+94	La prossima riga di questo percorso
+95	Dimmi di cosa hai bisogno e la scriviamo insieme.
+96	Con cosa lavoro
+97	Gli strumenti dietro il lavoro.
+98	Utenti e permessi
+99	Risorse condivise
+100	Cablaggio strutturato
+101	Router
+102	Switch
+103	Access point
+104	Diagnosi
+105	Manutenzione preventiva
+106	Assistenza remota
+107	Backup
+108	Upgrade hardware
+109	Design responsive
+110	Assistenza
+111	Web
+112	Quando mi impegno, vado fino in fondo.
+113	Affidabile
+114	Quando accetto un lavoro, lo porto a termine, lo collaudo e te lo spiego. Niente resta a metà.
+115	Meticoloso
+116	Ogni cavo etichettato, ogni modifica messa per iscritto. Un lavoro che il tecnico successivo può capire.
+117	Trasparente
+118	Ti presento ogni opzione con i suoi limiti, non solo quella che mi converrebbe venderti.
+119	Flessibile
+120	Un vicino in pensione o un ufficio sempre di corsa: spiegazioni e ritmo si adattano alla persona.
+121	OGGI
+122	Contatti · Daylu Forteza
+123	Contatta Daylu Forteza a Málaga via WhatsApp, telefono o e-mail, e scopri le zone in cui lavora.
+124	Basta una breve descrizione per iniziare. Se il tuo caso non rientra in ciò che posso fare, te lo dico.
+125	WhatsApp e telefono
+126	Apri WhatsApp ›
+127	Copia
+128	Copiato
+129	Selezionato
+130	E-mail
+131	Dove
+132	Málaga e dintorni
+133	Il tuo nome
+134	Di cosa si tratta
+135	Un sito web
+136	Rete o Wi-Fi
+137	Sicurezza e backup
+138	Non lo so ancora
+139	Cosa sta succedendo
+140	Scrivi due righe sul tuo caso, così posso risponderti.
+141	Invia su WhatsApp
+142	Si apre WhatsApp con il tuo messaggio già scritto. Non parte nulla finché non premi invia.
+143	Dovrebbe aprirsi WhatsApp con il tuo messaggio. Se non si apre, copia il numero qui sopra.
+144	Ciao Daylu
+145	, sono
+146	Argomento:
+147	Dove lavoro
+148	Una mappa che cresce con ogni cliente.
+149	Con base a Málaga: in presenza in tutta l’area metropolitana e da remoto in qualsiasi punto della Spagna. Ogni luogo in cui lavoro entra a far parte della rete.
+150	Mappa della Spagna con le zone in cui lavora Daylu Forteza
+151	luogo
+152	luoghi
+153	provincia
+154	province
+155	collegamento
+156	collegamenti
+157	Base
+158	Cliente
+159	Collegamento
+160	BASE · IN PRESENZA
+161	Base · in presenza nell’area metropolitana
+162	Rete d’ufficio
+163	Trova la tua soluzione · Daylu Forteza
+164	Scegli il problema più simile al tuo e scopri come lo risolverebbe Daylu Forteza.
+165	Non sai bene di cosa hai bisogno?
+166	Scegli il problema più simile al tuo o dimmi che tipo di cliente sei. Non serve conoscere il nome tecnico di nulla.
+167	Per problema
+168	Per tipo di cliente
+169	Quando la tecnologia si ferma, si ferma tutto.
+170	Scegli il problema più simile al tuo. Non serve sapere come si chiama tecnicamente.
+171	Manutenzione e diagnosi
+172	Il computer ci mette un’eternità ad avviarsi.
+173	Di solito sono programmi all’avvio, un disco pieno o un hard disk a fine corsa. La diagnosi ti dice qual è, prima di sostituire qualsiasi cosa.
+174	Lo stesso errore torna ogni settimana.
+175	Un errore che si ripete ha una causa. La cerco nei log invece di riavviare e sperare.
+176	Il Wi-Fi cade o non arriva in tutte le stanze.
+177	Un router messo male, interferenze tra canali o un edificio che ha bisogno di più di un access point.
+178	Nessuno sa quale cavo va dove.
+179	Un armadio rack senza etichette trasforma ogni modifica in un indovinello.
+180	I computer nuovi sono arrivati configurati male.
+181	Impostazioni di fabbrica, nessun aggiornamento e tutti gli utenti come amministratori.
+182	Il computer è lento e non sai se cambiarlo.
+183	A volte basta un upgrade, a volte no. Ti do i numeri per decidere.
+184	Non hai backup e perdi file.
+185	Una copia su un solo disco non è un backup. Tre copie verificate su supporti diversi sì.
+186	Non hai un sito, oppure non spiega quello che fai.
+187	Un sito che spieghi il tuo servizio e renda facile contattarti.
+188	Nessuno ti ha mai spiegato come funziona la tua tecnologia.
+189	Dovresti poter usare i tuoi strumenti senza dover chiamare qualcuno ogni volta.
+190	Controllare l’avvio e lo stato del disco
+191	Pulire e aggiornare
+192	Passare all’SSD solo se conviene
+193	Leggere i log di sistema
+194	Riprodurre l’errore
+195	Correggere la causa e documentarla
+196	Reti e infrastruttura
+197	Misurare la copertura stanza per stanza
+198	Sistemare canali e posizionamento
+199	Aggiungere access point dove servono
+200	Seguire ed etichettare ogni cavo patch
+201	Disegnare lo schema di rete
+202	Consegnarti la documentazione
+203	Controllare ogni computer
+204	Impostare utenti e permessi
+205	Lasciare un’immagine base per i prossimi
+206	Misurare cosa lo rallenta
+207	Preventivare l’upgrade e la sostituzione
+208	Decidi tu, con i numeri davanti
+209	Capire cosa va salvato
+210	Impostare tre copie, una fuori sede
+211	Provare un ripristino con te
+212	Definire cosa deve ottenere il sito
+213	Preparare struttura e testi
+214	Sviluppare, collaudare e pubblicare a tuo nome
+215	Ripassare insieme i tuoi dispositivi e strumenti
+216	Scriverti una breve guida
+217	Rispondere ai dubbi che nascono dopo
+218	Vedi il servizio
+219	Vedi il servizio Manutenzione
+220	Vedi il servizio Reti
+221	Vedi il servizio Sistemi
+222	Vedi il servizio Sicurezza
+223	Vedi il servizio Sviluppo web
+224	Vedi il servizio Formazione
+225	Con chi lavoro
+226	Chiunque tu sia, sei coperto.
+227	Da un portatile a casa a un ufficio pieno di postazioni. Mi adatto alle dimensioni e ai ritmi di ogni cliente. Scegli il tuo profilo.
+228	Tipo di cliente
+229	Libero professionista
+230	Negozio
+231	Ufficio
+232	Studio medico
+233	Scuola
+234	Nuova attività
+235	su 6 aree
+236	su 6 aree coperte
+237	Per un privato
+238	Per un libero professionista
+239	Per un negozio
+240	Per un ufficio
+241	Per uno studio medico
+242	Per una scuola
+243	Per una nuova attività
+244	Lavori tipici che seguo dall’inizio alla fine:
+245	Non è nella lista? Chiedi comunque. Se non fa per me, ti dico a chi rivolgerti.
+246	Un portatile lento che torna veloce prima di comprarne un altro
+247	Un Wi-Fi che arriva in ogni stanza della casa
+248	Le foto e i documenti di famiglia salvati in due posti
+249	Aiuto per usare con disinvoltura telefono, tablet e computer
+250	Una postazione che funziona allo stesso modo a casa e in ufficio
+251	Un sito o una landing page che ti porti richieste
+252	I dati dei tuoi clienti con backup e protetti
+253	Aiuto da remoto quando qualcosa ti impedisce di lavorare
+254	Una cassa e un POS che non perdono mai la connessione
+255	Il Wi-Fi del personale separato da quello dei clienti
+256	Controlli trimestrali prima dell’alta stagione
+257	Un sito che dica dove sei e quando sei aperto
+258	Cablaggio e Wi-Fi per ogni postazione, etichettati e documentati
+259	La stessa configurazione base su ogni computer
+260	Un piano di manutenzione con report di stato
+261	Accesso sicuro ai tuoi file da casa
+262	Apparecchiature e software specialistici del settore sanitario
+263	Cartelle dei pazienti con backup e permessi per persona
+264	Una rete per l’accettazione e ogni ambulatorio
+265	Manutenzione preventiva perché nessun appuntamento aspetti un computer
+266	Un’aula informatica con la stessa immagine base su ogni postazione
+267	Un Wi-Fi d’aula che regge una classe intera
+268	Formazione per lo staff sugli strumenti che usa davvero
+269	Un sito per corsi e iscrizioni
+270	Dispositivi scelti per quello che serve, senza spendere di più
+271	La rete installata prima di aprire le porte
+272	Un sito pronto per il giorno dell’apertura
+273	Account, password e backup impostati bene fin dall’inizio
+274	Come lavoro · Daylu Forteza
+275	Come lavora Daylu Forteza: sei fasi, ambito e prezzo per iscritto e una consegna documentata.
+276	Sei fasi, dal tuo messaggio alla consegna.
+277	Non servono parole tecniche per raccontarmi cosa succede. Sai sempre a che punto è il tuo caso, cosa viene dopo e quanto costa.
+278	Sei fasi
+279	Incarico
+280	Modalità di collaborazione
+281	Consegna
+282	Domande
+283	Metodo
+284	Sei fasi. Nessun passaggio misterioso.
+285	Sai sempre a che punto è il tuo caso e cosa viene dopo. Ambito e prezzo sono chiari prima di iniziare.
+286	Ascoltare
+287	Mi racconti cosa non va o cosa vorresti migliorare. Ti faccio le domande necessarie per capire.
+288	Diagnosticare
+289	Controllo il computer, la rete, il sistema o il sito finché la causa non è chiara.
+290	Proporre
+291	Le tue opzioni, i loro limiti e il mio consiglio, con ambito e prezzo prima di iniziare.
+292	Risolvere
+293	Il lavoro concordato, fatto con cura e rispettando i tuoi dispositivi e i tuoi dati.
+294	Verificare
+295	Lo proviamo insieme e ricevi un riepilogo scritto di quanto fatto.
+296	Se ha senso, manutenzione o miglioramenti. Se non ce l’ha, te lo dico.
+297	Dal primo messaggio alla chiusura.
+298	Il primo contatto non ti impegna a nulla. Se il tuo caso non rientra in quello che posso offrire, te lo dico chiaramente.
+299	Mi racconti il tuo caso
+300	Dal modulo, su WhatsApp o dalla ricerca soluzioni, con il dettaglio che hai. Non serve conoscere il nome tecnico del problema.
+301	Ti chiedo solo il necessario
+302	I dati indispensabili per capire la situazione e la sua portata.
+303	Valuto le opzioni
+304	Confronto le alternative e scarto quello che non aggiunge nulla al tuo caso.
+305	Proposta e preventivo
+306	Ricevi ambito, tempi previsti e importo prima di iniziare.
+307	Eseguo il lavoro
+308	Alle condizioni concordate, rispettando i tuoi dispositivi e i tuoi dati.
+309	Verifichiamo il risultato
+310	Test con me e un riepilogo scritto di quanto fatto.
+311	Vediamo cos’altro ti serve
+312	Se ha senso, miglioramenti o manutenzione. Se no, te lo dico lo stesso.
+313	Scegli quanto aiuto ti serve.
+314	Intervento singolo
+315	Risolvere una cosa precisa.
+316	Un computer che si guasta, un’impostazione da sistemare a dovere o un’installazione singola.
+317	Diagnosi preliminare
+318	L’intervento e i suoi test
+319	Riepilogo di quanto fatto
+320	Progetto chiavi in mano
+321	Dall’inizio alla fine.
+322	Una nuova rete d’ufficio, il rinnovo dei dispositivi o un sito completo, con un risultato che puoi verificare.
+323	Analisi delle esigenze
+324	Proposta con ambito e fasi
+325	Consegna e verifica finale
+326	Manutenzione continuativa
+327	Perché tutto continui a funzionare.
+328	Per piccole aziende e uffici che non possono permettersi di fermarsi.
+329	Controlli periodici
+330	Assistenza in caso di guasto
+331	Report di stato
+332	Prezzi e tempi dipendono dall’ambito di ogni caso, e li hai per iscritto prima di iniziare.
+333	La documentazione resta a te.
+334	Ogni lavoro si chiude con documenti che sono tuoi, così chi apre l’armadio rack dopo di me sa esattamente cosa c’è dentro.
+335	Report
+336	Cosa si è guastato e perché
+337	Proposta
+338	Ambito e prezzo
+339	Prima di iniziare
+340	Schema
+341	Mappa di rete ed etichette
+342	Ogni cavo con il suo nome
+343	Riepilogo
+344	Lavoro svolto
+345	Spiegato in parole semplici
+346	Test
+347	Prova di ripristino
+348	Il tuo backup, verificato
+349	Lavorare con me.
+350	Il primo contatto mi impegna a qualcosa?
+351	No. Mi racconti il tuo caso e io ti dico se posso aiutarti. Se non rientra in quello che offro, te lo dico chiaramente.
+352	Perché non ci sono prezzi pubblicati?
+353	Ogni caso ha un ambito diverso. Ti mando una proposta concreta, con importo e tempi, quando ho capito cosa serve. I siti web sono l’eccezione: partono da 1.000 €.
+354	Devo sapere cosa non va dal punto di vista tecnico?
+355	No. Descrivi cosa succede con parole tue. Trovare la causa è compito mio.
+356	Lavori in presenza o da remoto?
+357	Entrambi. In presenza a Málaga e dintorni, su appuntamento, e da remoto quando il problema lo consente.
+358	Cosa ricevo alla fine di un lavoro?
+359	Un riepilogo scritto di quanto fatto e la documentazione di consegna: diagnosi, proposta, schema o prova di ripristino, a seconda del lavoro.
+360	Servizi informatici e siti web a Málaga: sistemi, reti, manutenzione, sicurezza, sviluppo web e formazione, di Daylu Forteza.
+361	Servizi informatici e siti web · Málaga
+362	Tecnologia che ti fa andare avanti.
+363	Servizi informatici e siti web per privati, professionisti e piccole imprese a Málaga.
+364	Vedi i sei servizi ›
+365	Quattro livelli, un solo tecnico.
+366	La maggior parte dei problemi sta tra un livello e l’altro. Lavoro su tutti e quattro, così nessuno fa a scaricabarile.
+367	Dispositivi e sistemi
+368	Windows, Windows Server, macOS
+369	Rete
+370	Cablaggio, Wi-Fi, VPN
+371	Backup che si possono ripristinare
+372	Siti che le persone sanno usare
+373	Scorri per smontarla
+374	Approccio
+375	Prima la causa, poi la soluzione. Ogni opzione spiegata in parole semplici, ogni lavoro
+376	documentato
+377	, perché niente dipenda dalla memoria di qualcuno.
+378	Cosa posso fare per te.
+379	Tutti i servizi ›
+380	Siti da 1.000 €.
+381	L’offerta, come nasce un sito e cosa è tuo alla fine, tutto in una pagina.
+382	Vedi sviluppo web
+383	Esplora
+384	Approfondisci quanto vuoi.
+385	Descrivi il problema. Trova il servizio.
+386	Nove casi frequenti, ognuno collegato al servizio che lo risolve.
+387	Sei fasi, senza misteri.
+388	Dal primo messaggio alla consegna, con ambito e prezzo per iscritto.
+389	Vedi come lavoro
+390	Come lo affronterei.
+391	Nove proposte tra reti, sistemi, sicurezza e web.
+392	Vedi i progetti
+393	La persona dietro.
+394	Percorso, strumenti e modo di lavorare.
+395	Leggi la mia storia
+396	Basta un messaggio.
+397	WhatsApp, telefono o e-mail. Su appuntamento a Málaga.
+398	Contattami
+399	Progetti · Daylu Forteza
+400	Progetti e proposte di Daylu Forteza: reti, cablaggio, sistemi, manutenzione, web e sicurezza.
+401	Casi reali e proposte, niente di inventato.
+402	Ogni scheda mostra come affronterei un tipo di esigenza. Filtra per area per vedere quelle più vicine alla tua.
+403	Filtra i progetti
+404	Tutti
+405	Cablaggio
+406	Aziende
+407	Proposta
+408	Rete per un ufficio con cinque postazioni
+409	Progetto di una rete cablata e Wi-Fi per cinque postazioni di lavoro, con copertura in ogni stanza e l’installazione documentata.
+410	Un armadio rack che chiunque capisce
+411	Proposta per riordinare un armadio pieno di cavi non identificati, lasciando ogni cavo patch etichettato e con il suo schema.
+412	Ambiente di sistema per un laboratorio
+413	Diversi computer preparati con lo stesso ambiente base, utenti separati e aggiornamenti controllati.
+414	Manutenzione preventiva per un negozio
+415	Un calendario di controlli trimestrali per il computer di cassa, quello gestionale e la rete del negozio.
+416	Sito istituzionale per uno studio professionale
+417	Una struttura editoriale, pagine servizio e un modulo collegato alla gestione delle richieste.
+418	Landing page per un servizio locale
+419	Una sola pagina con una sola azione: chiedere una valutazione del servizio.
+420	Backup migliori
+421	Da una sola copia su un disco esterno a tre copie verificate su supporti diversi.
+422	Rinnovo graduale per uno studio di commercialisti
+423	Upgrade dove aiutano e sostituzione solo dove porta prestazioni reali.
+424	Postazione ibrida per un libero professionista
+425	Una postazione che funziona allo stesso modo a casa e in ufficio, con dati sincronizzati e accesso sicuro.
+426	Le schede segnate come «Proposta» sono impostazioni e concept, non lavori consegnati a clienti. Mostrano il criterio con cui affronto ogni tipo di esigenza.
+427	Hai un caso simile?
+428	Risorse · Daylu Forteza
+429	Spiegazioni chiare su cosa si guasta e perché: manutenzione, reti e web, di Daylu Forteza.
+430	Spiegazioni chiare su cosa si guasta, e perché.
+431	Niente fumo né titoli allarmistici: criteri pratici per capire la tua tecnologia e decidere meglio.
+432	Ultimi articoli
+433	29 ott 2026
+434	Perché il tuo computer è lento (e cosa fare prima di comprarne un altro)
+435	Le cause più comuni e come si verifica ciascuna.
+436	Leggi l’articolo ›
+437	Il Wi-Fi non arriva: come si fa davvero la diagnosi
+438	Come si misura il segnale e quando serve un cavo o un access point.
+439	Cosa deve avere il sito di una piccola attività nel 2026
+440	Velocità, chiarezza e un modo vero per ricevere richieste. Il resto è facoltativo.
+441	Problemi
+442	Cosa ottieni
+443	Nel dettaglio
+444	Cosa comprende
+445	Come si svolge
+446	Problemi che risolve
+447	Ti suona familiare?
+448	Il risultato, in parole semplici.
+449	Ecco com’è il lavoro.
+450	Cosa comprende
+451	Ti resta
+452	Ideale per
+453	Tutto quello che è incluso.
+454	Per chi è
+455	Pensato per
+456	Quattro passaggi, dall’inizio alla fine.
+457	Altri servizi
+458	Spesso vanno insieme.
+459	Raccontami il caso con il dettaglio che hai e ti rispondo con una diagnosi motivata. Senza impegno e senza tecnicismi inutili.
+460	Scopri di più ›
+461	Servizio principale · Scopri di più ›
+462	Manutenzione · Daylu Forteza
+463	Quando qualcosa si guasta, rimetterlo in funzione è solo metà del lavoro. L’altra metà è capire cosa è successo ed evitare che si ripeta.
+464	Sapere cosa si è guastato, e perché.
+465	Quando qualcosa si guasta, rimetterlo in funzione è solo metà del lavoro. L’altra metà è capire cosa è successo ed evitare che si ripeta. Analizzo il problema con controlli e test, trovo la soluzione giusta e ti spiego cosa ho trovato.
+466	Sono i casi di manutenzione che mi arrivano più spesso.
+467	Computer che si avviano lentamente o si bloccano senza motivo apparente
+468	Errori che vanno e vengono e che nessuno riesce a riprodurre
+469	Programmi che si chiudono da soli o perdono dati
+470	Surriscaldamento, ventole rumorose o spegnimenti improvvisi
+471	Computer che nessuno controlla finché non smettono di funzionare
+472	Sai cosa si guasta e perché, senza diagnosi alla cieca
+473	Meno guasti ricorrenti grazie alla manutenzione preventiva
+474	Computer più veloci e stabili senza cambiare hardware
+475	Avvisi in tempo quando un componente comincia a dare segnali
+476	Analisi dei guasti con controlli e test fino a trovare la causa, poi la soluzione e un piano perché non si ripresenti.
+477	Diagnosi hardware e software
+478	Manutenzione preventiva e correttiva
+479	Ottimizzazione delle prestazioni senza cambiare computer
+480	Registro di ogni intervento
+481	Report di diagnosi
+482	Calendario di manutenzione
+483	Report di stato dopo ogni controllo
+484	Liberi professionisti che non possono fermarsi
+485	Negozi con una cassa critica
+486	Uffici senza un informatico interno
+487	Diagnosi di guasti hardware e software
+488	Risoluzione dei guasti informatici
+489	Ottimizzazione delle prestazioni
+490	Assistenza tecnica in presenza e da remoto
+491	Controllo di computer e sistemi
+492	Privati con un computer che non è più quello di una volta
+493	Liberi professionisti che non possono permettersi di fermarsi
+494	Negozi con un’unica postazione critica
+495	Uffici senza personale tecnico interno
+496	Raccontami cosa succede
+497	Raccontami cosa succede.
+498	Cosa succede, da quando e con quali programmi.
+499	Analizzo il sistema e faccio test per trovare la causa.
+500	Applico la soluzione concordata e verifico il risultato.
+501	Mi assicuro che il guasto non torni e ti spiego cosa è successo.
+502	Le domande sulla manutenzione.
+503	Puoi controllare il mio computer da remoto?
+504	Molti controlli di sistema e software si risolvono da remoto. I guasti fisici, come un disco o una memoria difettosi, richiedono un intervento sul posto o che tu mi lasci il computer.
+505	La manutenzione preventiva conviene?
+506	Per i computer di lavoro, quasi sempre. Controllare il disco, aggiornare e pulire evita fermi che costano più del controllo stesso.
+507	Saprò se si può riparare prima di pagare?
+508	Sì. Prima faccio la diagnosi e ti spiego lo scenario: riparazione, upgrade o sostituzione. Decidi tu come andare avanti.
+509	GEN
+510	APR
+511	LUG
+512	OTT
+513	CONTROLLO
+514	CONTROLLO + DISCO
+515	CONTROLLO + REPORT
+516	Reti · Daylu Forteza
+517	Una rete ben progettata e ben installata semplifica il lavoro, migliora la connessione e riduce i problemi di tutti i giorni.
+518	Una rete a cui puoi smettere di pensare.
+519	Una rete ben progettata e ben installata semplifica il lavoro, migliora la connessione e riduce i problemi di tutti i giorni. Installo, organizzo e configuro l’infrastruttura della tua casa, del tuo ufficio o della tua attività, dalla linea internet fino a ogni dispositivo.
+520	Sono i casi di rete che mi arrivano più spesso.
+521	Un Wi-Fi che non arriva in tutte le stanze o cade quando si collegano più persone
+522	Cavi senza etichetta e armadi in cui nessuno sa cosa va dove
+523	Computer che perdono la connessione quando cambiano stanza
+524	Stampanti o POS che smettono di rispondere senza motivo apparente
+525	Hai bisogno di accedere al tuo ufficio da fuori in modo sicuro
+526	Copertura stabile, con gli access point nel posto giusto
+527	Cablaggio etichettato e documentato: basta tirare a indovinare
+528	Meno problemi di connessione nel lavoro quotidiano
+529	Una base pronta per aggiungere dispositivi senza rifare tutto
+530	Un cablaggio che chiunque sa leggere.
+531	Installazione e organizzazione del cablaggio di rete di una casa, un ufficio o un negozio: dalla presa a muro al patch panel, con ogni punto testato e con il suo nome.
+532	Percorsi dei cavi pianificati stanza per stanza
+533	Prese di rete e patch panel installati
+534	Ogni punto testato prima di essere chiuso
+535	Etichette su entrambe le estremità di ogni cavo
+536	Armadio riordinato e cablaggio esistente riutilizzato dove regge
+537	Armadio etichettato
+538	Schema di rete
+539	Risultati dei test per punto
+540	Uffici in allestimento
+541	Negozi che traslocano
+542	Case con molti dispositivi
+543	Apparati di rete
+544	Router, switch e Wi-Fi, configurati a dovere.
+545	Installazione e configurazione degli apparati da cui passano i tuoi dati: il router, gli switch e gli access point, regolati sull’edificio e sul tuo modo di lavorare.
+546	Router configurato e password di fabbrica cambiate
+547	Switch installati e porte assegnate
+548	Access point posizionati dove la copertura è stata misurata
+549	Rete separata per ospiti o clienti
+550	Accesso remoto via VPN quando ti serve
+551	Riepilogo della configurazione
+552	Verifica della copertura per stanza
+553	Accessi di amministrazione consegnati
+554	Uffici
+555	Negozi con POS e telecamere
+556	Case con un Wi-Fi scadente
+557	Installazione e organizzazione del cablaggio di rete
+558	Configurazione di router, switch e access point
+559	Copertura Wi-Fi estesa e migliorata
+560	Configurazione della rete locale, DHCP e DNS
+561	Collegamento e configurazione dei dispositivi
+562	Diagnosi dei problemi di connessione
+563	VPN per le connessioni remote
+564	Abitazioni con copertura scarsa o molti dispositivi
+565	Uffici che allestiscono la rete per la prima volta
+566	Negozi con POS, telecamere e connessioni critiche
+567	Attività che cambiano sede
+568	Richiedi una valutazione della rete
+569	Richiedi una valutazione della tua rete.
+570	Cosa devi collegare e quali problemi noti adesso.
+571	Sopralluogo
+572	Punti di connessione, apparati e copertura che ti serve.
+573	Progettare e installare
+574	Cablaggio, apparati, configurazione ed etichette.
+575	Testo copertura, velocità e stabilità in ogni zona.
+576	Le domande sulle reti.
+577	Devo rifare il cablaggio del mio ufficio?
+578	Non sempre. Prima verifico qualità e stato di quello che c’è. Se il cablaggio regge la rete, adatto la configurazione e gli apparati.
+579	Posso estendere il Wi-Fi senza lavori in muratura?
+580	Spesso sì, con access point cablati dove possibile o con una rete mesh dove no. Ti spiego vantaggi e limiti di ogni opzione.
+581	Lasci la documentazione dell’installazione?
+582	Sì. Etichette, uno schema di rete e un riepilogo della configurazione, così ogni controllo futuro parte da una base chiara.
+583	POSTAZIONE 1
+584	POSTAZIONE 2
+585	POSTAZIONE 3
+586	VLAN STAFF
+587	Sicurezza · Daylu Forteza
+588	La sicurezza parte da sistemi ben configurati e buone abitudini.
+589	Protezione realistica, verificata.
+590	La sicurezza parte da sistemi ben configurati e buone abitudini. Controllo le impostazioni dei tuoi computer e della tua rete, miglioro la protezione dei tuoi dispositivi e imposto misure di base per ridurre i rischi e non perdere informazioni.
+591	Sono i casi di sicurezza che mi arrivano più spesso.
+592	La stessa password ovunque e account che nessuno controlla
+593	Computer con aggiornamenti in sospeso da mesi
+594	Backup che esistono ma che nessuno ha mai provato a ripristinare
+595	File importanti su un solo disco, senza una seconda copia
+596	Permessi e cartelle condivise aperti a tutti
+597	Una protezione realistica che non ti complica la giornata
+598	Backup verificati: sai che puoi recuperare i dati
+599	Meno rischio di perdere dati o l’accesso ai tuoi account
+600	Criteri chiari per distinguere un avviso vero da una truffa
+601	Sicurezza di base e preventiva: configurazione, aggiornamenti, password, permessi e backup davvero ripristinati.
+602	Impostazioni di sicurezza controllate
+603	Aggiornamenti e protezione configurati
+604	Consigli su password e accessi
+605	Backup impostati su supporti diversi
+606	Cartelle condivise e permessi controllati
+607	Rischi ordinati per impatto reale
+608	Prova di ripristino dei backup
+609	Linee guida scritte
+610	Persone con foto e senza backup
+611	Liberi professionisti con dati dei clienti
+612	Negozi e uffici
+613	Controllo delle impostazioni di sicurezza
+614	Consigli su password e accessi
+615	Configurazione dei backup
+616	Controllo di permessi e risorse condivise
+617	Consigli per proteggere le tue informazioni
+618	Privati con foto e documenti senza backup
+619	Liberi professionisti che conservano dati dei clienti
+620	Negozi con POS e dispositivi connessi
+621	Uffici che vogliono evitare fermi dovuti a incidenti
+622	Fai controllare la mia sicurezza
+623	Controlliamo la tua sicurezza.
+624	Controllare
+625	Impostazioni attuali, accessi, aggiornamenti e backup.
+626	Dare priorità
+627	Ordino i rischi per impatto reale, non per moda.
+628	Configurare
+629	Applico le modifiche concordate e lascio i backup funzionanti.
+630	Verificare
+631	Provo un ripristino e ti lascio le linee guida per iscritto.
+632	Le domande sulla sicurezza.
+633	Fai audit di sicurezza avanzati?
+634	No. Il mio lavoro è la sicurezza di base e preventiva: impostazioni, aggiornamenti, permessi e backup. Se il tuo caso richiede un audit specialistico o una certificazione, te lo dico e ti indirizzo verso il profilo giusto.
+635	Dove dovrei conservare i backup?
+636	La regola pratica è avere almeno due copie su supporti diversi, una delle quali fuori dal computer. La soluzione concreta dipende dai tuoi dati e dal tuo budget.
+637	Basta un antivirus gratuito?
+638	In molti casi sì, se il sistema è aggiornato e le abitudini sono buone. Valuto il tuo utilizzo prima di consigliarti di pagare qualcosa.
+639	DATI
+640	DISCO
+641	FUORI SEDE
+642	RIPRISTINO TESTATO ✓
+643	CLOUD
+644	Sistemi · Daylu Forteza
+645	Un computer che funziona male, un sistema che non risponde o un’impostazione sbagliata possono rallentare tutto il tuo lavoro.
+646	Computer e server configurati a dovere.
+647	Un computer che funziona male, un sistema che non risponde o un’impostazione sbagliata possono rallentare tutto il tuo lavoro. Controllo, configuro e ottimizzo i tuoi computer con Windows, Windows Server e macOS perché siano aggiornati, stabili e adatti a quello che fai.
+648	Sono i casi di sistemi che mi arrivano più spesso.
+649	Un computer nuovo che non è ancora pronto per il lavoro di tutti i giorni
+650	Un computer che arranca con qualche scheda o programma aperto
+651	Sistemi non aggiornati, con software doppio o licenze poco chiare
+652	Dati sparsi tra cartelle, dischi esterni e vecchi account
+653	Stampanti e periferiche che non compaiono o non funzionano come dovrebbero
+654	Computer più stabili, aggiornati e adatti al tuo modo di lavorare
+655	Utenti e permessi definiti perché ognuno acceda a ciò che gli spetta
+656	Dati migrati e verificati, senza perdite per strada
+657	Upgrade che allungano la vita del computer prima di pensare a un acquisto
+658	Server
+659	Un server su cui l’ufficio può contare.
+660	Installazione, configurazione e manutenzione di Windows Server: la macchina centrale che gestisce utenti, file condivisi e i servizi da cui dipende l’ufficio.
+661	Windows Server installato e aggiornato
+662	Utenti, gruppi e permessi per persona
+663	Cartelle condivise con gli accessi giusti
+664	Backup del server pianificati e testati
+665	Manutenzione e controlli di stato
+666	Mappa di utenti e permessi
+667	Prova di backup e ripristino
+668	Documentazione di amministrazione
+669	Uffici con più postazioni
+670	Attività cresciute senza ordine
+671	Team che condividono file
+672	Windows e macOS configurati a dovere.
+673	Installazione e configurazione del sistema operativo su ogni computer, perché sia stabile, aggiornato e pronto per il tuo lavoro.
+674	Installazione pulita o riparazione di Windows e macOS
+675	Aggiornamenti, driver e periferiche
+676	Software installato con licenze chiare
+677	Dati migrati e verificati dal vecchio computer
+678	La stessa configurazione base su ogni postazione
+679	Immagine base per i nuovi computer
+680	Inventario di software e licenze
+681	Verifica dei dati dopo la migrazione
+682	Computer nuovi
+683	Computer diventati lenti
+684	Uffici che vogliono tutte le postazioni uguali
+685	Servizi di sistema
+686	I servizi che fanno lavorare un ufficio come una squadra.
+687	Configurazione dei servizi che collegano persone e computer: chi può accedere, quali cartelle vede ciascuno, come si assegnano indirizzi e nomi sulla rete (DHCP e DNS), come si stampa, dove vanno i backup e come ci si collega da fuori.
+688	Account utente e permessi
+689	Cartelle condivise e unità di rete
+690	Stampanti di rete per ogni postazione
+691	Servizi di rete: DHCP e DNS
+692	Backup automatici su disco, NAS o cloud
+693	Accesso VPN da casa
+694	Elenco degli accessi per persona
+695	Riepilogo della configurazione dei servizi
+696	Guida scritta per l’uso quotidiano
+697	Piccoli uffici
+698	Studi medici e professionali
+699	Team in smart working parte della settimana
+700	Installazione e configurazione di sistemi operativi
+701	Configurazione di computer e periferiche
+702	Amministrazione e manutenzione di Windows Server
+703	Ottimizzazione e upgrade hardware
+704	Utenti, permessi e risorse condivise
+705	Consulenza per rinnovare o migliorare i tuoi dispositivi
+706	Privati con un computer nuovo o da rimettere in ordine
+707	Liberi professionisti che hanno bisogno di una postazione affidabile
+708	Uffici con più postazioni che devono funzionare allo stesso modo
+709	Attività cresciute senza ordine nei propri dispositivi
+710	Chiedi per il mio caso
+711	Raccontami il tuo caso.
+712	Cosa usi ogni giorno, come lavori e cosa ti aspetti dal computer.
+713	Controllo lo stato del sistema e cosa va conservato.
+714	Sistema, utenti, software, periferiche e dati.
+715	Consegnare
+716	Test con te e una spiegazione di come resta tutto.
+717	Le domande sui sistemi.
+718	Perdo i miei file se reinstallo il sistema?
+719	Non dovresti: il backup fa parte del lavoro. Prima di qualsiasi installazione verifico con te quali dati conservare e li controllo alla fine.
+720	Posso tenere il programma che uso da sempre?
+721	Nella maggior parte dei casi sì. Se il software è vecchio o dipende da una versione specifica del sistema, te lo dico prima di iniziare per valutare alternative.
+722	Lavori con Windows, Windows Server e macOS?
+723	Sì. Lavoro ogni giorno con Windows e Windows Server, e anche con i Mac. Ti confermo l’ambito di ogni caso prima di toccare qualcosa.
+724	Quanto dura un’installazione completa?
+725	Dipende dalla quantità di dati e dal software necessario. Ti do una stima quando esamino il caso, prima di iniziare.
+726	UTENTI · GRUPPI
+727	FILE CONDIVISI
+728	BACKUP
+729	ADMIN
+730	STAFF
+731	OSPITI
+732	WINDOWS
+733	CONFIGURAZIONE BASE
+734	SERVIZI
+735	UTENTI
+736	CARTELLE
+737	STAMPA
+738	PERMESSI
+739	IMMAGINE BASE
+740	UTENTE 01
+741	UTENTE 02
+742	UTENTE 03
+743	Formazione · Daylu Forteza
+744	Non tutti devono imparare le stesse cose allo stesso ritmo.
+745	Usa la tua tecnologia con sicurezza.
+746	Non tutti devono imparare le stesse cose allo stesso ritmo. La mia esperienza come formatore mi permette di adattare ogni spiegazione a quello che sai già, dai primi passi alle questioni più tecniche, perché tu sfrutti meglio i tuoi dispositivi e decida con più sicurezza.
+747	Sono i casi di formazione che mi arrivano più spesso.
+748	Non sai se il computer che hai è adatto a quello che fai
+749	Dipendi da qualcun altro per ogni piccola modifica
+750	Nessuno ti ha spiegato come funzionano i tuoi sistemi
+751	Devi scegliere dispositivi o strumenti e non sai cosa guardare
+752	È arrivato uno strumento nuovo e quasi nessuno lo usa
+753	Spiegazioni al tuo livello, senza dare nulla per scontato
+754	Più autonomia nelle attività quotidiane
+755	Acquisti ragionati e senza spese inutili
+756	Affiancamento mentre si introducono strumenti nuovi
+757	Formazione e consulenza
+758	Formazione personalizzata e consulenza sugli acquisti, adattate a quello che sai già, sui tuoi dispositivi e programmi.
+759	Sessioni individuali o in piccoli gruppi
+760	Corsi per tutti i livelli
+761	Consulenza prima di acquistare dispositivi
+762	Affiancamento nell’introduzione di uno strumento nuovo
+763	Una breve guida scritta da tenere
+764	Piano delle sessioni
+765	Guida scritta
+766	Risposte ai dubbi successivi
+767	Privati
+768	Piccoli team
+769	Attività in procinto di investire
+770	Formazione informatica personalizzata
+771	Corsi di informatica di diversi livelli
+772	Consulenza per scegliere dispositivi e soluzioni
+773	Affiancamento nell’introduzione di strumenti nuovi
+774	Spiegazioni pratiche per cavartela da solo
+775	Privati che vogliono destreggiarsi con più disinvoltura
+776	Liberi professionisti che non possono dipendere da altri per tutto
+777	Piccoli team alle prese con strumenti nuovi
+778	Attività che hanno bisogno di criteri prima di investire
+779	Chiedi formazione o consulenza
+780	Chiedi formazione o consulenza.
+781	Cosa sai già, cosa ti risulta difficile e cosa devi risolvere.
+782	Fissare l’obiettivo
+783	Cosa vuoi saper fare da solo alla fine.
+784	Esercitarsi
+785	Sessioni sui tuoi computer e programmi.
+786	Dubbi successivi e un ritmo che si adatta ai tuoi progressi.
+787	Le domande sulla formazione.
+788	Fai formazione a gruppi?
+789	Sì, a piccoli gruppi, adattando i contenuti al livello del gruppo. Lo definiamo prima di iniziare perché le sessioni abbiano senso per tutti.
+790	La formazione è ufficiale o certificata?
+791	No. Non rilascio titoli ufficiali. È una formazione pratica, pensata perché tu usi la tua tecnologia in autonomia.
+792	Posso combinare formazione e consulenza?
+793	Sì, anzi di solito vanno insieme: prima analizzo la tua situazione e poi organizziamo le sessioni intorno a quello che ti serve davvero.
+794	COSA SAI
+795	OBIETTIVO
+796	PRATICA
+797	IN AUTONOMIA
+798	AUTONOMIA
+799	Sviluppo web · Daylu Forteza
+800	Un sito web è molto più di un biglietto da visita: presenta la tua attività, spiega i tuoi servizi e rende facile per i clienti contattarti.
+801	La tua attività, spiegata in un sito.
+802	Un sito web è molto più di un biglietto da visita: presenta la tua attività, spiega i tuoi servizi e rende facile per i clienti contattarti. Realizzo siti su misura per ogni progetto, con una struttura chiara, un’immagine curata e una navigazione comoda su computer, tablet e smartphone.
+803	Servizio principale · da 1.000 €
+804	L’offerta
+805	Come si costruisce
+806	Proprietà
+807	Sono i casi di sviluppo web che mi arrivano più spesso.
+808	Un sito vecchio che non trasmette la qualità del tuo lavoro
+809	Un layout che si rompe sullo smartphone, da cui arriva la maggior parte delle visite
+810	Moduli che non arrivano a nessuno
+811	Caricamenti lenti che fanno andare via le persone prima che leggano
+812	Contenuti che non spiegano cosa fai né per chi
+813	Un’immagine online all’altezza del tuo servizio
+814	Un’esperienza curata su smartphone, tablet e computer
+815	Una struttura che dice al visitatore cosa fare dopo
+816	Contenuti chiari, scritti per le persone e non per le macchine
+817	Siti web
+818	Un prezzo per iniziare, un preventivo chiuso per finire.
+819	Un sito scritto a mano, senza un page builder in affitto dietro.
+820	Sito istituzionale o landing page
+821	Una landing page o un sito istituzionale compatto partono da questo prezzo. Per siti più grandi ti mando un preventivo chiuso prima di iniziare.
+822	1.000 €
+823	a partire da, preventivo chiuso
+824	Chiedi un preventivo per il sito
+825	Chiedi un preventivo per il tuo sito.
+826	Come nasce un sito
+827	Da un post-it alla messa online.
+828	Cosa deve ottenere il sito e a chi si rivolge.
+829	Strutturare
+830	Sezioni, gerarchia e il percorso del visitatore.
+831	Parole che raccontano cosa fai, scritte per le persone.
+832	Design
+833	Caratteri, colori e immagini all’altezza del tuo servizio.
+834	Sviluppo
+835	Codice scritto a mano, responsive, con moduli che funzionano.
+836	Messa online, test, prestazioni e ultimi ritocchi.
+837	Fisioterapia nel centro di Málaga
+838	Obiettivo: più prenotazioni da chi ci trova dallo smartphone.
+839	Smartphone, tablet, computer
+840	Il modulo arriva nella casella e-mail
+841	Velocità di caricamento misurata
+842	Dominio a tuo nome
+843	Alla messa online, ricevi quattro chiavi.
+844	Niente resta legato a me. Se un giorno vuoi affidare il tuo sito a un’altra persona, le consegni queste chiavi.
+845	Dominio
+846	Registrato a tuo nome, con i dati di accesso.
+847	Hosting
+848	Il tuo account presso il provider, non quello di un rivenditore.
+849	Codice
+850	HTML, CSS e JavaScript standard, che qualsiasi sviluppatore sa leggere.
+851	Contenuti
+852	Testi e immagini che puoi modificare o portare con te.
+853	Siti istituzionali
+854	Landing page
+855	Design pensato per i dispositivi mobili
+856	Organizzazione e scrittura dei contenuti web
+857	Aggiornamento e manutenzione di siti esistenti
+858	Migliore struttura, navigazione ed esperienza d’uso
+859	Integrazione degli strumenti digitali di cui il progetto ha bisogno
+860	Professionisti che hanno bisogno di una presenza seria
+861	Negozi senza sito o con un sito datato
+862	Attività che lanciano un servizio e hanno bisogno di una landing page
+863	Progetti che vogliono rinnovare la propria immagine online
+864	Prima di chiedere un preventivo.
+865	Posso aggiornare il sito da solo?
+866	Sì, se ti serve. Posso consegnartelo con un gestionale semplice e mostrarti come cambiare i contenuti che si aggiornano spesso.
+867	Dominio e hosting sono inclusi?
+868	Possono rientrare nella proposta. Il costo dipende dal provider e dal traffico che prevedi.
+869	Quanto tempo ci vuole?
+870	Dipende dal numero di sezioni e da quando sono pronti testi e immagini. Nella proposta trovi le fasi e i tempi previsti.
+871	Garantisci il primo posto su Google?
+872	No, e diffida di chi lo garantisce. Ti lascio la base tecnica e i contenuti pronti per posizionarsi con un lavoro vero.
+873	Servizi · Daylu Forteza
+874	Sei servizi informatici a Málaga: sistemi, reti, manutenzione, sicurezza, sviluppo web e formazione.
+875	Sei servizi. Un solo tecnico.
+876	Scegli un servizio per vedere quali problemi risolve, cosa comprende, come si svolge e cosa si chiede di solito.
+877	I sei servizi
+878	Cosa faccio e cosa no
+879	Un ufficio visto da dentro
+880	Sei servizi
+881	Un solo tecnico per tutto.
+882	Dal primo cavo al modulo di contatto del tuo sito, la stessa persona diagnostica, risolve e spiega.
+883	01 · Sistemi
+884	Computer configurati a dovere.
+885	Installazione e configurazione di Windows, Windows Server e macOS, con utenti, permessi e aggiornamenti sotto controllo.
+886	02 · Reti
+887	Wi-Fi in ogni stanza.
+888	Cablaggio strutturato, patch panel etichettati e access point dove serve il segnale.
+889	03 · Manutenzione
+890	Controllato prima che si guasti.
+891	Controlli trimestrali di casse, computer d’ufficio e rete, con un report di stato scritto.
+892	04 · Sicurezza
+893	Tre copie, verificate.
+894	Da un disco esterno a tre copie testate su supporti diversi, una delle quali fuori sede.
+895	05 · Web
+896	Un sito che ti racconta.
+897	Siti istituzionali e landing page in HTML, CSS, JavaScript, PHP e MySQL, pensati prima di tutto per lo smartphone.
+898	06 · Formazione
+899	Capisci la tua tecnologia.
+900	Ogni lavoro si chiude con un ripasso insieme e un riepilogo scritto, così puoi cavartela da solo.
+901	Ambito
+902	Cosa faccio. E cosa no.
+903	Conoscere i propri limiti fa parte del servizio. Se il tuo caso è fuori, te lo dico fin dal primo giorno.
+904	Faccio
+905	Diagnosticare prima di toccare qualsiasi cosa
+906	Prima la causa, poi la soluzione.
+907	Mettere ambito e prezzo per iscritto
+908	Prima di iniziare, mai dopo.
+909	Fare un backup dei tuoi dati prima di un’installazione
+910	E controllare alla fine che ci sia tutto.
+911	Etichettare e documentare ogni installazione
+912	Schema, etichette e riepilogo scritto.
+913	Provare con te il ripristino dei tuoi backup
+914	Una copia mai ripristinata non è un backup.
+915	Registrare dominio e hosting a tuo nome
+916	Il tuo sito resta tuo.
+917	Non faccio
+918	Promettere il primo posto su Google
+919	Diffida di chi lo fa.
+920	Audit di sicurezza avanzati o certificazioni
+921	In quel caso ti indirizzo allo specialista giusto.
+922	Rilasciare titoli ufficiali
+923	La formazione è pratica, non certificata.
+924	Venderti ciò che non ti serve
+925	Anche se per me significa meno lavoro.
+926	Sostituire un computer che si salva con un upgrade
+927	Ti do i numeri per decidere.
+928	Lasciarti dipendente da me
+929	Password, documenti e accessi ti vengono consegnati.
+930	Un piccolo ufficio visto da dentro
+931	Ogni casella di questa mappa è qualcosa che controllo.
+932	Tocca un dispositivo per vedere cosa controllo lì e cosa ti resta quando ho finito.
+933	Mappa di rete di un piccolo ufficio
+934	Linea internet
+935	Switch e cablaggio
+936	Access point Wi-Fi
+937	Computer
+938	Archivio dei backup
+939	Stampante e POS
+940	Accesso remoto
+941	La porta d’ingresso della tua rete.
+942	Tutto passa da lì, quindi è la prima cosa che controllo.
+943	Cosa controllo
+944	I puntini che si muovono sono il traffico. Quelli arancioni sono backup e smart working.
+945	Dove comincia tutto.
+946	La linea del tuo operatore. Controllo che ti arrivi quello che paghi.
+947	Velocità reale misurata sul router
+948	Apparato e contratto dell’operatore verificati
+949	Linea di backup per i negozi critici
+950	Firmware aggiornato e password di fabbrica cambiata
+951	Canali Wi-Fi regolati sull’edificio
+952	Rete ospiti separata dai dispositivi di lavoro
+953	La parte che nessuno guarda finché non si guasta.
+954	Cablaggio strutturato e un patch panel in cui ogni cavo ha un nome.
+955	Ogni cavo patch etichettato
+956	Schema di rete disegnato e consegnato
+957	Cablaggio esistente testato prima di sostituirlo
+958	Wi-Fi nelle stanze in cui lavori.
+959	Copertura misurata stanza per stanza, access point cablati dove possibile.
+960	Segnale misurato in ogni stanza
+961	Mesh solo dove il cavo non arriva
+962	Stabile anche con tante persone collegate
+963	Cinque postazioni che si comportano allo stesso modo.
+964	Una configurazione base, utenti separati e aggiornamenti controllati.
+965	Sistema aggiornato e licenze in regola
+966	Utenti e permessi per persona
+967	Dati migrati e verificati
+968	Backup che hai davvero ripristinato.
+969	Tre copie su supporti diversi, una delle quali fuori dall’ufficio.
+970	Backup automatici pianificati
+971	Una copia fuori sede
+972	Un ripristino provato insieme a te
+973	Dispositivi che smettono di scollegarsi.
+974	Stampanti e POS con indirizzo fisso, così vengono sempre trovati.
+975	IP fisso per ogni dispositivo
+976	Driver installati su ogni postazione
+977	Testato da ogni computer
+978	Il tuo ufficio, da casa, in sicurezza.
+979	Una VPN per raggiungere i tuoi file da fuori senza aprire la rete a tutti.
+980	VPN configurata sul router
+981	Accesso per persona, facile da revocare
+982	Testato da fuori ufficio
+983	COSA È STATO FATTO
+984	PERCHÉ
+985	COME USARLO
+986	RIEPILOGO SCRITTO
+987	GATEWAY
+988	PATCH PANEL
+989	Access point
+990	ACCETTAZIONE
+991	5 POSTAZIONI
+992	BACKUP
+993	Stampante · POS
+994	IP FISSO
+995	SALA RIUNIONI
+996	Portatile a casa
+997	Testi
+998	Privato
+999	Base &nbsp;
+1000	Cliente &nbsp;

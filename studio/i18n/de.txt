@@ -1,0 +1,1001 @@
+0	Über mich · Daylu Forteza
+1	Wer Daylu Forteza ist: IT-Techniker in Málaga, sein Werdegang und die Werkzeuge, mit denen er arbeitet.
+2	Hauptleistung
+3	Start
+4	Leistungen
+5	Systeme
+6	Rechner, Server und Systemdienste
+7	Netzwerke
+8	Verkabelung, Router, Switches und WLAN
+9	Wartung
+10	Diagnose und vorbeugende Wartung
+11	Sicherheit
+12	Einstellungen, Berechtigungen und Datensicherung
+13	Webentwicklung
+14	Websites ab 1.000 €
+15	Schulung
+16	Schulung und Kaufberatung
+17	Alle Leistungen
+18	Projekte
+19	Über mich
+20	Arbeitsweise
+21	Ratgeber
+22	Kontakt
+23	Lösung finden
+24	Menü öffnen
+25	Menü schließen
+26	Sprache
+27	WhatsApp ›
+28	Schildern Sie Ihr Anliegen
+29	Nächster Schritt
+30	Schildern Sie Ihr Anliegen.
+31	Eine kurze Beschreibung genügt für den Anfang. Wenn ich Ihnen dabei nicht helfen kann, sage ich Ihnen, wer es kann.
+32	Schreiben Sie mir auf WhatsApp ›
+33	IT-Service und digitale Lösungen in Málaga und Umgebung. Nach Terminvereinbarung, vor Ort oder per Fernwartung.
+34	Website
+35	Kontaktseite
+36	© 2026 Daylu Forteza · Alle Rechte vorbehalten
+37	Málaga, Spanien · Nach Terminvereinbarung
+38	Nach oben
+39	Schreiben Sie mir auf WhatsApp
+40	Hauptleistung
+41	Hallo, ich bin Daylu.
+42	IT-Techniker und Webentwickler in Málaga. Schulung, Support und Einsätze vor Ort seit 2017, mit derselben Sorgfalt für einen Laptop wie für ein ganzes Büro.
+43	Wer ich bin
+44	Werdegang
+45	Werkzeuge
+46	Ein Techniker, der jeden Schritt erklärt.
+47	Ich bin Daylu Forteza, IT-Techniker und Webentwickler in Málaga. Ich kümmere mich um die Technik von Privatpersonen, Selbstständigen und kleinen Unternehmen: ihre Rechner, ihr Netzwerk, ihre Datensicherung und ihre Website.
+48	Hinter jedem technischen Problem steht ein Mensch, der eine Lösung braucht. Systeme zu kennen ist die halbe Arbeit. Die andere Hälfte ist zuhören, erklären und die Lösung wählen, die auch in einem Jahr noch Sinn ergibt.
+49	Meine Ausbildung und meine bisherigen Stationen finden Sie im Werdegang unten.
+50	Profil
+51	IT-Techniker · Webentwickler
+52	Standort
+53	Málaga, Spanien
+54	Einsatz
+55	Vor Ort und per Fernwartung
+56	Verfügbarkeit
+57	Nach Terminvereinbarung
+58	Schwerpunkt
+59	Websites und Systeme
+60	Mein Weg bis hierher.
+61	Ausbildung, Support und Praxis, Schritt für Schritt. Jede Station hat mir etwas mitgegeben, das ich heute bei jedem Auftrag einsetze.
+62	Ausbildung
+63	Mikroinformatische Systeme und Netzwerke
+64	Die Grundlage: Rechner und Netzwerke aufbauen, installieren und verbinden.
+65	Betriebssysteme
+66	Höhere Berufsausbildung
+67	Administration vernetzter IT-Systeme
+68	Server, Dienste, Sicherheit und die Verwaltung ganzer Netzwerke.
+69	Zertifizierung
+70	IT Essentials und CCNA Routing and Switching
+71	Routing, Switching und wie echte Netzwerke geplant werden.
+72	Technik vermitteln
+73	Menschen helfen, ihre Technik zu verstehen und zu nutzen. Dabei habe ich gelernt, zu erklären, ohne etwas vorauszusetzen.
+74	Kurse
+75	Alle Niveaus
+76	Technischer Support
+77	Support vor Ort und per Fernwartung
+78	Reparaturen, Störungen sowie Netzwerk- und Systemkonfiguration, Tag für Tag.
+79	Reparaturen
+80	Störungen
+81	Fernwartung
+82	Gesundheitswesen
+83	Spezialbranche
+84	Geräte und Software im Gesundheitswesen
+85	Ein Umfeld, in dem ein Ausfall Patienten betrifft. Deshalb ist jeder Schritt sorgfältig und dokumentiert.
+86	Fachsoftware
+87	Kritische Systeme
+88	Heute
+89	Selbstständig
+90	IT-Service und Websites in Málaga
+91	Systeme, Netzwerke, Wartung, Sicherheit, Web und Schulung für jede Art von Kunden.
+92	Als Nächstes
+93	Ihr Projekt
+94	Die nächste Station in diesem Werdegang
+95	Sagen Sie mir, was Sie brauchen, und wir schreiben sie gemeinsam.
+96	Womit ich arbeite
+97	Die Werkzeuge hinter der Arbeit.
+98	Benutzer und Berechtigungen
+99	Freigegebene Ressourcen
+100	Strukturierte Verkabelung
+101	Router
+102	Switches
+103	Access Points
+104	Diagnose
+105	Vorbeugende Wartung
+106	Fernwartung
+107	Datensicherung
+108	Hardware-Aufrüstung
+109	Responsives Design
+110	Support
+111	Web
+112	Wenn ich zusage, ziehe ich es durch.
+113	Verbindlich
+114	Wenn ich einen Auftrag annehme, wird er fertig, getestet und erklärt. Nichts bleibt halb erledigt.
+115	Gründlich
+116	Jedes Kabel beschriftet, jede Änderung notiert. Arbeit, die auch der nächste Techniker nachvollziehen kann.
+117	Ehrlich
+118	Jede Option mit ihren Grenzen, nicht nur die, die ich am liebsten verkaufen würde.
+119	Anpassungsfähig
+120	Der Nachbar im Ruhestand oder ein Büro unter Volldampf: Erklärung und Tempo passen sich dem Menschen an.
+121	HEUTE
+122	Kontakt · Daylu Forteza
+123	Kontaktieren Sie Daylu Forteza in Málaga per WhatsApp, Telefon oder E-Mail und sehen Sie, wo er im Einsatz ist.
+124	Eine kurze Beschreibung genügt für den Anfang. Wenn Ihr Anliegen nicht zu meinen Leistungen passt, sage ich es Ihnen.
+125	WhatsApp und Telefon
+126	WhatsApp öffnen ›
+127	Kopieren
+128	Kopiert
+129	Markiert
+130	E-Mail
+131	Wo
+132	Málaga und Umgebung
+133	Ihr Name
+134	Worum es geht
+135	Eine Website
+136	Netzwerk oder WLAN
+137	Sicherheit und Datensicherung
+138	Weiß ich noch nicht
+139	Was passiert
+140	Schreiben Sie ein paar Worte zu Ihrem Anliegen, damit ich antworten kann.
+141	Per WhatsApp senden
+142	WhatsApp öffnet sich mit Ihrer fertigen Nachricht. Gesendet wird erst, wenn Sie dort auf Senden tippen.
+143	WhatsApp sollte sich mit Ihrer Nachricht öffnen. Falls nicht, kopieren Sie die Nummer oben.
+144	Hallo Daylu
+145	, ich bin
+146	Thema:
+147	Wo ich arbeite
+148	Eine Karte, die mit jedem Kunden wächst.
+149	Mit Sitz in Málaga: vor Ort in der ganzen Region und per Fernwartung überall in Spanien. Jeder Ort, an dem ich arbeite, wird Teil des Netzes.
+150	Karte von Spanien mit den Orten, an denen Daylu Forteza arbeitet
+151	Ort
+152	Orte
+153	Provinz
+154	Provinzen
+155	Verbindung
+156	Verbindungen
+157	Standort
+158	Kunde
+159	Verbindung
+160	STANDORT · VOR ORT
+161	Standort · vor Ort in der Region
+162	Büronetzwerk
+163	Lösung finden · Daylu Forteza
+164	Wählen Sie das Problem, das Ihrem am nächsten kommt, und sehen Sie, wie Daylu Forteza es lösen würde.
+165	Sie wissen nicht genau, was Sie brauchen?
+166	Wählen Sie das Problem, das Ihrem am nächsten kommt, oder sagen Sie mir, welche Art von Kunde Sie sind. Fachbegriffe brauchen Sie dafür nicht.
+167	Nach Problem
+168	Nach Kundenart
+169	Wenn die Technik streikt, steht alles still.
+170	Wählen Sie das Problem, das Ihrem am nächsten kommt. Den Fachbegriff müssen Sie nicht kennen.
+171	Wartung und Diagnose
+172	Der Rechner braucht ewig zum Hochfahren.
+173	Meist sind es Autostart-Programme, eine volle Festplatte oder eine alternde Platte. Die Diagnose zeigt, was es ist, bevor etwas ausgetauscht wird.
+174	Derselbe Fehler kommt jede Woche wieder.
+175	Ein wiederkehrender Fehler hat eine Ursache. Ich suche sie in den Protokollen, statt neu zu starten und auf das Beste zu hoffen.
+176	Das WLAN bricht ab oder erreicht nicht alle Räume.
+177	Ein ungünstig platzierter Router, Kanalstörungen oder ein Gebäude, das mehr als einen Access Point braucht.
+178	Niemand weiß, welches Kabel wohin führt.
+179	Ein Netzwerkschrank ohne Beschriftung macht jede Änderung zum Ratespiel.
+180	Die neuen Rechner kamen schlecht eingerichtet an.
+181	Werkseinstellungen, keine Updates, alle Benutzer mit Administratorrechten.
+182	Der Rechner ist langsam und Sie wissen nicht, ob Sie ihn ersetzen sollen.
+183	Manchmal reicht eine Aufrüstung, manchmal nicht. Sie bekommen die Zahlen, um zu entscheiden.
+184	Sie haben keine Datensicherung und verlieren Dateien.
+185	Eine Kopie auf einer einzigen Festplatte ist keine Datensicherung. Drei geprüfte Kopien auf verschiedenen Datenträgern schon.
+186	Sie haben keine Website, oder sie sagt nicht, was Sie tun.
+187	Eine Website, die Ihre Leistung erklärt und die Kontaktaufnahme leicht macht.
+188	Niemand hat Ihnen je erklärt, wie Ihre eigene Technik funktioniert.
+189	Sie sollten Ihre Werkzeuge nutzen können, ohne jedes Mal jemanden anrufen zu müssen.
+190	Autostart und Zustand der Festplatte prüfen
+191	Aufräumen und aktualisieren
+192	Auf SSD umsteigen, nur wenn es sich lohnt
+193	Systemprotokolle auswerten
+194	Den Fehler nachstellen
+195	Die Ursache beheben und dokumentieren
+196	Netzwerke und Infrastruktur
+197	Abdeckung Raum für Raum messen
+198	Kanäle und Standort anpassen
+199	Access Points ergänzen, wo nötig
+200	Jedes Patchkabel verfolgen und beschriften
+201	Den Netzwerkplan zeichnen
+202	Die Dokumentation übergeben
+203	Jeden Rechner prüfen
+204	Benutzer und Berechtigungen einrichten
+205	Ein Basis-Image für die nächsten hinterlegen
+206	Messen, was ihn ausbremst
+207	Aufrüstung und Neukauf kalkulieren
+208	Sie entscheiden, auf Basis der Zahlen
+209	Klären, was gesichert werden muss
+210	Drei Kopien einrichten, eine davon außer Haus
+211	Eine Wiederherstellung mit Ihnen testen
+212	Festlegen, was die Website erreichen soll
+213	Struktur und Texte erarbeiten
+214	Entwickeln, testen und auf Ihren Namen veröffentlichen
+215	Ihre Technik gemeinsam durchgehen
+216	Ihnen eine kurze Anleitung schreiben
+217	Rückfragen beantworten
+218	Zur Leistung
+219	Zur Leistung Wartung
+220	Zur Leistung Netzwerke
+221	Zur Leistung Systeme
+222	Zur Leistung Sicherheit
+223	Zur Leistung Webentwicklung
+224	Zur Leistung Schulung
+225	Für wen ich arbeite
+226	Egal, wer Sie sind: Sie sind abgedeckt.
+227	Vom Laptop zu Hause bis zum Büro voller Arbeitsplätze. Ich passe mich der Größe und dem Tempo jedes Kunden an. Wählen Sie Ihr Profil.
+228	Kundenart
+229	Selbstständige
+230	Ladengeschäft
+231	Büro
+232	Praxis
+233	Bildungseinrichtung
+234	Neugründung
+235	von 6 Bereichen
+236	von 6 Bereichen abgedeckt
+237	Für Privatpersonen
+238	Für Selbstständige
+239	Für ein Ladengeschäft
+240	Für ein Büro
+241	Für eine Praxis
+242	Für eine Bildungseinrichtung
+243	Für eine Neugründung
+244	Typische Aufträge, die ich von A bis Z übernehme:
+245	Nicht dabei? Fragen Sie trotzdem. Wenn es nicht mein Gebiet ist, sage ich Ihnen, an wen Sie sich wenden können.
+246	Ein langsamer Laptop, der wieder flott läuft, bevor Sie einen neuen kaufen
+247	WLAN, das jeden Raum im Haus erreicht
+248	Familienfotos und Dokumente an zwei Orten gesichert
+249	Hilfe, um Handy, Tablet und Computer entspannt zu nutzen
+250	Ein Arbeitsplatz, der zu Hause und im Büro gleich funktioniert
+251	Eine Website oder Landingpage, die Anfragen bringt
+252	Kundendaten gesichert und geschützt
+253	Hilfe per Fernwartung, wenn Sie etwas am Arbeiten hindert
+254	Kasse und Kartenterminal, die nie aus dem Netz fallen
+255	Das WLAN für das Personal getrennt von dem für die Kunden
+256	Quartalsprüfungen vor der Hauptsaison
+257	Eine Website, die zeigt, wo Sie sind und wann Sie geöffnet haben
+258	Verkabelung und WLAN für jeden Arbeitsplatz, beschriftet und dokumentiert
+259	Dieselbe Grundeinrichtung auf jedem Rechner
+260	Ein Wartungsplan mit Statusbericht
+261	Sicherer Zugriff auf Ihre Dateien von zu Hause
+262	Spezialgeräte und Fachsoftware aus dem Gesundheitswesen
+263	Patientendaten gesichert und Berechtigungen pro Person
+264	Ein Netzwerk für den Empfang und jedes Behandlungszimmer
+265	Vorbeugende Wartung, damit kein Termin auf einen Rechner warten muss
+266	Ein Computerraum mit demselben Basis-Image auf jedem Gerät
+267	Ein Klassenraum-WLAN, das eine ganze Gruppe trägt
+268	Schulungen fürs Team zu den Werkzeugen, die es wirklich nutzt
+269	Eine Website für Kurse und Anmeldungen
+270	Geräte passend zum Bedarf, ohne zu viel auszugeben
+271	Das Netzwerk steht, bevor Sie eröffnen
+272	Eine Website, die zum Eröffnungstag fertig ist
+273	Konten, Passwörter und Datensicherung von Anfang an richtig eingerichtet
+274	Arbeitsweise · Daylu Forteza
+275	So arbeitet Daylu Forteza: sechs Phasen, Umfang und Preis schriftlich und eine dokumentierte Übergabe.
+276	Sechs Phasen, von Ihrer Nachricht bis zur Übergabe.
+277	Sie brauchen keine Fachbegriffe, um zu erklären, was los ist. Sie wissen immer, wo Ihr Auftrag steht, was als Nächstes kommt und was es kostet.
+278	Sechs Phasen
+279	Beauftragung
+280	Formen der Zusammenarbeit
+281	Übergabe
+282	Fragen
+283	Vorgehen
+284	Sechs Phasen. Keine undurchsichtigen Schritte.
+285	Sie wissen immer, wo Ihr Auftrag steht und was als Nächstes kommt. Umfang und Preis sind vor Arbeitsbeginn klar.
+286	Zuhören
+287	Sie erzählen mir, was nicht funktioniert oder was Sie verbessern möchten. Ich frage nach, bis ich es verstanden habe.
+288	Diagnose
+289	Ich prüfe Rechner, Netzwerk, System oder Website, bis die Ursache klar ist.
+290	Vorschlag
+291	Ihre Optionen, ihre Grenzen und meine Empfehlung, mit Umfang und Preis vor Beginn.
+292	Umsetzung
+293	Die vereinbarte Arbeit, sorgfältig und mit Rücksicht auf Ihre Geräte und Ihre Daten.
+294	Prüfung
+295	Wir testen gemeinsam, und Sie erhalten eine schriftliche Zusammenfassung der Arbeiten.
+296	Wenn es sinnvoll ist, Wartung oder Verbesserungen. Wenn nicht, sage ich es Ihnen.
+297	Von der ersten Nachricht bis zum Abschluss.
+298	Der erste Kontakt ist unverbindlich. Wenn Ihr Anliegen nicht zu meinem Angebot passt, sage ich Ihnen das klar.
+299	Sie schildern Ihr Anliegen
+300	Über das Formular, WhatsApp oder die Lösungssuche, so ausführlich, wie Sie möchten. Den Fachbegriff für das Problem müssen Sie nicht kennen.
+301	Ich frage nur das Nötige ab
+302	Die wesentlichen Angaben, um die Lage und ihren Umfang zu verstehen.
+303	Ich wäge die Optionen ab
+304	Ich vergleiche Alternativen und streiche, was Ihnen nichts bringt.
+305	Angebot und Preis
+306	Sie erhalten Umfang, voraussichtlichen Zeitrahmen und Betrag vor Beginn.
+307	Ich führe die Arbeit aus
+308	Zu den vereinbarten Bedingungen, mit Rücksicht auf Ihre Geräte und Daten.
+309	Wir prüfen das Ergebnis
+310	Tests gemeinsam mit mir und eine schriftliche Zusammenfassung der Arbeiten.
+311	Wir sehen, was sonst noch hilft
+312	Wenn es sinnvoll ist, Verbesserungen oder Wartung. Wenn nicht, sage ich Ihnen auch das.
+313	Wählen Sie den Umfang, den Sie brauchen.
+314	Einzelauftrag
+315	Eine Sache lösen.
+316	Ein Rechner, der streikt, eine Einstellung, die richtig gemacht werden muss, oder eine einzelne Installation.
+317	Vorab-Diagnose
+318	Die Arbeit und ihre Tests
+319	Zusammenfassung der Arbeiten
+320	Festpreisprojekt
+321	Von A bis Z.
+322	Ein neues Büronetzwerk, die Erneuerung der Geräte oder eine komplette Website, mit einem Ergebnis, das Sie prüfen können.
+323	Bedarfsanalyse
+324	Angebot mit Umfang und Phasen
+325	Übergabe und Endkontrolle
+326	Laufende Wartung
+327	Damit alles läuft.
+328	Für kleine Unternehmen und Büros, die sich keinen Stillstand leisten können.
+329	Regelmäßige Prüfungen
+330	Support, wenn etwas ausfällt
+331	Statusbericht
+332	Preise und Fristen hängen vom Umfang ab, und Sie erhalten sie schriftlich vor Arbeitsbeginn.
+333	Die Unterlagen bleiben bei Ihnen.
+334	Jeder Auftrag endet mit Dokumenten, die Ihnen gehören, damit die nächste Person am Netzwerkschrank genau weiß, was dort steckt.
+335	Bericht
+336	Was ausgefallen ist und warum
+337	Angebot
+338	Umfang und Preis
+339	Vor Arbeitsbeginn
+340	Plan
+341	Netzwerkplan und Beschriftung
+342	Jedes Kabel benannt
+343	Zusammenfassung
+344	Durchgeführte Arbeiten
+345	Verständlich erklärt
+346	Test
+347	Wiederherstellungstest
+348	Ihre Sicherung, geprüft
+349	Zusammenarbeit mit mir.
+350	Verpflichtet mich der erste Kontakt zu etwas?
+351	Nein. Sie schildern Ihr Anliegen, und ich sage Ihnen, ob ich helfen kann. Wenn es nicht zu meinem Angebot passt, sage ich es klar.
+352	Warum gibt es keine veröffentlichten Preise?
+353	Jeder Auftrag hat einen anderen Umfang. Sie erhalten ein konkretes Angebot mit Betrag und Zeitrahmen, sobald ich verstehe, was nötig ist. Websites sind die Ausnahme: Sie beginnen bei 1.000 €.
+354	Muss ich wissen, was technisch nicht stimmt?
+355	Nein. Beschreiben Sie in Ihren eigenen Worten, was passiert. Die Ursache zu finden ist meine Aufgabe.
+356	Arbeiten Sie vor Ort oder per Fernwartung?
+357	Beides. Vor Ort in Málaga und Umgebung nach Terminvereinbarung, und per Fernwartung, wenn das Problem es zulässt.
+358	Was bekomme ich am Ende eines Auftrags?
+359	Eine schriftliche Zusammenfassung der Arbeiten und die Übergabeunterlagen: Diagnose, Angebot, Plan oder Wiederherstellungstest, je nach Auftrag.
+360	IT-Service und Websites in Málaga: Systeme, Netzwerke, Wartung, Sicherheit, Webentwicklung und Schulung von Daylu Forteza.
+361	IT-Service und Websites · Málaga
+362	Technik, die Sie voranbringt.
+363	IT-Service und Websites für Privatpersonen, Selbstständige und kleine Unternehmen in Málaga.
+364	Die sechs Leistungen ansehen ›
+365	Vier Ebenen, ein Techniker.
+366	Die meisten Probleme liegen zwischen zwei Ebenen. Ich arbeite auf allen vier, also schiebt niemand die Verantwortung weiter.
+367	Geräte und Systeme
+368	Windows, Windows Server, macOS
+369	Netzwerk
+370	Verkabelung, WLAN, VPN
+371	Sicherungen, die sich wiederherstellen lassen
+372	Websites, mit denen Menschen zurechtkommen
+373	Scrollen, um sie zu zerlegen
+374	Grundsatz
+375	Erst die Ursache, dann die Lösung. Jede Option verständlich erklärt, jeder Auftrag
+376	dokumentiert
+377	, damit nichts vom Gedächtnis einer Person abhängt.
+378	Was ich für Sie tun kann.
+379	Alle Leistungen ›
+380	Websites ab 1.000 €.
+381	Das Angebot, wie eine Website entsteht und was Ihnen am Ende gehört, alles auf einer Seite.
+382	Zur Webentwicklung
+383	Entdecken
+384	Gehen Sie so tief, wie Sie möchten.
+385	Problem beschreiben. Leistung finden.
+386	Neun häufige Fälle, jeder mit der passenden Leistung verknüpft.
+387	Sechs Phasen, ohne Geheimnisse.
+388	Von der ersten Nachricht bis zur Übergabe, mit Umfang und Preis schriftlich.
+389	Zur Arbeitsweise
+390	Wie ich es angehen würde.
+391	Neun Konzepte aus Netzwerk, Systemen, Sicherheit und Web.
+392	Zu den Projekten
+393	Der Mensch dahinter.
+394	Werdegang, Werkzeuge und Arbeitsweise.
+395	Meine Geschichte lesen
+396	Eine Nachricht genügt.
+397	WhatsApp, Telefon oder E-Mail. Nach Terminvereinbarung in Málaga.
+398	Kontakt aufnehmen
+399	Projekte · Daylu Forteza
+400	Projekte und Konzepte von Daylu Forteza: Netzwerke, Verkabelung, Systeme, Wartung, Web und Sicherheit.
+401	Echte Fälle und Konzepte, nichts geschönt.
+402	Jede Karte zeigt, wie ich eine bestimmte Anforderung angehen würde. Filtern Sie nach Bereich, um die zu sehen, die Ihrer am nächsten kommen.
+403	Projekte filtern
+404	Alle
+405	Verkabelung
+406	Unternehmen
+407	Konzept
+408	Netzwerk für ein Büro mit fünf Arbeitsplätzen
+409	Planung eines kabelgebundenen und WLAN-Netzwerks für fünf Arbeitsplätze, mit Abdeckung in jedem Raum und dokumentierter Installation.
+410	Ein Netzwerkschrank, den jeder versteht
+411	Konzept, um einen Schrank voller unbeschrifteter Kabel zu ordnen, mit beschriftetem Patchkabel und zugehörigem Plan für jede Verbindung.
+412	Systemumgebung für ein Labor
+413	Mehrere Rechner mit derselben Basisumgebung, getrennten Benutzern und kontrollierten Updates.
+414	Vorbeugende Wartung für ein Ladengeschäft
+415	Ein Kalender mit Quartalsprüfungen für Kassenrechner, Büro-PC und das Netzwerk des Ladens.
+416	Unternehmenswebsite für eine Kanzlei
+417	Redaktionelle Struktur, Leistungsseiten und ein Formular, das an die Anfragebearbeitung angebunden ist.
+418	Landingpage für einen lokalen Dienstleister
+419	Eine einzige Seite mit einem einzigen Ziel: eine Einschätzung anfragen.
+420	Bessere Datensicherung
+421	Von einer einzigen Kopie auf einer externen Festplatte zu drei geprüften Kopien auf verschiedenen Datenträgern.
+422	Schrittweise Erneuerung für ein Steuerbüro
+423	Aufrüstung, wo sie hilft, und Austausch nur dort, wo er echte Leistung bringt.
+424	Hybrider Arbeitsplatz für Selbstständige
+425	Ein Arbeitsplatz, der zu Hause und im Büro gleich funktioniert, mit synchronisierten Daten und sicherem Zugriff.
+426	Mit „Konzept“ markierte Karten sind Lösungsansätze und Entwürfe, keine abgeschlossenen Kundenaufträge. Sie zeigen, nach welchen Kriterien ich jede Anforderung angehe.
+427	Haben Sie einen ähnlichen Fall?
+428	Ratgeber · Daylu Forteza
+429	Verständliche Erklärungen, was ausfällt und warum: Wartung, Netzwerke und Web, von Daylu Forteza.
+430	Verständlich erklärt: was ausfällt und warum.
+431	Ohne leere Versprechen und ohne Panikmache: praktische Kriterien, um Ihre Technik zu verstehen und besser zu entscheiden.
+432	Neueste Artikel
+433	29. Okt. 2026
+434	Warum Ihr Rechner langsam ist und was Sie tun können, bevor Sie einen neuen kaufen
+435	Die häufigsten Ursachen und wie man jede prüft.
+436	Artikel lesen ›
+437	Das WLAN reicht nicht: wie man es richtig diagnostiziert
+438	Wie das Signal gemessen wird und wann ein Kabel oder ein Access Point nötig ist.
+439	Was die Website eines kleinen Unternehmens 2026 braucht
+440	Tempo, Klarheit und ein echter Weg für Anfragen. Der Rest ist optional.
+441	Probleme
+442	Ihr Nutzen
+443	Im Detail
+444	Leistungsumfang
+445	Ablauf
+446	Typische Probleme
+447	Kommt Ihnen das bekannt vor?
+448	Das Ergebnis, klar gesagt.
+449	So sieht die Arbeit aus.
+450	Leistungsumfang
+451	Sie erhalten
+452	Ideal für
+453	Alles, was dazugehört.
+454	Für wen
+455	Gedacht für
+456	Vier Schritte, von Anfang bis Ende.
+457	Weitere Leistungen
+458	Oft zusammen gefragt.
+459	Schildern Sie Ihr Anliegen so ausführlich, wie Sie möchten, und Sie erhalten eine begründete Einschätzung. Unverbindlich und ohne unnötigen Fachjargon.
+460	Mehr erfahren ›
+461	Hauptleistung · Mehr erfahren ›
+462	Wartung · Daylu Forteza
+463	Wenn etwas ausfällt, ist es nur die halbe Arbeit, es wieder zum Laufen zu bringen. Die andere Hälfte ist zu verstehen, was passiert ist, und zu verhindern, dass es wieder vorkommt.
+464	Wissen, was ausgefallen ist und warum.
+465	Wenn etwas ausfällt, ist es nur die halbe Arbeit, es wieder zum Laufen zu bringen. Die andere Hälfte ist zu verstehen, was passiert ist, und zu verhindern, dass es wieder vorkommt. Ich analysiere das Problem mit Prüfungen und Tests, finde die passende Lösung und erkläre Ihnen, was ich gefunden habe.
+466	Das sind die Wartungsfälle, die mich am häufigsten erreichen.
+467	Rechner, die langsam starten oder ohne erkennbaren Grund einfrieren
+468	Fehler, die kommen und gehen und die niemand nachstellen kann
+469	Programme, die sich von selbst schließen oder Daten verlieren
+470	Überhitzung, laute Lüfter oder plötzliche Abschaltungen
+471	Rechner, die niemand prüft, bis sie ausfallen
+472	Sie wissen, was ausfällt und warum, ohne Diagnose ins Blaue
+473	Weniger wiederkehrende Störungen dank vorbeugender Wartung
+474	Schnellere, stabilere Rechner ohne neue Hardware
+475	Rechtzeitige Warnung, wenn ein Bauteil zu schwächeln beginnt
+476	Analyse von Störungen mit Prüfungen und Tests, bis die Ursache klar ist, dann die Lösung und ein Plan, damit es nicht wieder vorkommt.
+477	Hardware- und Software-Diagnose
+478	Vorbeugende und korrigierende Wartung
+479	Leistungsoptimierung ohne neue Hardware
+480	Protokoll jedes Einsatzes
+481	Diagnosebericht
+482	Wartungskalender
+483	Statusbericht nach jeder Prüfung
+484	Selbstständige, die nicht stillstehen können
+485	Läden mit einer kritischen Kasse
+486	Büros ohne eigene IT
+487	Diagnose von Hardware- und Softwarefehlern
+488	Behebung von IT-Störungen
+489	Leistungsoptimierung
+490	Technischer Support vor Ort und per Fernwartung
+491	Prüfung von Rechnern und Systemen
+492	Privatpersonen, deren Rechner nicht mehr so läuft wie früher
+493	Selbstständige, die sich keinen Ausfall leisten können
+494	Läden mit einem einzigen kritischen Arbeitsplatz
+495	Büros ohne eigenes IT-Personal
+496	Schildern Sie, was passiert
+497	Schildern Sie, was passiert.
+498	Was passiert, seit wann und mit welchen Programmen.
+499	Ich analysiere das System und teste, um die Ursache zu finden.
+500	Ich setze die vereinbarte Lösung um und prüfe das Ergebnis.
+501	Ich stelle sicher, dass der Fehler nicht wiederkommt, und erkläre, was passiert ist.
+502	Häufige Fragen zur Wartung.
+503	Können Sie meinen Rechner per Fernwartung prüfen?
+504	Viele System- und Softwareprüfungen lassen sich aus der Ferne erledigen. Hardwaredefekte, etwa eine defekte Festplatte oder ein defekter Arbeitsspeicher, erfordern einen Termin vor Ort oder dass Sie mir den Rechner bringen.
+505	Lohnt sich vorbeugende Wartung?
+506	Bei Arbeitsrechnern fast immer. Festplatte prüfen, aktualisieren und reinigen verhindert Ausfälle, die mehr kosten als die Prüfung selbst.
+507	Weiß ich vor dem Bezahlen, ob er sich reparieren lässt?
+508	Ja. Ich mache zuerst die Diagnose und erkläre Ihnen die Möglichkeiten: Reparatur, Aufrüstung oder Austausch. Sie entscheiden, wie es weitergeht.
+509	JAN
+510	APR
+511	JUL
+512	OKT
+513	PRÜFUNG
+514	PRÜFUNG + FESTPLATTE
+515	PRÜFUNG + BERICHT
+516	Netzwerke · Daylu Forteza
+517	Ein gut geplantes, gut installiertes Netzwerk erleichtert die Arbeit, verbessert die Verbindung und reduziert die Probleme im Alltag.
+518	Ein Netzwerk, an das Sie nicht mehr denken müssen.
+519	Ein gut geplantes, gut installiertes Netzwerk erleichtert die Arbeit, verbessert die Verbindung und reduziert die Probleme im Alltag. Ich installiere, ordne und konfiguriere die Infrastruktur Ihres Zuhauses, Büros oder Geschäfts, vom Internetanschluss bis zu jedem Gerät.
+520	Das sind die Netzwerkfälle, die mich am häufigsten erreichen.
+521	WLAN, das nicht jeden Raum erreicht oder abbricht, wenn mehrere Personen verbunden sind
+522	Unbeschriftete Kabel und Schränke, in denen niemand weiß, was wohin führt
+523	Rechner, die beim Raumwechsel die Verbindung verlieren
+524	Drucker oder Kartenterminals, die ohne erkennbaren Grund nicht mehr reagieren
+525	Sie müssen von außen sicher auf Ihr Büro zugreifen
+526	Stabile Abdeckung, mit den Access Points an der richtigen Stelle
+527	Beschriftete, dokumentierte Verkabelung: Schluss mit dem Raten
+528	Weniger Verbindungsprobleme im Arbeitsalltag
+529	Eine Basis, um Geräte hinzuzufügen, ohne alles neu zu machen
+530	Eine Verkabelung, die jeder lesen kann.
+531	Installation und Ordnung der Netzwerkverkabelung eines Zuhauses, Büros oder Ladens: von der Netzwerkdose bis zum Patchfeld, jeder Anschluss getestet und benannt.
+532	Kabelwege Raum für Raum geplant
+533	Netzwerkdosen und Patchfeld installiert
+534	Jeder Anschluss getestet, bevor er verschlossen wird
+535	Beschriftung an beiden Enden jedes Kabels
+536	Schrank aufgeräumt, vorhandene Verkabelung weitergenutzt, wo sie taugt
+537	Beschrifteter Schrank
+538	Netzwerkplan
+539	Messprotokoll pro Anschluss
+540	Büros im Aufbau
+541	Läden beim Umzug
+542	Haushalte mit vielen Geräten
+543	Netzwerkgeräte
+544	Router, Switches und WLAN, richtig eingerichtet.
+545	Installation und Konfiguration der Geräte, über die Ihre Daten laufen: Router, Switches und Access Points, abgestimmt auf das Gebäude und Ihre Arbeitsweise.
+546	Router eingerichtet, Standardpasswörter geändert
+547	Switches installiert und Ports zugewiesen
+548	Access Points dort platziert, wo die Abdeckung gemessen wurde
+549	Separates Netz für Gäste oder Kunden
+550	Fernzugriff per VPN, wenn Sie ihn brauchen
+551	Konfigurationsübersicht
+552	Abdeckungsprüfung pro Raum
+553	Administratorzugänge übergeben
+554	Büros
+555	Läden mit Kartenterminals und Kameras
+556	Haushalte mit schlechtem WLAN
+557	Installation und Ordnung der Netzwerkverkabelung
+558	Konfiguration von Routern, Switches und Access Points
+559	WLAN-Abdeckung erweitert und verbessert
+560	Konfiguration des lokalen Netzwerks, DHCP und DNS
+561	Anschluss und Einrichtung von Geräten
+562	Diagnose von Verbindungsproblemen
+563	VPN für Fernverbindungen
+564	Wohnungen mit schlechter Abdeckung oder vielen Geräten
+565	Büros, die ihr Netzwerk zum ersten Mal aufbauen
+566	Läden mit Kartenterminals, Kameras und kritischen Verbindungen
+567	Unternehmen, die umziehen
+568	Netzwerk-Check anfragen
+569	Fragen Sie einen Netzwerk-Check an.
+570	Was Sie anschließen müssen und welche Probleme Sie gerade bemerken.
+571	Räume begutachten
+572	Anschlusspunkte, Geräte und die benötigte Abdeckung.
+573	Planen und installieren
+574	Verkabelung, Geräte, Konfiguration und Beschriftung.
+575	Ich teste Abdeckung, Geschwindigkeit und Stabilität in jedem Bereich.
+576	Häufige Fragen zu Netzwerken.
+577	Muss mein Büro neu verkabelt werden?
+578	Nicht immer. Zuerst prüfe ich Qualität und Zustand des Vorhandenen. Wenn die Verkabelung das Netzwerk trägt, passe ich Konfiguration und Geräte an.
+579	Kann ich das WLAN ohne Bauarbeiten erweitern?
+580	Oft ja, mit verkabelten Access Points, wo es geht, oder mit einem Mesh-Netz, wo nicht. Ich erkläre Ihnen Vorteile und Grenzen jeder Variante.
+581	Hinterlassen Sie eine Dokumentation der Installation?
+582	Ja. Beschriftung, einen Netzwerkplan und eine Konfigurationsübersicht, damit jede spätere Prüfung von einer klaren Grundlage ausgeht.
+583	PLATZ 1
+584	PLATZ 2
+585	PLATZ 3
+586	VLAN PERSONAL
+587	Sicherheit · Daylu Forteza
+588	Sicherheit beginnt mit gut eingerichteten Systemen und guten Gewohnheiten.
+589	Realistischer Schutz, geprüft.
+590	Sicherheit beginnt mit gut eingerichteten Systemen und guten Gewohnheiten. Ich prüfe die Einstellungen Ihrer Rechner und Ihres Netzwerks, verbessere den Schutz Ihrer Geräte und lege grundlegende Maßnahmen fest, um Risiken zu senken und keine Daten zu verlieren.
+591	Das sind die Sicherheitsfälle, die mich am häufigsten erreichen.
+592	Überall dasselbe Passwort und Konten, die niemand im Blick hat
+593	Rechner mit seit Monaten ausstehenden Updates
+594	Sicherungen, die es gibt, aber die nie jemand wiederhergestellt hat
+595	Wichtige Dateien auf einer einzigen Festplatte, ohne zweite Kopie
+596	Berechtigungen und freigegebene Ordner, die für alle offen sind
+597	Realistischer Schutz, der Ihren Alltag nicht verkompliziert
+598	Geprüfte Sicherungen: Sie wissen, dass Sie Daten zurückholen können
+599	Weniger Risiko, Daten oder den Zugang zu Ihren Konten zu verlieren
+600	Klare Kriterien, um eine echte Warnung von einem Betrug zu unterscheiden
+601	Grundlegende, vorbeugende Sicherheit: Konfiguration, Updates, Passwörter, Berechtigungen und Sicherungen, die tatsächlich wiederhergestellt wurden.
+602	Sicherheitseinstellungen geprüft
+603	Updates und Schutz eingerichtet
+604	Beratung zu Passwörtern und Zugängen
+605	Sicherungen auf verschiedenen Datenträgern
+606	Freigegebene Ordner und Berechtigungen geprüft
+607	Risiken nach tatsächlicher Auswirkung geordnet
+608	Wiederherstellungstest der Sicherungen
+609	Schriftliche Leitlinien
+610	Menschen mit Fotos und ohne Sicherung
+611	Selbstständige mit Kundendaten
+612	Läden und Büros
+613	Prüfung der Sicherheitseinstellungen
+614	Beratung zu Passwörtern und Zugängen
+615	Einrichtung der Datensicherung
+616	Prüfung von Berechtigungen und freigegebenen Ressourcen
+617	Empfehlungen zum Schutz Ihrer Daten
+618	Privatpersonen mit Fotos und Dokumenten ohne Sicherung
+619	Selbstständige, die Kundendaten speichern
+620	Läden mit Kartenterminals und vernetzten Geräten
+621	Büros, die Ausfälle durch Sicherheitsvorfälle vermeiden wollen
+622	Meine Sicherheit prüfen lassen
+623	Lassen Sie uns Ihre Sicherheit prüfen.
+624	Prüfen
+625	Aktuelle Einstellungen, Zugänge, Updates und Sicherungen.
+626	Priorisieren
+627	Ich ordne die Risiken nach tatsächlicher Auswirkung, nicht nach Trends.
+628	Einrichten
+629	Ich setze die vereinbarten Änderungen um und richte die Sicherungen ein.
+630	Kontrollieren
+631	Ich teste eine Wiederherstellung und hinterlasse die Leitlinien schriftlich.
+632	Häufige Fragen zur Sicherheit.
+633	Führen Sie umfassende Sicherheitsaudits durch?
+634	Nein. Meine Arbeit ist grundlegende, vorbeugende Sicherheit: Einstellungen, Updates, Berechtigungen und Sicherungen. Wenn Ihr Fall ein spezialisiertes Audit oder eine Zertifizierung erfordert, sage ich es Ihnen und verweise Sie an die richtige Stelle.
+635	Wo sollte ich meine Sicherungen aufbewahren?
+636	Die Faustregel: mindestens zwei Kopien auf verschiedenen Datenträgern, eine davon außerhalb des Rechners. Die konkrete Lösung hängt von Ihren Daten und Ihrem Budget ab.
+637	Reicht ein kostenloser Virenschutz?
+638	In vielen Fällen ja, wenn das System aktuell ist und die Gewohnheiten stimmen. Ich prüfe Ihre Nutzung, bevor ich Ihnen empfehle, für irgendetwas zu bezahlen.
+639	DATEN
+640	FESTPLATTE
+641	AUSSER HAUS
+642	WIEDERHERSTELLUNG GETESTET ✓
+643	CLOUD
+644	Systeme · Daylu Forteza
+645	Ein Rechner, der nicht richtig läuft, ein System, das nicht reagiert, oder eine falsche Einstellung können Ihre ganze Arbeit beeinträchtigen.
+646	Rechner und Server, richtig eingerichtet.
+647	Ein Rechner, der nicht richtig läuft, ein System, das nicht reagiert, oder eine falsche Einstellung können Ihre ganze Arbeit beeinträchtigen. Ich prüfe, konfiguriere und optimiere Ihre Geräte mit Windows, Windows Server und macOS, damit sie aktuell, stabil und auf Ihre Aufgaben abgestimmt sind.
+648	Das sind die Systemfälle, die mich am häufigsten erreichen.
+649	Ein neuer Rechner, der immer noch nicht alltagstauglich ist
+650	Ein Gerät, das bei ein paar offenen Tabs oder Programmen in die Knie geht
+651	Systeme ohne Updates, mit doppelter Software oder unklaren Lizenzen
+652	Daten verstreut auf Ordner, externe Festplatten und alte Konten
+653	Drucker und Peripheriegeräte, die nicht erscheinen oder nicht richtig funktionieren
+654	Stabilere, aktuelle Geräte, abgestimmt auf Ihre Arbeitsweise
+655	Benutzer und Berechtigungen, damit jede Person auf das zugreift, was sie braucht
+656	Daten migriert und geprüft, ohne Verluste unterwegs
+657	Aufrüstungen, die das Leben eines Rechners verlängern, bevor ein Neukauf ansteht
+658	Server
+659	Ein Server, auf den sich das Büro verlassen kann.
+660	Installation, Konfiguration und Wartung von Windows Server: dem zentralen Rechner, der Benutzer, freigegebene Dateien und die Dienste bereitstellt, auf die das Büro angewiesen ist.
+661	Windows Server installiert und aktuell
+662	Benutzer, Gruppen und Berechtigungen pro Person
+663	Freigegebene Ordner mit den richtigen Zugriffsrechten
+664	Sicherungen des Servers geplant und getestet
+665	Wartung und Statusprüfungen
+666	Übersicht über Benutzer und Berechtigungen
+667	Sicherungs- und Wiederherstellungstest
+668	Administrationsdokumentation
+669	Büros mit mehreren Arbeitsplätzen
+670	Unternehmen, die ohne Ordnung gewachsen sind
+671	Teams, die Dateien teilen
+672	Windows und macOS richtig eingerichtet.
+673	Installation und Konfiguration des Betriebssystems auf jedem Rechner, damit er stabil, aktuell und bereit für Ihre Arbeit ist.
+674	Neuinstallation oder Reparatur von Windows und macOS
+675	Updates, Treiber und Peripherie
+676	Software mit klaren Lizenzen installiert
+677	Daten vom alten Gerät migriert und geprüft
+678	Dieselbe Grundeinrichtung an jedem Arbeitsplatz
+679	Basis-Image für neue Geräte
+680	Software- und Lizenzverzeichnis
+681	Datenprüfung nach der Migration
+682	Neue Rechner
+683	Langsam gewordene Rechner
+684	Büros, die alle Arbeitsplätze gleich haben möchten
+685	Systemdienste
+686	Die Dienste, die ein Büro zusammenarbeiten lassen.
+687	Konfiguration der Dienste, die Menschen und Geräte verbinden: wer sich anmelden darf, welche Ordner jeder sieht, wie Adressen und Namen im Netzwerk vergeben werden (DHCP und DNS), wie gedruckt wird, wohin die Sicherungen gehen und wie man sich von außen verbindet.
+688	Benutzerkonten und Berechtigungen
+689	Freigegebene Ordner und Netzlaufwerke
+690	Netzwerkdrucker für jeden Arbeitsplatz
+691	Netzwerkdienste: DHCP und DNS
+692	Automatische Sicherungen auf Festplatte, NAS oder Cloud
+693	VPN-Zugang von zu Hause
+694	Zugriffsliste pro Person
+695	Übersicht der Dienstkonfiguration
+696	Schriftliche Anleitung für den Alltag
+697	Kleine Büros
+698	Praxen und Kanzleien
+699	Teams, die teilweise im Homeoffice arbeiten
+700	Installation und Konfiguration von Betriebssystemen
+701	Einrichtung von Rechnern und Peripherie
+702	Administration und Wartung von Windows Server
+703	Optimierung und Hardware-Aufrüstung
+704	Benutzer, Berechtigungen und freigegebene Ressourcen
+705	Beratung zur Erneuerung oder Verbesserung Ihrer Geräte
+706	Privatpersonen mit neuem Rechner oder einem, der aufgeräumt werden soll
+707	Selbstständige, die einen zuverlässigen Arbeitsplatz brauchen
+708	Büros mit mehreren Arbeitsplätzen, die gleich funktionieren müssen
+709	Unternehmen, deren Geräte ohne Ordnung gewachsen sind
+710	Mein Anliegen schildern
+711	Schildern Sie Ihr Anliegen.
+712	Was Sie täglich nutzen, wie Sie arbeiten und was Sie von Ihrem Rechner erwarten.
+713	Ich prüfe den Zustand des Systems und was erhalten bleiben muss.
+714	System, Benutzer, Software, Peripherie und Daten.
+715	Übergeben
+716	Tests mit Ihnen und eine Erklärung, wie alles eingerichtet ist.
+717	Häufige Fragen zu Systemen.
+718	Gehen meine Dateien bei einer Neuinstallation verloren?
+719	Das sollten sie nicht: Die Sicherung gehört zur Arbeit. Vor jeder Installation kläre ich mit Ihnen, welche Daten erhalten bleiben müssen, und prüfe sie am Ende.
+720	Kann ich mein gewohntes Programm behalten?
+721	In den meisten Fällen ja. Wenn die Software alt ist oder von einer bestimmten Systemversion abhängt, sage ich es Ihnen vorher, damit wir Alternativen abwägen können.
+722	Arbeiten Sie mit Windows, Windows Server und macOS?
+723	Ja. Ich arbeite täglich mit Windows und Windows Server und auch mit Mac-Rechnern. Den Umfang jedes Auftrags bestätige ich, bevor ich etwas anfasse.
+724	Wie lange dauert eine komplette Installation?
+725	Das hängt von der Datenmenge und der benötigten Software ab. Sie erhalten eine Schätzung, wenn ich mir den Fall angesehen habe, vor Beginn.
+726	BENUTZER · GRUPPEN
+727	FREIGEGEBENE DATEIEN
+728	SICHERUNG
+729	ADMIN
+730	PERSONAL
+731	GÄSTE
+732	WINDOWS
+733	GRUNDEINRICHTUNG
+734	DIENSTE
+735	BENUTZER
+736	ORDNER
+737	DRUCKEN
+738	RECHTE
+739	BASIS-IMAGE
+740	BENUTZER 01
+741	BENUTZER 02
+742	BENUTZER 03
+743	Schulung · Daylu Forteza
+744	Nicht jeder muss dasselbe im selben Tempo lernen.
+745	Nutzen Sie Ihre Technik mit Sicherheit.
+746	Nicht jeder muss dasselbe im selben Tempo lernen. Meine Erfahrung als Trainer erlaubt mir, jede Erklärung an Ihr Vorwissen anzupassen, von den ersten Schritten bis zu technischeren Fragen, damit Sie Ihre Geräte besser nutzen und sicherer entscheiden.
+747	Das sind die Schulungsfälle, die mich am häufigsten erreichen.
+748	Sie wissen nicht, ob Ihr Rechner zu Ihrer Arbeit passt
+749	Sie sind für jede Kleinigkeit auf jemand anderen angewiesen
+750	Niemand hat Ihnen erklärt, wie Ihre eigenen Systeme funktionieren
+751	Sie müssen Geräte oder Werkzeuge auswählen und wissen nicht, worauf Sie achten sollen
+752	Ein neues Werkzeug wurde eingeführt, und kaum jemand nutzt es
+753	Erklärungen auf Ihrem Niveau, ohne etwas vorauszusetzen
+754	Mehr Selbstständigkeit im Alltag
+755	Käufe mit Überlegung und ohne unnötige Ausgaben
+756	Begleitung bei der Einführung neuer Werkzeuge
+757	Schulung und Beratung
+758	Persönliche Schulung und Kaufberatung, angepasst an Ihr Vorwissen, an Ihren eigenen Geräten und Programmen.
+759	Einzel- oder Kleingruppentermine
+760	Kurse für jedes Niveau
+761	Beratung vor dem Gerätekauf
+762	Begleitung bei der Einführung eines neuen Werkzeugs
+763	Eine kurze schriftliche Anleitung zum Behalten
+764	Schulungsplan
+765	Schriftliche Anleitung
+766	Rückfragen beantwortet
+767	Privatpersonen
+768	Kleine Teams
+769	Unternehmen vor einer Investition
+770	Persönliche IT-Schulung
+771	Computerkurse für verschiedene Niveaus
+772	Beratung bei der Auswahl von Geräten und Lösungen
+773	Begleitung bei der Einführung neuer Werkzeuge
+774	Praktische Erklärungen, damit Sie selbst zurechtkommen
+775	Privatpersonen, die sicherer werden möchten
+776	Selbstständige, die nicht für alles auf andere angewiesen sein können
+777	Kleine Teams, die neue Werkzeuge einführen
+778	Unternehmen, die vor einer Investition eine fundierte Meinung brauchen
+779	Schulung oder Beratung anfragen
+780	Fragen Sie eine Schulung oder Beratung an.
+781	Was Sie schon wissen, was Ihnen schwerfällt und was Sie lösen möchten.
+782	Ziel festlegen
+783	Was Sie am Ende selbst können möchten.
+784	Üben
+785	Termine an Ihren eigenen Rechnern und Programmen.
+786	Rückfragen im Anschluss und ein Tempo, das sich Ihrem Fortschritt anpasst.
+787	Häufige Fragen zur Schulung.
+788	Schulen Sie auch Gruppen?
+789	Ja, kleine Gruppen, mit Inhalten, die an das Niveau der ganzen Gruppe angepasst sind. Wir stimmen das vorher ab, damit die Termine für alle sinnvoll sind.
+790	Ist die Schulung offiziell oder zertifiziert?
+791	Nein. Ich stelle keine offiziellen Abschlüsse aus. Es ist eine praktische Schulung, damit Sie Ihre Technik selbstständig nutzen.
+792	Kann ich Schulung und Beratung kombinieren?
+793	Ja, meistens gehören sie sogar zusammen: Zuerst schaue ich mir Ihre Situation an, dann planen wir die Termine rund um das, was Sie wirklich brauchen.
+794	IHR WISSEN
+795	ZIEL
+796	PRAXIS
+797	SELBSTSTÄNDIG
+798	AUTONOMIE
+799	Webentwicklung · Daylu Forteza
+800	Eine Website ist viel mehr als eine Visitenkarte: Sie stellt Ihr Unternehmen vor, erklärt Ihre Leistungen und macht es Kunden leicht, Kontakt aufzunehmen.
+801	Ihr Unternehmen, erklärt auf einer Website.
+802	Eine Website ist viel mehr als eine Visitenkarte: Sie stellt Ihr Unternehmen vor, erklärt Ihre Leistungen und macht es Kunden leicht, Kontakt aufzunehmen. Ich entwickle Websites, die auf jedes Projekt zugeschnitten sind, mit klarer Struktur, sorgfältigem Design und angenehmer Bedienung auf Computer, Tablet und Smartphone.
+803	Hauptleistung · ab 1.000 €
+804	Das Angebot
+805	So entsteht sie
+806	Eigentum
+807	Das sind die Fälle zur Webentwicklung, die mich am häufigsten erreichen.
+808	Eine veraltete Website, die die Qualität Ihrer Arbeit nicht zeigt
+809	Ein Layout, das auf dem Smartphone zerfällt, obwohl von dort die meisten Besuche kommen
+810	Formulare, die niemanden erreichen
+811	Lange Ladezeiten, die Besucher vertreiben, bevor sie lesen
+812	Inhalte, die nicht erklären, was Sie tun oder wem Sie helfen
+813	Ein digitaler Auftritt, der zum Niveau Ihrer Leistung passt
+814	Eine sorgfältige Darstellung auf Smartphone, Tablet und Computer
+815	Eine Struktur, die Besuchern zeigt, was sie als Nächstes tun sollen
+816	Klare Inhalte, geschrieben für Menschen und nicht für Maschinen
+817	Websites
+818	Ein Preis zum Einstieg, ein Festpreisangebot zum Abschluss.
+819	Eine von Hand programmierte Website, ohne gemieteten Baukasten dahinter.
+820	Unternehmenswebsite oder Landingpage
+821	Eine Landingpage oder eine kompakte Unternehmenswebsite beginnt bei diesem Preis. Für größere Websites erhalten Sie vorab ein Festpreisangebot.
+822	1.000 €
+823	ab, Festpreisangebot
+824	Angebot für eine Website anfragen
+825	Fragen Sie ein Angebot für Ihre Website an.
+826	So entsteht eine Website
+827	Vom Klebezettel zum Launch.
+828	Was die Website erreichen soll und für wen sie gedacht ist.
+829	Strukturieren
+830	Bereiche, Hierarchie und der Weg, den Besucher nehmen.
+831	Worte, die sagen, was Sie tun, geschrieben für Menschen.
+832	Design
+833	Schrift, Farbe und Bilder, die zu Ihrer Leistung passen.
+834	Entwicklung
+835	Von Hand geschriebener, responsiver Code mit funktionierenden Formularen.
+836	Veröffentlichung, Tests, Ladezeit und letzte Anpassungen.
+837	Physiotherapie im Zentrum von Málaga
+838	Ziel: mehr Terminbuchungen von Menschen, die uns auf dem Smartphone finden.
+839	Smartphone, Tablet, Computer
+840	Formular kommt im Postfach an
+841	Ladezeit gemessen
+842	Domain auf Ihren Namen
+843	Zum Launch erhalten Sie vier Schlüssel.
+844	Nichts bleibt an mich gebunden. Wenn Sie Ihre Website eines Tages jemand anderem anvertrauen möchten, geben Sie ihm diese Schlüssel.
+845	Domain
+846	Auf Ihren Namen registriert, mit den Zugangsdaten.
+847	Hosting
+848	Ihr eigenes Konto beim Anbieter, nicht das eines Wiederverkäufers.
+849	Code
+850	Standard-HTML, CSS und JavaScript, die jeder Entwickler lesen kann.
+851	Inhalte
+852	Texte und Bilder, die Sie bearbeiten oder mitnehmen können.
+853	Unternehmenswebsites
+854	Landingpages
+855	Design für mobile Geräte
+856	Gliederung und Texte für die Website
+857	Aktualisierung und Pflege bestehender Websites
+858	Bessere Struktur, Navigation und Nutzererfahrung
+859	Einbindung der digitalen Werkzeuge, die das Projekt braucht
+860	Fachleute, die einen seriösen Auftritt brauchen
+861	Läden ohne Website oder mit einer veralteten
+862	Unternehmen, die eine Leistung starten und eine Landingpage brauchen
+863	Projekte, die ihren digitalen Auftritt erneuern möchten
+864	Bevor Sie ein Angebot anfragen.
+865	Kann ich die Website selbst aktualisieren?
+866	Ja, wenn Sie möchten. Ich kann sie mit einem einfachen Redaktionssystem übergeben und Ihnen zeigen, wie Sie häufig wechselnde Inhalte ändern.
+867	Sind Domain und Hosting inbegriffen?
+868	Sie können Teil des Angebots sein. Die Kosten hängen vom Anbieter und vom erwarteten Besucheraufkommen ab.
+869	Wie lange dauert es?
+870	Das hängt von der Zahl der Bereiche ab und davon, wann Texte und Bilder bereitstehen. Im Angebot sehen Sie die Phasen und die voraussichtlichen Termine.
+871	Garantieren Sie Platz eins bei Google?
+872	Nein, und seien Sie vorsichtig bei allen, die das tun. Sie erhalten die technische Grundlage und Inhalte, die mit echter Arbeit ranken können.
+873	Leistungen · Daylu Forteza
+874	Sechs IT-Leistungen in Málaga: Systeme, Netzwerke, Wartung, Sicherheit, Webentwicklung und Schulung.
+875	Sechs Leistungen. Ein Techniker.
+876	Wählen Sie eine Leistung, um zu sehen, welche Probleme sie löst, was dazugehört, wie sie abläuft und was häufig gefragt wird.
+877	Die sechs Leistungen
+878	Was ich mache und was nicht
+879	Ein Büro von innen
+880	Sechs Leistungen
+881	Ein Techniker für alles.
+882	Vom ersten Kabel bis zum Kontaktformular Ihrer Website: Dieselbe Person diagnostiziert, behebt und erklärt.
+883	01 · Systeme
+884	Rechner, richtig eingerichtet.
+885	Installation und Konfiguration von Windows, Windows Server und macOS, mit Benutzern, Berechtigungen und Updates im Griff.
+886	02 · Netzwerke
+887	WLAN in jedem Raum.
+888	Strukturierte Verkabelung, beschriftete Patchfelder und Access Points dort, wo das Signal gebraucht wird.
+889	03 · Wartung
+890	Geprüft, bevor es ausfällt.
+891	Quartalsprüfungen von Kassen, Bürorechnern und Netzwerk, mit schriftlichem Statusbericht.
+892	04 · Sicherheit
+893	Drei Kopien, geprüft.
+894	Von einer externen Festplatte zu drei getesteten Kopien auf verschiedenen Datenträgern, eine davon außer Haus.
+895	05 · Web
+896	Eine Website, die Sie erklärt.
+897	Unternehmenswebsites und Landingpages in HTML, CSS, JavaScript, PHP und MySQL, zuerst fürs Smartphone gedacht.
+898	06 · Schulung
+899	Sie verstehen Ihre eigene Technik.
+900	Jeder Auftrag endet mit einem gemeinsamen Durchgang und einer schriftlichen Zusammenfassung, damit Sie selbst zurechtkommen.
+901	Umfang
+902	Was ich mache. Und was nicht.
+903	Die eigenen Grenzen zu kennen gehört zum Service. Wenn Ihr Fall außerhalb liegt, erfahren Sie es von mir gleich am ersten Tag.
+904	Das mache ich
+905	Diagnose, bevor ich etwas anfasse
+906	Erst die Ursache, dann die Lösung.
+907	Umfang und Preis schriftlich festhalten
+908	Vor Arbeitsbeginn, nie danach.
+909	Ihre Daten vor einer Installation sichern
+910	Und am Ende prüfen, dass alles da ist.
+911	Jede Installation beschriften und dokumentieren
+912	Plan, Beschriftung und schriftliche Zusammenfassung.
+913	Die Wiederherstellung Ihrer Sicherungen mit Ihnen testen
+914	Eine Kopie, die nie wiederhergestellt wurde, ist keine Sicherung.
+915	Domain und Hosting auf Ihren Namen registrieren
+916	Ihre Website bleibt Ihre.
+917	Das mache ich nicht
+918	Platz eins bei Google versprechen
+919	Seien Sie vorsichtig bei allen, die das tun.
+920	Umfassende Sicherheitsaudits oder Zertifizierungen
+921	Dafür verweise ich Sie an den passenden Spezialisten.
+922	Offizielle Abschlüsse ausstellen
+923	Die Schulung ist praktisch, nicht zertifiziert.
+924	Ihnen verkaufen, was Sie nicht brauchen
+925	Auch wenn das für mich weniger Arbeit bedeutet.
+926	Hardware ersetzen, die eine Aufrüstung retten kann
+927	Sie bekommen die Zahlen, um zu entscheiden.
+928	Sie von mir abhängig machen
+929	Passwörter, Unterlagen und Zugänge werden übergeben.
+930	Ein kleines Büro von innen
+931	Jedes Kästchen auf diesem Plan ist etwas, das ich prüfe.
+932	Tippen Sie auf ein Gerät, um zu sehen, was ich dort prüfe und was Sie am Ende erhalten.
+933	Netzwerkplan eines kleinen Büros
+934	Internetanschluss
+935	Switch und Verkabelung
+936	WLAN-Access-Points
+937	Rechner
+938	Sicherungsspeicher
+939	Drucker und Kartenterminal
+940	Fernzugriff
+941	Die Eingangstür Ihres Netzwerks.
+942	Alles läuft über ihn, deshalb prüfe ich ihn zuerst.
+943	Was ich prüfe
+944	Die wandernden Punkte zeigen den Datenverkehr. Die orangen sind Sicherungen und Homeoffice.
+945	Hier fängt alles an.
+946	Die Leitung Ihres Anbieters. Ich prüfe, ob ankommt, was Sie bezahlen.
+947	Tatsächliche Geschwindigkeit am Router gemessen
+948	Gerät und Vertrag des Anbieters geprüft
+949	Ersatzleitung für kritische Geschäfte
+950	Firmware aktuell, Standardpasswort geändert
+951	WLAN-Kanäle auf das Gebäude abgestimmt
+952	Gastnetz getrennt von den Arbeitsgeräten
+953	Der Teil, den sich niemand ansieht, bis er ausfällt.
+954	Strukturierte Verkabelung und ein Patchfeld, in dem jedes Kabel einen Namen hat.
+955	Jedes Patchkabel beschriftet
+956	Netzwerkplan gezeichnet und übergeben
+957	Vorhandene Verkabelung vor dem Austausch getestet
+958	WLAN in den Räumen, in denen Sie arbeiten.
+959	Abdeckung Raum für Raum gemessen, Access Points verkabelt, wo möglich.
+960	Signal in jedem Raum gemessen
+961	Mesh nur dort, wo kein Kabel hinkommt
+962	Stabil, auch wenn viele verbunden sind
+963	Fünf Arbeitsplätze, die sich gleich verhalten.
+964	Eine Grundeinrichtung, getrennte Benutzer und kontrollierte Updates.
+965	System aktuell und Lizenzen geklärt
+966	Benutzer und Berechtigungen pro Person
+967	Daten migriert und geprüft
+968	Sicherungen, die Sie tatsächlich wiederhergestellt haben.
+969	Drei Kopien auf verschiedenen Datenträgern, eine davon außerhalb des Büros.
+970	Automatische Sicherungen geplant
+971	Eine Kopie außer Haus
+972	Eine Wiederherstellung gemeinsam mit Ihnen getestet
+973	Geräte, die nicht mehr aus dem Netz fallen.
+974	Drucker und Kartenterminals erhalten feste Adressen, damit sie immer gefunden werden.
+975	Feste IP für jedes Gerät
+976	Treiber an jedem Arbeitsplatz installiert
+977	Von jedem Rechner aus getestet
+978	Ihr Büro, sicher von zu Hause.
+979	Ein VPN, damit Sie von außen an Ihre Dateien kommen, ohne das Netzwerk für alle zu öffnen.
+980	VPN auf dem Router eingerichtet
+981	Zugang pro Person, leicht zu entziehen
+982	Von außerhalb des Büros getestet
+983	WAS GEMACHT WURDE
+984	WARUM
+985	WIE MAN ES NUTZT
+986	SCHRIFTLICHE ZUSAMMENFASSUNG
+987	GATEWAY
+988	PATCHFELD
+989	Access Point
+990	EMPFANG
+991	5 PLÄTZE
+992	SICHERUNGEN
+993	Drucker · Kartenterminal
+994	FESTE IP
+995	BESPRECHUNGSRAUM
+996	Laptop zu Hause
+997	Texte
+998	Privatperson
+999	Standort &nbsp;
+1000	Kunde &nbsp;
