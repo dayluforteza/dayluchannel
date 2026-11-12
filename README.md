@@ -1,8 +1,8 @@
 # dayluchannel
 
-Web inmersiva para Construcciones Daylu: una casa 3D que se construye mientras haces scroll.
+Web de Construcciones Daylu (construcción y reformas en Ferrol).
 
-- `index.html`, `styles.css` y `main.js`. HTML, CSS y JS normales, sin build.
-- Three.js r128 desde cdnjs.
-- Para publicarla, sube los 3 archivos a Hostinger, Netlify o GitHub Pages.
+- `index.html`: versión premium. HTML, CSS y JS normales, sin build. Fotos en `img/` y sistema de diseño en `assets/`.
+- `v1-3d/`: primera versión, con una casa 3D que se construye al hacer scroll.
+- Para publicarla, sube la carpeta entera (sin `v1-3d/` si no la quieres) a Hostinger, Netlify o GitHub Pages.
 - Para verla en local: `python3 -m http.server` y abre http://localhost:8000
