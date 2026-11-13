@@ -4,9 +4,10 @@ the strings the page script writes). build.py calls translate() per page; missin
 import json, pathlib, re
 
 # code, name in its own language, short label. Add a language here once i18n/<code>.json is complete.
-LANGS = [('en', 'English', 'EN'), ('es', 'Español', 'ES'), ('pt', 'Português', 'PT'), ('fr', 'Français', 'FR'), ('de', 'Deutsch', 'DE'), ('it', 'Italiano', 'IT'), ('ca', 'Català', 'CA')]
-HTMLLANG = {'pt': 'pt-PT'}
-PLANNED = 7  # the menu is built for seven languages
+LANGS = [('en', 'English', 'EN'), ('es', 'Español', 'ES'), ('ca', 'Català', 'CA'), ('va', 'Valencià', 'VA'), ('gl', 'Galego', 'GL'), ('eu', 'Euskara', 'EU'),
+         ('pt', 'Português', 'PT'), ('fr', 'Français', 'FR'), ('de', 'Deutsch', 'DE'), ('it', 'Italiano', 'IT'), ('zh', '中文', 'ZH'), ('ar', 'العربية', 'AR')]
+HTMLLANG = {'pt': 'pt-PT', 'va': 'ca-ES-valencia', 'zh': 'zh-Hans'}
+RTL = {'ar'}
 
 _D = {}
 _missing = {}
@@ -48,14 +49,14 @@ def _href(cur, target, fname):
     return up + ('' if target == 'en' else target + '/') + fname
 
 def lang_menu(cur, fname):
-    items = ''.join(f'<li><a href="{_href(cur, c, fname)}" hreflang="{c}" lang="{c}"{" aria-current=\"true\"" if c == cur else ""}><span>{n}</span><b>{l}</b></a></li>' for c, n, l in LANGS)
+    items = ''.join(f'<li><a href="{_href(cur, c, fname)}" hreflang="{HTMLLANG.get(c, c)}" lang="{HTMLLANG.get(c, c)}"{" aria-current=\"true\"" if c == cur else ""}><span>{n}</span><b>{l}</b></a></li>' for c, n, l in LANGS)
     label = dict((c, l) for c, n, l in LANGS)[cur]
     return (f'<div class="lang"><button type="button" aria-expanded="false" aria-haspopup="true" aria-label="Language">'
             f'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>'
             f'<span>{label}</span></button><ul>{items}</ul></div>')
 
 def lang_row(cur, fname):
-    return '<div class="sheet__lang">' + ''.join(f'<a href="{_href(cur, c, fname)}" hreflang="{c}" lang="{c}"{" aria-current=\"true\"" if c == cur else ""}>{n}</a>' for c, n, l in LANGS) + '</div>'
+    return '<div class="sheet__lang">' + ''.join(f'<a href="{_href(cur, c, fname)}" hreflang="{HTMLLANG.get(c, c)}" lang="{HTMLLANG.get(c, c)}"{" aria-current=\"true\"" if c == cur else ""}>{n}</a>' for c, n, l in LANGS) + '</div>'
 
 def write_js():
     """assets/i18n-<code>.js: the strings the page script writes at run time."""

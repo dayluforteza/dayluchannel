@@ -1,0 +1,1001 @@
+0	Sobre min · Daylu Forteza
+1	Quen é Daylu Forteza: técnico informático en Málaga, a súa traxectoria e as ferramentas coas que traballa.
+2	Principal
+3	Inicio
+4	Servizos
+5	Sistemas
+6	Equipos, servidores e servizos do sistema
+7	Redes
+8	Cableado, routers, switches e wifi
+9	Mantemento
+10	Diagnóstico e mantemento preventivo
+11	Seguridade
+12	Configuración, permisos e copias de seguridade
+13	Desenvolvemento web
+14	Webs desde 1.000 €
+15	Formación
+16	Formación e asesoramento de compra
+17	Todos os servizos
+18	Proxectos
+19	Sobre min
+20	Como traballo
+21	Recursos
+22	Contacto
+23	Atopa a túa solución
+24	Abrir o menú
+25	Pechar o menú
+26	Idioma
+27	WhatsApp ›
+28	Cóntame o teu caso
+29	Seguinte paso
+30	Cóntame o teu caso.
+31	Abonda cunha descrición breve para comezar. Se non é algo no que che poida axudar, direiche quen pode.
+32	Escríbeme por WhatsApp ›
+33	Servizos informáticos e solucións dixitais en Málaga e a súa área metropolitana. Con cita previa, en persoa ou en remoto.
+34	A web
+35	Páxina de contacto
+36	© 2026 Daylu Forteza · Todos os dereitos reservados
+37	Málaga, España · Con cita previa
+38	Volver arriba
+39	Escríbeme por WhatsApp
+40	Servizo principal
+41	Ola, son Daylu.
+42	Técnico informático e desenvolvedor web en Málaga. Formación, soporte e traballo de campo desde 2017, co mesmo coidado para un portátil que para unha oficina enteira.
+43	Quen son
+44	Traxectoria
+45	Ferramentas
+46	Un técnico que che explica cada paso.
+47	Son Daylu Forteza, técnico informático e desenvolvedor web en Málaga. Encárgome da tecnoloxía de particulares, profesionais e pequenas empresas: os seus equipos, a súa rede, as súas copias de seguridade e a súa web.
+48	Detrás de cada problema técnico hai unha persoa que precisa unha solución. Saber de sistemas é a metade do traballo. A outra metade é escoitar, explicar e escoller o arranxo que siga tendo sentido dentro dun ano.
+49	A miña formación e os lugares nos que traballei están na traxectoria aquí abaixo.
+50	Perfil
+51	Técnico informático · Desenvolvedor web
+52	Localización
+53	Málaga, España
+54	Modalidade
+55	Presencial e en remoto
+56	Dispoñibilidade
+57	Con cita previa
+58	Enfoque principal
+59	Webs e sistemas
+60	Como cheguei ata aquí.
+61	Formación, soporte e traballo de campo, paso a paso. Cada etapa deixoume algo que hoxe aplico en cada traballo.
+62	Formación
+63	Sistemas microinformáticos e redes
+64	A base: montar, instalar e conectar equipos e redes.
+65	Sistemas operativos
+66	Ciclo superior
+67	Administración de sistemas informáticos en rede
+68	Servidores, servizos, seguridade e a administración de redes completas.
+69	Certificación
+70	IT Essentials e CCNA Routing and Switching
+71	Encamiñamento, conmutación e como se deseñan as redes de verdade.
+72	Ensinando tecnoloxía
+73	Axudando a xente a entender e usar a súa tecnoloxía. Alí aprendín a explicar sen dar nada por sabido.
+74	Clases
+75	Todos os niveis
+76	Soporte técnico
+77	Soporte presencial e en remoto
+78	Reparacións, incidencias e configuración de redes e sistemas, día tras día.
+79	Reparacións
+80	Incidencias
+81	En remoto
+82	Sanidade
+83	Sector especializado
+84	Equipos e software do ámbito sanitario
+85	Un traballo no que unha falla afecta a pacientes, así que cada paso é coidadoso e queda documentado.
+86	Software especializado
+87	Sistemas críticos
+88	Hoxe
+89	Pola miña conta
+90	Servizos informáticos e webs en Málaga
+91	Sistemas, redes, mantemento, seguridade, web e formación para todo tipo de clientes.
+92	O seguinte
+93	O teu proxecto
+94	A próxima liña desta traxectoria
+95	Cóntame que precisas e escribímola xuntos.
+96	Con que traballo
+97	As ferramentas detrás do traballo.
+98	Usuarios e permisos
+99	Recursos compartidos
+100	Cableado estruturado
+101	Routers
+102	Switches
+103	Puntos de acceso
+104	Diagnóstico
+105	Mantemento preventivo
+106	Asistencia remota
+107	Copias de seguridade
+108	Ampliacións de hardware
+109	Deseño adaptable
+110	Soporte
+111	Web
+112	Cando me comprometo, lévoo ata o final.
+113	Comprometido
+114	Se collo un traballo, remátoo, próboo e explícocho. Nada queda a medias.
+115	Meticuloso
+116	Cada cable etiquetado e cada cambio por escrito. Un traballo que o seguinte técnico poida entender.
+117	Claro
+118	Preséntoche cada opción cos seus límites, non só a que máis me conviría venderche.
+119	Adaptable
+120	Un veciño xubilado ou unha oficina a tope: a explicación e o ritmo adáptanse á persoa.
+121	HOXE
+122	Contacto · Daylu Forteza
+123	Contacta con Daylu Forteza en Málaga por WhatsApp, teléfono ou correo, e mira en que zonas traballa.
+124	Abonda cunha descrición breve para comezar. Se o teu caso non é algo no que che poida axudar, direicho.
+125	WhatsApp e teléfono
+126	Abrir WhatsApp ›
+127	Copiar
+128	Copiado
+129	Seleccionado
+130	Correo
+131	Onde
+132	Málaga e área metropolitana
+133	O teu nome
+134	De que se trata
+135	Unha web
+136	Rede ou wifi
+137	Seguridade e copias
+138	Aínda non o sei
+139	Que che está pasando
+140	Escribe unhas palabras sobre o teu caso para que che poida responder.
+141	Enviar por WhatsApp
+142	Ábrese WhatsApp coa túa mensaxe xa escrita. Non se envía nada ata que premas enviar.
+143	Debería abrirse WhatsApp coa túa mensaxe. Se non se abre, copia o número de arriba.
+144	Ola, Daylu
+145	, son
+146	Tema:
+147	Onde traballo
+148	Un mapa que medra con cada cliente.
+149	Con base en Málaga: presencial en toda a área metropolitana e en remoto en calquera punto de España. Cada lugar onde traballo súmase á rede.
+150	Mapa de España coas zonas onde traballa Daylu Forteza
+151	lugar
+152	lugares
+153	provincia
+154	provincias
+155	conexión
+156	conexións
+157	Base
+158	Cliente
+159	Conexión
+160	BASE · PRESENCIAL
+161	Base · presencial na área metropolitana
+162	Rede de oficina
+163	Atopa a túa solución · Daylu Forteza
+164	Escolle o problema que se pareza ao teu e mira como o resolvería Daylu Forteza.
+165	Non sabes moi ben que precisas?
+166	Escolle o problema que máis se pareza ao teu ou dime que tipo de cliente es. Non fai falta que saibas o nome técnico de nada.
+167	Por problema
+168	Por tipo de cliente
+169	Cando a tecnoloxía falla, todo se para.
+170	Escolle o problema que se pareza ao teu. Non precisas saber como se chama tecnicamente.
+171	Mantemento e diagnóstico
+172	O ordenador tarda unha eternidade en arrincar.
+173	Adoita ser cousa dos programas de inicio, un disco cheo ou un disco duro que xa non dá máis. O diagnóstico dicche cal é, antes de cambiar nada.
+174	Aparece o mesmo erro cada semana.
+175	Un erro que se repite ten unha causa. Búscoa nos rexistros en lugar de reiniciar e cruzar os dedos.
+176	A wifi cae ou non chega a todas as habitacións.
+177	Un router mal colocado, interferencias entre canles ou un edificio que precisa máis dun punto de acceso.
+178	Ninguén sabe que cable vai a onde.
+179	Un armario sen etiquetas converte cada cambio nunha adiviña.
+180	Os equipos novos chegaron mal configurados.
+181	Configuración de fábrica, sen actualizar e todos os usuarios como administradores.
+182	O ordenador vai lento e non sabes se cambialo.
+183	Ás veces abonda cunha ampliación e ás veces non. Dóuche os datos para que decidas.
+184	Non tes copias de seguridade e perdes ficheiros.
+185	Unha copia nun só disco non é unha copia de seguridade. Tres copias comprobadas en soportes distintos, si.
+186	Non tes web ou a que tes non explica o que fas.
+187	Unha web que explique o teu servizo e facilite que che contacten.
+188	Ninguén che explicou como funciona a túa propia tecnoloxía.
+189	Deberías poder manexar as túas ferramentas sen ter que chamar a alguén cada vez.
+190	Revisar o arranque e o estado do disco
+191	Limpar e actualizar
+192	Pasar a SSD só se compensa
+193	Ler os rexistros do sistema
+194	Reproducir o erro
+195	Corrixir a causa e documentala
+196	Redes e infraestrutura
+197	Medir a cobertura habitación por habitación
+198	Axustar canles e localización
+199	Engadir puntos de acceso onde fagan falta
+200	Seguir e etiquetar cada latiguillo
+201	Debuxar o esquema de rede
+202	Entregarche a documentación
+203	Revisar cada equipo
+204	Configurar usuarios e permisos
+205	Deixar unha imaxe base para os próximos
+206	Medir que o está freando
+207	Orzamentar a ampliación e o cambio
+208	Decides ti, cos datos diante
+209	Ver que hai que gardar
+210	Montar tres copias, unha fóra da oficina
+211	Probar unha restauración contigo
+212	Acordar que ten que conseguir a web
+213	Preparar a estrutura e os textos
+214	Desenvolver, probar e publicar ao teu nome
+215	Repasar xuntos o teu equipo e as túas ferramentas
+216	Escribirche unha guía curta
+217	Resolver as dúbidas que vaian saíndo
+218	Ver o servizo
+219	Ver o servizo de mantemento
+220	Ver o servizo de redes
+221	Ver o servizo de sistemas
+222	Ver o servizo de seguridade
+223	Ver o servizo de desenvolvemento web
+224	Ver o servizo de formación
+225	Con quen traballo
+226	Sexas quen sexas, tes todo cuberto.
+227	Desde un portátil na casa ata unha oficina chea de postos. Adáptome ao tamaño e ao ritmo de cada cliente. Escolle o teu.
+228	Tipo de cliente
+229	Autónomo
+230	Comercio
+231	Oficina
+232	Clínica
+233	Centro de formación
+234	Negocio novo
+235	de 6 áreas
+236	de 6 áreas cubertas
+237	Para un particular
+238	Para un autónomo
+239	Para un comercio
+240	Para unha oficina
+241	Para unha clínica
+242	Para un centro de formación
+243	Para un negocio que comeza
+244	Traballos típicos que asumo de principio a fin:
+245	Non está na lista? Pregúntame igualmente. Se non é o meu, direiche a quen acudir.
+246	Un portátil lento que volve ir ben antes de mercar outro
+247	Wifi que chega a todas as habitacións da casa
+248	As fotos e os documentos da familia gardados en dous sitios
+249	Axuda para manexar con soltura o móbil, a tableta e o ordenador
+250	Un posto de traballo que funciona igual na casa ca na oficina
+251	Unha web ou unha landing que che traia consultas
+252	Os datos dos teus clientes con copia e protexidos
+253	Axuda en remoto cando algo non che deixa traballar
+254	Unha caixa e un datáfono que non caen da rede
+255	A wifi do persoal separada da dos clientes
+256	Revisións trimestrais antes da tempada alta
+257	Unha web que diga onde estás e cando abres
+258	Cableado e wifi para cada posto, etiquetados e documentados
+259	A mesma configuración base en todos os equipos
+260	Un plan de mantemento con informe de estado
+261	Acceso seguro aos teus ficheiros desde a casa
+262	Equipos e software especializados do sector sanitario
+263	Historias de pacientes con copia e permisos por persoa
+264	Unha rede para a recepción e cada consulta
+265	Mantemento preventivo para que ningunha cita agarde por un ordenador
+266	Unha aula de informática coa mesma imaxe base en cada equipo
+267	Unha wifi de aula que aguanta un grupo completo
+268	Formación para o equipo nas ferramentas que de verdade usa
+269	Unha web para cursos e matrículas
+270	Equipos escollidos para o que precisas, sen gastar de máis
+271	A rede instalada antes de abrir as portas
+272	Unha web lista para o día da apertura
+273	Contas, contrasinais e copias ben configurados desde o principio
+274	Como traballo · Daylu Forteza
+275	Como traballa Daylu Forteza: seis etapas, alcance e prezo por escrito e unha entrega documentada.
+276	Seis etapas, desde a túa mensaxe ata a entrega.
+277	Non precisas palabras técnicas para contarme que pasa. Sempre saberás en que punto está o teu caso, que vén despois e canto custa.
+278	Seis etapas
+279	Contratación
+280	Formas de colaborar
+281	Entrega
+282	Preguntas
+283	Metodoloxía
+284	Seis etapas. Sen pasos misteriosos.
+285	Sempre saberás en que punto está o teu caso e que vén despois. O alcance e o prezo quedan claros antes de comezar.
+286	Escoitar
+287	Cóntasme que falla ou que che gustaría mellorar. Fágoche as preguntas necesarias para entendelo.
+288	Diagnosticar
+289	Reviso o equipo, a rede, o sistema ou a web ata ter clara a causa.
+290	Propoñer
+291	As túas opcións, os seus límites e a miña recomendación, con alcance e prezo antes de comezar.
+292	Resolver
+293	O traballo acordado, feito con coidado e respectando os teus equipos e os teus datos.
+294	Verificar
+295	Probámolo xuntos e levas un resumo por escrito do que se fixo.
+296	Se ten sentido, mantemento ou melloras. Se non o ten, direicho.
+297	Da primeira consulta ao peche.
+298	O primeiro contacto non te compromete a nada. Se o teu caso non encaixa co que podo ofrecerche, direicho con claridade.
+299	Cóntasme o teu caso
+300	Polo formulario, por WhatsApp ou desde o buscador de solucións, co detalle que teñas. Non fai falta que saibas o nome técnico do problema.
+301	Pídoche só o necesario
+302	Os datos imprescindibles para entender a situación e o seu alcance.
+303	Valoro as opcións
+304	Comparo alternativas e descarto o que non achega nada ao teu caso.
+305	Proposta e orzamento
+306	Recibes o alcance, o prazo orientativo e o importe antes de comezar.
+307	Fago o traballo
+308	Nas condicións acordadas, respectando os teus equipos e os teus datos.
+309	Comprobamos o resultado
+310	Probas comigo e un resumo por escrito do realizado.
+311	Vemos que máis che achega
+312	Se ten sentido, melloras ou mantemento. Se non, dígocho igual.
+313	Escolle canta axuda precisas.
+314	Intervención puntual
+315	Arranxar algo concreto.
+316	Un equipo que falla, unha configuración que hai que deixar ben ou unha instalación puntual.
+317	Diagnóstico previo
+318	O traballo e as súas probas
+319	Resumo do realizado
+320	Proxecto pechado
+321	De principio a fin.
+322	Unha rede nova para a oficina, a renovación de equipos ou unha web completa, cun resultado que podes comprobar.
+323	Análise de necesidades
+324	Proposta con alcance e fases
+325	Entrega e verificación final
+326	Mantemento recorrente
+327	Que todo siga funcionando.
+328	Para pequenas empresas e oficinas que non se poden permitir parar.
+329	Revisións periódicas
+330	Soporte cando algo falla
+331	Informe de estado
+332	Os prezos e os prazos dependen do alcance de cada caso, e tes todo por escrito antes de comezar.
+333	A documentación queda contigo.
+334	Cada traballo remata con documentos que son teus, para que quen abra o armario despois saiba exactamente que hai.
+335	Informe
+336	Que fallou e por que
+337	Proposta
+338	Alcance e prezo
+339	Antes de comezar
+340	Esquema
+341	Mapa de rede e etiquetas
+342	Cada cable co seu nome
+343	Resumo
+344	Traballo realizado
+345	Explicado con claridade
+346	Proba
+347	Proba de restauración
+348	A túa copia, comprobada
+349	Sobre traballar comigo.
+350	O primeiro contacto compromete a algo?
+351	Non. Cóntasme o teu caso e dígoche se podo axudarche. Se non encaixa co que ofrezo, dígocho con claridade.
+352	Por que non hai prezos publicados?
+353	Cada caso ten un alcance distinto. Pásoche unha proposta concreta, con importe e prazos, cando entendo que fai falta. As webs son a excepción: comezan nos 1.000 €.
+354	Teño que saber que falla tecnicamente?
+355	Non. Cóntame o que pasa coas túas palabras. Atopar a causa é cousa miña.
+356	Traballas en persoa ou en remoto?
+357	As dúas cousas. En persoa en Málaga e a súa área metropolitana, con cita previa, e en remoto cando o problema o permite.
+358	Que levo ao rematar un traballo?
+359	Un resumo por escrito do realizado e a documentación da entrega: diagnóstico, proposta, esquema ou proba de restauración, segundo o traballo.
+360	Servizos informáticos e webs en Málaga: sistemas, redes, mantemento, seguridade, desenvolvemento web e formación, por Daylu Forteza.
+361	Servizos informáticos e webs · Málaga
+362	Tecnoloxía que te fai avanzar.
+363	Servizos informáticos e webs para particulares, profesionais e pequenas empresas en Málaga.
+364	Ver os seis servizos ›
+365	Catro capas, un só técnico.
+366	A maioría dos problemas están entre unha capa e outra. Traballo nas catro, así que ninguén che pasa a pelota.
+367	Equipos e sistemas
+368	Windows, Windows Server, macOS
+369	Rede
+370	Cableado, wifi, VPN
+371	Copias que se poden restaurar
+372	Webs que a xente sabe usar
+373	Baixa para desmontala
+374	Enfoque
+375	Primeiro a causa, despois a solución. Cada opción explicada con claridade, cada traballo
+376	documentado
+377	, para que nada dependa da memoria de ninguén.
+378	O que podo facer por ti.
+379	Todos os servizos ›
+380	Webs desde 1.000 €.
+381	A oferta, como se constrúe unha web e que é teu ao rematar, todo nunha páxina.
+382	Ver desenvolvemento web
+383	Explora
+384	Afonda todo o que queiras.
+385	Describe o problema. Atopa o servizo.
+386	Nove casos habituais, cada un ligado ao servizo que o resolve.
+387	Seis etapas, sen misterios.
+388	Desde a primeira mensaxe ata a entrega, con alcance e prezo por escrito.
+389	Ver como traballo
+390	Como o formularía eu.
+391	Nove propostas de redes, sistemas, seguridade e web.
+392	Ver os proxectos
+393	A persoa que hai detrás.
+394	Traxectoria, ferramentas e forma de traballar.
+395	Coñece a miña historia
+396	Abonda cunha mensaxe.
+397	WhatsApp, teléfono ou correo. Con cita previa en Málaga.
+398	Contactar
+399	Proxectos · Daylu Forteza
+400	Proxectos e propostas de Daylu Forteza: redes, cableado, sistemas, mantemento, web e seguridade.
+401	Casos reais e propostas, sen inventar nada.
+402	Cada ficha mostra como abordaría un tipo de necesidade. Filtra por área para ver as que máis se parecen á túa.
+403	Filtrar proxectos
+404	Todos
+405	Cableado
+406	Negocios
+407	Proposta
+408	Rede local para unha oficina de cinco postos
+409	Deseño dunha rede cableada e wifi para cinco postos de traballo, con cobertura en todas as estancias e a instalación documentada.
+410	Un armario de comunicacións que calquera entende
+411	Proposta para ordenar un armario de cables sen identificar, deixando cada latiguillo etiquetado e co seu esquema.
+412	Contorno de sistemas para un laboratorio
+413	Varios equipos preparados co mesmo contorno base, usuarios diferenciados e unha rutina de actualización controlada.
+414	Mantemento preventivo para un comercio
+415	Un calendario de revisións trimestrais para o equipo de caixa, o de xestión e a rede do local.
+416	Web corporativa para un estudo profesional
+417	Estrutura editorial, fichas de servizo e un formulario conectado á xestión de solicitudes.
+418	Landing de captación para un servizo local
+419	Unha única páxina centrada nunha soa acción: pedir unha valoración do servizo.
+420	Mellores copias de seguridade
+421	Dunha única copia nun disco externo a tres copias comprobadas en soportes distintos.
+422	Renovación por fases para unha asesoría
+423	Ampliacións onde axudan e substitución só onde achega rendemento real.
+424	Posto de traballo híbrido para un autónomo
+425	Un posto que funciona igual na casa ca na oficina, cos datos sincronizados e acceso seguro.
+426	As fichas marcadas como «Proposta» son formulacións e conceptos de deseño, non encargos realizados. Mostran o criterio co que abordo cada tipo de necesidade.
+427	Tes un caso parecido?
+428	Recursos · Daylu Forteza
+429	Explicacións claras sobre o que falla e por que: mantemento, redes e web, por Daylu Forteza.
+430	Explicacións claras sobre o que falla e por que.
+431	Sen fume nin titulares alarmistas: criterios prácticos para entender a túa tecnoloxía e decidir mellor.
+432	Últimos artigos
+433	29 out. 2026
+434	Por que o teu ordenador vai lento (e que se pode facer sen mercar outro)
+435	As causas máis habituais e como se comproba cada unha.
+436	Ler o artigo ›
+437	A wifi non chega: como se diagnostica de verdade
+438	Como se mide o sinal e cando fai falta un cable ou un punto de acceso.
+439	Que debe ter a web dun negocio pequeno en 2026
+440	Velocidade, claridade e unha forma real de recibir consultas. O resto é opcional.
+441	Problemas
+442	Que consegues
+443	En detalle
+444	Que inclúe
+445	Como se desenvolve
+446	Problemas que resolve
+447	Sóache?
+448	O resultado, con claridade.
+449	Así é o traballo.
+450	Que inclúe
+451	Quedas con
+452	Ideal para
+453	Todo o que entra.
+454	Para quen é
+455	Pensado para
+456	Catro pasos, de principio a fin.
+457	Outros servizos
+458	Adoitan ir da man.
+459	Cóntame o caso co detalle que teñas e responderei cun diagnóstico razoado. Sen compromiso e sen tecnicismos innecesarios.
+460	Ver máis ›
+461	Servizo principal · Ver máis ›
+462	Mantemento · Daylu Forteza
+463	Cando algo falla, volver poñelo en marcha é só a metade do traballo. A outra metade é entender que pasou e evitar que se repita.
+464	Saber que fallou e por que.
+465	Cando algo falla, volver poñelo en marcha é só a metade do traballo. A outra metade é entender que pasou e evitar que se repita. Analizo o problema con comprobacións e probas, busco a solución axeitada e explícoche que atopei.
+466	Son os casos de mantemento que máis me chegan.
+467	Equipos que arrincan amodo ou se bloquean sen motivo aparente
+468	Erros que aparecen e desaparecen e ninguén consegue reproducir
+469	Programas que se pechan sós ou perden datos
+470	Quentamento, ruído excesivo ou apagados repentinos
+471	Equipos que ninguén revisa ata que deixan de funcionar
+472	Saberás que falla e por que, sen diagnósticos a cegas
+473	Menos incidencias repetidas grazas ao mantemento preventivo
+474	Equipos máis rápidos e estables sen cambiar de hardware
+475	Avisos a tempo cando un compoñente empeza a dar sinais
+476	Análise de incidencias con comprobacións e probas ata dar coa causa, despois a solución e un plan para que non volva.
+477	Diagnóstico de hardware e software
+478	Mantemento preventivo e correctivo
+479	Optimización do rendemento sen cambiar de equipo
+480	Rexistro de cada intervención
+481	Informe de diagnóstico
+482	Calendario de mantemento
+483	Informe de estado tras cada revisión
+484	Autónomos que non poden parar
+485	Comercios cunha caixa crítica
+486	Oficinas sen informático propio
+487	Diagnóstico de erros de hardware e software
+488	Resolución de incidencias informáticas
+489	Optimización do rendemento
+490	Asistencia técnica presencial e remota
+491	Revisión de equipos e sistemas
+492	Particulares cun equipo que xa non rende coma antes
+493	Autónomos que non se poden permitir parar
+494	Comercios cun único posto de traballo crítico
+495	Oficinas sen persoal técnico propio
+496	Cóntame que che pasa
+497	Cóntame que che pasa.
+498	Que ocorre, desde cando e con que programas.
+499	Analizo o sistema e fago probas para localizar a causa.
+500	Aplico a solución acordada e comprobo o resultado.
+501	Confirmo que a falla non volve e explícoche que pasou.
+502	O que se pregunta sobre mantemento.
+503	Podes revisar o meu equipo en remoto?
+504	Moitas revisións de sistema e software resólvense en remoto. As avarías físicas, como un disco ou unha memoria defectuosa, requiren ir en persoa ou que me deixes o equipo.
+505	Paga a pena o mantemento preventivo?
+506	En equipos de traballo, case sempre. Revisar o disco, actualizar e limpar evita paradas que custan máis ca propia revisión.
+507	Saberei se ten arranxo antes de pagar?
+508	Si. Primeiro diagnostico e explícoche o escenario: reparación, ampliación ou substitución. Ti decides como seguir.
+509	XAN
+510	ABR
+511	XUL
+512	OUT
+513	REVISIÓN
+514	REVISIÓN + DISCO
+515	REVISIÓN + INFORME
+516	Redes · Daylu Forteza
+517	Unha rede ben deseñada e ben instalada facilita o traballo, mellora a conectividade e reduce os problemas do día a día.
+518	Unha rede na que podes deixar de pensar.
+519	Unha rede ben deseñada e ben instalada facilita o traballo, mellora a conectividade e reduce os problemas do día a día. Instalo, organizo e configuro a infraestrutura da túa casa, oficina ou negocio, desde a conexión a internet ata cada dispositivo.
+520	Son os casos de redes que máis me chegan.
+521	Wifi que non chega a todas as estancias ou cae con varias persoas conectadas
+522	Cables sen etiquetar e armarios onde ninguén sabe que vai a onde
+523	Equipos que perden a conexión ao cambiar de sala
+524	Impresoras ou TPV que deixan de responder sen motivo aparente
+525	Precisas acceder á túa oficina desde fóra con seguridade
+526	Cobertura estable, cos puntos de acceso no sitio axeitado
+527	Cableado etiquetado e documentado: acabouse adiviñar
+528	Menos incidencias de conectividade no traballo diario
+529	Unha base preparada para engadir equipos sen refacelo todo
+530	Un cableado que calquera entende.
+531	Instalación e organización do cableado de rede dunha casa, oficina ou local: da roseta ao panel de parcheo, con cada punto probado e co seu nome.
+532	Percorridos de cable planificados estancia por estancia
+533	Rosetas de rede e panel de parcheo instalados
+534	Cada punto probado antes de pechalo
+535	Etiquetas nos dous extremos de cada cable
+536	Armario ordenado e cableado existente aproveitado onde aguanta
+537	Armario etiquetado
+538	Esquema de rede
+539	Resultados de proba por punto
+540	Oficinas que se montan
+541	Comercios que cambian de local
+542	Casas con moitos dispositivos
+543	Equipos de rede
+544	Routers, switches e wifi, ben configurados.
+545	Instalación e configuración dos equipos polos que pasan os teus datos: o router, os switches e os puntos de acceso, axustados ao edificio e á túa forma de traballar.
+546	Router configurado e contrasinais de fábrica cambiados
+547	Switches instalados e portos asignados
+548	Puntos de acceso colocados onde se mediu a cobertura
+549	Rede separada para convidados ou clientes
+550	Acceso remoto por VPN cando o precises
+551	Resumo da configuración
+552	Comprobación de cobertura por estancia
+553	Accesos de administración entregados
+554	Oficinas
+555	Comercios con TPV e cámaras
+556	Casas con mala wifi
+557	Instalación e organización de cableado de rede
+558	Configuración de routers, switches e puntos de acceso
+559	Ampliación e mellora da cobertura wifi
+560	Configuración de redes locais, DHCP e DNS
+561	Conexión e configuración de equipos
+562	Diagnóstico de problemas de conectividade
+563	VPN para conexións remotas
+564	Vivendas con mala cobertura ou moitos dispositivos
+565	Oficinas que montan a súa rede por primeira vez
+566	Comercios con TPV, cámaras e conexións críticas
+567	Negocios que se mudan de local
+568	Pedir unha valoración de rede
+569	Pide unha valoración da túa rede.
+570	Que precisas conectar e que problemas notas agora.
+571	Revisar o espazo
+572	Puntos de conexión, equipos e a cobertura que precisas.
+573	Deseñar e instalar
+574	Cableado, equipos, configuración e etiquetaxe.
+575	Probo a cobertura, a velocidade e a estabilidade en cada zona.
+576	O que se pregunta sobre redes.
+577	Teño que cambiar o cableado da miña oficina?
+578	Non sempre. Primeiro comprobo a calidade e o estado do que hai. Se o cableado sostén a rede, adapto a configuración e os equipos.
+579	Podo ampliar a wifi sen obras?
+580	En moitos casos si, con puntos de acceso cableados onde se poida ou cunha rede mallada onde non. Explícoche as vantaxes e os límites de cada opción.
+581	Deixas documentación da instalación?
+582	Si. Etiquetas, un esquema da rede e un resumo da configuración, para que calquera revisión futura parta de algo claro.
+583	POSTO 1
+584	POSTO 2
+585	POSTO 3
+586	VLAN PERSOAL
+587	Seguridade · Daylu Forteza
+588	A seguridade comeza por uns sistemas ben configurados e uns bos hábitos.
+589	Protección realista e comprobada.
+590	A seguridade comeza por uns sistemas ben configurados e uns bos hábitos. Reviso a configuración dos teus equipos e da túa rede, melloro a protección dos teus dispositivos e establezo medidas básicas para reducir riscos e non perder información.
+591	Son os casos de seguridade que máis me chegan.
+592	O mesmo contrasinal para todo e contas sen control
+593	Equipos con actualizacións pendentes desde hai meses
+594	Copias de seguridade que existen pero que ninguén probou a restaurar
+595	Ficheiros importantes nun único disco, sen segunda copia
+596	Permisos e cartafoles compartidos abertos a todo o mundo
+597	Unha protección realista que non che complica o día a día
+598	Copias comprobadas: saberás que podes recuperar
+599	Menos risco de perder datos ou o acceso ás túas contas
+600	Criterios claros para distinguir un aviso lexítimo dunha fraude
+601	Seguridade básica e preventiva: configuración, actualizacións, contrasinais, permisos e copias que de verdade se restauraron.
+602	Configuración de seguridade revisada
+603	Actualizacións e protección configuradas
+604	Asesoramento sobre contrasinais e accesos
+605	Copias configuradas en soportes distintos
+606	Cartafoles compartidos e permisos revisados
+607	Riscos ordenados por impacto real
+608	Proba de restauración de copias
+609	Pautas por escrito
+610	Persoas con fotos e sen copia
+611	Autónomos con datos de clientes
+612	Comercios e oficinas
+613	Revisión da configuración de seguridade
+614	Asesoramento sobre contrasinais e accesos
+615	Configuración de copias de seguridade
+616	Revisión de permisos e recursos compartidos
+617	Recomendacións para protexer a túa información
+618	Particulares con fotos e documentos sen copia
+619	Autónomos que gardan datos de clientes
+620	Comercios con TPV e equipos conectados
+621	Oficinas que queren evitar paradas por incidentes
+622	Revisar a miña seguridade
+623	Revisemos a túa seguridade.
+624	Revisar
+625	Configuración actual, accesos, actualizacións e copias.
+626	Priorizar
+627	Ordeno os riscos polo seu impacto real, non por modas.
+628	Configurar
+629	Aplico os cambios acordados e deixo as copias funcionando.
+630	Comprobar
+631	Probo unha restauración e déixoche as pautas por escrito.
+632	O que se pregunta sobre seguridade.
+633	Fas auditorías de seguridade avanzadas?
+634	Non. O meu traballo é a seguridade básica e preventiva: configuracións, actualizacións, permisos e copias. Se o teu caso precisa unha auditoría especializada ou unha certificación concreta, dígocho e oriéntote cara ao perfil axeitado.
+635	Onde debería gardar as miñas copias de seguridade?
+636	A regra práctica é ter polo menos dúas copias en soportes distintos e unha delas fóra do equipo. A solución concreta depende dos teus datos e do teu orzamento.
+637	Serve o antivirus gratuíto?
+638	En moitos casos pode abondar se o sistema está actualizado e os hábitos son bos. Valoro o teu uso antes de recomendarche pagar por nada.
+639	DATOS
+640	DISCO
+641	FÓRA
+642	RESTAURACIÓN PROBADA ✓
+643	NUBE
+644	Sistemas · Daylu Forteza
+645	Un ordenador que funciona mal, un sistema que non responde ou unha configuración incorrecta poden afectar a todo o teu traballo.
+646	Equipos e servidores ben configurados.
+647	Un ordenador que funciona mal, un sistema que non responde ou unha configuración incorrecta poden afectar a todo o teu traballo. Reviso, configuro e optimizo os teus equipos con Windows, Windows Server e macOS para que estean actualizados, estables e adaptados ao que fas.
+648	Son os casos de sistemas que máis me chegan.
+649	Un equipo novo que segue sen estar preparado para o día a día
+650	Un ordenador que se queda curto ao abrir varias lapelas ou programas
+651	Sistemas sen actualizar, con software duplicado ou sen licenzas claras
+652	Datos repartidos entre cartafoles, discos externos e contas antigas
+653	Impresoras e periféricos que non aparecen ou non funcionan como deberían
+654	Equipos máis estables, actualizados e adaptados á túa forma de traballar
+655	Usuarios e permisos definidos para que cada persoa acceda ao que lle corresponde
+656	Datos migrados e verificados, sen perdas polo camiño
+657	Ampliacións que alongan a vida do equipo antes de formular unha compra
+658	Servidores
+659	Un servidor no que a oficina poida confiar.
+660	Instalación, configuración e mantemento de Windows Server: o equipo central que garda os usuarios, os ficheiros compartidos e os servizos dos que depende a oficina.
+661	Windows Server instalado e actualizado
+662	Usuarios, grupos e permisos por persoa
+663	Cartafoles compartidos cos accesos xustos
+664	Copias do servidor programadas e comprobadas
+665	Mantemento e revisións de estado
+666	Mapa de usuarios e permisos
+667	Proba de copia e restauración
+668	Documentación de administración
+669	Oficinas con varios postos
+670	Negocios que medraron sen orde
+671	Equipos que comparten ficheiros
+672	Windows e macOS ben configurados.
+673	Instalación e configuración do sistema operativo de cada equipo, para que sexa estable, estea actualizado e listo para o teu traballo.
+674	Instalación limpa ou reparación de Windows e macOS
+675	Actualizacións, controladores e periféricos
+676	Software instalado con licenzas claras
+677	Datos migrados e comprobados desde o equipo antigo
+678	A mesma configuración base en cada posto
+679	Imaxe base para os equipos novos
+680	Inventario de software e licenzas
+681	Comprobación de datos tras a migración
+682	Equipos novos
+683	Equipos que se volveron lentos
+684	Oficinas que queren todos os postos iguais
+685	Servizos do sistema
+686	Os servizos que fan que unha oficina funcione como un equipo.
+687	Configuración dos servizos que conectan persoas e equipos: quen pode iniciar sesión, que cartafoles ve cada quen, como se reparten os enderezos e os nomes na rede (DHCP e DNS), como se imprime, a onde van as copias e como se conecta cada quen desde fóra.
+688	Contas de usuario e permisos
+689	Cartafoles compartidos e unidades de rede
+690	Impresoras en rede para cada posto
+691	Servizos de rede: DHCP e DNS
+692	Copias automáticas a disco, NAS ou nube
+693	Acceso por VPN desde a casa
+694	Lista de accesos por persoa
+695	Resumo da configuración de servizos
+696	Guía por escrito para o día a día
+697	Oficinas pequenas
+698	Clínicas e estudos
+699	Equipos que teletraballan parte da semana
+700	Instalación e configuración de sistemas operativos
+701	Configuración de equipos e periféricos
+702	Administración e mantemento de Windows Server
+703	Optimización de equipos e ampliacións de hardware
+704	Usuarios, permisos e recursos compartidos
+705	Asesoramento para renovar ou mellorar os teus equipos
+706	Particulares que estrean equipo ou queren poñelo en orde
+707	Autónomos que precisan un posto de traballo fiable
+708	Oficinas con varios postos que deben funcionar igual
+709	Negocios que medraron sen orde nos seus equipos
+710	Consultar o meu caso
+711	Consúltame o teu caso.
+712	Que usas a diario, como traballas e que esperas do equipo.
+713	Comprobo o estado do sistema e que hai que conservar.
+714	Sistema, usuarios, software, periféricos e datos.
+715	Entregar
+716	Probas contigo e unha explicación de como queda todo.
+717	O que se pregunta sobre sistemas.
+718	Pérdense os meus ficheiros ao reinstalar o sistema?
+719	Non deberían: a copia de seguridade forma parte do traballo. Antes de calquera instalación reviso contigo que datos hai que conservar e verifícoos ao rematar.
+720	Podo seguir usando o programa de sempre?
+721	Na maioría dos casos, si. Se o software é antigo ou depende dunha versión concreta do sistema, dígocho antes de comezar para valorar alternativas.
+722	Traballas con Windows, Windows Server e macOS?
+723	Si. Traballo a diario con Windows e Windows Server, e tamén con equipos macOS. Confírmoche o alcance de cada caso antes de tocar nada.
+724	Canto tarda unha instalación completa?
+725	Depende do volume de datos e do software necesario. Dóuche unha estimación ao revisar o caso, antes de comezar.
+726	USUARIOS · GRUPOS
+727	FICHEIROS COMPARTIDOS
+728	COPIAS
+729	ADMIN
+730	PERSOAL
+731	CONVIDADOS
+732	WINDOWS
+733	CONFIGURACIÓN BASE
+734	SERVIZOS
+735	USUARIOS
+736	CARTAFOLES
+737	IMPRESIÓN
+738	PERMISOS
+739	IMAXE BASE
+740	USUARIO 01
+741	USUARIO 02
+742	USUARIO 03
+743	Formación · Daylu Forteza
+744	Non todo o mundo precisa aprender o mesmo nin ao mesmo ritmo.
+745	Manexa a túa tecnoloxía con seguridade.
+746	Non todo o mundo precisa aprender o mesmo nin ao mesmo ritmo. A miña experiencia como formador permíteme adaptar cada explicación ao que xa sabes, desde os primeiros pasos ata cuestións máis técnicas, para que lle saques máis partido aos teus equipos e decidas con máis seguridade.
+747	Son os casos de formación que máis me chegan.
+748	Non sabes se o equipo que tes é o axeitado para o que fas
+749	Dependes doutra persoa para cada cambio pequeno
+750	Ninguén che explicou como funcionan os teus propios sistemas
+751	Tes que escoller equipos ou ferramentas e non sabes en que fixarte
+752	Chegou unha ferramenta nova e case ninguén a usa
+753	Explicacións ao teu nivel, sen dar nada por sabido
+754	Máis autonomía nas tarefas do día a día
+755	Compras con criterio e sen gastos innecesarios
+756	Acompañamento mentres se implantan ferramentas novas
+757	Formación e asesoramento
+758	Formación personalizada e asesoramento de compra, adaptados ao que xa sabes e sobre os teus propios equipos e programas.
+759	Sesións individuais ou en grupos pequenos
+760	Clases para todos os niveis
+761	Asesoramento antes de mercar equipos
+762	Acompañamento ao implantar unha ferramenta nova
+763	Unha guía curta por escrito para quedar con ela
+764	Plan de sesións
+765	Guía por escrito
+766	Dúbidas posteriores resoltas
+767	Particulares
+768	Equipos pequenos
+769	Negocios a piques de investir
+770	Formación informática personalizada
+771	Clases de informática para distintos niveis
+772	Asesoramento para escoller equipos e solucións
+773	Acompañamento na implantación de ferramentas novas
+774	Explicacións prácticas para que te desenvolvas pola túa conta
+775	Particulares que queren manexarse con máis soltura
+776	Autónomos que non poden depender de terceiros para todo
+777	Equipos pequenos que estrean ferramentas
+778	Negocios que precisan criterio antes de investir
+779	Solicitar formación ou asesoramento
+780	Pide formación ou asesoramento.
+781	Que sabes xa, que che custa e que precisas resolver.
+782	Fixar o obxectivo
+783	Que queres poder facer pola túa conta ao rematar.
+784	Practicar
+785	Sesións cos teus propios equipos e programas.
+786	Dúbidas posteriores e un ritmo que se axusta segundo avanzas.
+787	O que se pregunta sobre formación.
+788	Dás formación a grupos?
+789	Si, a grupos pequenos, adaptando o contido ao nivel do conxunto. Concretámolo antes de comezar para que as sesións teñan sentido para todos.
+790	É unha formación oficial ou certificada?
+791	Non. Non emito titulacións oficiais. É formación práctica, centrada en que manexes a túa tecnoloxía con autonomía.
+792	Podo combinar formación e asesoramento?
+793	Si, de feito adoitan ir xuntos: primeiro reviso a túa situación e despois organizamos as sesións arredor do que de verdade precisas.
+794	O QUE SABES
+795	OBXECTIVO
+796	PRÁCTICA
+797	POLA TÚA CONTA
+798	AUTONOMÍA
+799	Desenvolvemento web · Daylu Forteza
+800	Unha web é moito máis ca unha tarxeta de visita: presenta o teu negocio, explica os teus servizos e facilita que os teus clientes contacten contigo.
+801	O teu negocio, explicado nunha web.
+802	Unha web é moito máis ca unha tarxeta de visita: presenta o teu negocio, explica os teus servizos e facilita que os teus clientes contacten contigo. Desenvolvo webs adaptadas a cada proxecto, cunha estrutura clara, unha imaxe coidada e unha experiencia cómoda no ordenador, na tableta ou no móbil.
+803	Servizo principal · desde 1.000 €
+804	A oferta
+805	Como se constrúe
+806	Propiedade
+807	Son os casos de desenvolvemento web que máis me chegan.
+808	Unha web antiga que non transmite a calidade do teu traballo
+809	Un deseño que se rompe no móbil, que é de onde chegan a maioría das visitas
+810	Formularios que non lle chegan a ninguén
+811	Unha carga lenta que fai que a xente marche antes de ler
+812	Contidos que non explican que fas nin a quen axudas
+813	Unha imaxe dixital á altura do teu servizo
+814	Unha experiencia coidada no móbil, na tableta e no ordenador
+815	Unha estrutura pensada para que o visitante saiba que facer
+816	Contidos claros, escritos para persoas e non para máquinas
+817	Webs
+818	Un prezo para comezar e un orzamento pechado para rematar.
+819	Unha web programada a man, sen un construtor de aluguer detrás.
+820	Web corporativa ou landing
+821	Unha landing ou unha web corporativa compacta parten deste prezo. Para webs máis grandes pásoche un orzamento pechado antes de comezar.
+822	1.000 €
+823	desde, orzamento pechado
+824	Pedir orzamento de web
+825	Pide orzamento para a túa web.
+826	Como se constrúe unha web
+827	Dun pósit á publicación.
+828	Que ten que conseguir a web e a quen vai dirixida.
+829	Estruturar
+830	Seccións, xerarquía e o percorrido do visitante.
+831	Palabras que contan o que fas, escritas para persoas.
+832	Deseño
+833	Tipografía, cor e imaxes á altura do teu servizo.
+834	Desenvolvemento
+835	Código escrito a man, adaptable a calquera pantalla e con formularios que funcionan.
+836	Publicación, probas, rendemento e axustes finais.
+837	Fisioterapia no centro de Málaga
+838	Obxectivo: máis reservas de xente que nos atopa desde o móbil.
+839	Móbil, tableta e ordenador
+840	O formulario chega ao correo
+841	Velocidade de carga medida
+842	Dominio ao teu nome
+843	Ao publicar, levas catro chaves.
+844	Nada queda atado a min. Se un día queres que outra persoa se encargue da túa web, dáslle estas chaves.
+845	Dominio
+846	Rexistrado ao teu nome, cos seus datos de acceso.
+847	Aloxamento
+848	A túa propia conta co provedor, non a dun intermediario.
+849	Código
+850	HTML, CSS e JavaScript estándar, que calquera desenvolvedor entende.
+851	Contido
+852	Textos e imaxes que podes editar ou levar contigo.
+853	Webs corporativas
+854	Landing pages
+855	Deseño e adaptación para móbiles
+856	Organización e redacción de contidos web
+857	Actualización e mantemento de webs existentes
+858	Melloras de estrutura, navegación e experiencia de usuario
+859	Integración das ferramentas dixitais que precise o proxecto
+860	Profesionais que precisan unha presenza seria
+861	Comercios sen web ou cunha desactualizada
+862	Negocios que lanzan un servizo e precisan unha landing
+863	Proxectos que queren renovar a súa imaxe dixital
+864	Antes de pedir orzamento.
+865	Podo actualizar a web eu mesmo?
+866	Si, se o precisas. Podo entregarcha cun xestor sinxelo e ensinarche a cambiar os contidos que se actualizan a miúdo.
+867	Inclúe o dominio e o aloxamento?
+868	Poden ir incluídos na proposta. O seu custo depende do provedor e do tráfico que esperes.
+869	Canto se tarda?
+870	Depende do número de seccións e de cando estean listos os textos e as imaxes. Na proposta verás as fases e os prazos orientativos.
+871	Garantes a primeira posición en Google?
+872	Non, e desconfía de quen cho garanta. Déixoche a base técnica e os contidos preparados para posicionar con traballo de verdade.
+873	Servizos · Daylu Forteza
+874	Seis servizos informáticos en Málaga: sistemas, redes, mantemento, seguridade, desenvolvemento web e formación.
+875	Seis servizos. Un só técnico.
+876	Escolle un servizo para ver que problemas resolve, que inclúe, como se desenvolve e que se adoita preguntar.
+877	Os seis servizos
+878	Que fago e que non
+879	Unha oficina por dentro
+880	Seis servizos
+881	Un só técnico para todo.
+882	Desde o primeiro cable ata o formulario da túa web, a mesma persoa diagnostica, arranxa e explica.
+883	01 · Sistemas
+884	Equipos ben configurados.
+885	Instalación e configuración de Windows, Windows Server e macOS, con usuarios, permisos e actualizacións baixo control.
+886	02 · Redes
+887	Wifi en todas as habitacións.
+888	Cableado estruturado, paneis de parcheo etiquetados e puntos de acceso onde fai falta o sinal.
+889	03 · Mantemento
+890	Revisado antes de que falle.
+891	Revisións trimestrais de caixas, equipos de oficina e rede, cun informe de estado por escrito.
+892	04 · Seguridade
+893	Tres copias, comprobadas.
+894	Dun disco externo a tres copias probadas en soportes distintos, unha delas fóra da oficina.
+895	05 · Web
+896	Unha web que te explica.
+897	Webs corporativas e landings en HTML, CSS, JavaScript, PHP e MySQL, pensadas primeiro para o móbil.
+898	06 · Formación
+899	Entendes a túa propia tecnoloxía.
+900	Cada traballo remata cun repaso xuntos e un resumo por escrito, para que te poidas manexar só.
+901	Alcance
+902	O que fago. E o que non.
+903	Coñecer os límites tamén é parte do servizo. Se o teu caso se sae deles, dígocho o primeiro día.
+904	Si fago
+905	Diagnosticar antes de tocar nada
+906	Primeiro a causa, despois a solución.
+907	Deixar alcance e prezo por escrito
+908	Antes de comezar, nunca despois.
+909	Facer copia dos teus datos antes de instalar
+910	E comprobar ao rematar que está todo.
+911	Etiquetar e documentar cada instalación
+912	Esquema, etiquetas e resumo por escrito.
+913	Probar contigo a restauración das túas copias
+914	Unha copia que ninguén restaurou non é unha copia de seguridade.
+915	Rexistrar dominio e aloxamento ao teu nome
+916	A túa web segue sendo túa.
+917	Non fago
+918	Prometer o primeiro posto en Google
+919	Desconfía de quen o faga.
+920	Auditorías de seguridade avanzadas nin certificacións
+921	Nese caso oriéntote cara ao especialista axeitado.
+922	Emitir titulacións oficiais
+923	A formación é práctica, non certificada.
+924	Venderche o que non precisas
+925	Aínda que iso supoña menos traballo para min.
+926	Cambiar un equipo que se salva cunha ampliación
+927	Dóuche os datos para que decidas.
+928	Deixarte dependendo de min
+929	Contrasinais, documentos e accesos entréganseche.
+930	Unha pequena oficina por dentro
+931	Cada caixa deste mapa é algo que reviso.
+932	Toca un equipo para ver que reviso nel e con que quedas cando remato.
+933	Mapa de rede dunha pequena oficina
+934	Liña de internet
+935	Switch e cableado
+936	Puntos de acceso wifi
+937	Ordenadores
+938	Almacenamento de copias
+939	Impresora e datáfono
+940	Acceso remoto
+941	A porta de entrada da túa rede.
+942	Todo pasa por el, así que é o primeiro que reviso.
+943	Que reviso
+944	Os puntos que se moven son o tráfico. Os laranxas son copias de seguridade e teletraballo.
+945	Onde comeza todo.
+946	A liña do teu operador. Comprobo se che chega o que pagas.
+947	Velocidade real medida no router
+948	Equipo do operador e contrato revisados
+949	Liña de respaldo para comercios críticos
+950	Firmware actualizado e contrasinal de fábrica cambiado
+951	Canles wifi axustadas ao edificio
+952	Rede de convidados separada dos equipos de traballo
+953	A parte que ninguén mira ata que falla.
+954	Cableado estruturado e un panel de parcheo onde cada cable ten nome.
+955	Cada latiguillo etiquetado
+956	Esquema de rede debuxado e entregado
+957	Cableado existente probado antes de substituílo
+958	Wifi nas salas onde traballas.
+959	Cobertura medida sala por sala e puntos de acceso cableados onde se pode.
+960	Sinal medido en cada sala
+961	Rede mallada só onde non chega o cable
+962	Estable aínda que se conecte moita xente
+963	Cinco postos que funcionan igual.
+964	Unha configuración base, usuarios separados e unha rutina de actualización controlada.
+965	Sistema actualizado e licenzas en regra
+966	Usuarios e permisos por persoa
+967	Datos migrados e comprobados
+968	Copias que de verdade restauraches.
+969	Tres copias en soportes distintos, unha delas fóra da oficina.
+970	Copias automáticas programadas
+971	Unha copia fóra da oficina
+972	Unha restauración probada contigo
+973	Dispositivos que deixan de desconectarse.
+974	Impresoras e TPV cun enderezo fixo para que sempre se atopen.
+975	IP fixa para cada dispositivo
+976	Controladores instalados en cada posto
+977	Probado desde cada ordenador
+978	A túa oficina, desde a casa e con seguridade.
+979	Unha VPN para chegar aos teus ficheiros desde fóra sen abrir a rede a todo o mundo.
+980	VPN configurada no router
+981	Acceso por persoa, doado de retirar
+982	Probado desde fóra da oficina
+983	QUE SE FIXO
+984	POR QUE
+985	COMO USALO
+986	RESUMO ESCRITO
+987	PORTA DE ENLACE
+988	PANEL DE PARCHEO
+989	Punto de acceso
+990	RECEPCIÓN
+991	5 POSTOS
+992	COPIAS
+993	Impresora · TPV
+994	IP FIXA
+995	SALA DE REUNIÓNS
+996	Portátil na casa
+997	Textos
+998	Particular
+999	Base &nbsp;
+1000	Cliente &nbsp;

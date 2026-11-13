@@ -91,7 +91,7 @@ def fixlinks(h):
              .replace('href="method.html"', 'href="how-i-work.html"'))
 
 
-from i18n import LANGS, HTMLLANG, translate, lang_menu, lang_row
+from i18n import LANGS, HTMLLANG, RTL, translate, lang_menu, lang_row
 
 FAB = """<div class="fab">
   <a class="fab__top" href="#top" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
@@ -107,12 +107,12 @@ def page(fname, group, title, desc, body):
     for code, *_ in LANGS:
         html = out if code == 'en' else translate(out, code, fname)
         html = html.replace('{LANGMENU}', lang_menu(code, fname)).replace('{LANGROW}', lang_row(code, fname))
-        alt = ''.join(f'<link rel="alternate" hreflang="{c}" href="{("" if code == "en" else "../") + ("" if c == "en" else c + "/") + fname}">' for c, *_ in LANGS)
+        alt = ''.join(f'<link rel="alternate" hreflang="{HTMLLANG.get(c, c)}" href="{("" if code == "en" else "../") + ("" if c == "en" else c + "/") + fname}">' for c, *_ in LANGS)
         html = html.replace('</head>', alt + '\n</head>', 1)
         if code == 'en':
             pathlib.Path(fname).write_text(html)
         else:
-            html = (html.replace('<html lang="en">', f'<html lang="{HTMLLANG.get(code, code)}">')
+            html = (html.replace('<html lang="en">', f'<html lang="{HTMLLANG.get(code, code)}"' + (' dir="rtl"' if code in RTL else '') + '>')
                         .replace('href="assets/', 'href="../assets/').replace('src="assets/', 'src="../assets/')
                         .replace('<script src="../assets/site.js">', f'<script src="../assets/i18n-{code}.js"></script>\n<script src="../assets/site.js">'))
             pathlib.Path(code).mkdir(exist_ok=True)
