@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-tap-highlight-color: transparent; }
+  body { @apply bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100; }
+  ::selection { @apply bg-indigo-500/20; }
+}
+
+@layer components {
+  .card { @apply rounded-2xl border border-zinc-200/80 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.04)] dark:border-zinc-800 dark:bg-zinc-900/70; }
+  .input { @apply w-full rounded-xl border border-zinc-200 bg-white px-3.5 py-2.5 text-sm outline-none transition placeholder:text-zinc-400 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 dark:border-zinc-800 dark:bg-zinc-950 dark:placeholder:text-zinc-600 dark:focus:border-indigo-400; }
+  .label { @apply mb-1.5 block text-xs font-medium text-zinc-500 dark:text-zinc-400; }
+  .btn { @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl px-3.5 py-2.5 text-sm font-medium transition duration-150 active:scale-[0.97] disabled:pointer-events-none disabled:opacity-50; }
+  .btn-primary { @apply btn bg-indigo-600 text-white shadow-sm shadow-indigo-600/25 hover:bg-indigo-500; }
+  .btn-secondary { @apply btn border border-zinc-200 bg-white text-zinc-700 hover:bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:bg-zinc-800; }
+  .btn-ghost { @apply btn text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-100; }
+  .icon-btn { @apply btn h-9 w-9 p-0 text-zinc-500 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-100; }
+  .badge { @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium ring-1 ring-inset; }
+  .seg { @apply inline-flex rounded-xl bg-zinc-100 p-1 dark:bg-zinc-900; }
+  .seg-item { @apply inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium text-zinc-500 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100; }
+  .seg-item[data-active='true'] { @apply bg-white text-zinc-900 shadow-sm dark:bg-zinc-800 dark:text-zinc-50; }
+  .skeleton { @apply animate-pulse rounded-md bg-zinc-200/80 dark:bg-zinc-800; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; }
+}

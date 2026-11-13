@@ -1,0 +1,28 @@
+{
+  "name": "prospector",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Herramienta privada de prospección B2B para captar clientes de desarrollo web y SEO.",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c magenta,cyan \"node --watch server/index.js\" \"vite\"",
+    "dev:web": "vite",
+    "dev:api": "node --watch server/index.js",
+    "build": "vite build",
+    "start": "npm run build && node server/index.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.11"
+  }
+}
