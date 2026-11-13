@@ -1,0 +1,1001 @@
+0	Sobre mi · Daylu Forteza
+1	Qui és Daylu Forteza: tècnic informàtic a Màlaga, la seua trajectòria i les eines amb què treballa.
+2	Principal
+3	Inici
+4	Serveis
+5	Sistemes
+6	Ordinadors, servidors i serveis del sistema
+7	Xarxes
+8	Cablatge, encaminadors, commutadors i wifi
+9	Manteniment
+10	Diagnosi i manteniment preventiu
+11	Seguretat
+12	Configuració, permisos i còpies de seguretat
+13	Desenvolupament web
+14	Webs des de 1.000 €
+15	Formació
+16	Formació i assessorament de compra
+17	Tots els serveis
+18	Projectes
+19	Sobre mi
+20	Com treballe
+21	Recursos
+22	Contacte
+23	Troba la teua solució
+24	Obre el menú
+25	Tanca el menú
+26	Idioma
+27	WhatsApp ›
+28	Explica’m el teu cas
+29	Següent pas
+30	Explica’m el teu cas.
+31	N’hi ha prou amb una descripció breu per començar. Si no és una cosa en què et puga ajudar, et diré qui ho pot fer.
+32	Escriu-me per WhatsApp ›
+33	Serveis informàtics i solucions digitals a Màlaga i la seua àrea metropolitana. Amb cita prèvia, presencialment o a distància.
+34	El web
+35	Pàgina de contacte
+36	© 2026 Daylu Forteza · Tots els drets reservats
+37	Màlaga, Espanya · Amb cita prèvia
+38	Torna amunt
+39	Escriu-me per WhatsApp
+40	Servei principal
+41	Hola, soc Daylu.
+42	Tècnic informàtic i desenvolupador web a Màlaga. Formació, suport i faena de camp des del 2017, amb la mateixa cura per a un portàtil que per a una oficina sencera.
+43	Qui soc
+44	Trajectòria
+45	Eines
+46	Un tècnic que t’explica cada pas.
+47	Soc Daylu Forteza, tècnic informàtic i desenvolupador web a Màlaga. M’ocupe de la tecnologia de particulars, professionals i petites empreses: els seus ordinadors, la xarxa, les còpies de seguretat i el web.
+48	Darrere de cada problema tècnic hi ha una persona que necessita una solució. Saber de sistemes és la meitat de la faena. L’altra meitat és escoltar, explicar i triar la solució que continue tenint sentit d’ací a un any.
+49	La meua formació i els llocs on he treballat els tens a la trajectòria d’ací baix.
+50	Perfil
+51	Tècnic informàtic · Desenvolupador web
+52	Ubicació
+53	Màlaga, Espanya
+54	Modalitat
+55	Presencial i a distància
+56	Disponibilitat
+57	Amb cita prèvia
+58	Enfocament principal
+59	Webs i sistemes
+60	Com he arribat fins ací.
+61	Formació, suport i faena de camp, pas a pas. Cada etapa m’ha deixat alguna cosa que hui aplique a cada faena.
+62	Formació
+63	Sistemes microinformàtics i xarxes
+64	La base: muntar, instal·lar i connectar ordinadors i xarxes.
+65	Sistemes operatius
+66	Grau superior
+67	Administració de sistemes informàtics en xarxa
+68	Servidors, serveis, seguretat i l’administració de xarxes senceres.
+69	Certificació
+70	IT Essentials i CCNA Routing and Switching
+71	Encaminament, commutació i com es dissenyen les xarxes de debò.
+72	Ensenyant tecnologia
+73	Ajudant la gent a entendre i fer servir la seua tecnologia. Allà vaig aprendre a explicar sense donar res per sabut.
+74	Classes
+75	Tots els nivells
+76	Suport tècnic
+77	Suport presencial i a distància
+78	Reparacions, incidències i configuració de xarxes i sistemes, dia rere dia.
+79	Reparacions
+80	Incidències
+81	A distància
+82	Salut
+83	Sector especialitzat
+84	Equips i programari de l’àmbit sanitari
+85	Una faena en què una fallada afecta pacients, per això cada pas és acurat i queda documentat.
+86	Programari especialitzat
+87	Sistemes crítics
+88	Hui
+89	Pel meu compte
+90	Serveis informàtics i webs a Màlaga
+91	Sistemes, xarxes, manteniment, seguretat, web i formació per a tota mena de clients.
+92	El següent
+93	El teu projecte
+94	La pròxima línia d’esta trajectòria
+95	Explica’m què necessites i l’escrivim junts.
+96	Amb què treballe
+97	Les eines darrere de la faena.
+98	Usuaris i permisos
+99	Recursos compartits
+100	Cablatge estructurat
+101	Encaminadors
+102	Commutadors
+103	Punts d’accés
+104	Diagnosi
+105	Manteniment preventiu
+106	Assistència remota
+107	Còpies de seguretat
+108	Ampliacions de maquinari
+109	Disseny adaptatiu
+110	Suport
+111	Web
+112	Quan em compromet, ho porte fins al final.
+113	Compromès
+114	Quan agafe una faena, l’acabe, la prove i te l’explique. Res no queda a mitges.
+115	Meticulós
+116	Cada cable etiquetat i cada canvi per escrit. Una faena que el tècnic següent pot entendre.
+117	Clar
+118	Et presente cada opció amb els seus límits, no només la que més em convindria vendre’t.
+119	Adaptable
+120	Un veí jubilat o una oficina a tota màquina: l’explicació i el ritme s’adapten a la persona.
+121	Hui
+122	Contacte · Daylu Forteza
+123	Contacta amb Daylu Forteza a Màlaga per WhatsApp, telèfon o correu, i mira en quines zones treballa.
+124	N’hi ha prou amb una descripció breu per començar. Si el teu cas no és una cosa en què et puga ajudar, t’ho diré.
+125	WhatsApp i telèfon
+126	Obre el WhatsApp ›
+127	Copia
+128	Copiat
+129	Seleccionat
+130	Correu
+131	On
+132	Màlaga i àrea metropolitana
+133	El teu nom
+134	De què es tracta
+135	Un web
+136	Xarxa o wifi
+137	Seguretat i còpies
+138	Encara no ho sé
+139	Què et passa
+140	Escriu unes paraules sobre el teu cas perquè et puga respondre.
+141	Envia per WhatsApp
+142	S’obre el WhatsApp amb el missatge ja escrit. No s’envia res fins que no premis enviar.
+143	Hauria d’obrir-se el WhatsApp amb el teu missatge. Si no s’obre, copia el número de dalt.
+144	Hola, Daylu
+145	, soc
+146	Tema:
+147	On treballe
+148	Un mapa que creix amb cada client.
+149	Amb base a Màlaga: presencial a tota l’àrea metropolitana i a distància a qualsevol punt d’Espanya. Cada lloc on treballe s’afegeix a la xarxa.
+150	Mapa d’Espanya amb les zones on treballa Daylu Forteza
+151	lloc
+152	llocs
+153	província
+154	províncies
+155	connexió
+156	connexions
+157	Base
+158	Client
+159	Connexió
+160	BASE · PRESENCIAL
+161	Base · presencial a l’àrea metropolitana
+162	Xarxa d’oficina
+163	Troba la teua solució · Daylu Forteza
+164	Tria el problema que s’assemble al teu i mira com el resoldria Daylu Forteza.
+165	No saps ben bé què necessites?
+166	Tria el problema que més s’assemble al teu o digues-me quin tipus de client ets. No cal que sàpies el nom tècnic de res.
+167	Per problema
+168	Per tipus de client
+169	Quan la tecnologia falla, tot s’atura.
+170	Tria el problema que s’assemble al teu. No cal que sàpies com es diu tècnicament.
+171	Manteniment i diagnosi
+172	L’ordinador triga una eternitat a engegar-se.
+173	Sol ser cosa dels programes d’inici, un disc ple o un disc dur que ja no dona més de si. La diagnosi et diu quin és, abans de canviar res.
+174	El mateix error torna cada setmana.
+175	Un error que es repeteix té una causa. La busque als registres en lloc de reiniciar i creuar els dits.
+176	La wifi cau o no arriba a totes les habitacions.
+177	Un encaminador mal col·locat, interferències entre canals o un edifici que necessita més d’un punt d’accés.
+178	Ningú no sap quin cable va on.
+179	Un armari sense etiquetes converteix cada canvi en una endevinalla.
+180	Els ordinadors nous van arribar mal configurats.
+181	Configuració de fàbrica, sense actualitzar i tots els usuaris com a administradors.
+182	L’ordinador va lent i no saps si canviar-lo.
+183	De vegades n’hi ha prou amb una ampliació i de vegades no. Et done les dades perquè decidisques.
+184	No tens còpies de seguretat i perds fitxers.
+185	Una còpia en un sol disc no és una còpia de seguretat. Tres còpies comprovades en suports diferents, sí.
+186	No tens web o la que tens no explica què fas.
+187	Un web que explique el teu servei i facilite que et contacten.
+188	Ningú no t’ha explicat mai com funciona la teua pròpia tecnologia.
+189	Hauries de poder fer servir les teues eines sense haver de trucar a algú cada vegada.
+190	Revisar l’arrencada i l’estat del disc
+191	Netejar i actualitzar
+192	Passar a SSD només si compensa
+193	Llegir els registres del sistema
+194	Reproduir l’error
+195	Corregir la causa i documentar-la
+196	Xarxes i infraestructura
+197	Mesurar la cobertura habitació per habitació
+198	Ajustar canals i ubicació
+199	Afegir punts d’accés on calguen
+200	Seguir i etiquetar cada cable de connexió
+201	Dibuixar l’esquema de xarxa
+202	Lliurar-te la documentació
+203	Revisar cada equip
+204	Configurar usuaris i permisos
+205	Deixar una imatge base per als pròxims
+206	Mesurar què l’alenteix
+207	Pressupostar l’ampliació i el canvi
+208	Decideixes tu, amb les dades al davant
+209	Veure què cal desar
+210	Muntar tres còpies, una fora de l’oficina
+211	Provar una restauració amb tu
+212	Acordar què ha d’aconseguir el web
+213	Preparar l’estructura i els textos
+214	Desenvolupar, provar i publicar a nom teu
+215	Repassar junts el teu equip i les teues eines
+216	Escriure’t una guia curta
+217	Resoldre els dubtes que vagen sortint
+218	Veure el servei
+219	Veure el servei de manteniment
+220	Veure el servei de xarxes
+221	Veure el servei de sistemes
+222	Veure el servei de seguretat
+223	Veure el servei de desenvolupament web
+224	Veure el servei de formació
+225	Amb qui treballe
+226	Sigues qui sigues, ho tens cobert.
+227	Des d’un portàtil a casa fins a una oficina plena de llocs de treball. M’adapte a la mida i al ritme de cada client. Tria el teu.
+228	Tipus de client
+229	Autònom
+230	Comerç
+231	Oficina
+232	Clínica
+233	Centre de formació
+234	Negoci nou
+235	de 6 àrees
+236	de 6 àrees cobertes
+237	Per a un particular
+238	Per a un autònom
+239	Per a un comerç
+240	Per a una oficina
+241	Per a una clínica
+242	Per a un centre de formació
+243	Per a un negoci que comença
+244	Feines típiques que assumisc de principi a fi:
+245	No és a la llista? Pregunta-m’ho igualment. Si no és cosa meua, et diré a qui adreçar-te.
+246	Un portàtil lent que torna a anar bé abans de comprar-ne un altre
+247	Wifi que arriba a totes les habitacions de casa
+248	Les fotos i els documents de la família desats en dos llocs
+249	Ajuda per fer servir amb soltesa el mòbil, la tauleta i l’ordinador
+250	Un lloc de treball que funciona igual a casa que a l’oficina
+251	Un web o una landing page que et porte consultes
+252	Les dades dels teus clients amb còpia i protegides
+253	Ajuda a distància quan alguna cosa no et deixa treballar
+254	Una caixa i un datàfon que no cauen mai de la xarxa
+255	La wifi del personal separada de la dels clients
+256	Revisions trimestrals abans de la temporada alta
+257	Un web que diga on ets i quan obres
+258	Cablatge i wifi per a cada lloc de treball, etiquetats i documentats
+259	La mateixa configuració base a tots els ordinadors
+260	Un pla de manteniment amb informe d’estat
+261	Accés segur als teus fitxers des de casa
+262	Equips i programari especialitzats del sector sanitari
+263	Històries clíniques amb còpia i permisos per persona
+264	Una xarxa per a la recepció i cada consulta
+265	Manteniment preventiu perquè cap visita no haja d’esperar un ordinador
+266	Una aula d’informàtica amb la mateixa imatge base a cada equip
+267	Una wifi d’aula que aguanta un grup sencer
+268	Formació per a l’equip en les eines que fa servir de veritat
+269	Un web per a cursos i matrícules
+270	Equips triats per al que necessites, sense gastar de més
+271	La xarxa instal·lada abans d’obrir les portes
+272	Un web a punt per al dia de l’obertura
+273	Comptes, contrasenyes i còpies ben configurats des del primer dia
+274	Com treballe · Daylu Forteza
+275	Com treballa Daylu Forteza: sis etapes, abast i preu per escrit i un lliurament documentat.
+276	Sis etapes, del teu missatge al lliurament.
+277	No et calen paraules tècniques per explicar-me què passa. Sempre sabràs en quin punt és el teu cas, què ve després i quant costa.
+278	Sis etapes
+279	Contractació
+280	Formes de col·laborar
+281	Lliurament
+282	Preguntes
+283	Metodologia
+284	Sis etapes. Sense passos misteriosos.
+285	Sempre sabràs en quin punt és el teu cas i què ve després. L’abast i el preu queden clars abans de començar.
+286	Escoltar
+287	M’expliques què falla o què t’agradaria millorar. Et faig les preguntes necessàries per entendre-ho.
+288	Diagnosticar
+289	Revise l’ordinador, la xarxa, el sistema o el web fins que la causa és clara.
+290	Proposar
+291	Les teues opcions, els seus límits i la meua recomanació, amb abast i preu abans de començar.
+292	Resoldre
+293	La faena acordada, feta amb cura i respectant els teus equips i les teues dades.
+294	Verificar
+295	Ho provem junts i t’emportes un resum per escrit del que s’ha fet.
+296	Si té sentit, manteniment o millores. Si no en té, t’ho diré.
+297	De la primera consulta al tancament.
+298	El primer contacte no et compromet a res. Si el teu cas no encaixa amb el que puc oferir, t’ho diré amb claredat.
+299	M’expliques el teu cas
+300	Pel formulari, per WhatsApp o des del cercador de solucions, amb el detall que tingues. No cal que sàpies el nom tècnic del problema.
+301	Et demane només el necessari
+302	Les dades imprescindibles per entendre la situació i el seu abast.
+303	Valore les opcions
+304	Compare alternatives i descarte el que no aporta res al teu cas.
+305	Proposta i pressupost
+306	Reps l’abast, el termini orientatiu i l’import abans de començar.
+307	Faig la faena
+308	En les condicions acordades, respectant els teus equips i les teues dades.
+309	Comprovem el resultat
+310	Proves amb mi i un resum per escrit del que s’ha fet.
+311	Mirem què més t’aporta
+312	Si té sentit, millores o manteniment. Si no, t’ho dic igualment.
+313	Tria quanta ajuda necessites.
+314	Intervenció puntual
+315	Arreglar una cosa concreta.
+316	Un ordinador que falla, una configuració que s’ha de deixar bé o una instal·lació puntual.
+317	Diagnosi prèvia
+318	La faena i les seues proves
+319	Resum del que s’ha fet
+320	Projecte tancat
+321	De principi a fi.
+322	Una xarxa nova per a l’oficina, la renovació d’equips o un web complet, amb un resultat que pots comprovar.
+323	Anàlisi de necessitats
+324	Proposta amb abast i fases
+325	Lliurament i verificació final
+326	Manteniment recurrent
+327	Que tot continue funcionant.
+328	Per a petites empreses i oficines que no es poden permetre aturar-se.
+329	Revisions periòdiques
+330	Suport quan alguna cosa falla
+331	Informe d’estat
+332	Els preus i els terminis depenen de l’abast de cada cas, i els tens per escrit abans de començar.
+333	La documentació és teua.
+334	Cada faena acaba amb documents que són teus, perquè qui obri l’armari després sàpia exactament què hi ha.
+335	Informe
+336	Què ha fallat i per què
+337	Proposta
+338	Abast i preu
+339	Abans de començar
+340	Esquema
+341	Mapa de xarxa i etiquetes
+342	Cada cable amb el seu nom
+343	Resum
+344	Faena feta
+345	Explicat amb paraules clares
+346	Prova
+347	Prova de restauració
+348	La teua còpia, comprovada
+349	Sobre treballar amb mi.
+350	El primer contacte em compromet a alguna cosa?
+351	No. M’expliques el teu cas i et dic si et puc ajudar. Si no encaixa amb el que oferisc, t’ho dic amb claredat.
+352	Per què no hi ha preus publicats?
+353	Cada cas té un abast diferent. Et passe una proposta concreta, amb import i terminis, quan entenc què cal fer. Els webs són l’excepció: comencen a 1.000 €.
+354	He de saber què falla tècnicament?
+355	No. Explica’m què passa amb les teues paraules. Trobar la causa és cosa meua.
+356	Treballes presencialment o a distància?
+357	Totes dues coses. Presencialment a Màlaga i la seua àrea metropolitana, amb cita prèvia, i a distància quan el problema ho permet.
+358	Què m’emporte quan s’acaba una faena?
+359	Un resum per escrit del que s’ha fet i la documentació del lliurament: diagnosi, proposta, esquema o prova de restauració, segons la faena.
+360	Serveis informàtics i webs a Màlaga: sistemes, xarxes, manteniment, seguretat, desenvolupament web i formació, per Daylu Forteza.
+361	Serveis informàtics i webs · Màlaga
+362	Tecnologia que et fa avançar.
+363	Serveis informàtics i webs per a particulars, professionals i petites empreses a Màlaga.
+364	Veure els sis serveis ›
+365	Quatre capes, un sol tècnic.
+366	La majoria dels problemes són entre una capa i una altra. Treballe en totes quatre, així que ningú no et passa la pilota.
+367	Equips i sistemes
+368	Windows, Windows Server, macOS
+369	Xarxa
+370	Cablatge, wifi, VPN
+371	Còpies que es poden restaurar
+372	Webs que la gent sap fer servir
+373	Baixa per desmuntar-la
+374	Enfocament
+375	Primer la causa, després la solució. Cada opció explicada amb paraules clares, cada faena
+376	documentada
+377	, perquè res no depenga de la memòria de ningú.
+378	El que puc fer per tu.
+379	Tots els serveis ›
+380	Webs des de 1.000 €.
+381	L’oferta, com es construeix un web i què és teu en acabar, tot en una pàgina.
+382	Veure desenvolupament web
+383	Explora
+384	Aprofundeix tant com vullgues.
+385	Descriu el problema. Troba el servei.
+386	Nou casos habituals, cadascun enllaçat amb el servei que el resol.
+387	Sis etapes, sense misteris.
+388	Del primer missatge al lliurament, amb abast i preu per escrit.
+389	Veure com treballe
+390	Com ho plantejaria jo.
+391	Nou propostes de xarxes, sistemes, seguretat i web.
+392	Veure els projectes
+393	La persona que hi ha darrere.
+394	Trajectòria, eines i manera de treballar.
+395	Coneix la meua història
+396	N’hi ha prou amb un missatge.
+397	WhatsApp, telèfon o correu. Amb cita prèvia a Màlaga.
+398	Contactar
+399	Projectes · Daylu Forteza
+400	Projectes i propostes de Daylu Forteza: xarxes, cablatge, sistemes, manteniment, web i seguretat.
+401	Casos reals i propostes, sense inventar res.
+402	Cada fitxa mostra com abordaria un tipus de necessitat. Filtra per àrea per veure les que més s’assemblen a la teua.
+403	Filtra els projectes
+404	Tots
+405	Cablatge
+406	Negocis
+407	Proposta
+408	Xarxa local per a una oficina de cinc llocs de treball
+409	Disseny d’una xarxa amb cable i wifi per a cinc llocs de treball, amb cobertura a totes les estances i la instal·lació documentada.
+410	Un armari de comunicacions que tothom entén
+411	Proposta per ordenar un armari de cables sense identificar, deixant cada cable de connexió etiquetat i amb el seu esquema.
+412	Entorn de sistemes per a un laboratori
+413	Diversos ordinadors preparats amb el mateix entorn base, usuaris diferenciats i una rutina d’actualització controlada.
+414	Manteniment preventiu per a un comerç
+415	Un calendari de revisions trimestrals per a l’ordinador de caixa, el de gestió i la xarxa de la botiga.
+416	Web corporatiu per a un despatx professional
+417	Estructura editorial, pàgines de servei i un formulari connectat a la gestió de sol·licituds.
+418	Landing page de captació per a un servei local
+419	Una sola pàgina centrada en una sola acció: demanar una valoració del servei.
+420	Còpies de seguretat millors
+421	D’una sola còpia en un disc extern a tres còpies comprovades en suports diferents.
+422	Renovació per fases per a una gestoria
+423	Ampliacions on ajuden i substitució només on aporta un rendiment real.
+424	Lloc de treball híbrid per a un autònom
+425	Un lloc que funciona igual a casa que a l’oficina, amb les dades sincronitzades i accés segur.
+426	Les fitxes marcades com a «Proposta» són plantejaments i conceptes de disseny, no encàrrecs fets per a clients. Mostren el criteri amb què aborde cada tipus de necessitat.
+427	Tens un cas semblant?
+428	Recursos · Daylu Forteza
+429	Explicacions clares sobre el que falla i per què: manteniment, xarxes i web, per Daylu Forteza.
+430	Explicacions clares sobre el que falla, i per què.
+431	Sense fum ni titulars alarmistes: criteris pràctics per entendre la teua tecnologia i decidir millor.
+432	Darrers articles
+433	29 d’oct. 2026
+434	Per què el teu ordinador va lent (i què es pot fer sense comprar-ne un altre)
+435	Les causes més habituals i com es comprova cadascuna.
+436	Llegeix l’article ›
+437	La wifi no arriba: com es diagnostica de debò
+438	Com es mesura el senyal i quan cal un cable o un punt d’accés.
+439	Què ha de tenir el web d’un negoci petit el 2026
+440	Velocitat, claredat i una manera real de rebre consultes. La resta és opcional.
+441	Problemes
+442	Què hi guanyes
+443	En detall
+444	Què inclou
+445	Com es desenvolupa
+446	Problemes que resol
+447	T’hi sents identificat?
+448	El resultat, amb paraules clares.
+449	Així és la faena.
+450	Què inclou
+451	Et quedes amb
+452	Ideal per a
+453	Tot el que hi entra.
+454	Per a qui és
+455	Pensat per a
+456	Quatre passos, de principi a fi.
+457	Altres serveis
+458	Solen anar de bracet.
+459	Explica’m el cas amb el detall que tingues i et respondré amb una diagnosi raonada. Sense compromís i sense tecnicismes innecessaris.
+460	Més informació ›
+461	Servei principal · Més informació ›
+462	Manteniment · Daylu Forteza
+463	Quan alguna cosa falla, tornar-la a posar en marxa és només la meitat de la faena. L’altra meitat és entendre què ha passat i evitar que es repetisca.
+464	Saber què ha fallat i per què.
+465	Quan alguna cosa falla, tornar-la a posar en marxa és només la meitat de la faena. L’altra meitat és entendre què ha passat i evitar que es repetisca. Analitze el problema amb comprovacions i proves, busque la solució adequada i t’explique què he trobat.
+466	Són els casos de manteniment que m’arriben més sovint.
+467	Ordinadors que arrenquen a poc a poc o es pengen sense motiu aparent
+468	Errors que apareixen i desapareixen i que ningú no aconsegueix reproduir
+469	Programes que es tanquen sols o perden dades
+470	Sobreescalfament, soroll excessiu o apagades sobtades
+471	Equips que ningú no revisa fins que deixen de funcionar
+472	Sabràs què falla i per què, sense diagnosis a cegues
+473	Menys incidències repetides gràcies al manteniment preventiu
+474	Equips més ràpids i estables sense canviar de maquinari
+475	Avisos a temps quan un component comença a donar senyals
+476	Anàlisi d’incidències amb comprovacions i proves fins a trobar la causa, després la solució i un pla perquè no torne.
+477	Diagnosi de maquinari i programari
+478	Manteniment preventiu i correctiu
+479	Optimització del rendiment sense canviar d’equip
+480	Registre de cada intervenció
+481	Informe de diagnosi
+482	Calendari de manteniment
+483	Informe d’estat després de cada revisió
+484	Autònoms que no es poden aturar
+485	Comerços amb una caixa crítica
+486	Oficines sense informàtic propi
+487	Diagnosi d’errors de maquinari i programari
+488	Resolució d’incidències informàtiques
+489	Optimització del rendiment
+490	Assistència tècnica presencial i remota
+491	Revisió d’equips i sistemes
+492	Particulars amb un ordinador que ja no rendeix com abans
+493	Autònoms que no es poden permetre aturar-se
+494	Comerços amb un únic lloc de treball crític
+495	Oficines sense personal tècnic propi
+496	Explica’m què et passa
+497	Explica’m què et passa.
+498	Què passa, des de quan i amb quins programes.
+499	Analitze el sistema i faig proves per localitzar la causa.
+500	Aplique la solució acordada i comprove el resultat.
+501	Confirme que la fallada no torna i t’explique què ha passat.
+502	El que es pregunta sobre manteniment.
+503	Pots revisar el meu ordinador a distància?
+504	Moltes revisions de sistema i programari es resolen a distància. Les fallades físiques, com un disc o una memòria defectuosos, requereixen anar-hi en persona o que em deixes l’equip.
+505	Val la pena el manteniment preventiu?
+506	En equips de faena, gairebé sempre. Revisar el disc, actualitzar i netejar evita aturades que costen més que la revisió mateixa.
+507	Sabré si té arreglament abans de pagar?
+508	Sí. Primer faig la diagnosi i t’explique l’escenari: reparació, ampliació o substitució. Tu decideixes com continuar.
+509	GEN
+510	ABR
+511	JUL
+512	OCT
+513	REVISIÓ
+514	REVISIÓ + DISC
+515	REVISIÓ + INFORME
+516	Xarxes · Daylu Forteza
+517	Una xarxa ben dissenyada i ben instal·lada facilita la faena, millora la connectivitat i redueix els problemes del dia a dia.
+518	Una xarxa en què pots deixar de pensar.
+519	Una xarxa ben dissenyada i ben instal·lada facilita la faena, millora la connectivitat i redueix els problemes del dia a dia. Instal·le, organitze i configure la infraestructura de casa teua, la teua oficina o el teu negoci, des de la connexió a internet fins a cada dispositiu.
+520	Són els casos de xarxes que m’arriben més sovint.
+521	Wifi que no arriba a totes les estances o cau quan s’hi connecten diverses persones
+522	Cables sense etiquetar i armaris on ningú no sap què va on
+523	Equips que perden la connexió en canviar de sala
+524	Impressores o TPV que deixen de respondre sense motiu aparent
+525	Necessites accedir a la teua oficina des de fora amb seguretat
+526	Cobertura estable, amb els punts d’accés al lloc adequat
+527	Cablatge etiquetat i documentat: s’ha acabat endevinar
+528	Menys incidències de connectivitat a la faena diària
+529	Una base preparada per afegir equips sense refer-ho tot
+530	Un cablatge que tothom entén.
+531	Instal·lació i organització del cablatge de xarxa d’una casa, oficina o local: de la presa de paret al panell de connexions, amb cada punt provat i amb el seu nom.
+532	Recorreguts de cable planificats estança per estança
+533	Preses de xarxa i panell de connexions instal·lats
+534	Cada punt provat abans de tancar-lo
+535	Etiquetes als dos extrems de cada cable
+536	Armari endreçat i cablatge existent reaprofitat on aguanta
+537	Armari etiquetat
+538	Esquema de xarxa
+539	Resultats de prova per punt
+540	Oficines que s’estan muntant
+541	Comerços que canvien de local
+542	Cases amb molts dispositius
+543	Equips de xarxa
+544	Encaminadors, commutadors i wifi, ben configurats.
+545	Instal·lació i configuració dels equips per on passen les teues dades: l’encaminador, els commutadors i els punts d’accés, ajustats a l’edifici i a la teua manera de treballar.
+546	Encaminador configurat i contrasenyes de fàbrica canviades
+547	Commutadors instal·lats i ports assignats
+548	Punts d’accés col·locats on s’ha mesurat la cobertura
+549	Xarxa separada per a convidats o clients
+550	Accés remot per VPN quan el necessites
+551	Resum de la configuració
+552	Comprovació de cobertura per estança
+553	Accessos d’administració lliurats
+554	Oficines
+555	Comerços amb TPV i càmeres
+556	Cases amb mala wifi
+557	Instal·lació i organització de cablatge de xarxa
+558	Configuració d’encaminadors, commutadors i punts d’accés
+559	Ampliació i millora de la cobertura wifi
+560	Configuració de xarxes locals, DHCP i DNS
+561	Connexió i configuració d’equips
+562	Diagnosi de problemes de connectivitat
+563	VPN per a connexions remotes
+564	Habitatges amb mala cobertura o molts dispositius
+565	Oficines que munten la xarxa per primera vegada
+566	Comerços amb TPV, càmeres i connexions crítiques
+567	Negocis que es traslladen de local
+568	Demanar una valoració de xarxa
+569	Demana una valoració de la teua xarxa.
+570	Què necessites connectar i quins problemes notes ara.
+571	Revisar l’espai
+572	Punts de connexió, equips i la cobertura que necessites.
+573	Dissenyar i instal·lar
+574	Cablatge, equips, configuració i etiquetatge.
+575	Prove la cobertura, la velocitat i l’estabilitat a cada zona.
+576	El que es pregunta sobre xarxes.
+577	He de canviar el cablatge de la meua oficina?
+578	No sempre. Primer comprove la qualitat i l’estat del que hi ha. Si el cablatge aguanta la xarxa, adapte la configuració i els equips.
+579	Puc ampliar la wifi sense obres?
+580	En molts casos sí, amb punts d’accés cablejats on es puga o amb una xarxa en malla on no. T’explique els avantatges i els límits de cada opció.
+581	Deixes documentació de la instal·lació?
+582	Sí. Etiquetes, un esquema de la xarxa i un resum de la configuració, perquè qualsevol revisió futura partisca d’alguna cosa clara.
+583	LLOC 1
+584	LLOC 2
+585	LLOC 3
+586	VLAN PERSONAL
+587	Seguretat · Daylu Forteza
+588	La seguretat comença amb uns sistemes ben configurats i uns bons hàbits.
+589	Protecció realista i comprovada.
+590	La seguretat comença amb uns sistemes ben configurats i uns bons hàbits. Revise la configuració dels teus ordinadors i de la teua xarxa, millore la protecció dels teus dispositius i establisc mesures bàsiques per reduir riscos i no perdre informació.
+591	Són els casos de seguretat que m’arriben més sovint.
+592	La mateixa contrasenya per a tot i comptes sense control
+593	Equips amb actualitzacions pendents des de fa mesos
+594	Còpies de seguretat que existeixen però que ningú no ha provat de restaurar
+595	Fitxers importants en un únic disc, sense segona còpia
+596	Permisos i carpetes compartides oberts a tothom
+597	Una protecció realista que no et complica el dia a dia
+598	Còpies comprovades: sabràs que pots recuperar
+599	Menys risc de perdre dades o l’accés als teus comptes
+600	Criteris clars per distingir un avís legítim d’un frau
+601	Seguretat bàsica i preventiva: configuració, actualitzacions, contrasenyes, permisos i còpies que s’han restaurat de debò.
+602	Configuració de seguretat revisada
+603	Actualitzacions i protecció configurades
+604	Assessorament sobre contrasenyes i accessos
+605	Còpies configurades en suports diferents
+606	Carpetes compartides i permisos revisats
+607	Riscos ordenats per impacte real
+608	Prova de restauració de còpies
+609	Pautes per escrit
+610	Persones amb fotos i sense còpia
+611	Autònoms amb dades de clients
+612	Comerços i oficines
+613	Revisió de la configuració de seguretat
+614	Assessorament sobre contrasenyes i accessos
+615	Configuració de còpies de seguretat
+616	Revisió de permisos i recursos compartits
+617	Recomanacions per protegir la teua informació
+618	Particulars amb fotos i documents sense còpia
+619	Autònoms que guarden dades de clients
+620	Comerços amb TPV i equips connectats
+621	Oficines que volen evitar aturades per incidents
+622	Revisar la meua seguretat
+623	Revisem la teua seguretat.
+624	Revisar
+625	Configuració actual, accessos, actualitzacions i còpies.
+626	Prioritzar
+627	Ordene els riscos pel seu impacte real, no per modes.
+628	Configurar
+629	Aplique els canvis acordats i deixe les còpies funcionant.
+630	Comprovar
+631	Prove una restauració i et deixe les pautes per escrit.
+632	El que es pregunta sobre seguretat.
+633	Fas auditories de seguretat avançades?
+634	No. La meua faena és la seguretat bàsica i preventiva: configuracions, actualitzacions, permisos i còpies. Si el teu cas necessita una auditoria especialitzada o una certificació concreta, t’ho dic i t’oriente cap al perfil adequat.
+635	On hauria de guardar les meues còpies de seguretat?
+636	La regla pràctica és tenir com a mínim dues còpies en suports diferents i una de fora de l’equip. La solució concreta depèn de les teues dades i del teu pressupost.
+637	Serveix l’antivirus gratuït?
+638	En molts casos pot ser suficient si el sistema està actualitzat i els hàbits són bons. Valore el teu ús abans de recomanar-te pagar res.
+639	DADES
+640	DISC
+641	FORA
+642	RESTAURACIÓ PROVADA ✓
+643	NÚVOL
+644	Sistemes · Daylu Forteza
+645	Un ordinador que funciona malament, un sistema que no respon o una configuració incorrecta poden afectar tota la teua faena.
+646	Equips i servidors ben configurats.
+647	Un ordinador que funciona malament, un sistema que no respon o una configuració incorrecta poden afectar tota la teua faena. Revise, configure i optimitze els teus equips amb Windows, Windows Server i macOS perquè estiguen actualitzats, estables i adaptats al que fas.
+648	Són els casos de sistemes que m’arriben més sovint.
+649	Un equip nou que continua sense estar preparat per al dia a dia
+650	Un ordinador que es queda curt en obrir diverses pestanyes o programes
+651	Sistemes sense actualitzar, amb programari duplicat o sense llicències clares
+652	Dades repartides entre carpetes, discos externs i comptes antics
+653	Impressores i perifèrics que no apareixen o no funcionen com haurien
+654	Equips més estables, actualitzats i adaptats a la teua manera de treballar
+655	Usuaris i permisos definits perquè cada persona accedisca al que li correspon
+656	Dades migrades i verificades, sense pèrdues pel camí
+657	Ampliacions que allarguen la vida de l’equip abans de plantejar una compra
+658	Servidors
+659	Un servidor en què l’oficina puga confiar.
+660	Instal·lació, configuració i manteniment de Windows Server: l’equip central que guarda els usuaris, els fitxers compartits i els serveis de què depèn l’oficina.
+661	Windows Server instal·lat i actualitzat
+662	Usuaris, grups i permisos per persona
+663	Carpetes compartides amb els accessos justos
+664	Còpies del servidor programades i comprovades
+665	Manteniment i revisions d’estat
+666	Mapa d’usuaris i permisos
+667	Prova de còpia i restauració
+668	Documentació d’administració
+669	Oficines amb diversos llocs de treball
+670	Negocis que han crescut sense ordre
+671	Equips que comparteixen fitxers
+672	Windows i macOS ben configurats.
+673	Instal·lació i configuració del sistema operatiu de cada equip, perquè siga estable, estiga actualitzat i a punt per a la teua faena.
+674	Instal·lació neta o reparació de Windows i macOS
+675	Actualitzacions, controladors i perifèrics
+676	Programari instal·lat amb llicències clares
+677	Dades migrades i comprovades des de l’equip antic
+678	La mateixa configuració base a cada lloc de treball
+679	Imatge base per als equips nous
+680	Inventari de programari i llicències
+681	Comprovació de dades després de la migració
+682	Equips nous
+683	Equips que s’han tornat lents
+684	Oficines que volen tots els llocs de treball iguals
+685	Serveis del sistema
+686	Els serveis que fan que una oficina funcione com un equip.
+687	Configuració dels serveis que connecten persones i equips: qui pot iniciar la sessió, quines carpetes veu cadascú, com es reparteixen les adreces i els noms a la xarxa (DHCP i DNS), com s’imprimeix, on van les còpies i com es connecta cadascú des de fora.
+688	Comptes d’usuari i permisos
+689	Carpetes compartides i unitats de xarxa
+690	Impressores en xarxa per a cada lloc de treball
+691	Serveis de xarxa: DHCP i DNS
+692	Còpies automàtiques a disc, NAS o núvol
+693	Accés per VPN des de casa
+694	Llista d’accessos per persona
+695	Resum de la configuració dels serveis
+696	Guia per escrit per al dia a dia
+697	Oficines petites
+698	Clíniques i estudis
+699	Equips que fan teletreball una part de la setmana
+700	Instal·lació i configuració de sistemes operatius
+701	Configuració d’equips i perifèrics
+702	Administració i manteniment de Windows Server
+703	Optimització d’equips i ampliacions de maquinari
+704	Usuaris, permisos i recursos compartits
+705	Assessorament per renovar o millorar els teus equips
+706	Particulars que estrenen equip o el volen posar en ordre
+707	Autònoms que necessiten un lloc de treball fiable
+708	Oficines amb diversos llocs de treball que han de funcionar igual
+709	Negocis que han crescut sense ordre en els seus equips
+710	Consultar el meu cas
+711	Consulta’m el teu cas.
+712	Què fas servir cada dia, com treballes i què esperes de l’equip.
+713	Comprove l’estat del sistema i què cal conservar.
+714	Sistema, usuaris, programari, perifèrics i dades.
+715	Lliurar
+716	Proves amb tu i una explicació de com queda tot.
+717	El que es pregunta sobre sistemes.
+718	Es perden els meus fitxers en reinstal·lar el sistema?
+719	No s’haurien de perdre: la còpia de seguretat forma part de la faena. Abans de qualsevol instal·lació revise amb tu quines dades cal conservar i les verifique en acabar.
+720	Puc continuar fent servir el programa de sempre?
+721	En la majoria dels casos, sí. Si el programari és antic o depèn d’una versió concreta del sistema, t’ho dic abans de començar per valorar alternatives.
+722	Treballes amb Windows, Windows Server i macOS?
+723	Sí. Treballe cada dia amb Windows i Windows Server, i també amb equips macOS. Et confirme l’abast de cada cas abans de tocar res.
+724	Quant triga una instal·lació completa?
+725	Depèn del volum de dades i del programari necessari. Et done una estimació quan revise el cas, abans de començar.
+726	USUARIS · GRUPS
+727	FITXERS COMPARTITS
+728	CÒPIES
+729	ADMIN
+730	PERSONAL
+731	CONVIDATS
+732	WINDOWS
+733	CONFIGURACIÓ BASE
+734	SERVEIS
+735	USUARIS
+736	CARPETES
+737	IMPRESSIÓ
+738	PERMISOS
+739	IMATGE BASE
+740	USUARI 01
+741	USUARI 02
+742	USUARI 03
+743	Formació · Daylu Forteza
+744	No tothom necessita aprendre el mateix ni al mateix ritme.
+745	Fes servir la teua tecnologia amb confiança.
+746	No tothom necessita aprendre el mateix ni al mateix ritme. La meua experiència com a formador em permet adaptar cada explicació al que ja saps, des dels primers passos fins a qüestions més tècniques, perquè tragues més partit dels teus equips i decidisques amb més seguretat.
+747	Són els casos de formació que m’arriben més sovint.
+748	No saps si l’equip que tens és l’adequat per al que fas
+749	Depens d’una altra persona per a cada canvi petit
+750	Ningú no t’ha explicat com funcionen els teus propis sistemes
+751	Has de triar equips o eines i no saps en què fixar-te
+752	Ha arribat una eina nova i gairebé ningú no la fa servir
+753	Explicacions al teu nivell, sense donar res per sabut
+754	Més autonomia en les tasques del dia a dia
+755	Compres amb criteri i sense despeses innecessàries
+756	Acompanyament mentre s’implanten eines noves
+757	Formació i assessorament
+758	Formació personalitzada i assessorament de compra, adaptats al que ja saps i sobre els teus propis equips i programes.
+759	Sessions individuals o en grups petits
+760	Classes per a tots els nivells
+761	Assessorament abans de comprar equips
+762	Acompanyament en la implantació d’una eina nova
+763	Una guia curta per escrit per quedar-te-la
+764	Pla de sessions
+765	Guia per escrit
+766	Dubtes posteriors resolts
+767	Particulars
+768	Equips petits
+769	Negocis a punt d’invertir
+770	Formació informàtica personalitzada
+771	Classes d’informàtica de diferents nivells
+772	Assessorament per triar equips i solucions
+773	Acompanyament en la implantació d’eines noves
+774	Explicacions pràctiques perquè te’n isques pel teu compte
+775	Particulars que es volen moure amb més soltesa
+776	Autònoms que no poden dependre de tercers per a tot
+777	Equips petits que estrenen eines
+778	Negocis que necessiten criteri abans d’invertir
+779	Sol·licitar formació o assessorament
+780	Demana formació o assessorament.
+781	Què saps ja, què et costa i què necessites resoldre.
+782	Fixar l’objectiu
+783	Què vols poder fer pel teu compte en acabar.
+784	Practicar
+785	Sessions amb els teus propis equips i programes.
+786	Dubtes posteriors i un ritme que s’ajusta a mesura que avances.
+787	El que es pregunta sobre formació.
+788	Fas formació a grups?
+789	Sí, a grups petits, adaptant el contingut al nivell del conjunt. Ho concretem abans de començar perquè les sessions tinguen sentit per a tothom.
+790	És una formació oficial o certificada?
+791	No. No emet titulacions oficials. És formació pràctica, centrada que faces servir la teua tecnologia amb autonomia.
+792	Puc combinar formació i assessorament?
+793	Sí, de fet solen anar junts: primer revise la teua situació i després organitzem les sessions al voltant del que de debò necessites.
+794	EL QUE SAPS
+795	OBJECTIU
+796	PRÀCTICA
+797	PEL TEU COMPTE
+798	AUTONOMIA
+799	Desenvolupament web · Daylu Forteza
+800	Un web és molt més que una targeta de visita: presenta el teu negoci, explica els teus serveis i facilita que els teus clients contacten amb tu.
+801	El teu negoci, explicat en un web.
+802	Un web és molt més que una targeta de visita: presenta el teu negoci, explica els teus serveis i facilita que els teus clients contacten amb tu. Desenvolupe webs adaptats a cada projecte, amb una estructura clara, una imatge acurada i una experiència còmoda a l’ordinador, la tauleta o el mòbil.
+803	Servei principal · des de 1.000 €
+804	L’oferta
+805	Com es construeix
+806	Propietat
+807	Són els casos de desenvolupament web que m’arriben més sovint.
+808	Un web antic que no transmet la qualitat de la teua faena
+809	Un disseny que es trenca al mòbil, que és d’on arriben la majoria de les visites
+810	Formularis que no arriben a ningú
+811	Una càrrega lenta que fa que la gent marxe abans de llegir
+812	Continguts que no expliquen què fas ni a qui ajudes
+813	Una imatge digital a l’altura del teu servei
+814	Una experiència acurada al mòbil, la tauleta i l’ordinador
+815	Una estructura pensada perquè el visitant sàpia què ha de fer
+816	Continguts clars, escrits per a persones i no per a màquines
+817	Webs
+818	Un preu per començar i un pressupost tancat per acabar.
+819	Un web programat a mà, sense un constructor de lloguer al darrere.
+820	Web corporatiu o landing page
+821	Una landing page o un web corporatiu compacte parteixen d’este preu. Per a webs més grans et passe un pressupost tancat abans de començar.
+822	1.000 €
+823	des de, pressupost tancat
+824	Demanar pressupost de web
+825	Demana pressupost per al teu web.
+826	Com es construeix un web
+827	D’un pòsit a la publicació.
+828	Què ha d’aconseguir el web i a qui s’adreça.
+829	Estructurar
+830	Seccions, jerarquia i el recorregut del visitant.
+831	Paraules que expliquen el que fas, escrites per a persones.
+832	Disseny
+833	Tipografia, color i imatges a l’altura del teu servei.
+834	Desenvolupament
+835	Codi escrit a mà, adaptable a qualsevol pantalla i amb formularis que funcionen.
+836	Publicació, proves, rendiment i ajustos finals.
+837	Fisioteràpia al centre de Màlaga
+838	Objectiu: més reserves de gent que ens troba des del mòbil.
+839	Mòbil, tauleta i ordinador
+840	El formulari arriba al correu
+841	Velocitat de càrrega mesurada
+842	Domini a nom teu
+843	En publicar-lo, t’emportes quatre claus.
+844	Res no queda lligat a mi. Si un dia vols que una altra persona s’ocupe del teu web, li dones estes claus.
+845	Domini
+846	Registrat a nom teu, amb les dades d’accés.
+847	Allotjament
+848	El teu propi compte amb el proveïdor, no el d’un intermediari.
+849	Codi
+850	HTML, CSS i JavaScript estàndard, que qualsevol desenvolupador entén.
+851	Contingut
+852	Textos i imatges que pots editar o endur-te.
+853	Webs corporatius
+854	Landing pages
+855	Disseny i adaptació per a mòbils
+856	Organització i redacció de continguts web
+857	Actualització i manteniment de webs existents
+858	Millores d’estructura, navegació i experiència d’usuari
+859	Integració de les eines digitals que necessite el projecte
+860	Professionals que necessiten una presència seriosa
+861	Comerços sense web o amb un de desactualitzat
+862	Negocis que llancen un servei i necessiten una landing page
+863	Projectes que volen renovar la seua imatge digital
+864	Abans de demanar pressupost.
+865	Puc actualitzar el web jo mateix?
+866	Sí, si ho necessites. Te’l puc lliurar amb un gestor senzill i ensenyar-te a canviar els continguts que s’actualitzen sovint.
+867	Inclou el domini i l’allotjament?
+868	Poden anar inclosos a la proposta. El cost depèn del proveïdor i del trànsit que esperes.
+869	Quant es triga?
+870	Depèn del nombre de seccions i de quan estiguen a punt els textos i les imatges. A la proposta veuràs les fases i els terminis orientatius.
+871	Garanteixes la primera posició a Google?
+872	No, i desconfia de qui t’ho garantisca. Et deixe la base tècnica i els continguts preparats per posicionar amb faena de debò.
+873	Serveis · Daylu Forteza
+874	Sis serveis informàtics a Màlaga: sistemes, xarxes, manteniment, seguretat, desenvolupament web i formació.
+875	Sis serveis. Un sol tècnic.
+876	Tria un servei per veure quins problemes resol, què inclou, com es desenvolupa i què se sol preguntar.
+877	Els sis serveis
+878	Què faig i què no
+879	Una oficina per dins
+880	Sis serveis
+881	Un sol tècnic per a tot.
+882	Del primer cable al formulari del teu web, la mateixa persona diagnostica, arregla i explica.
+883	01 · Sistemes
+884	Equips ben configurats.
+885	Instal·lació i configuració de Windows, Windows Server i macOS, amb usuaris, permisos i actualitzacions sota control.
+886	02 · Xarxes
+887	Wifi a totes les habitacions.
+888	Cablatge estructurat, panells de connexions etiquetats i punts d’accés on cal el senyal.
+889	03 · Manteniment
+890	Revisat abans que falle.
+891	Revisions trimestrals de caixes, equips d’oficina i xarxa, amb un informe d’estat per escrit.
+892	04 · Seguretat
+893	Tres còpies, comprovades.
+894	D’un disc extern a tres còpies provades en suports diferents, una de fora de l’oficina.
+895	05 · Web
+896	Un web que t’explica.
+897	Webs corporatius i landing pages en HTML, CSS, JavaScript, PHP i MySQL, pensats primer per al mòbil.
+898	06 · Formació
+899	Entens la teua pròpia tecnologia.
+900	Cada faena acaba amb un repàs junts i un resum per escrit, perquè te’n pugues sortir sol.
+901	Abast
+902	El que faig. I el que no.
+903	Conèixer els límits també forma part del servei. Si el teu cas en queda fora, t’ho dic el primer dia.
+904	Sí que faig
+905	Diagnosticar abans de tocar res
+906	Primer la causa, després la solució.
+907	Deixar abast i preu per escrit
+908	Abans de començar, mai després.
+909	Fer còpia de les teues dades abans d’instal·lar
+910	I comprovar en acabar que hi és tot.
+911	Etiquetar i documentar cada instal·lació
+912	Esquema, etiquetes i resum per escrit.
+913	Provar amb tu la restauració de les teues còpies
+914	Una còpia que ningú no ha restaurat no és una còpia de seguretat.
+915	Registrar domini i allotjament a nom teu
+916	El teu web continua sent teu.
+917	No faig
+918	Prometre la primera posició a Google
+919	Desconfia de qui ho faça.
+920	Auditories de seguretat avançades ni certificacions
+921	En este cas t’oriente cap a l’especialista adequat.
+922	Emetre titulacions oficials
+923	La formació és pràctica, no certificada.
+924	Vendre’t el que no necessites
+925	Encara que això supose menys faena per a mi.
+926	Canviar un equip que se salva amb una ampliació
+927	Et done les dades perquè decidisques.
+928	Deixar-te depenent de mi
+929	Contrasenyes, documents i accessos se’t lliuren.
+930	Una oficina petita per dins
+931	Cada caixa d’este mapa és una cosa que revise.
+932	Toca un equip per veure què hi revise i amb què et quedes quan acabe.
+933	Mapa de xarxa d’una oficina petita
+934	Línia d’internet
+935	Commutador i cablatge
+936	Punts d’accés wifi
+937	Ordinadors
+938	Emmagatzematge de còpies
+939	Impressora i datàfon
+940	Accés remot
+941	La porta d’entrada de la teua xarxa.
+942	Tot hi passa, així que és el primer que revise.
+943	Què revise
+944	Els punts que es mouen són el trànsit. Els taronja són còpies de seguretat i teletreball.
+945	On comença tot.
+946	La línia del teu operador. Comprove si t’arriba el que pagues.
+947	Velocitat real mesurada a l’encaminador
+948	Equip de l’operador i contracte revisats
+949	Línia de reserva per a comerços crítics
+950	Microprogramari actualitzat i contrasenya de fàbrica canviada
+951	Canals wifi ajustats a l’edifici
+952	Xarxa de convidats separada dels equips de faena
+953	La part que ningú no mira fins que falla.
+954	Cablatge estructurat i un panell de connexions on cada cable té nom.
+955	Cada cable de connexió etiquetat
+956	Esquema de xarxa dibuixat i lliurat
+957	Cablatge existent provat abans de substituir-lo
+958	Wifi a les sales on treballes.
+959	Cobertura mesurada sala per sala i punts d’accés cablejats on es pot.
+960	Senyal mesurat a cada sala
+961	Xarxa en malla només on no arriba el cable
+962	Estable encara que s’hi connecte molta gent
+963	Cinc llocs de treball que funcionen igual.
+964	Una configuració base, usuaris separats i una rutina d’actualització controlada.
+965	Sistema actualitzat i llicències en regla
+966	Usuaris i permisos per persona
+967	Dades migrades i comprovades
+968	Còpies que has restaurat de debò.
+969	Tres còpies en suports diferents, una de fora de l’oficina.
+970	Còpies automàtiques programades
+971	Una còpia fora de l’oficina
+972	Una restauració provada amb tu
+973	Dispositius que deixen de desconnectar-se.
+974	Impressores i TPV amb adreça fixa perquè sempre es troben.
+975	IP fixa per a cada dispositiu
+976	Controladors instal·lats a cada lloc de treball
+977	Provat des de cada ordinador
+978	La teua oficina, des de casa i amb seguretat.
+979	Una VPN per arribar als teus fitxers des de fora sense obrir la xarxa a tothom.
+980	VPN configurada a l’encaminador
+981	Accés per persona, fàcil de retirar
+982	Provat des de fora de l’oficina
+983	QUÈ S’HA FET
+984	PER QUÈ
+985	COM FER-HO SERVIR
+986	RESUM ESCRIT
+987	PASSAREL·LA
+988	PANELL DE CONNEXIONS
+989	Punt d’accés
+990	RECEPCIÓ
+991	5 LLOCS
+992	CÒPIES
+993	Impressora · TPV
+994	IP FIXA
+995	SALA DE REUNIONS
+996	Portàtil a casa
+997	Textos
+998	Particular
+999	Base &nbsp;
+1000	Client &nbsp;

@@ -1,0 +1,1001 @@
+0	Niri buruz · Daylu Forteza
+1	Nor da Daylu Forteza: informatika-teknikaria Malagan, bere ibilbidea eta erabiltzen dituen tresnak.
+2	Nagusia
+3	Hasiera
+4	Zerbitzuak
+5	Sistemak
+6	Ordenagailuak, zerbitzariak eta sistema-zerbitzuak
+7	Sareak
+8	Kableatua, routerrak, switchak eta wifia
+9	Mantentzea
+10	Diagnostikoa eta prebentziozko mantentzea
+11	Segurtasuna
+12	Konfigurazioa, baimenak eta segurtasun-kopiak
+13	Web garapena
+14	Webguneak 1.000 €-tik aurrera
+15	Prestakuntza
+16	Prestakuntza eta erosketa-aholkularitza
+17	Zerbitzu guztiak
+18	Proiektuak
+19	Niri buruz
+20	Nola lan egiten dudan
+21	Baliabideak
+22	Harremana
+23	Aurkitu zure irtenbidea
+24	Ireki menua
+25	Itxi menua
+26	Hizkuntza
+27	WhatsApp ›
+28	Kontatu zure kasua
+29	Hurrengo urratsa
+30	Kontatu zure kasua.
+31	Deskribapen labur bat nahikoa da hasteko. Ezin badizut lagundu, nork lagun diezazukeen esango dizut.
+32	Idatzi WhatsAppez ›
+33	Informatika-zerbitzuak eta irtenbide digitalak Malagan eta haren eremu metropolitarrean. Hitzordua hartuta, aurrez aurre edo urrunetik.
+34	Webgunea
+35	Harremanetarako orria
+36	© 2026 Daylu Forteza · Eskubide guztiak erreserbatuta
+37	Malaga, Espainia · Hitzordua hartuta
+38	Itzuli gora
+39	Idatzi WhatsAppez
+40	Zerbitzu nagusia
+41	Kaixo, Daylu naiz.
+42	Informatika-teknikaria eta web garatzailea Malagan. Prestakuntza, laguntza teknikoa eta landa-lana 2017tik, arreta berarekin eramangarri batentzat zein bulego oso batentzat.
+43	Nor naiz
+44	Ibilbidea
+45	Tresnak
+46	Urrats bakoitza azaltzen dizun teknikaria.
+47	Daylu Forteza naiz, informatika-teknikaria eta web garatzailea Malagan. Partikularren, profesionalen eta enpresa txikien teknologiaz arduratzen naiz: haien ordenagailuez, sareaz, segurtasun-kopiez eta webguneaz.
+48	Arazo tekniko bakoitzaren atzean irtenbide bat behar duen pertsona bat dago. Sistemak ezagutzea lanaren erdia da. Beste erdia entzutea, azaltzea eta urtebete barru ere zentzua izango duen konponbidea aukeratzea da.
+49	Nire prestakuntza eta lan egin dudan lekuak behean dituzu, ibilbidean.
+50	Profila
+51	Informatika-teknikaria · Web garatzailea
+52	Kokapena
+53	Malaga, Espainia
+54	Modalitatea
+55	Aurrez aurre eta urrunetik
+56	Erabilgarritasuna
+57	Hitzordua hartuta
+58	Ardatz nagusia
+59	Webguneak eta sistemak
+60	Nola iritsi naizen hona.
+61	Prestakuntza, laguntza teknikoa eta landa-lana, urratsez urrats. Etapa bakoitzak gaur lan guztietan erabiltzen dudan zerbait utzi dit.
+62	Prestakuntza
+63	Sistema mikroinformatikoak eta sareak
+64	Oinarria: ordenagailuak eta sareak muntatzea, instalatzea eta konektatzea.
+65	Sistema eragileak
+66	Goi-mailako zikloa
+67	Sareko sistema informatikoen administrazioa
+68	Zerbitzariak, zerbitzuak, segurtasuna eta sare osoen administrazioa.
+69	Ziurtagiria
+70	IT Essentials eta CCNA Routing and Switching
+71	Bideratzea, kommutazioa eta benetako sareak nola diseinatzen diren.
+72	Teknologia irakasten
+73	Jendeari bere teknologia ulertzen eta erabiltzen laguntzen. Han ikasi nuen ezer ziurtzat eman gabe azaltzen.
+74	Eskolak
+75	Maila guztiak
+76	Laguntza teknikoa
+77	Laguntza aurrez aurre eta urrunetik
+78	Konponketak, gorabeherak eta sareen eta sistemen konfigurazioa, egunez egun.
+79	Konponketak
+80	Gorabeherak
+81	Urrunetik
+82	Osasuna
+83	Sektore espezializatua
+84	Osasun-arloko ekipoak eta softwarea
+85	Akats batek pazienteei eragiten dien lana; horregatik, urrats bakoitza arretaz egiten da eta dokumentatuta geratzen da.
+86	Software espezializatua
+87	Sistema kritikoak
+88	Gaur
+89	Nire kontura
+90	Informatika-zerbitzuak eta webguneak Malagan
+91	Sistemak, sareak, mantentzea, segurtasuna, weba eta prestakuntza, mota guztietako bezeroentzat.
+92	Hurrengoa
+93	Zure proiektua
+94	Ibilbide honen hurrengo lerroa
+95	Esan zer behar duzun, eta elkarrekin idatziko dugu.
+96	Zerekin lan egiten dudan
+97	Lanaren atzeko tresnak.
+98	Erabiltzaileak eta baimenak
+99	Baliabide partekatuak
+100	Kableatu egituratua
+101	Routerrak
+102	Switchak
+103	Sarbide-puntuak
+104	Diagnostikoa
+105	Prebentziozko mantentzea
+106	Urruneko laguntza
+107	Segurtasun-kopiak
+108	Hardware-hobekuntzak
+109	Diseinu moldagarria
+110	Laguntza
+111	Weba
+112	Konpromisoa hartzen dudanean, bukaeraraino eramaten dut.
+113	Konprometitua
+114	Lan bat hartzen badut, amaitu, probatu eta azaldu egiten dizut. Ezer ez da erdizka geratzen.
+115	Zehatza
+116	Kable bakoitza etiketatuta eta aldaketa bakoitza idatzita. Hurrengo teknikariak uler dezakeen lana.
+117	Zuzena
+118	Aukera bakoitza bere mugekin aurkezten dizut, ez niri saltzea komeni zaidana bakarrik.
+119	Malgua
+120	Bizilagun erretiratu bat edo lanez gainezka dagoen bulego bat: azalpena eta erritmoa pertsonari egokitzen zaizkio.
+121	GAUR
+122	Harremana · Daylu Forteza
+123	Jarri harremanetan Daylu Fortezarekin Malagan, WhatsApp, telefono edo posta elektroniko bidez, eta ikusi zein eremutan lan egiten duen.
+124	Deskribapen labur bat nahikoa da hasteko. Zure kasuan ezin badizut lagundu, esan egingo dizut.
+125	WhatsApp eta telefonoa
+126	Ireki WhatsApp ›
+127	Kopiatu
+128	Kopiatuta
+129	Hautatuta
+130	Posta elektronikoa
+131	Non
+132	Malaga eta eremu metropolitarra
+133	Zure izena
+134	Zeri buruz
+135	Webgune bat
+136	Sarea edo wifia
+137	Segurtasuna eta kopiak
+138	Oraindik ez dakit
+139	Zer gertatzen zaizu
+140	Idatzi hitz batzuk zure kasuari buruz, erantzun ahal izateko.
+141	Bidali WhatsAppez
+142	WhatsApp irekiko da zure mezua idatzita duela. Ez da ezer bidaltzen han bidali sakatu arte.
+143	WhatsApp zure mezuarekin ireki beharko litzateke. Irekitzen ez bada, kopiatu goiko zenbakia.
+144	Kaixo, Daylu
+145	, nire izena: 
+146	Gaia:
+147	Non lan egiten dudan
+148	Bezero bakoitzarekin hazten den mapa.
+149	Malagan oinarrituta: aurrez aurre eremu metropolitar osoan eta urrunetik Espainiako edozein lekutan. Lan egiten dudan leku bakoitza sarera batzen da.
+150	Daylu Fortezak lan egiten duen eremuak erakusten dituen Espainiako mapa
+151	leku
+152	leku
+153	probintzia
+154	probintzia
+155	lotura
+156	lotura
+157	Oinarria
+158	Bezeroa
+159	Lotura
+160	OINARRIA · AURREZ AURRE
+161	Oinarria · aurrez aurre eremu metropolitarrean
+162	Bulegoko sarea
+163	Aurkitu zure irtenbidea · Daylu Forteza
+164	Aukeratu zurearen antzeko arazoa eta ikusi nola konponduko lukeen Daylu Fortezak.
+165	Ez dakizu ondo zer behar duzun?
+166	Aukeratu zurearen antz handiena duen arazoa edo esan zer bezero mota zaren. Ez duzu ezeren izen teknikoa jakin behar.
+167	Arazoaren arabera
+168	Bezero motaren arabera
+169	Teknologiak huts egiten duenean, dena gelditzen da.
+170	Aukeratu zurearen antzeko arazoa. Ez duzu jakin behar teknikoki nola deitzen den.
+171	Mantentzea eta diagnostikoa
+172	Ordenagailuak betiko behar du pizteko.
+173	Normalean abioko programak, disko beteta edo azken hatsetan dagoen disko gogorra izaten da. Diagnostikoak esaten dizu zein den, ezer aldatu aurretik.
+174	Errore bera agertzen da astero.
+175	Errepikatzen den erroreak badu kausa bat. Erregistroetan bilatzen dut, berrabiarazi eta onerako itxaron beharrean.
+176	Wifia erori egiten da edo ez da gela guztietara iristen.
+177	Gaizki jarritako routerra, kanalen arteko interferentziak edo sarbide-puntu bat baino gehiago behar dituen eraikina.
+178	Inork ez daki zein kable doan nora.
+179	Etiketarik gabeko armairuak aldaketa bakoitza igarkizun bihurtzen du.
+180	Ordenagailu berriak gaizki konfiguratuta iritsi ziren.
+181	Fabrikako konfigurazioa, eguneratu gabe eta erabiltzaile guztiak administratzaile gisa.
+182	Ordenagailua motel dabil, eta ez dakizu aldatu behar duzun.
+183	Batzuetan nahikoa da hobekuntza bat, beste batzuetan ez. Datuak ematen dizkizut erabaki dezazun.
+184	Ez duzu segurtasun-kopiarik eta fitxategiak galtzen dituzu.
+185	Disko bakar bateko kopia ez da segurtasun-kopia. Euskarri desberdinetan egiaztatutako hiru kopia, bai.
+186	Ez duzu webgunerik, edo duzunak ez du azaltzen zer egiten duzun.
+187	Zure zerbitzua azaltzen duen eta zurekin harremanetan jartzea errazten duen webgunea.
+188	Inork ez dizu inoiz azaldu zure teknologiak nola funtzionatzen duen.
+189	Zure tresnak erabiltzeko gai izan beharko zenuke, aldi bakoitzean norbaiti deitu beharrik gabe.
+190	Abioa eta diskoaren egoera egiaztatu
+191	Garbitu eta eguneratu
+192	SSDra pasatu, merezi badu bakarrik
+193	Sistemaren erregistroak irakurri
+194	Errorea erreproduzitu
+195	Kausa zuzendu eta dokumentatu
+196	Sareak eta azpiegitura
+197	Estaldura gelaz gela neurtu
+198	Kanalak eta kokapena doitu
+199	Sarbide-puntuak gehitu behar diren lekuetan
+200	Konexio-kable bakoitza jarraitu eta etiketatu
+201	Sarearen eskema marraztu
+202	Dokumentazioa eman
+203	Ordenagailu bakoitza berrikusi
+204	Erabiltzaileak eta baimenak konfiguratu
+205	Oinarrizko irudi bat utzi hurrengoentzat
+206	Zerk moteltzen duen neurtu
+207	Hobekuntza eta ordezkapena aurrekontuan jarri
+208	Zuk erabakitzen duzu, datuak aurrean dituzula
+209	Zer gorde behar den ikusi
+210	Hiru kopia prestatu, bat bulegotik kanpo
+211	Leheneratze bat zurekin probatu
+212	Webguneak zer lortu behar duen adostu
+213	Egitura eta testuak prestatu
+214	Garatu, probatu eta zure izenean argitaratu
+215	Zure ekipoa eta tresnak elkarrekin errepasatu
+216	Gida labur bat idatzi
+217	Sortzen diren zalantzak argitu
+218	Ikusi zerbitzua
+219	Ikusi mantentze-zerbitzua
+220	Ikusi sare-zerbitzua
+221	Ikusi sistema-zerbitzua
+222	Ikusi segurtasun-zerbitzua
+223	Ikusi web garapeneko zerbitzua
+224	Ikusi prestakuntza-zerbitzua
+225	Norekin lan egiten dudan
+226	Nor zaren ere, estalita duzu.
+227	Etxeko eramangarri batetik lanpostuz betetako bulego bateraino. Bezero bakoitzaren tamainara eta erritmora egokitzen naiz. Aukeratu zurea.
+228	Bezero mota
+229	Autonomoa
+230	Denda
+231	Bulegoa
+232	Klinika
+233	Prestakuntza-zentroa
+234	Negozio berria
+235	/ 6 arlo
+236	/ 6 arlo estalita
+237	Partikular batentzat
+238	Autonomo batentzat
+239	Denda batentzat
+240	Bulego batentzat
+241	Klinika batentzat
+242	Prestakuntza-zentro batentzat
+243	Hasten ari den negozio batentzat
+244	Hasieratik bukaerara hartzen ditudan ohiko lanak:
+245	Ez dago zerrendan? Galdetu hala ere. Nire esku ez badago, nora jo esango dizut.
+246	Eramangarri motel bat berriz ondo dabilena, beste bat erosi aurretik
+247	Etxeko gela guztietara iristen den wifia
+248	Familiako argazkiak eta dokumentuak bi lekutan gordeta
+249	Mugikorra, tableta eta ordenagailua erraz erabiltzeko laguntza
+250	Etxean eta bulegoan berdin dabilen lanpostua
+251	Kontsultak ekartzen dizkizun webgune edo landing orri bat
+252	Zure bezeroen datuak kopiarekin eta babestuta
+253	Urruneko laguntza zerbaitek lan egiten uzten ez dizunean
+254	Saretik inoiz erortzen ez diren kutxa eta txartel-terminala
+255	Langileen wifia bezeroenetik bereizita
+256	Hiru hilean behingo berrikuspenak denboraldi gorenaren aurretik
+257	Non zauden eta noiz irekitzen duzun esaten duen webgunea
+258	Lanpostu bakoitzerako kableatua eta wifia, etiketatuta eta dokumentatuta
+259	Oinarrizko konfigurazio bera ordenagailu guztietan
+260	Mantentze-plana egoera-txostenarekin
+261	Zure fitxategietarako sarbide segurua etxetik
+262	Osasun-sektoreko ekipo eta software espezializatuak
+263	Pazienteen historiak kopiarekin eta baimenak pertsonaka
+264	Harrera eta kontsulta-gela bakoitzerako sarea
+265	Prebentziozko mantentzea, hitzorduek ordenagailu baten zain egon behar ez dezaten
+266	Informatika-gela bat, ekipo guztietan oinarrizko irudi berarekin
+267	Talde oso bat jasaten duen ikasgelako wifia
+268	Taldearentzako prestakuntza benetan erabiltzen dituen tresnetan
+269	Ikastaro eta matrikuletarako webgunea
+270	Behar duzunerako aukeratutako ekipoak, behar baino gehiago gastatu gabe
+271	Sarea instalatuta ateak ireki aurretik
+272	Inaugurazio-egunerako prest dagoen webgunea
+273	Kontuak, pasahitzak eta kopiak hasieratik ondo konfiguratuta
+274	Nola lan egiten dudan · Daylu Forteza
+275	Nola lan egiten duen Daylu Fortezak: sei etapa, irismena eta prezioa idatziz, eta entrega dokumentatua.
+276	Sei etapa, zure mezutik entregara arte.
+277	Ez duzu hitz teknikorik behar zer gertatzen den kontatzeko. Beti jakingo duzu zure kasua zer puntutan dagoen, zer datorren gero eta zenbat kostatzen den.
+278	Sei etapa
+279	Kontratazioa
+280	Elkarlanerako moduak
+281	Entrega
+282	Galderak
+283	Metodologia
+284	Sei etapa. Urrats misteriotsurik gabe.
+285	Beti jakingo duzu zure kasua zer puntutan dagoen eta zer datorren. Irismena eta prezioa argi geratzen dira hasi aurretik.
+286	Entzun
+287	Zer dabilen gaizki edo zer hobetu nahiko zenukeen kontatzen didazu. Ulertzeko behar ditudan galderak egiten dizkizut.
+288	Diagnostikatu
+289	Ordenagailua, sarea, sistema edo webgunea aztertzen ditut, kausa argi geratu arte.
+290	Proposatu
+291	Zure aukerak, haien mugak eta nire gomendioa, irismenarekin eta prezioarekin hasi aurretik.
+292	Konpondu
+293	Adostutako lana, arretaz egina eta zure ekipoak eta datuak errespetatuz.
+294	Egiaztatu
+295	Elkarrekin probatzen dugu, eta egindakoaren laburpen idatzi bat jasotzen duzu.
+296	Zentzuzkoa bada, mantentzea edo hobekuntzak. Ez bada, esan egingo dizut.
+297	Lehen mezutik itxierara.
+298	Lehen harremanak ez zaitu ezertara behartzen. Zure kasua eskain dezakedanarekin bat ez badator, argi esango dizut.
+299	Zure kasua kontatzen didazu
+300	Inprimakiaren, WhatsAppen edo irtenbide-bilatzailearen bidez, duzun xehetasunarekin. Ez duzu arazoaren izen teknikoa jakin behar.
+301	Beharrezkoa bakarrik eskatzen dizut
+302	Egoera eta haren irismena ulertzeko ezinbesteko datuak.
+303	Aukerak baloratzen ditut
+304	Alternatibak alderatzen ditut eta zure kasuari ezer ekartzen ez diona baztertzen dut.
+305	Proposamena eta aurrekontua
+306	Irismena, gutxi gorabeherako epea eta zenbatekoa jasotzen dituzu hasi aurretik.
+307	Lana egiten dut
+308	Adostutako baldintzetan, zure ekipoak eta datuak errespetatuz.
+309	Emaitza egiaztatzen dugu
+310	Probak nirekin eta egindakoaren laburpen idatzia.
+311	Zer gehiago ekar diezazukeen ikusten dugu
+312	Zentzuzkoa bada, hobekuntzak edo mantentzea. Bestela, berdin esango dizut.
+313	Aukeratu zenbat laguntza behar duzun.
+314	Esku-hartze puntuala
+315	Gauza zehatz bat konpondu.
+316	Huts egiten duen ordenagailu bat, ondo utzi behar den konfigurazio bat edo instalazio puntual bat.
+317	Aurretiko diagnostikoa
+318	Lana eta haren probak
+319	Egindakoaren laburpena
+320	Proiektu itxia
+321	Hasieratik bukaerara.
+322	Bulegorako sare berri bat, ekipoen berrikuntza edo webgune oso bat, egiazta dezakezun emaitzarekin.
+323	Beharren azterketa
+324	Irismena eta faseak dituen proposamena
+325	Entrega eta azken egiaztapena
+326	Etengabeko mantentzea
+327	Dena martxan jarrai dezan.
+328	Gelditzerik ezin duten enpresa txiki eta bulegoentzat.
+329	Aldizkako berrikuspenak
+330	Laguntza zerbaitek huts egiten duenean
+331	Egoera-txostena
+332	Prezioak eta epeak kasu bakoitzaren irismenaren araberakoak dira, eta idatziz dituzu hasi aurretik.
+333	Dokumentazioa zurea da.
+334	Lan bakoitza zureak diren dokumentuekin amaitzen da, gero armairua irekitzen duenak zehazki jakin dezan zer dagoen.
+335	Txostena
+336	Zerk huts egin zuen eta zergatik
+337	Proposamena
+338	Irismena eta prezioa
+339	Hasi aurretik
+340	Eskema
+341	Sare-mapa eta etiketak
+342	Kable bakoitza bere izenarekin
+343	Laburpena
+344	Egindako lana
+345	Argi azalduta
+346	Proba
+347	Leheneratze-proba
+348	Zure kopia, egiaztatuta
+349	Nirekin lan egiteari buruz.
+350	Lehen harremanak ezertara behartzen nau?
+351	Ez. Zure kasua kontatzen didazu eta lagun diezazukedan esaten dizut. Eskaintzen dudanarekin bat ez badator, argi esaten dizut.
+352	Zergatik ez dago prezio argitaraturik?
+353	Kasu bakoitzak irismen desberdina du. Proposamen zehatz bat bidaltzen dizut, zenbatekoarekin eta epeekin, zer behar den ulertzen dudanean. Webguneak dira salbuespena: 1.000 €-tik aurrera hasten dira.
+354	Jakin behar dut zer dabilen gaizki teknikoki?
+355	Ez. Kontatu zer gertatzen den zure hitzekin. Kausa aurkitzea nire lana da.
+356	Aurrez aurre ala urrunetik lan egiten duzu?
+357	Biak. Aurrez aurre Malagan eta haren eremu metropolitarrean, hitzordua hartuta, eta urrunetik arazoak hala ahalbidetzen duenean.
+358	Zer jasotzen dut lan bat amaitzean?
+359	Egindakoaren laburpen idatzia eta entregako dokumentazioa: diagnostikoa, proposamena, eskema edo leheneratze-proba, lanaren arabera.
+360	Informatika-zerbitzuak eta webguneak Malagan: sistemak, sareak, mantentzea, segurtasuna, web garapena eta prestakuntza, Daylu Fortezaren eskutik.
+361	Informatika-zerbitzuak eta webguneak · Malaga
+362	Aurrera egiten laguntzen dizun teknologia.
+363	Informatika-zerbitzuak eta webguneak partikular, profesional eta enpresa txikientzat Malagan.
+364	Ikusi sei zerbitzuak ›
+365	Lau geruza, teknikari bakarra.
+366	Arazo gehienak geruza baten eta bestearen artean daude. Lauretan lan egiten dut, beraz, inork ez dizu pilota beste bati pasatzen.
+367	Ekipoak eta sistemak
+368	Windows, Windows Server, macOS
+369	Sarea
+370	Kableatua, wifia, VPNa
+371	Leheneratu daitezkeen kopiak
+372	Jendeak erabiltzen dakien webguneak
+373	Jaitsi desmuntatzeko
+374	Ikuspegia
+375	Lehenik kausa, gero konponbidea. Aukera bakoitza argi azalduta, lan bakoitza
+376	dokumentatuta
+377	, ezer inoren memoriaren menpe egon ez dadin.
+378	Zuretzat egin dezakedana.
+379	Zerbitzu guztiak ›
+380	Webguneak 1.000 €-tik aurrera.
+381	Eskaintza, webgune bat nola eraikitzen den eta amaieran zer den zurea, dena orri bakarrean.
+382	Ikusi web garapena
+383	Esploratu
+384	Sakondu nahi beste.
+385	Deskribatu arazoa. Aurkitu zerbitzua.
+386	Bederatzi kasu ohiko, bakoitza konpontzen duen zerbitzuarekin lotuta.
+387	Sei etapa, misteriorik gabe.
+388	Lehen mezutik entregara, irismena eta prezioa idatziz.
+389	Ikusi nola lan egiten dudan
+390	Nik nola landuko nukeen.
+391	Bederatzi proposamen sare, sistema, segurtasun eta web arloetan.
+392	Ikusi proiektuak
+393	Atzean dagoen pertsona.
+394	Ibilbidea, tresnak eta lan egiteko modua.
+395	Ezagutu nire istorioa
+396	Mezu bat nahikoa da.
+397	WhatsApp, telefonoa edo posta elektronikoa. Hitzordua hartuta Malagan.
+398	Jarri harremanetan
+399	Proiektuak · Daylu Forteza
+400	Daylu Fortezaren proiektuak eta proposamenak: sareak, kableatua, sistemak, mantentzea, weba eta segurtasuna.
+401	Benetako kasuak eta proposamenak, ezer asmatu gabe.
+402	Fitxa bakoitzak erakusten du nola landuko nukeen behar mota bat. Iragazi arloaren arabera zurearen antzekoenak ikusteko.
+403	Iragazi proiektuak
+404	Guztiak
+405	Kableatua
+406	Negozioak
+407	Proposamena
+408	Bost lanpostuko bulego baterako sare lokala
+409	Bost lanposturako kable bidezko eta wifi sare baten diseinua, gela guztietan estaldurarekin eta instalazioa dokumentatuta.
+410	Edonork ulertzen duen komunikazio-armairua
+411	Identifikatu gabeko kablez betetako armairu bat ordenatzeko proposamena, konexio-kable bakoitza etiketatuta eta bere eskemarekin utzita.
+412	Sistema-ingurunea laborategi baterako
+413	Oinarrizko ingurune berarekin prestatutako hainbat ordenagailu, erabiltzaile bereiziak eta eguneratze-errutina kontrolatua.
+414	Prebentziozko mantentzea denda baterako
+415	Hiru hilean behingo berrikuspenen egutegia kutxako ordenagailurako, kudeaketakorako eta dendako sarerako.
+416	Webgune korporatiboa bulego profesional baterako
+417	Egitura editoriala, zerbitzu-fitxak eta eskaeren kudeaketari lotutako inprimakia.
+418	Bezeroak erakartzeko landing orria tokiko zerbitzu baterako
+419	Orri bakarra, ekintza bakar batean zentratua: zerbitzuaren balorazio bat eskatzea.
+420	Segurtasun-kopia hobeak
+421	Kanpoko disko bateko kopia bakar batetik euskarri desberdinetako hiru kopia egiaztatura.
+422	Faseka egindako berrikuntza aholkularitza-bulego baterako
+423	Hobekuntzak laguntzen duten lekuetan eta ordezkapena benetako errendimendua ekartzen duen lekuetan bakarrik.
+424	Lanpostu hibridoa autonomo batentzat
+425	Etxean eta bulegoan berdin dabilen lanpostua, datuak sinkronizatuta eta sarbide seguruarekin.
+426	«Proposamena» gisa markatutako fitxak planteamenduak eta diseinu-kontzeptuak dira, ez bezeroentzat egindako lanak. Behar mota bakoitzari heltzeko erabiltzen dudan irizpidea erakusten dute.
+427	Antzeko kasurik duzu?
+428	Baliabideak · Daylu Forteza
+429	Azalpen argiak zerk huts egiten duen eta zergatik: mantentzea, sareak eta weba, Daylu Fortezaren eskutik.
+430	Azalpen argiak zerk huts egiten duen eta zergatik.
+431	Ke eta titular alarmistarik gabe: zure teknologia ulertzeko eta hobeto erabakitzeko irizpide praktikoak.
+432	Azken artikuluak
+433	2026 urr. 29
+434	Zergatik dabil motel zure ordenagailua (eta zer egin daitekeen beste bat erosi gabe)
+435	Kausa ohikoenak eta bakoitza nola egiaztatzen den.
+436	Irakurri artikulua ›
+437	Wifia ez da iristen: nola diagnostikatzen den benetan
+438	Seinalea nola neurtzen den eta noiz behar den kable bat edo sarbide-puntu bat.
+439	Zer izan behar du negozio txiki baten webguneak 2026an
+440	Abiadura, argitasuna eta kontsultak jasotzeko benetako bide bat. Gainerakoa aukerakoa da.
+441	Arazoak
+442	Zer lortzen duzun
+443	Xehetasunez
+444	Zer barne hartzen duen
+445	Nola garatzen den
+446	Konpontzen dituen arazoak
+447	Ezaguna egiten zaizu?
+448	Emaitza, argi esanda.
+449	Horrelakoa da lana.
+450	Zer barne hartzen duen
+451	Zurea izango da
+452	Egokia honentzat
+453	Barne hartzen duen guztia.
+454	Norentzat den
+455	Honentzat pentsatua
+456	Lau urrats, hasieratik bukaerara.
+457	Beste zerbitzu batzuk
+458	Elkarrekin joan ohi dira.
+459	Kontatu kasua duzun xehetasunarekin, eta diagnostiko arrazoitu batekin erantzungo dizut. Konpromisorik gabe eta behar ez diren teknizismorik gabe.
+460	Ikusi gehiago ›
+461	Zerbitzu nagusia · Ikusi gehiago ›
+462	Mantentzea · Daylu Forteza
+463	Zerbaitek huts egiten duenean, berriz martxan jartzea lanaren erdia baino ez da. Beste erdia zer gertatu den ulertzea eta berriz gerta ez dadin saihestea da.
+464	Jakin zerk huts egin duen eta zergatik.
+465	Zerbaitek huts egiten duenean, berriz martxan jartzea lanaren erdia baino ez da. Beste erdia zer gertatu den ulertzea eta berriz gerta ez dadin saihestea da. Arazoa egiaztapen eta probekin aztertzen dut, irtenbide egokia bilatzen dut eta aurkitu dudana azaltzen dizut.
+466	Hauek dira gehien iristen zaizkidan mantentze-kasuak.
+467	Poliki pizten diren edo arrazoirik gabe blokeatzen diren ordenagailuak
+468	Agertu eta desagertu egiten diren eta inork erreproduzitzen ez dituen erroreak
+469	Bakarrik ixten diren edo datuak galtzen dituzten programak
+470	Gehiegizko berotzea, zarata handia edo bat-bateko itzalaldiak
+471	Inork berrikusten ez dituen ordenagailuak, funtzionatzeari utzi arte
+472	Jakingo duzu zerk huts egiten duen eta zergatik, itsu-itsuan egindako diagnostikorik gabe
+473	Gorabehera errepikatu gutxiago prebentziozko mantentzeari esker
+474	Ordenagailu azkarragoak eta egonkorragoak, hardwarea aldatu gabe
+475	Abisuak garaiz, osagai bat seinaleak ematen hasten denean
+476	Gorabeheren azterketa, egiaztapen eta probekin kausa aurkitu arte, gero konponbidea eta berriz gerta ez dadin plan bat.
+477	Hardware eta software diagnostikoa
+478	Prebentziozko eta zuzentzeko mantentzea
+479	Errendimenduaren optimizazioa, ordenagailua aldatu gabe
+480	Esku-hartze bakoitzaren erregistroa
+481	Diagnostiko-txostena
+482	Mantentze-egutegia
+483	Egoera-txostena berrikuspen bakoitzaren ondoren
+484	Gelditu ezin diren autonomoak
+485	Kutxa kritiko bat duten dendak
+486	Informatikari propiorik gabeko bulegoak
+487	Hardware eta software erroreen diagnostikoa
+488	Informatika-gorabeheren konponketa
+489	Errendimenduaren optimizazioa
+490	Laguntza teknikoa aurrez aurre eta urrunetik
+491	Ordenagailuen eta sistemen berrikuspena
+492	Lehen bezala errenditzen ez duen ordenagailua duten partikularrak
+493	Gelditzeko aukerarik ez duten autonomoak
+494	Lanpostu kritiko bakarra duten dendak
+495	Langile tekniko propiorik gabeko bulegoak
+496	Kontatu zer gertatzen zaizun
+497	Kontatu zer gertatzen zaizun.
+498	Zer gertatzen den, noiztik eta zein programarekin.
+499	Sistema aztertzen dut eta probak egiten ditut kausa aurkitzeko.
+500	Adostutako konponbidea aplikatzen dut eta emaitza egiaztatzen dut.
+501	Akatsa ez dela itzultzen egiaztatzen dut eta zer gertatu den azaltzen dizut.
+502	Mantentzeari buruz galdetzen dena.
+503	Nire ordenagailua urrunetik berrikus dezakezu?
+504	Sistemaren eta softwarearen berrikuspen asko urrunetik konpontzen dira. Akats fisikoek, hala nola disko edo memoria akastun batek, aurrez aurre joatea edo ordenagailua niri uztea eskatzen dute.
+505	Merezi du prebentziozko mantentzeak?
+506	Laneko ordenagailuetan, ia beti. Diskoa berrikusteak, eguneratzeak eta garbitzeak berrikuspena bera baino gehiago kostatzen diren geldialdiak saihesten ditu.
+507	Jakingo dut konponbiderik duen ordaindu aurretik?
+508	Bai. Lehenik diagnostikoa egiten dut eta egoera azaltzen dizut: konponketa, hobekuntza edo ordezkapena. Zuk erabakitzen duzu nola jarraitu.
+509	URT
+510	API
+511	UZT
+512	URR
+513	BERRIKUSPENA
+514	BERRIKUSPENA + DISKOA
+515	BERRIKUSPENA + TXOSTENA
+516	Sareak · Daylu Forteza
+517	Ondo diseinatutako eta ondo instalatutako sare batek lana errazten du, konexioa hobetzen du eta eguneroko arazoak murrizten ditu.
+518	Pentsatzeari utz diezaiokezun sarea.
+519	Ondo diseinatutako eta ondo instalatutako sare batek lana errazten du, konexioa hobetzen du eta eguneroko arazoak murrizten ditu. Zure etxeko, bulegoko edo negozioko azpiegitura instalatu, antolatu eta konfiguratzen dut, interneteko konexiotik gailu bakoitzeraino.
+520	Hauek dira gehien iristen zaizkidan sare-kasuak.
+521	Gela guztietara iristen ez den edo hainbat pertsona konektatuta daudenean erortzen den wifia
+522	Etiketarik gabeko kableak eta zer nora doan inork ez dakien armairuak
+523	Gelaz aldatzean konexioa galtzen duten ordenagailuak
+524	Arrazoirik gabe erantzuteari uzten dioten inprimagailuak edo TPVak
+525	Bulegora kanpotik modu seguruan sartu behar duzu
+526	Estaldura egonkorra, sarbide-puntuak leku egokian dituela
+527	Kableatua etiketatuta eta dokumentatuta: igartzeko garaiak amaitu dira
+528	Konexio-gorabehera gutxiago eguneroko lanean
+529	Gailuak gehitzeko prest dagoen oinarria, dena berregin gabe
+530	Edonork ulertzen duen kableatua.
+531	Etxe, bulego edo lokal bateko sare-kableatuaren instalazioa eta antolaketa: hormako hartunetik adabaki-panelera, puntu bakoitza probatuta eta izendatuta.
+532	Kable-ibilbideak gelaz gela planifikatuta
+533	Sare-hartuneak eta adabaki-panela instalatuta
+534	Puntu bakoitza probatuta itxi aurretik
+535	Etiketak kable bakoitzaren bi muturretan
+536	Armairua ordenatuta eta lehendik zegoen kableatua berrerabilita, balio duen lekuetan
+537	Armairu etiketatua
+538	Sarearen eskema
+539	Proba-emaitzak puntuka
+540	Muntatzen ari diren bulegoak
+541	Lokalez aldatzen diren dendak
+542	Gailu asko dituzten etxeak
+543	Sare-ekipoak
+544	Routerrak, switchak eta wifia, ondo konfiguratuta.
+545	Zure datuak igarotzen diren ekipoen instalazioa eta konfigurazioa: routerra, switchak eta sarbide-puntuak, eraikinera eta zure lan egiteko modura egokituta.
+546	Routerra konfiguratuta eta fabrikako pasahitzak aldatuta
+547	Switchak instalatuta eta atakak esleituta
+548	Sarbide-puntuak estaldura neurtu den lekuetan jarrita
+549	Sare bereizia gonbidatu edo bezeroentzat
+550	Urruneko sarbidea VPN bidez, behar duzunean
+551	Konfigurazioaren laburpena
+552	Estalduraren egiaztapena gelaka
+553	Administrazio-sarbideak emanda
+554	Bulegoak
+555	TPVak eta kamerak dituzten dendak
+556	Wifi txarra duten etxeak
+557	Sare-kableatuaren instalazioa eta antolaketa
+558	Routerren, switchen eta sarbide-puntuen konfigurazioa
+559	Wifi-estalduraren zabalkuntza eta hobekuntza
+560	Sare lokalen konfigurazioa, DHCP eta DNS
+561	Gailuen konexioa eta konfigurazioa
+562	Konexio-arazoen diagnostikoa
+563	VPNa urruneko konexioetarako
+564	Estaldura txarra edo gailu asko dituzten etxebizitzak
+565	Lehen aldiz sarea muntatzen duten bulegoak
+566	TPVak, kamerak eta konexio kritikoak dituzten dendak
+567	Lokalez aldatzen diren negozioak
+568	Eskatu sarearen balorazioa
+569	Eskatu zure sarearen balorazioa.
+570	Zer konektatu behar duzun eta orain zer arazo nabaritzen dituzun.
+571	Espazioa aztertu
+572	Konexio-puntuak, ekipoak eta behar duzun estaldura.
+573	Diseinatu eta instalatu
+574	Kableatua, ekipoak, konfigurazioa eta etiketatzea.
+575	Estaldura, abiadura eta egonkortasuna probatzen ditut eremu bakoitzean.
+576	Sareei buruz galdetzen dena.
+577	Nire bulegoko kableatua aldatu behar dut?
+578	Ez beti. Lehenik dagoenaren kalitatea eta egoera egiaztatzen ditut. Kableatuak sareari eusten badio, konfigurazioa eta ekipoak egokitzen ditut.
+579	Wifia obrarik gabe zabal dezaket?
+580	Kasu askotan bai, ahal den lekuetan kable bidezko sarbide-puntuekin edo, bestela, sare sareatu batekin. Aukera bakoitzaren abantailak eta mugak azaltzen dizkizut.
+581	Instalazioaren dokumentazioa uzten duzu?
+582	Bai. Etiketak, sarearen eskema bat eta konfigurazioaren laburpen bat, etorkizuneko edozein berrikuspen zerbait argitik abia dadin.
+583	1. POSTUA
+584	2. POSTUA
+585	3. POSTUA
+586	VLAN LANGILEAK
+587	Segurtasuna · Daylu Forteza
+588	Segurtasuna ondo konfiguratutako sistemekin eta ohitura onekin hasten da.
+589	Babes errealista eta egiaztatua.
+590	Segurtasuna ondo konfiguratutako sistemekin eta ohitura onekin hasten da. Zure ordenagailuen eta sarearen konfigurazioa berrikusten dut, gailuen babesa hobetzen dut eta oinarrizko neurriak ezartzen ditut arriskuak murrizteko eta informaziorik ez galtzeko.
+591	Hauek dira gehien iristen zaizkidan segurtasun-kasuak.
+592	Pasahitz bera denetarako eta kontrolik gabeko kontuak
+593	Hilabeteak daramatzaten eguneratze-zain dauden ordenagailuak
+594	Badiren baina inork leheneratzen probatu ez dituen segurtasun-kopiak
+595	Fitxategi garrantzitsuak disko bakar batean, bigarren kopiarik gabe
+596	Denentzat irekita dauden baimenak eta karpeta partekatuak
+597	Zure eguna zailtzen ez duen babes errealista
+598	Kopia egiaztatuak: jakingo duzu berreskura dezakezula
+599	Datuak edo zure kontuetarako sarbidea galtzeko arrisku txikiagoa
+600	Benetako abisu bat iruzur batetik bereizteko irizpide argiak
+601	Oinarrizko segurtasun prebentiboa: konfigurazioa, eguneratzeak, pasahitzak, baimenak eta benetan leheneratu diren kopiak.
+602	Segurtasun-konfigurazioa berrikusita
+603	Eguneratzeak eta babesa konfiguratuta
+604	Aholkularitza pasahitzei eta sarbideei buruz
+605	Kopiak euskarri desberdinetan konfiguratuta
+606	Karpeta partekatuak eta baimenak berrikusita
+607	Arriskuak benetako eraginaren arabera ordenatuta
+608	Kopien leheneratze-proba
+609	Jarraibideak idatziz
+610	Argazkiak dituzten eta kopiarik ez duten pertsonak
+611	Bezeroen datuak dituzten autonomoak
+612	Dendak eta bulegoak
+613	Segurtasun-konfigurazioaren berrikuspena
+614	Aholkularitza pasahitzei eta sarbideei buruz
+615	Segurtasun-kopien konfigurazioa
+616	Baimenen eta baliabide partekatuen berrikuspena
+617	Zure informazioa babesteko gomendioak
+618	Argazki eta dokumentuak kopiarik gabe dituzten partikularrak
+619	Bezeroen datuak gordetzen dituzten autonomoak
+620	TPVak eta gailu konektatuak dituzten dendak
+621	Gorabeherengatiko geldialdiak saihestu nahi dituzten bulegoak
+622	Berrikusi nire segurtasuna
+623	Berrikus dezagun zure segurtasuna.
+624	Berrikusi
+625	Egungo konfigurazioa, sarbideak, eguneratzeak eta kopiak.
+626	Lehenetsi
+627	Arriskuak benetako eraginaren arabera ordenatzen ditut, ez moden arabera.
+628	Konfiguratu
+629	Adostutako aldaketak aplikatzen ditut eta kopiak martxan uzten ditut.
+630	Egiaztatu
+631	Leheneratze bat probatzen dut eta jarraibideak idatziz uzten dizkizut.
+632	Segurtasunari buruz galdetzen dena.
+633	Segurtasun-auditoria aurreratuak egiten dituzu?
+634	Ez. Nire lana oinarrizko segurtasun prebentiboa da: konfigurazioak, eguneratzeak, baimenak eta kopiak. Zure kasuak auditoria espezializatu bat edo ziurtagiri jakin bat behar badu, esan egiten dizut eta profil egokira bideratzen zaitut.
+635	Non gorde beharko nituzke segurtasun-kopiak?
+636	Arau praktikoa da gutxienez bi kopia izatea euskarri desberdinetan, eta horietako bat ordenagailutik kanpo. Irtenbide zehatza zure datuen eta aurrekontuaren araberakoa da.
+637	Doako antibirusa nahikoa da?
+638	Kasu askotan nahikoa izan daiteke, sistema eguneratuta badago eta ohiturak onak badira. Zure erabilera baloratzen dut ezeren truke ordaintzea gomendatu aurretik.
+639	DATUAK
+640	DISKOA
+641	KANPOAN
+642	LEHENERATZEA PROBATUTA ✓
+643	HODEIA
+644	Sistemak · Daylu Forteza
+645	Gaizki dabilen ordenagailu batek, erantzuten ez duen sistema batek edo konfigurazio oker batek zure lan guztiari eragin diezaioke.
+646	Ordenagailuak eta zerbitzariak ondo konfiguratuta.
+647	Gaizki dabilen ordenagailu batek, erantzuten ez duen sistema batek edo konfigurazio oker batek zure lan guztiari eragin diezaioke. Windows, Windows Server eta macOS dituzten zure ordenagailuak berrikusi, konfiguratu eta optimizatzen ditut, eguneratuta, egonkor eta zure lanera egokituta egon daitezen.
+648	Hauek dira gehien iristen zaizkidan sistema-kasuak.
+649	Oraindik eguneroko lanerako prest ez dagoen ordenagailu berria
+650	Hainbat fitxa edo programa irekitzean motz geratzen den ordenagailua
+651	Eguneratu gabeko sistemak, software bikoiztuarekin edo lizentzia argirik gabe
+652	Karpeta, kanpoko disko eta kontu zaharren artean sakabanatutako datuak
+653	Agertzen ez diren edo behar bezala funtzionatzen ez duten inprimagailuak eta periferikoak
+654	Ordenagailu egonkorragoak, eguneratuak eta zure lan egiteko modura egokituak
+655	Erabiltzaileak eta baimenak zehaztuta, pertsona bakoitzak dagokionera sar dadin
+656	Datuak migratuta eta egiaztatuta, bidean galerarik gabe
+657	Ordenagailuaren bizitza luzatzen duten hobekuntzak, erosketa bat planteatu aurretik
+658	Zerbitzariak
+659	Bulegoak konfiantza izan dezakeen zerbitzaria.
+660	Windows Serverren instalazioa, konfigurazioa eta mantentzea: erabiltzaileak, fitxategi partekatuak eta bulegoak behar dituen zerbitzuak gordetzen dituen ekipo zentrala.
+661	Windows Server instalatuta eta eguneratuta
+662	Erabiltzaileak, taldeak eta baimenak pertsonaka
+663	Karpeta partekatuak sarbide egokiekin
+664	Zerbitzariaren kopiak programatuta eta egiaztatuta
+665	Mantentzea eta egoera-berrikuspenak
+666	Erabiltzaileen eta baimenen mapa
+667	Kopia- eta leheneratze-proba
+668	Administrazio-dokumentazioa
+669	Hainbat lanpostu dituzten bulegoak
+670	Ordenarik gabe hazi diren negozioak
+671	Fitxategiak partekatzen dituzten taldeak
+672	Windows eta macOS ondo konfiguratuta.
+673	Ordenagailu bakoitzeko sistema eragilearen instalazioa eta konfigurazioa, egonkorra, eguneratua eta zure lanerako prest egon dadin.
+674	Windows eta macOS instalazio garbia edo konponketa
+675	Eguneratzeak, kontrolatzaileak eta periferikoak
+676	Lizentzia argiak dituen softwarea instalatuta
+677	Datuak ordenagailu zaharretik migratuta eta egiaztatuta
+678	Oinarrizko konfigurazio bera lanpostu bakoitzean
+679	Oinarrizko irudia ordenagailu berrietarako
+680	Softwarearen eta lizentzien inbentarioa
+681	Datuen egiaztapena migrazioaren ondoren
+682	Ordenagailu berriak
+683	Motel bihurtu diren ordenagailuak
+684	Lanpostu guztiak berdinak nahi dituzten bulegoak
+685	Sistema-zerbitzuak
+686	Bulego bat talde gisa funtzionarazten duten zerbitzuak.
+687	Pertsonak eta ordenagailuak lotzen dituzten zerbitzuen konfigurazioa: nork has dezakeen saioa, zein karpeta ikusten duen bakoitzak, nola banatzen diren helbideak eta izenak sarean (DHCP eta DNS), nola inprimatzen den, nora doazen kopiak eta nola konektatzen den bakoitza kanpotik.
+688	Erabiltzaile-kontuak eta baimenak
+689	Karpeta partekatuak eta sare-unitateak
+690	Sareko inprimagailuak lanpostu bakoitzerako
+691	Sare-zerbitzuak: DHCP eta DNS
+692	Kopia automatikoak diskora, NASera edo hodeira
+693	VPN bidezko sarbidea etxetik
+694	Sarbideen zerrenda pertsonaka
+695	Zerbitzuen konfigurazioaren laburpena
+696	Eguneroko erabilerarako gida idatzia
+697	Bulego txikiak
+698	Klinikak eta estudioak
+699	Astearen zati batean telelanean aritzen diren taldeak
+700	Sistema eragileen instalazioa eta konfigurazioa
+701	Ordenagailuen eta periferikoen konfigurazioa
+702	Windows Serverren administrazioa eta mantentzea
+703	Ordenagailuen optimizazioa eta hardware-hobekuntzak
+704	Erabiltzaileak, baimenak eta baliabide partekatuak
+705	Zure ekipoak berritzeko edo hobetzeko aholkularitza
+706	Ordenagailua estreinatzen ari diren edo ordenatu nahi duten partikularrak
+707	Lanpostu fidagarria behar duten autonomoak
+708	Berdin funtzionatu behar duten hainbat lanpostu dituzten bulegoak
+709	Ekipoetan ordenarik gabe hazi diren negozioak
+710	Kontsultatu nire kasua
+711	Kontsultatu zure kasua.
+712	Egunero zer erabiltzen duzun, nola lan egiten duzun eta ordenagailutik zer espero duzun.
+713	Sistemaren egoera eta zer gorde behar den egiaztatzen ditut.
+714	Sistema, erabiltzaileak, softwarea, periferikoak eta datuak.
+715	Entregatu
+716	Probak zurekin eta dena nola geratzen den azalpena.
+717	Sistemei buruz galdetzen dena.
+718	Nire fitxategiak galtzen dira sistema berrinstalatzean?
+719	Ez lukete galdu behar: segurtasun-kopia lanaren parte da. Edozein instalazioren aurretik zurekin berrikusten dut zer datu gorde behar diren, eta amaitzean egiaztatzen ditut.
+720	Betiko programa erabiltzen jarrai dezaket?
+721	Kasu gehienetan, bai. Softwarea zaharra bada edo sistemaren bertsio jakin baten menpe badago, hasi aurretik esaten dizut, alternatibak baloratzeko.
+722	Windows, Windows Server eta macOSekin lan egiten duzu?
+723	Bai. Egunero lan egiten dut Windows eta Windows Serverrekin, baita macOS ordenagailuekin ere. Kasu bakoitzaren irismena berresten dizut ezer ukitu aurretik.
+724	Zenbat irauten du instalazio oso batek?
+725	Datu-bolumenaren eta behar den softwarearen araberakoa da. Kasua berrikustean estimazio bat ematen dizut, hasi aurretik.
+726	ERABILTZAILEAK · TALDEAK
+727	FITXATEGI PARTEKATUAK
+728	KOPIAK
+729	ADMIN
+730	LANGILEAK
+731	GONBIDATUAK
+732	WINDOWS
+733	OINARRIZKO KONFIGURAZIOA
+734	ZERBITZUAK
+735	ERABILTZAILEAK
+736	KARPETAK
+737	INPRIMATZEA
+738	BAIMENAK
+739	OINARRIZKO IRUDIA
+740	01 ERABILTZAILEA
+741	02 ERABILTZAILEA
+742	03 ERABILTZAILEA
+743	Prestakuntza · Daylu Forteza
+744	Denek ez dute gauza bera ikasi behar, ezta erritmo berean ere.
+745	Erabili zure teknologia konfiantzaz.
+746	Denek ez dute gauza bera ikasi behar, ezta erritmo berean ere. Prestatzaile gisa dudan esperientziari esker, azalpen bakoitza dakizunera egokitu dezaket, lehen urratsetatik gai teknikoagoetaraino, zure ekipoei etekin handiagoa atera diezaiezun eta konfiantza handiagoz erabaki dezazun.
+747	Hauek dira gehien iristen zaizkidan prestakuntza-kasuak.
+748	Ez dakizu duzun ordenagailua egokia den egiten duzunerako
+749	Aldaketa txiki bakoitzerako beste norbaiten menpe zaude
+750	Inork ez dizu azaldu zure sistemek nola funtzionatzen duten
+751	Ekipoak edo tresnak aukeratu behar dituzu eta ez dakizu zeri erreparatu
+752	Tresna berri bat iritsi da eta ia inork ez du erabiltzen
+753	Azalpenak zure mailan, ezer ziurtzat eman gabe
+754	Autonomia handiagoa eguneroko zereginetan
+755	Erosketak irizpidez eta beharrezkoak ez diren gasturik gabe
+756	Laguntza tresna berriak ezartzen diren bitartean
+757	Prestakuntza eta aholkularitza
+758	Prestakuntza pertsonalizatua eta erosketa-aholkularitza, dakizunera egokituak eta zure ekipo eta programa propioekin.
+759	Saio indibidualak edo talde txikietan
+760	Maila guztietarako eskolak
+761	Aholkularitza ekipoak erosi aurretik
+762	Laguntza tresna berri bat ezartzean
+763	Gordetzeko gida labur idatzia
+764	Saioen plana
+765	Gida idatzia
+766	Ondorengo zalantzak argituta
+767	Partikularrak
+768	Talde txikiak
+769	Inbertitzear dauden negozioak
+770	Informatika-prestakuntza pertsonalizatua
+771	Hainbat mailatako informatika-eskolak
+772	Ekipoak eta irtenbideak aukeratzeko aholkularitza
+773	Laguntza tresna berrien ezarpenean
+774	Zure kabuz moldatzeko azalpen praktikoak
+775	Erraztasun handiagoz moldatu nahi duten partikularrak
+776	Denerako hirugarrenen menpe egon ezin diren autonomoak
+777	Tresnak estreinatzen ari diren talde txikiak
+778	Inbertitu aurretik irizpidea behar duten negozioak
+779	Eskatu prestakuntza edo aholkularitza
+780	Eskatu prestakuntza edo aholkularitza.
+781	Zer dakizun jada, zer kostatzen zaizun eta zer konpondu behar duzun.
+782	Helburua finkatu
+783	Amaitzean zure kabuz zer egin ahal izan nahi duzun.
+784	Praktikatu
+785	Saioak zure ordenagailu eta programekin.
+786	Ondorengo zalantzak eta aurrera egin ahala egokitzen den erritmoa.
+787	Prestakuntzari buruz galdetzen dena.
+788	Taldeei ematen diezu prestakuntza?
+789	Bai, talde txikiei, edukia taldearen mailara egokituta. Hasi aurretik zehazten dugu, saioek denentzat zentzua izan dezaten.
+790	Prestakuntza ofiziala edo ziurtatua da?
+791	Ez. Ez dut titulu ofizialik ematen. Prestakuntza praktikoa da, zure teknologia autonomiaz erabil dezazun.
+792	Prestakuntza eta aholkularitza konbina ditzaket?
+793	Bai, egia esan, elkarrekin joan ohi dira: lehenik zure egoera berrikusten dut eta gero benetan behar duzunaren inguruan antolatzen ditugu saioak.
+794	DAKIZUNA
+795	HELBURUA
+796	PRAKTIKA
+797	ZURE KABUZ
+798	AUTONOMIA
+799	Web garapena · Daylu Forteza
+800	Webgune bat bisita-txartel bat baino askoz gehiago da: zure negozioa aurkezten du, zure zerbitzuak azaltzen ditu eta bezeroei zurekin harremanetan jartzea errazten die.
+801	Zure negozioa, webgune batean azalduta.
+802	Webgune bat bisita-txartel bat baino askoz gehiago da: zure negozioa aurkezten du, zure zerbitzuak azaltzen ditu eta bezeroei zurekin harremanetan jartzea errazten die. Proiektu bakoitzari egokitutako webguneak garatzen ditut, egitura argiarekin, irudi zainduarekin eta esperientzia erosoarekin ordenagailuan, tabletan edo mugikorrean.
+803	Zerbitzu nagusia · 1.000 €-tik aurrera
+804	Eskaintza
+805	Nola eraikitzen den
+806	Jabetza
+807	Hauek dira gehien iristen zaizkidan web garapeneko kasuak.
+808	Zure lanaren kalitatea islatzen ez duen webgune zaharra
+809	Mugikorrean apurtzen den diseinua, bisita gehienak handik iristen badira ere
+810	Inora iristen ez diren inprimakiak
+811	Jendea irakurri aurretik joatea eragiten duen karga motela
+812	Zer egiten duzun eta nori laguntzen diozun azaltzen ez duten edukiak
+813	Zure zerbitzuaren mailako irudi digitala
+814	Esperientzia zaindua mugikorrean, tabletan eta ordenagailuan
+815	Bisitariak zer egin jakin dezan pentsatutako egitura
+816	Eduki argiak, pertsonentzat idatziak eta ez makinentzat
+817	Webguneak
+818	Prezio bat hasteko eta aurrekontu itxi bat amaitzeko.
+819	Eskuz programatutako webgunea, atzean alokatutako eraikitzailerik gabe.
+820	Webgune korporatiboa edo landing orria
+821	Landing orri batek edo webgune korporatibo trinko batek prezio honetatik abiatzen dira. Webgune handiagoetarako aurrekontu itxia bidaltzen dizut hasi aurretik.
+822	1.000 €
+823	-tik aurrera, aurrekontu itxia
+824	Eskatu webgunearen aurrekontua
+825	Eskatu zure webgunearen aurrekontua.
+826	Nola eraikitzen den webgune bat
+827	Ohar itsasgarri batetik argitalpenera.
+828	Webguneak zer lortu behar duen eta norentzat den.
+829	Egituratu
+830	Atalak, hierarkia eta bisitariaren ibilbidea.
+831	Egiten duzuna kontatzen duten hitzak, pertsonentzat idatziak.
+832	Diseinua
+833	Tipografia, kolorea eta irudiak zure zerbitzuaren mailan.
+834	Garapena
+835	Eskuz idatzitako kodea, edozein pantailatara egokitua eta funtzionatzen duten inprimakiekin.
+836	Argitalpena, probak, errendimendua eta azken doikuntzak.
+837	Fisioterapia Malagako erdigunean
+838	Helburua: mugikorretik aurkitzen gaituen jendearen erreserba gehiago.
+839	Mugikorra, tableta eta ordenagailua
+840	Inprimakia posta elektronikora iristen da
+841	Karga-abiadura neurtuta
+842	Domeinua zure izenean
+843	Argitaratzean, lau giltza jasotzen dituzu.
+844	Ezer ez da niri lotuta geratzen. Egunen batean beste pertsona bat zure webguneaz arduratzea nahi baduzu, giltza hauek ematen dizkiozu.
+845	Domeinua
+846	Zure izenean erregistratuta, sarbide-datuekin.
+847	Ostatua
+848	Zure kontu propioa hornitzailearekin, ez bitartekari batena.
+849	Kodea
+850	HTML, CSS eta JavaScript estandarra, edozein garatzailek ulertzen duena.
+851	Edukia
+852	Editatu edo eraman ditzakezun testuak eta irudiak.
+853	Webgune korporatiboak
+854	Landing orriak
+855	Mugikorretarako diseinua eta egokitzapena
+856	Web-edukien antolaketa eta idazketa
+857	Lehendik dauden webguneen eguneratzea eta mantentzea
+858	Egituraren, nabigazioaren eta erabiltzaile-esperientziaren hobekuntzak
+859	Proiektuak behar dituen tresna digitalen integrazioa
+860	Presentzia serioa behar duten profesionalak
+861	Webgunerik gabeko edo zaharkitua duten dendak
+862	Zerbitzu bat abian jartzen duten eta landing orri bat behar duten negozioak
+863	Beren irudi digitala berritu nahi duten proiektuak
+864	Aurrekontua eskatu aurretik.
+865	Neuk egunera dezaket webgunea?
+866	Bai, behar baduzu. Kudeatzaile erraz batekin entregatu diezazuket eta maiz eguneratzen diren edukiak aldatzen erakutsi.
+867	Domeinua eta ostatua barne daude?
+868	Proposamenaren barruan joan daitezke. Kostua hornitzailearen eta espero duzun trafikoaren araberakoa da.
+869	Zenbat denbora behar da?
+870	Atal kopuruaren eta testuak eta irudiak noiz prest dauden araberakoa da. Proposamenean faseak eta gutxi gorabeherako epeak ikusiko dituzu.
+871	Googleko lehen postua bermatzen duzu?
+872	Ez, eta ez fidatu hori bermatzen duenaz. Oinarri teknikoa eta edukiak prest uzten dizkizut, benetako lanarekin posizionatzeko.
+873	Zerbitzuak · Daylu Forteza
+874	Sei informatika-zerbitzu Malagan: sistemak, sareak, mantentzea, segurtasuna, web garapena eta prestakuntza.
+875	Sei zerbitzu. Teknikari bakarra.
+876	Aukeratu zerbitzu bat zer arazo konpontzen dituen, zer barne hartzen duen, nola garatzen den eta zer galdetu ohi den ikusteko.
+877	Sei zerbitzuak
+878	Zer egiten dudan eta zer ez
+879	Bulego bat barrutik
+880	Sei zerbitzu
+881	Teknikari bakarra guztirako.
+882	Lehen kabletik zure webguneko inprimakiraino, pertsona berak diagnostikatzen, konpontzen eta azaltzen du.
+883	01 · Sistemak
+884	Ordenagailuak ondo konfiguratuta.
+885	Windows, Windows Server eta macOSen instalazioa eta konfigurazioa, erabiltzaileak, baimenak eta eguneratzeak kontrolpean.
+886	02 · Sareak
+887	Wifia gela guztietan.
+888	Kableatu egituratua, adabaki-panel etiketatuak eta sarbide-puntuak seinalea behar den lekuetan.
+889	03 · Mantentzea
+890	Huts egin aurretik berrikusita.
+891	Kutxen, bulegoko ordenagailuen eta sarearen hiru hilean behingo berrikuspenak, egoera-txosten idatziarekin.
+892	04 · Segurtasuna
+893	Hiru kopia, egiaztatuta.
+894	Kanpoko disko batetik euskarri desberdinetan probatutako hiru kopiara, horietako bat bulegotik kanpo.
+895	05 · Weba
+896	Zu azaltzen zaituen webgunea.
+897	Webgune korporatiboak eta landing orriak HTML, CSS, JavaScript, PHP eta MySQLekin, lehenik mugikorrerako pentsatuak.
+898	06 · Prestakuntza
+899	Zure teknologia ulertzen duzu.
+900	Lan bakoitza elkarrekin egindako errepaso batekin eta laburpen idatzi batekin amaitzen da, zure kabuz moldatu zaitezen.
+901	Irismena
+902	Zer egiten dudan. Eta zer ez.
+903	Mugak ezagutzea ere zerbitzuaren parte da. Zure kasua mugetatik kanpo badago, lehen egunean esango dizut.
+904	Egiten dudana
+905	Diagnostikatu ezer ukitu aurretik
+906	Lehenik kausa, gero konponbidea.
+907	Irismena eta prezioa idatziz utzi
+908	Hasi aurretik, inoiz ez ondoren.
+909	Zure datuen kopia egin instalatu aurretik
+910	Eta amaitzean dena bertan dagoela egiaztatu.
+911	Instalazio bakoitza etiketatu eta dokumentatu
+912	Eskema, etiketak eta laburpen idatzia.
+913	Zure kopien leheneratzea zurekin probatu
+914	Inork leheneratu ez duen kopia ez da segurtasun-kopia.
+915	Domeinua eta ostatua zure izenean erregistratu
+916	Zure webgunea zurea izaten jarraitzen du.
+917	Egiten ez dudana
+918	Googleko lehen postua agindu
+919	Ez fidatu hori egiten duenaz.
+920	Segurtasun-auditoria aurreratuak edo ziurtagiriak
+921	Kasu horretan, espezialista egokira bideratzen zaitut.
+922	Titulu ofizialak eman
+923	Prestakuntza praktikoa da, ez ziurtatua.
+924	Behar ez duzuna saldu
+925	Horrek niretzat lan gutxiago esan nahi badu ere.
+926	Hobekuntza batekin salba daitekeen ordenagailua aldatu
+927	Datuak ematen dizkizut erabaki dezazun.
+928	Zu nire menpe utzi
+929	Pasahitzak, dokumentuak eta sarbideak zuri ematen zaizkizu.
+930	Bulego txiki bat barrutik
+931	Mapa honetako kutxa bakoitza berrikusten dudan zerbait da.
+932	Sakatu ekipo bat bertan zer berrikusten dudan eta amaitzean zer geratzen zaizun ikusteko.
+933	Bulego txiki baten sare-mapa
+934	Interneteko linea
+935	Switcha eta kableatua
+936	Wifi sarbide-puntuak
+937	Ordenagailuak
+938	Kopien biltegiratzea
+939	Inprimagailua eta txartel-terminala
+940	Urruneko sarbidea
+941	Zure sarearen sarrera-atea.
+942	Dena handik igarotzen da; horregatik, berrikusten dudan lehen gauza da.
+943	Zer berrikusten dudan
+944	Mugitzen diren puntuak trafikoa dira. Laranjak segurtasun-kopiak eta telelana dira.
+945	Dena hasten den lekua.
+946	Zure operadorearen linea. Ordaintzen duzuna iristen zaizun egiaztatzen dut.
+947	Benetako abiadura routerrean neurtuta
+948	Operadorearen ekipoa eta kontratua berrikusita
+949	Ordezko linea denda kritikoentzat
+950	Firmwarea eguneratuta eta fabrikako pasahitza aldatuta
+951	Wifi-kanalak eraikinera egokituta
+952	Gonbidatuen sarea laneko ekipoetatik bereizita
+953	Huts egin arte inork begiratzen ez duen zatia.
+954	Kableatu egituratua eta kable bakoitzak izena duen adabaki-panela.
+955	Konexio-kable bakoitza etiketatuta
+956	Sarearen eskema marraztuta eta emanda
+957	Lehendik zegoen kableatua probatuta ordeztu aurretik
+958	Wifia lan egiten duzun geletan.
+959	Estaldura gelaz gela neurtuta eta sarbide-puntuak kable bidez konektatuta, ahal den lekuetan.
+960	Seinalea gela bakoitzean neurtuta
+961	Sare sareatua kablea iristen ez den lekuetan bakarrik
+962	Egonkorra jende asko konektatuta egonda ere
+963	Berdin funtzionatzen duten bost lanpostu.
+964	Oinarrizko konfigurazio bat, erabiltzaile bereiziak eta eguneratze-errutina kontrolatua.
+965	Sistema eguneratuta eta lizentziak ordenan
+966	Erabiltzaileak eta baimenak pertsonaka
+967	Datuak migratuta eta egiaztatuta
+968	Benetan leheneratu dituzun kopiak.
+969	Hiru kopia euskarri desberdinetan, horietako bat bulegotik kanpo.
+970	Kopia automatikoak programatuta
+971	Kopia bat bulegotik kanpo
+972	Leheneratze bat zurekin probatuta
+973	Deskonektatzeari uzten dioten gailuak.
+974	Inprimagailuek eta TPVek helbide finkoa dute, beti aurki daitezen.
+975	IP finkoa gailu bakoitzarentzat
+976	Kontrolatzaileak lanpostu bakoitzean instalatuta
+977	Ordenagailu bakoitzetik probatuta
+978	Zure bulegoa, etxetik eta modu seguruan.
+979	VPN bat zure fitxategietara kanpotik iristeko, sarea denentzat ireki gabe.
+980	VPNa routerrean konfiguratuta
+981	Sarbidea pertsonaka, kentzeko erraza
+982	Bulegotik kanpotik probatuta
+983	ZER EGIN DEN
+984	ZERGATIK
+985	NOLA ERABILI
+986	LABURPEN IDATZIA
+987	ATEBIDEA
+988	ADABAKI-PANELA
+989	Sarbide-puntua
+990	HARRERA
+991	5 POSTU
+992	KOPIAK
+993	Inprimagailua · TPV
+994	IP FINKOA
+995	BILERA-GELA
+996	Eramangarria etxean
+997	Testuak
+998	Partikularra
+999	Oinarria &nbsp;
+1000	Bezeroa &nbsp;

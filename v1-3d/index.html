@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Construcciones Daylu · Ferrol</title>
+  <meta name="description" content="Construcción, reformas y mantenimiento en Ferrol y comarca desde 2006. Presupuesto por WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="nav">
+    <a href="#inicio" class="logo">DAYLU<span>.</span></a>
+    <nav>
+      <a href="#proceso">Proceso</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto" class="nav-cta">Presupuesto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <p class="tag mono">Ferrol · A Coruña — desde 2006</p>
+      <h1 class="hero-title">
+        <span class="line"><span>Construimos.</span></span>
+        <span class="line"><span>Reformamos.</span></span>
+        <span class="line"><span class="accent">Mantenemos.</span></span>
+      </h1>
+      <p class="hero-sub">Obra nueva, reformas, cubiertas y fachadas. Equipo propio y dron para inspeccionar tejados.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/34636527124" target="_blank" rel="noopener">Pedir presupuesto por WhatsApp</a>
+        <a class="btn btn-ghost" href="#proceso">Ver cómo trabajamos ↓</a>
+      </div>
+      <div class="scroll-hint mono">Haz scroll — la casa se construye</div>
+    </section>
+
+    <!-- PROCESO: la casa 3D se construye con el scroll -->
+    <section id="proceso" class="story">
+      <article class="step" data-step="0">
+        <p class="mono step-num">01 / Cimientos</p>
+        <h2>Primero, la base.</h2>
+        <p>Visitamos la obra, medimos y te damos presupuesto cerrado. Sin sorpresas a mitad de trabajo.</p>
+      </article>
+      <article class="step" data-step="1">
+        <p class="mono step-num">02 / Estructura</p>
+        <h2>Muros que aguantan.</h2>
+        <p>Albañilería, pladur, fontanería y electricidad. Todo lo hace el mismo equipo, con maquinaria propia.</p>
+      </article>
+      <article class="step" data-step="2">
+        <p class="mono step-num">03 / Cubierta</p>
+        <h2>Un tejado sin goteras.</h2>
+        <p>Revisamos cubiertas y fachadas con dron. Limpieza, reparación, canalones e impermeabilización.</p>
+      </article>
+      <article class="step" data-step="3">
+        <p class="mono step-num">04 / Acabados</p>
+        <h2>Y se enciende la luz.</h2>
+        <p>Pintura, hormigón impreso o pulido y cierres de finca. Entregamos la obra limpia y lista para vivir.</p>
+      </article>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Obra nueva</span><i>✦</i><span>Rehabilitación</span><i>✦</i><span>Reformas</span><i>✦</i><span>Cubiertas</span><i>✦</i><span>Fachadas</span><i>✦</i><span>Proyectados</span><i>✦</i><span>Hormigón impreso</span><i>✦</i>
+        <span>Obra nueva</span><i>✦</i><span>Rehabilitación</span><i>✦</i><span>Reformas</span><i>✦</i><span>Cubiertas</span><i>✦</i><span>Fachadas</span><i>✦</i><span>Proyectados</span><i>✦</i><span>Hormigón impreso</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="services">
+      <div class="section-head">
+        <p class="mono tag">Servicios</p>
+        <h2 class="big">9 tipos de trabajo.<br>Un solo equipo.</h2>
+      </div>
+      <ol class="service-list">
+        <li class="reveal"><span class="mono">01</span><h3>Obra nueva</h3><p>Viviendas, locales y naves.</p></li>
+        <li class="reveal"><span class="mono">02</span><h3>Rehabilitaciones</h3><p>Albañilería, fontanería, electricidad y pintura.</p></li>
+        <li class="reveal"><span class="mono">03</span><h3>Reformas</h3><p>Integrales o parciales, interior y exterior.</p></li>
+        <li class="reveal"><span class="mono">04</span><h3>Cubiertas y fachadas</h3><p>Limpieza, arreglo y reparación. Inspección con dron.</p></li>
+        <li class="reveal"><span class="mono">05</span><h3>Proyectados</h3><p>Aislamiento e impermeabilización a presión: yeso, mortero y aislantes.</p></li>
+        <li class="reveal"><span class="mono">06</span><h3>Hormigón impreso y pulido</h3><p>Patios, accesos, garajes y naves.</p></li>
+        <li class="reveal"><span class="mono">07</span><h3>Mantenimiento de comunidades</h3><p>Revisiones y arreglos para comunidades de vecinos.</p></li>
+        <li class="reveal"><span class="mono">08</span><h3>Canalones</h3><p>Instalación, limpieza y sustitución.</p></li>
+        <li class="reveal"><span class="mono">09</span><h3>Otros trabajos</h3><p>Pladur, desatascos, fosas sépticas y cierres de fincas.</p></li>
+      </ol>
+    </section>
+
+    <!-- DATOS -->
+    <section class="facts">
+      <div class="fact reveal">
+        <span class="fact-num" data-count="2006">2006</span>
+        <p>Año en que empezamos. Más de 20 años trabajando en la comarca.</p>
+      </div>
+      <div class="fact reveal">
+        <span class="fact-num">100%</span>
+        <p>Equipamiento propio. No dependemos de alquilar maquinaria para empezar.</p>
+      </div>
+      <div class="fact reveal">
+        <span class="fact-num">Dron</span>
+        <p>Inspeccionamos tejados y fachadas sin andamios para darte un diagnóstico real.</p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contact">
+      <p class="mono tag">Contacto</p>
+      <h2 class="mega">¿Tienes<br>una obra<br><span class="accent">en mente?</span></h2>
+      <div class="contact-grid">
+        <a class="contact-card" href="https://wa.me/34636527124" target="_blank" rel="noopener">
+          <span class="mono">WhatsApp / Teléfono</span><strong>636 527 124</strong>
+        </a>
+        <a class="contact-card" href="https://wa.me/34616183679" target="_blank" rel="noopener">
+          <span class="mono">WhatsApp / Teléfono</span><strong>616 183 679</strong>
+        </a>
+        <a class="contact-card" href="mailto:construccionesdaylu@gmail.com">
+          <span class="mono">Email</span><strong>construccionesdaylu@gmail.com</strong>
+        </a>
+        <div class="contact-card">
+          <span class="mono">Oficina</span>
+          <strong>Ctra. Ferrol–Viveiro, 16 A, 1ª Local 2<br>15560 San Sadurniño (A Coruña)</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Construcciones Daylu, S.L.</span>
+    <span class="mono">Ferrol · San Sadurniño · Narón · Neda</span>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
