@@ -1,4 +1,4 @@
-# Agente: Captador de clientes potenciales (BORRADOR — fase 6)
+# Agente: Captador de clientes potenciales (v1 en marcha)
 
 ## Tarea
 Encontrar negocios locales que necesiten una web informativa y reunirlos en una sola app con búsqueda automática y manual. Para cada negocio, preparar un argumento de venta.
@@ -80,4 +80,9 @@ La oferta y los argumentos se guardan como skill reutilizable: el agente la usa 
 - Marcador semanal: llamadas, citas, presupuestos, webs vendidas.
 
 ## Pendiente
-Fase 6 del protocolo.
+Fase 2: emails desde IONOS (info@dayluforteza.es), monitor de respuestas, Google Places con presupuesto 0-20 €/mes, webs de ejemplo por nicho.
+
+## Construcción (fase 6)
+- App: https://claude.ai/artifact/LRd6Bx49XXfSEDXSuDrahw (código en captador/).
+- Actualización: mañana 17/11 a las 07:00 y cada lunes a las 07:00 (Europe/Madrid).
+- Presupuesto: 0-20 €/mes. Correo: IONOS.
