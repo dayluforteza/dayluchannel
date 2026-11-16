@@ -1,7 +1,7 @@
 # CLAUDE.md — Agencia de IA de Daylu
 
 ## Quién es el usuario
-- Daylu Forteza. Técnico superior ASIR. Web: daylu.es. Redes: Instagram, YouTube, TikTok.
+- Daylu Forteza. Técnico superior ASIR. Web: dayluforteza.es (OJO: daylu.es NO es suya, es Construcciones Daylu S.L., Ferrol). Correo: info@dayluforteza.es (IONOS). Redes: Instagram, YouTube, TikTok.
 - Objetivo: ser autónomo y montar una agencia de IA que facture pronto, sin contratar personal.
 - Quiere APRENDER a crear agentes, no solo recibirlos hechos.
 
