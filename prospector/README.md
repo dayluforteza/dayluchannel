@@ -1,4 +1,4 @@
-# Captador de clientes
+# Prospector
 
 App: https://claude.ai/artifact/LRd6Bx49XXfSEDXSuDrahw
 
