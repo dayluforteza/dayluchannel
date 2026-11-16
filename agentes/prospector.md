@@ -7,10 +7,10 @@ Encontrar negocios locales que necesiten una web informativa y reunirlos en una 
 Málaga capital y provincia → Andalucía → España. Objetivo: 30.000 negocios.
 
 ## Oferta (fuente: web "Daylu Forteza Web", páginas Precios y Desarrollo web)
-- Web: desde 650 € + IVA (landing o corporativa compacta). Más grande: presupuesto cerrado (objetivo 1.000-2.000 €).
+- Web: más de 650 € + IVA (650 € es el suelo, no el precio estándar; landing o corporativa compacta). Más grande: presupuesto cerrado (objetivo 1.000-2.000 €).
 - Pago: 50 % al empezar, 50 % al entregar.
 - Mantenimiento: 45 € + IVA/mes. Incluye alojamiento, dominio, correo, copias y actualizaciones. Sin horas incluidas. Sin permanencia (aviso 1 mes).
-- Mes 1: 695 € + IVA (web 650 + primer mes). Desde el mes 2: 45 € + IVA.
+- Mes 1: precio de la web + 45 € + IVA del primer mes (mínimo 695 € + IVA). Desde el mes 2: 45 € + IVA.
 - Cambios: horas a 20 € + IVA, bolsa de 20 h a 340 € + IVA (lanzamiento, 10 primeros clientes).
 - Garantía: 3 meses.
 - Propiedad: dominio, alojamiento, código y contenido a nombre del cliente ("cuatro llaves").
