@@ -136,6 +136,12 @@ textarea.input{min-height:72px;resize:vertical}
     <div class="tile"><b id="k-vend">0</b><span>Webs vendidas</span></div>
     <div class="tile alert"><b id="k-seg">0</b><span>Seguimientos pendientes</span></div>
   </section>
+  <section class="score" id="fin" aria-label="Resultado en PlexusCRM y Finanzas" hidden style="grid-template-columns:repeat(4,minmax(0,1fr))">
+    <div class="tile"><b id="f-cli">0</b><span>Clientes en PlexusCRM</span></div>
+    <div class="tile"><b id="f-ven">0 €</b><span>Vendido (sin IVA)</span></div>
+    <div class="tile"><b id="f-cob">0 €</b><span>Cobrado (Finanzas)</span></div>
+    <div class="tile"><b id="f-man">0 €</b><span>Mantenimiento al mes</span></div>
+  </section>
   <div class="banner" id="dbwarn" hidden>No se puede guardar el seguimiento en esta vista. Abre la página con tu cuenta de Claude para guardar estados y citas.</div>
 
   <!-- NEGOCIOS -->
@@ -278,7 +284,7 @@ function card(l){
    </div>
    <div class="audit"><span class="badge ${ws[1]}">${ws[0]}</span>${iss}${extra}${l.webStatus==="modern"&&!iss?`<span class="badge b-grey">Ofrece SEO o mantenimiento</span>`:""}</div>
    <div class="ft"><span class="state ${ECLS[e]}">${esc(e)}${s.cita?" · "+esc(s.cita.replace("T"," ")):""}</span>
-     <span class="row">${pendiente(l.id)?`<span class="badge b-amber">Toca seguimiento (${dias(s.ts)} días)</span>`:""}<button class="btn primary" type="button" data-open="${esc(l.id)}">Abrir ficha</button></span></div>
+     <span class="row">${s.plexus?`<span class="badge b-violet" title="Ya está en PlexusCRM">En CRM</span>`:""}${pendiente(l.id)?`<span class="badge b-amber">Toca seguimiento (${dias(s.ts)} días)</span>`:""}<button class="btn primary" type="button" data-open="${esc(l.id)}">Abrir ficha</button></span></div>
   </article>`;
 }
 function renderNegocios(){
@@ -330,7 +336,7 @@ function openDrawer(id){
   $("drawer-root").innerHTML=`<div class="scrim" data-close></div>
   <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="dh-t">
    <div class="dh"><div style="flex:1;min-width:0"><h2 id="dh-t">${esc(l.nombre)}</h2><div class="muted" style="font-size:13px;margin-top:3px">${esc(TIPOS[l.tipo]||l.nicho)} · ${esc(l.municipio)} · ${esc(n.offer.price)}</div>
-     <div class="row" style="margin-top:8px"><span class="badge ${ws[1]}">${ws[0]}</span><span class="state ${ECLS[e]}" id="d-state">${esc(e)}</span></div></div>
+     <div class="row" style="margin-top:8px"><span class="badge ${ws[1]}">${ws[0]}</span><span class="state ${ECLS[e]}" id="d-state">${esc(e)}</span>${s.plexus?`<a class="badge b-violet" href="https://claude.ai/artifact/GfFjdNBRbFJtDFTLGTqn1N" target="_blank" rel="noopener">En PlexusCRM ›</a>`:""}</div></div>
      ${ring(l.puntuacion)}<button class="btn sm" type="button" data-close aria-label="Cerrar ficha">Cerrar</button></div>
    <div class="db">
     <section><h3>Contacto</h3><dl class="kv">
@@ -352,6 +358,12 @@ function openDrawer(id){
       <form class="form" id="d-form">
         <label>Estado<select class="input" id="d-estado" name="estado">${ESTADOS.map(x=>`<option${x.k===e?" selected":""}>${x.k}</option>`).join("")}</select></label>
         <label>Cita (día y hora)<input class="input" id="d-cita" type="datetime-local" name="cita" value="${esc(s.cita||"")}"></label>
+        <label>Persona de contacto<input class="input" id="d-contacto" name="contacto" placeholder="Nombre del encargado" value="${esc(s.contacto||"")}"></label>
+        <div class="row" style="gap:10px;align-items:flex-end">
+          <label style="flex:1 1 160px">Servicio<select class="input" id="d-servicio" name="servicio">${["Web básica","Web avanzada","Mantenimiento","Otro"].map(x=>`<option${x===(s.servicio||(n.offer.price.startsWith("1.000")?"Web avanzada":"Web básica"))?" selected":""}>${x}</option>`).join("")}</select></label>
+          <label style="flex:1 1 140px">Importe sin IVA (€)<input class="input" id="d-importe" name="importe" inputmode="decimal" placeholder="${n.offer.price.startsWith("1.000")?"1500":"750"}" value="${esc(s.importe||"")}"></label>
+        </div>
+        <p class="note">Con estado Cita, Presupuesto o Vendido pasa solo a PlexusCRM (cada hora). Al marcar Vendido se crean los borradores de factura.</p>
         <label>Notas<textarea class="input" id="d-notas" name="notas" placeholder="Encargado, objeciones, cuándo volver a llamar">${esc(s.notas||"")}</textarea></label>
         <div class="row"><button class="btn primary" type="submit">Guardar</button><span class="saved" id="d-saved" aria-live="polite"></span></div>
       </form></section>
@@ -400,7 +412,9 @@ document.addEventListener("keydown",ev=>{if(ev.key==="Escape"&&openId)closeDrawe
 document.addEventListener("submit",async ev=>{
   if(ev.target.id!=="d-form")return; ev.preventDefault();
   const id=openId,out=$("d-saved"),fd=new FormData(ev.target),prev=estadoDe(id);
-  const data={estado:fd.get("estado"),cita:fd.get("cita")||"",notas:fd.get("notas")||"",ts:Date.now()};
+  const imp=parseFloat(String(fd.get("importe")||"").replace(/\./g,"").replace(",","."));
+  const data={...(SEG[id]||{}),estado:fd.get("estado"),cita:fd.get("cita")||"",notas:fd.get("notas")||"",contacto:(fd.get("contacto")||"").trim(),servicio:fd.get("servicio")||"",importe:isFinite(imp)&&imp>0?imp:"",ts:Date.now()};
+  if(data.estado==="Vendido"&&!data.importe){out.textContent="Pon el importe de la venta para crear las facturas.";$("d-importe").focus();return}
   if(!db){out.textContent="No se ha guardado: abre la página con tu cuenta.";return}
   try{await db.collection("seguimiento").doc(id).set(data);
     if(data.estado!==prev||data.estado==="Llamado")await db.collection("eventos").add({lead:id,estado:data.estado,ts:data.ts});
@@ -440,6 +454,9 @@ $("csv").addEventListener("click",async()=>{
     if(!db){$("dbwarn").hidden=false;return}
     db.collection("seguimiento").onSnapshot(s=>{SEG={};s.docs.forEach(d=>SEG[d.id]=d.data());render()},()=>{$("dbwarn").hidden=false});
     db.collection("eventos").onSnapshot(s=>{EVS=s.docs.map(d=>d.data());marcador()});
+    db.doc("resumen/finanzas").onSnapshot(d=>{const r=d.exists&&d.data();if(!r)return;const e=v=>Math.round(+v||0).toLocaleString("es-ES")+" €";
+      $("fin").hidden=false;$("f-cli").textContent=r.clientes||0;$("f-ven").textContent=e(r.vendido);$("f-cob").textContent=e(r.cobrado);$("f-man").textContent=e(r.mantenimiento);
+      $("fin").title="Actualizado "+(r.actualizado||"")});
   }catch{clearTimeout(timer);$("dbwarn").hidden=false}
 })();
 </script>
