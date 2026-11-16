@@ -1,4 +1,4 @@
-# Agente: Captador de clientes potenciales (BORRADOR — fase 4)
+# Agente: Captador de clientes potenciales (BORRADOR — fase 5)
 
 ## Tarea
 Encontrar negocios locales que necesiten una web informativa y reunirlos en una sola app con búsqueda automática y manual. Para cada negocio, preparar un argumento de venta.
@@ -46,5 +46,11 @@ Nombre, sector, dirección, teléfono, email, web (sí/no), nota y número de re
 ## Habilidad (skill)
 La oferta y los argumentos se guardan como skill reutilizable: el agente la usa para cada ficha de negocio.
 
+## Conexiones (fase 4)
+- Fuentes: OpenStreetMap (barrido gratis de toda la zona) + Google Places (completa teléfono, web, nota y reseñas solo de los mejores candidatos).
+- Destino: artefacto nuevo e independiente (no PlexusCRM).
+- Primer contacto: visita presencial + email al correo del negocio con baja. Llamada solo tras respuesta (LGTel art. 66).
+- Datos: solo datos públicos de negocios. RGPD: interés legítimo B2B, opción de baja y borrado.
+
 ## Pendiente
-Fases 4-6 del protocolo.
+Fases 5-6 del protocolo.
