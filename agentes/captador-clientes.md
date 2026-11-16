@@ -9,7 +9,7 @@ Málaga capital y provincia → Andalucía → España. Objetivo: 30.000 negocio
 ## Oferta
 - Web de entrada: 650-800 € (para practicar).
 - Web avanzada: 1.000-2.000 €.
-- Mantenimiento: propuesta 35 €/mes básico, 60 €/mes con cambios (pendiente de confirmar).
+- Mantenimiento: 45 €/mes (precio publicado en daylu.es). Nivel superior pendiente de definir.
 
 ## Datos por negocio
 Nombre, sector, dirección, teléfono, email, web (sí/no), nota y número de reseñas en Google, Instagram/Facebook, horario.
