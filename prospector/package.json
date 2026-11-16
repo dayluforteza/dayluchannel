@@ -10,7 +10,8 @@
     "dev:api": "node --watch server/index.js",
     "build": "vite build",
     "start": "npm run build && node server/index.js",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "app": "concurrently -k -n api,web -c magenta,cyan \"node server/index.js\" \"vite --open\""
   },
   "dependencies": {
     "lucide-react": "^0.460.0",

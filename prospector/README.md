@@ -2,7 +2,17 @@
 
 App privada para encontrar negocios locales con web mala o sin web, escribirles un mensaje personalizado y llevar el seguimiento.
 
-## Arrancar
+## Arrancar con doble clic
+
+1. Instala **Node.js LTS** (nodejs.org) si no lo tienes.
+2. Doble clic en:
+   - Windows: `Iniciar-Prospector-Windows.bat`
+   - Mac: `Iniciar-Prospector-Mac.command` (la primera vez: clic derecho → Abrir)
+3. La primera vez instala (1–2 min). Después se abre el navegador solo en http://localhost:5173.
+
+Para cerrarla, cierra la ventana negra.
+
+## Arrancar desde terminal
 
 ```bash
 cd prospector
