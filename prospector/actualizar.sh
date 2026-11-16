@@ -3,7 +3,7 @@
 set -e
 cd "$(dirname "$0")"
 cp leads.json leads.prev.json
-python3 fetch_osm.py leads.new.json && python3 enrich.py leads.new.json
+python3 fetch_osm.py leads.new.json && python3 enrich.py leads.new.json && python3 audit.py leads.new.json
 python3 - <<'PY'
 import json
 old={l["id"] for l in json.load(open("leads.prev.json"))}
