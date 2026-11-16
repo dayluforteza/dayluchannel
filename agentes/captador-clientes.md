@@ -43,13 +43,28 @@ Nombre, sector, dirección, teléfono, email, web (sí/no), nota y número de re
 - Superior (+1.000 €): clínicas dentales y veterinarias, inmobiliarias, gestorías/abogados con clientela extranjera.
 - Descartado al inicio: restaurantes.
 
+## Guion de llamada (lo genera el agente por negocio)
+1. Pedir por el encargado.
+2. Gancho con un dato real del negocio (reseñas, nota, sin web, web rota).
+3. Pedir solo 15 minutos para enseñarle una web de su sector.
+4. Proponer dos huecos concretos de cita.
+5. Si dice no: preguntar si puede volver a llamar en 3 meses o marcar "No llamar".
+
+## Webs de ejemplo por nicho (portfolio de demostración)
+- Oficios: Elsparky (hecha).
+- Pendientes: taller mecánico, peluquería/barbería, fisioterapia. Marcar como "ejemplo", no como cliente real.
+
+## App: estados de cada negocio
+Nuevo → Llamado (sin respuesta / no está el encargado) → Cita concertada (fecha y hora) → Presupuesto enviado → Vendido / Descartado / No llamar.
+
 ## Habilidad (skill)
 La oferta y los argumentos se guardan como skill reutilizable: el agente la usa para cada ficha de negocio.
 
 ## Conexiones (fase 4)
 - Fuentes: OpenStreetMap (barrido gratis de toda la zona) + Google Places (completa teléfono, web, nota y reseñas solo de los mejores candidatos).
 - Destino: artefacto nuevo e independiente (no PlexusCRM).
-- Primer contacto: visita presencial + email al correo del negocio con baja. Llamada solo tras respuesta (LGTel art. 66).
+- Primer contacto: LLAMADA. Preguntar por el encargado y cerrar una cita para enseñarle webs de ejemplo de su sector.
+- Cumplimiento (LGTel art. 66): priorizar sociedades (S.L., S.A.); botón "No volver a llamar"; registro de cada llamada; ofrecer baja en la propia llamada. Consultar Lista Robinson antes de campañas grandes. Confirmar con asesor.
 - Datos: solo datos públicos de negocios. RGPD: interés legítimo B2B, opción de baja y borrado.
 
 ## Pendiente
