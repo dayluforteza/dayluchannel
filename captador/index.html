@@ -1,0 +1,235 @@
+<title>Captador de clientes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: herramienta de trabajo. Barra de marcador arriba, filtros, lista de negocios con ficha desplegable. */
+:root{
+  --bg:#f6f7fb; --surface:#ffffff; --fg:#14161c; --muted:#5d6273; --line:#e2e5ee;
+  --accent:#2b4cff; --accent-soft:#e8ecff;
+  --good:#11845b; --good-soft:#e3f5ec; --warn:#a15c00; --warn-soft:#fdf0dc; --bad:#b4232c; --bad-soft:#fbe6e7;
+  --sans:"Geist",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1117; --surface:#171a23; --fg:#eceef4; --muted:#9aa0b2; --line:#2a2f3c;
+  --accent:#7d93ff; --accent-soft:#1f2747;
+  --good:#4fd39b; --good-soft:#16302a; --warn:#f0b35a; --warn-soft:#33270f; --bad:#ff7b84; --bad-soft:#3a1a1e; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1117; --surface:#171a23; --fg:#eceef4; --muted:#9aa0b2; --line:#2a2f3c;
+  --accent:#7d93ff; --accent-soft:#1f2747;
+  --good:#4fd39b; --good-soft:#16302a; --warn:#f0b35a; --warn-soft:#33270f; --bad:#ff7b84; --bad-soft:#3a1a1e; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--sans);margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{padding-block:28px 12px;display:flex;flex-wrap:wrap;gap:12px 24px;align-items:end;justify-content:space-between}
+h1{font-size:26px;line-height:1.15;margin:0;letter-spacing:-.02em;text-wrap:balance}
+.sub{color:var(--muted);margin:4px 0 0;font-size:14px}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.02em}
+.score{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-block:8px 18px}
+.score div{background:var(--surface);padding:12px 14px;min-width:0}
+.score b{display:block;font-size:24px;font-variant-numeric:tabular-nums;line-height:1.1}
+.score span{color:var(--muted);font-size:12px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+.filters input[type=search],.filters select{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);min-width:0}
+.filters input[type=search]{flex:1 1 220px}
+.chk{display:flex;gap:6px;align-items:center;font-size:14px;color:var(--muted);padding:6px 4px;cursor:pointer}
+.count{color:var(--muted);font-size:13px;margin:0 0 10px}
+.list{display:flex;flex-direction:column;gap:8px;padding-bottom:40px}
+.lead{background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.lead>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 14px}
+.lead>summary::-webkit-details-marker{display:none}
+.lead>summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:10px}
+.pts{font-family:var(--mono);font-weight:500;font-size:15px;text-align:center;border-radius:8px;padding:6px 0;font-variant-numeric:tabular-nums}
+.p-hi{background:var(--good-soft);color:var(--good)} .p-mid{background:var(--warn-soft);color:var(--warn)} .p-lo{background:var(--bg);color:var(--muted)}
+.name{font-weight:600;overflow-wrap:anywhere}
+.meta{color:var(--muted);font-size:13px;display:flex;flex-wrap:wrap;gap:4px 12px}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.chip{font-size:12px;padding:1px 8px;border-radius:99px;background:var(--accent-soft);color:var(--accent)}
+.chip.neg{background:var(--bad-soft);color:var(--bad)}
+.state{font-size:12px;padding:3px 9px;border-radius:99px;border:1px solid var(--line);white-space:nowrap;color:var(--muted)}
+.state[data-s="Cita concertada"],.state[data-s="Vendido"]{background:var(--good-soft);color:var(--good);border-color:transparent}
+.state[data-s="Presupuesto enviado"]{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.state[data-s="No llamar"],.state[data-s="Descartado"]{background:var(--bad-soft);color:var(--bad);border-color:transparent}
+.body{border-top:1px solid var(--line);padding:14px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:18px}
+@media (max-width:760px){.body{grid-template-columns:minmax(0,1fr)}.score{grid-template-columns:repeat(2,minmax(0,1fr))}.lead>summary{grid-template-columns:44px minmax(0,1fr)}.lead>summary .state{grid-column:2;justify-self:start}}
+.body h3{font-size:12px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 8px;font-weight:500}
+.script{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.script li{overflow-wrap:anywhere}
+.kv{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;font-size:14px;margin:0 0 12px}
+.kv dt{color:var(--muted)} .kv dd{margin:0;overflow-wrap:anywhere}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button,.btn{font:inherit;font-size:13px;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+button:hover,.btn:hover{border-color:var(--accent);color:var(--accent)}
+button:focus-visible,.btn:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.form{display:flex;flex-direction:column;gap:8px}
+.form label{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.form select,.form input,.form textarea{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);width:100%}
+.form textarea{min-height:70px;resize:vertical}
+.saved{font-size:12px;color:var(--good);min-height:1em}
+.note{font-size:12px;color:var(--muted);margin:10px 0 0}
+.more{display:flex;justify-content:center;padding:6px 0 30px}
+.banner{background:var(--warn-soft);color:var(--warn);border-radius:8px;padding:8px 12px;font-size:13px;margin-bottom:10px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Captador de clientes · Málaga</h1>
+      <p class="sub">Negocios sin web o con web mejorable, ordenados por probabilidad de compra.</p>
+    </div>
+    <p class="mono" id="upd">Cargando datos…</p>
+  </header>
+
+  <section class="score" aria-label="Marcador de esta semana">
+    <div><b id="k-llam">0</b><span>Llamadas esta semana</span></div>
+    <div><b id="k-cita">0</b><span>Citas concertadas</span></div>
+    <div><b id="k-pres">0</b><span>Presupuestos enviados</span></div>
+    <div><b id="k-vend">0</b><span>Webs vendidas</span></div>
+  </section>
+
+  <div class="banner" id="dbwarn" hidden>No se puede guardar el seguimiento en esta vista. Abre la página con tu cuenta de Claude para guardar estados y citas.</div>
+
+  <div class="filters" role="search">
+    <input type="search" id="q" placeholder="Buscar nombre, calle o municipio" aria-label="Buscar">
+    <select id="f-nicho" aria-label="Nicho"><option value="">Todos los nichos</option></select>
+    <select id="f-muni" aria-label="Municipio"><option value="">Toda la provincia</option></select>
+    <select id="f-estado" aria-label="Estado">
+      <option value="">Cualquier estado</option><option>Nuevo</option><option>Llamado</option><option>Cita concertada</option>
+      <option>Presupuesto enviado</option><option>Vendido</option><option>Descartado</option><option>No llamar</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="f-tel" checked> Con teléfono</label>
+    <label class="chk"><input type="checkbox" id="f-noweb"> Solo sin web</label>
+    <label class="chk"><input type="checkbox" id="f-hidden" checked> Ocultar descartados</label>
+  </div>
+  <p class="count" id="count"></p>
+  <div class="list" id="list"></div>
+  <div class="more"><button type="button" id="more" hidden>Ver 50 más</button></div>
+</div>
+
+<script>
+const ESTADOS=["Nuevo","Llamado","Cita concertada","Presupuesto enviado","Vendido","Descartado","No llamar"];
+const EJEMPLOS={"Oficios y reformas":"la web de Elsparky, un electricista de Fuengirola"};
+let LEADS=[], SEG={}, db=null, shown=50;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtTel=t=>{const d=(t||"").replace(/[^\d+]/g,"").replace(/^\+34/,"");return d.length===9?d.replace(/(\d{3})(\d{2})(\d{2})(\d{2})/,"$1 $2 $3 $4"):t};
+
+function guion(l){
+  const m=l.motivos||[], ej=EJEMPLOS[l.nicho]||"una web de ejemplo de un negocio como el suyo";
+  let gancho;
+  if(m.includes("Solo redes sociales")) gancho=`He visto que ${l.nombre} tiene redes sociales pero no web. Quien os busca en Google no ve servicios, precios ni cómo pedir cita.`;
+  else if(m.includes("Sin web")) gancho=`He visto ${l.nombre} en Google Maps y no tiene web. Quien busca "${(l.tipoES||l.nicho).toLowerCase()} en ${l.municipio||"Málaga"}" encuentra antes a la competencia.`;
+  else if(m.some(x=>x.startsWith("Web gratuita"))) gancho=`Vuestra web está hecha con una plataforma gratuita. Eso le resta confianza a un cliente que os compara con otros.`;
+  else gancho=`He revisado vuestra web y hay cosas que os pueden estar costando clientes desde el móvil.`;
+  return [
+    `"Buenos días, soy Daylu Forteza, de Málaga. ¿Me pasa con el encargado, por favor?"`,
+    gancho,
+    `"Hago webs para negocios como el vuestro. Solo te pido 15 minutos para enseñarte ${ej}."`,
+    `"¿Te viene mejor el martes a las 10:00 o el jueves a las 17:00?"`,
+    `Si dice que no: "¿Te llamo dentro de 3 meses?" Si no quiere, marca "No llamar".`,
+    `Precio si pregunta: desde 650 € + IVA, todo a su nombre, y 45 € + IVA al mes de mantenimiento.`
+  ];
+}
+const TIPOS={car_repair:"taller",tyres:"neumáticos",motorcycle_repair:"taller de motos",car_wash:"lavadero",hairdresser:"peluquería",beauty:"centro de estética",massage:"masajes",cosmetics:"cosmética",spa:"spa",physiotherapist:"fisioterapeuta",podiatrist:"podólogo",psychotherapist:"psicólogo",optometrist:"óptica",optician:"óptica",alternative:"terapias",dentist:"dentista",veterinary:"veterinario",clinic:"clínica",estate_agent:"inmobiliaria",lawyer:"abogado",accountant:"gestoría",tax_advisor:"asesoría fiscal",notary:"notaría",insurance:"seguros",electrician:"electricista",plumber:"fontanero",painter:"pintor",carpenter:"carpintero",locksmith:"cerrajero",builder:"reformas",hvac:"climatización",tiler:"alicatador",roofer:"tejados",glazier:"cristalero",plasterer:"escayolista",stonemason:"marmolista",metal_construction:"cerrajería metálica",doityourself:"ferretería"};
+
+function estadoDe(id){return (SEG[id]&&SEG[id].estado)||"Nuevo"}
+function filtered(){
+  const q=$("q").value.trim().toLowerCase(), n=$("f-nicho").value, mu=$("f-muni").value, es=$("f-estado").value;
+  const tel=$("f-tel").checked, nw=$("f-noweb").checked, hid=$("f-hidden").checked;
+  return LEADS.filter(l=>{
+    const e=estadoDe(l.id);
+    if(n&&l.nicho!==n)return false; if(mu&&l.municipio!==mu)return false; if(es&&e!==es)return false;
+    if(tel&&!l.telefono)return false; if(nw&&l.web)return false;
+    if(hid&&!es&&(e==="Descartado"||e==="No llamar"))return false;
+    if(q&&!(`${l.nombre} ${l.direccion} ${l.municipio} ${l.zona}`.toLowerCase().includes(q)))return false;
+    return true;
+  });
+}
+function card(l){
+  const e=estadoDe(l.id), s=SEG[l.id]||{}, p=l.puntuacion;
+  const cls=p>=70?"p-hi":p>=40?"p-mid":"p-lo";
+  const chips=(l.motivos||[]).filter(m=>m!=="Teléfono disponible").map(m=>`<span class="chip${/^Sin tel|Cadena/.test(m)?" neg":""}">${esc(m)}</span>`).join("");
+  return `<details class="lead" data-id="${esc(l.id)}">
+  <summary><div class="pts ${cls}" title="Puntuación de 0 a 100">${p}</div>
+    <div><div class="name">${esc(l.nombre)}</div>
+      <div class="meta"><span>${esc(l.tipoES||l.nicho)}</span><span>${esc(l.municipio)}${l.zona?" · "+esc(l.zona):""}</span>${l.telefono?`<span class="mono">${esc(fmtTel(l.telefono))}</span>`:""}<span>${esc(l.ticket)}</span></div>
+      <div class="chips">${chips}</div></div>
+    <span class="state" data-s="${esc(e)}">${esc(e)}${s.cita?" · "+esc(s.cita.replace("T"," ")):""}</span></summary>
+  <div class="body">
+    <div><h3>Guion de llamada</h3><ol class="script">${guion(l).map(x=>`<li>${esc(x)}</li>`).join("")}</ol>
+      <p class="note">Ley General de Telecomunicaciones (art. 66): si es autónomo y pide no recibir llamadas, márcalo como "No llamar".</p></div>
+    <div>
+      <dl class="kv">
+        <dt>Teléfono</dt><dd>${l.telefono?`<span class="mono">${esc(fmtTel(l.telefono))}</span> <button type="button" data-copy="${esc(l.telefono)}">Copiar</button>`:"No figura. Búscalo en Google Maps."}</dd>
+        <dt>Dirección</dt><dd>${esc([l.direccion,l.cp,l.municipio].filter(Boolean).join(", "))||"No figura"}</dd>
+        ${l.web?`<dt>Web</dt><dd><a href="${esc(l.web)}" target="_blank" rel="noopener">${esc(l.web.replace(/^https?:\/\//,""))}</a></dd>`:""}
+        ${l.redes?`<dt>Redes</dt><dd><a href="${esc(l.redes)}" target="_blank" rel="noopener">${esc(l.redes.replace(/^https?:\/\//,""))}</a></dd>`:""}
+        ${l.email?`<dt>Email</dt><dd>${esc(l.email)}</dd>`:""}
+        ${l.horario?`<dt>Horario</dt><dd class="mono">${esc(l.horario)}</dd>`:""}
+      </dl>
+      <div class="row" style="margin-bottom:12px"><a class="btn" href="${esc(l.maps)}" target="_blank" rel="noopener">Ver en Google Maps ›</a></div>
+      <form class="form" data-form="${esc(l.id)}">
+        <label>Estado<select id="st-${esc(l.id)}" name="estado">${ESTADOS.map(x=>`<option${x===e?" selected":""}>${x}</option>`).join("")}</select></label>
+        <label>Cita (día y hora)<input id="ci-${esc(l.id)}" type="datetime-local" name="cita" value="${esc(s.cita||"")}"></label>
+        <label>Notas<textarea id="no-${esc(l.id)}" name="notas" placeholder="Encargado, objeciones, cuándo volver a llamar">${esc(s.notas||"")}</textarea></label>
+        <div class="row"><button type="submit">Guardar</button><span class="saved" aria-live="polite"></span></div>
+      </form>
+    </div>
+  </div></details>`;
+}
+function render(){
+  const f=filtered(), open=[...document.querySelectorAll(".lead[open]")].map(d=>d.dataset.id);
+  $("count").textContent=`${f.length.toLocaleString("es-ES")} negocios con estos filtros · ${f.filter(l=>l.puntuacion>=70).length} con prioridad alta`;
+  $("list").innerHTML=f.slice(0,shown).map(card).join("")||`<p class="count">Ningún negocio con estos filtros. Quita alguno para ver más.</p>`;
+  open.forEach(id=>{const d=document.querySelector(`.lead[data-id="${CSS.escape(id)}"]`); if(d)d.open=true});
+  $("more").hidden=f.length<=shown;
+}
+function marcador(evs){
+  const now=new Date(), day=(now.getDay()+6)%7, start=new Date(now.getFullYear(),now.getMonth(),now.getDate()-day).getTime();
+  const w=evs.filter(e=>e.ts>=start), c=s=>w.filter(e=>e.estado===s).length;
+  $("k-llam").textContent=w.filter(e=>e.estado!=="Nuevo").length;
+  $("k-cita").textContent=c("Cita concertada"); $("k-pres").textContent=c("Presupuesto enviado"); $("k-vend").textContent=c("Vendido");
+}
+
+document.addEventListener("submit",async ev=>{
+  const form=ev.target.closest("form[data-form]"); if(!form)return; ev.preventDefault();
+  const id=form.dataset.form, out=form.querySelector(".saved"), fd=new FormData(form);
+  const prev=estadoDe(id), data={estado:fd.get("estado"),cita:fd.get("cita")||"",notas:fd.get("notas")||"",ts:Date.now()};
+  if(!db){out.textContent="No se ha guardado: abre la página con tu cuenta.";return}
+  try{
+    await db.collection("seguimiento").doc(id).set(data);
+    if(data.estado!==prev||data.estado==="Llamado") await db.collection("eventos").add({lead:id,estado:data.estado,ts:data.ts});
+    out.textContent="Guardado";
+  }catch(e){out.textContent="No se ha guardado: "+(e&&e.message||"error")}
+});
+document.addEventListener("click",async ev=>{
+  const b=ev.target.closest("[data-copy]"); if(!b)return; ev.preventDefault();
+  try{await navigator.clipboard.writeText(b.dataset.copy);b.textContent="Copiado"}catch{b.textContent=b.dataset.copy}
+});
+["q","f-nicho","f-muni","f-estado","f-tel","f-noweb","f-hidden"].forEach(id=>$(id).addEventListener("input",()=>{shown=50;render()}));
+$("more").addEventListener("click",()=>{shown+=50;render()});
+
+(async()=>{
+  try{
+    const r=await fetch("leads.json"); LEADS=await r.json();
+    LEADS.forEach(l=>{l.tipoES=TIPOS[l.tipo]||""});
+    const opts=(sel,vals)=>vals.forEach(v=>sel.insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`));
+    opts($("f-nicho"),[...new Set(LEADS.map(l=>l.nicho))]);
+    const cnt={}; LEADS.forEach(l=>cnt[l.municipio]=(cnt[l.municipio]||0)+1);
+    opts($("f-muni"),Object.keys(cnt).filter(Boolean).sort((a,b)=>cnt[b]-cnt[a]));
+    const fecha=LEADS.reduce((a,l)=>l.actualizado>a?l.actualizado:a,"");
+    $("upd").textContent=`${LEADS.length.toLocaleString("es-ES")} negocios · actualizado ${fecha.split("-").reverse().join("/")} · fuente OpenStreetMap`;
+    render();
+  }catch(e){$("upd").textContent="No se han podido cargar los negocios. Recarga la página."}
+  const timer=setTimeout(()=>{$("dbwarn").hidden=false},10000);
+  try{
+    db=window.claude&&await window.claude.use("db");
+    clearTimeout(timer);
+    if(!db){$("dbwarn").hidden=false;return}
+    db.collection("seguimiento").onSnapshot(s=>{SEG={};s.docs.forEach(d=>SEG[d.id]=d.data());render()},()=>{$("dbwarn").hidden=false});
+    db.collection("eventos").onSnapshot(s=>marcador(s.docs.map(d=>d.data())));
+  }catch{clearTimeout(timer);$("dbwarn").hidden=false}
+})();
+</script>
