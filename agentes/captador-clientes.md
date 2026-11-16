@@ -1,4 +1,4 @@
-# Agente: Captador de clientes potenciales (BORRADOR — fase 5)
+# Agente: Captador de clientes potenciales (BORRADOR — fase 6)
 
 ## Tarea
 Encontrar negocios locales que necesiten una web informativa y reunirlos en una sola app con búsqueda automática y manual. Para cada negocio, preparar un argumento de venta.
@@ -67,5 +67,17 @@ La oferta y los argumentos se guardan como skill reutilizable: el agente la usa 
 - Cumplimiento (LGTel art. 66): priorizar sociedades (S.L., S.A.); botón "No volver a llamar"; registro de cada llamada; ofrecer baja en la propia llamada. Consultar Lista Robinson antes de campañas grandes. Confirmar con asesor.
 - Datos: solo datos públicos de negocios. RGPD: interés legítimo B2B, opción de baja y borrado.
 
+## Automatización (fase 5)
+- Disparador: búsqueda automática semanal, lunes 07:00 (Europe/Madrid). Un sector + una zona nuevos cada semana. Además, botón "Buscar" manual.
+- Recargar la app = leer lo guardado. No consulta Google en cada recarga.
+- El agente solo: busca, puntúa, escribe argumento y guion de llamada.
+- Emails automáticos SOLO a quien ya habló contigo por teléfono (LSSI art. 21 prohíbe email comercial no solicitado):
+  1. Confirmación de cita con webs de ejemplo de su sector (tras marcar "Cita concertada").
+  2. Recordatorio 24 h antes.
+  3. Seguimiento 3 días después de enviar presupuesto.
+- Monitor de respuestas: lee la bandeja, asocia la respuesta al negocio, resume en 2 líneas, actualiza estado y cita en la app, y guarda el email enviado y la respuesta.
+- Tú: llamas y apuntas el resultado.
+- Marcador semanal: llamadas, citas, presupuestos, webs vendidas.
+
 ## Pendiente
-Fases 5-6 del protocolo.
+Fase 6 del protocolo.
