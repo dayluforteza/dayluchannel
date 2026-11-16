@@ -86,3 +86,12 @@ Fase 2: emails desde IONOS (info@dayluforteza.es), monitor de respuestas, Google
 - App: https://claude.ai/artifact/LRd6Bx49XXfSEDXSuDrahw (código en prospector/). Une esta versión con la app React de la rama ccr-82321a2b-vga4bg: auditoría web, Asesor por nicho, mensajes, Pipeline y CSV.
 - Actualización: mañana 17/11 a las 07:00 y cada lunes a las 07:00 (Europe/Madrid).
 - Presupuesto: 0-20 €/mes. Correo: IONOS.
+
+## Integración con PlexusCRM y Finanzas
+- Tarea "Prospector → PlexusCRM y Finanzas": cada hora, minuto 20. Reglas en `prospector/sync-plexus.md`.
+- Cita concertada → cliente en el CRM (Contactado) + reunión en el calendario.
+- Presupuesto enviado → Propuesta enviada.
+- Vendido → Activo, tareas del proyecto y 3 facturas en borrador (anticipo 50 %, pago final 50 %, primer mes de mantenimiento 45 €).
+- Finanzas cuenta el ingreso cuando la factura se marca como cobrada en el CRM.
+- De vuelta: si el cliente se gana o se pierde en el CRM, Prospector se actualiza. Resumen en el marcador de Prospector.
+- Nunca emite, cobra ni borra facturas.
