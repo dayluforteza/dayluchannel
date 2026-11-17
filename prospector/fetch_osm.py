@@ -1,5 +1,5 @@
 """Descarga negocios de la provincia de Málaga desde OpenStreetMap (Overpass) y los puntúa."""
-import json, sys, urllib.request, urllib.parse, datetime
+import json, sys, urllib.request, urllib.parse, datetime, time
 
 MIRRORS = ["https://maps.mail.ru/osm/tools/overpass/api/interpreter",
            "https://overpass-api.de/api/interpreter"]
@@ -25,12 +25,13 @@ def run(q):
     data = urllib.parse.urlencode({"data": q}).encode()
     last = None
     for m in MIRRORS:
-        for _ in range(3):
+        for _ in range(5):
             try:
                 req = urllib.request.Request(m, data=data, headers={"User-Agent": "lead-finder/0.1"})
                 return json.load(urllib.request.urlopen(req, timeout=200))
             except Exception as e:
                 last = e
+                time.sleep(10)
     raise last
 
 def score(t):
