@@ -11,7 +11,7 @@ NICHOS = {
   "Peluquería y estética": ['shop~"^(hairdresser|beauty|massage|cosmetics)$"', 'amenity="spa"'],
   "Fisioterapia y salud": ['healthcare~"^(physiotherapist|podiatrist|psychotherapist|optometrist|alternative)$"', 'shop="optician"'],
   "Clínicas dentales y veterinarias": ['amenity~"^(dentist|veterinary|clinic)$"', 'healthcare~"^(dentist|clinic)$"'],
-  "Inmobiliarias, gestorías y abogados": ['office~"^(estate_agent|lawyer|accountant|tax_advisor|notary|insurance)$"', 'shop="estate_agent"'],
+  "Inmobiliarias, gestorías y abogados": ['office~"^(estate_agent|lawyer|accountant|tax_advisor|insurance)$"', 'shop="estate_agent"'],
 }
 TICKET = {"Oficios y reformas":"650-800 €","Talleres":"650-800 €","Peluquería y estética":"650-800 €",
           "Fisioterapia y salud":"650-800 €","Clínicas dentales y veterinarias":"1.000-2.000 €",

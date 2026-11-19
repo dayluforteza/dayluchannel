@@ -24,6 +24,7 @@ for l in leads:
         if "Sin web" in l["motivos"]:
             l["motivos"] = [m for m in l["motivos"] if m not in ("Sin web","Solo redes sociales")]
             l["puntuacion"] = max(0, l["puntuacion"] - 60)
+leads[:] = [l for l in leads if not __import__("re").search(r"notar",(l["nombre"] or ""),__import__("re").I)]
 leads.sort(key=lambda x: (-x["puntuacion"], x["nombre"] or ""))
 json.dump(leads, open(sys.argv[1], "w"), ensure_ascii=False, separators=(",",":"))
 import collections

@@ -42,6 +42,7 @@ Nombre, sector, dirección, teléfono, email, web (sí/no), nota y número de re
 - Entrada (650-800 €): reformas y oficios, talleres, peluquerías/barberías/estética, fisioterapia.
 - Superior (+1.000 €): clínicas dentales y veterinarias, inmobiliarias, gestorías/abogados con clientela extranjera.
 - Descartado al inicio: restaurantes.
+- Excluidas siempre: notarías (tienen restringida la publicidad).
 
 ## Guion de llamada (lo genera el agente por negocio)
 1. Pedir por el encargado.
