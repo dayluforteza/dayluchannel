@@ -71,6 +71,8 @@ h1{font-size:22px;line-height:1.1;margin:0;letter-spacing:-.02em}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
 .btn.primary:hover{filter:brightness(1.08);color:var(--accent-fg)}
 .btn.sm{padding:4px 9px;font-size:12px}
+.btn.danger{color:var(--red);border-color:color-mix(in srgb,var(--red) 35%,var(--line))}
+.btn.danger:hover{background:var(--red-soft);color:var(--red);border-color:var(--red)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .state{font-size:12px;font-weight:500;padding:3px 9px;border-radius:99px;white-space:nowrap}
 .more{display:flex;justify-content:center;padding:0 0 32px}
@@ -284,7 +286,7 @@ function card(l){
    </div>
    <div class="audit"><span class="badge ${ws[1]}">${ws[0]}</span>${iss}${extra}${l.webStatus==="modern"&&!iss?`<span class="badge b-grey">Ofrece SEO o mantenimiento</span>`:""}</div>
    <div class="ft"><span class="state ${ECLS[e]}">${esc(e)}${s.cita?" · "+esc(s.cita.replace("T"," ")):""}</span>
-     <span class="row">${s.plexus?`<span class="badge b-violet" title="Ya está en PlexusCRM">En CRM</span>`:""}${pendiente(l.id)?`<span class="badge b-amber">Toca seguimiento (${dias(s.ts)} días)</span>`:""}<button class="btn primary" type="button" data-open="${esc(l.id)}">Abrir ficha</button></span></div>
+     <span class="row">${s.comentarios?`<span class="badge b-grey" title="${esc(s.comentarios.slice(0,200))}">Con comentarios</span>`:""}${s.plexus?`<span class="badge b-violet" title="Ya está en PlexusCRM">En CRM</span>`:""}${pendiente(l.id)?`<span class="badge b-amber">Toca seguimiento (${dias(s.ts)} días)</span>`:""}<button class="btn primary" type="button" data-open="${esc(l.id)}">Abrir ficha</button></span></div>
   </article>`;
 }
 function renderNegocios(){
@@ -337,8 +339,11 @@ function openDrawer(id){
   <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="dh-t">
    <div class="dh"><div style="flex:1;min-width:0"><h2 id="dh-t">${esc(l.nombre)}</h2><div class="muted" style="font-size:13px;margin-top:3px">${esc(TIPOS[l.tipo]||l.nicho)} · ${esc(l.municipio)} · ${esc(n.offer.price)}</div>
      <div class="row" style="margin-top:8px"><span class="badge ${ws[1]}">${ws[0]}</span><span class="state ${ECLS[e]}" id="d-state">${esc(e)}</span>${s.plexus?`<a class="badge b-violet" href="https://claude.ai/artifact/GfFjdNBRbFJtDFTLGTqn1N" target="_blank" rel="noopener">En PlexusCRM ›</a>`:""}</div></div>
-     ${ring(l.puntuacion)}<button class="btn sm" type="button" data-close aria-label="Cerrar ficha">Cerrar</button></div>
+     ${ring(l.puntuacion)}<div style="display:flex;flex-direction:column;gap:6px;align-items:stretch"><button class="btn sm" type="button" data-close aria-label="Cerrar ficha">Cerrar</button><button class="btn sm ${e==="Descartado"?"":"danger"}" type="button" id="d-desc">${e==="Descartado"?"Recuperar":"Descartar"}</button></div></div>
    <div class="db">
+    <section><h3>Comentarios</h3>
+      <textarea class="input" id="d-com" style="width:100%;min-height:80px;resize:vertical" placeholder="Cualquier cosa aparte de la llamada: lo que has visto en su web, quién es el dueño, ideas para la propuesta…">${esc(s.comentarios||"")}</textarea>
+      <div class="row" style="margin-top:6px"><button class="btn sm" type="button" id="d-com-save">Guardar comentario</button><span class="saved" id="d-com-saved" aria-live="polite"></span>${s.comentariosTs?`<span class="muted" style="font-size:12px">Última edición: ${new Date(s.comentariosTs).toLocaleString("es-ES",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</span>`:""}</div></section>
     <section><h3>Contacto</h3><dl class="kv">
       <dt>Teléfono</dt><dd>${l.telefono?`<span class="mono" style="font-size:14px">${esc(fmtTel(l.telefono))}</span> <button class="btn sm" type="button" data-copy="${esc(l.telefono)}">Copiar</button>`:"No figura. Búscalo en Google Maps."}</dd>
       <dt>Dirección</dt><dd>${esc([l.direccion,l.cp,l.municipio].filter(Boolean).join(", "))||"No figura"}</dd>
@@ -404,6 +409,16 @@ document.addEventListener("click",async ev=>{
     if(g.id==="d-canal"){drawerState.canal=sb.dataset.v;regenMsg()}
     if(g.id==="d-tono"){drawerState.tono=sb.dataset.v;regenMsg()}
     return}
+  if(t.id==="d-desc"){const id=openId,prev=estadoDe(id),to=prev==="Descartado"?"Nuevo":"Descartado";
+    if(!db){t.textContent="Abre con tu cuenta";return}
+    const data={...(SEG[id]||{}),estado:to,ts:Date.now()};
+    try{await db.collection("seguimiento").doc(id).set(data);await db.collection("eventos").add({lead:id,estado:to,ts:data.ts});
+      SEG[id]=data;t.textContent=to==="Descartado"?"Recuperar":"Descartar";t.classList.toggle("danger",to!=="Descartado");
+      const sel=$("d-estado");if(sel)sel.value=to;refreshDrawerState()}catch(e){t.textContent="Error al guardar"}return}
+  if(t.id==="d-com-save"){const id=openId,out=$("d-com-saved");
+    if(!db){out.textContent="No se ha guardado: abre la página con tu cuenta.";return}
+    const data={...(SEG[id]||{}),comentarios:$("d-com").value.trim(),comentariosTs:Date.now()};
+    try{await db.collection("seguimiento").doc(id).set(data);SEG[id]=data;out.textContent="Guardado"}catch(e){out.textContent="No se ha guardado"}return}
   if(t.id==="d-copy"){const txt=($("d-asunto").hidden?"":"Asunto: "+$("d-asunto").value+"\n\n")+$("d-msg").value;
     try{await navigator.clipboard.writeText(txt);t.textContent="Copiado"}catch{$("d-msg").select();t.textContent="Selecciona y copia"}return}
 });
