@@ -1,8 +1,8 @@
 """Audita las webs de los negocios (como webAudit.js del Prospector anterior) y recalcula la puntuación."""
 import json, sys, re, datetime, concurrent.futures as cf, urllib.request, ssl
 UA = "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Mobile Safari/537.36"
-WEIGHT = {"WEB_DOWN":18,"NO_MOBILE":14,"NO_HTTPS":10,"OLD_SITE":10,"NO_SEO":8,"SLOW":6,"NO_CTA":5}
-FREE = ["facebook.com","instagram.com","wixsite","business.site","negocio.site","blogspot","wordpress.com","jimdo","webnode"]
+WEIGHT = {"WEB_DOWN":0,"NO_MOBILE":14,"NO_HTTPS":10,"OLD_SITE":10,"NO_SEO":8,"SLOW":6,"NO_CTA":5}
+FREE = ["facebook.com","instagram.com","linktr.ee","linkin.bio","beacons.ai","carrd.co","wixsite","business.site","negocio.site","blogspot","wordpress.com","jimdo","webnode"]
 YEAR = datetime.date.today().year
 
 def audit(url):

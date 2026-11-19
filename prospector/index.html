@@ -204,7 +204,7 @@ const ESTADOS=[
   {k:"Nuevo",c:"b-grey"},{k:"Llamado",c:"b-amber"},{k:"Cita concertada",c:"b-blue"},
   {k:"Presupuesto enviado",c:"b-violet"},{k:"Vendido",c:"b-green"},{k:"Descartado",c:"b-red"},{k:"No llamar",c:"b-red"}];
 const ECLS=Object.fromEntries(ESTADOS.map(e=>[e.k,e.c]));
-const ISSUES={NO_WEB:["Sin página web","b-red"],WEB_DOWN:["Web caída o inaccesible","b-red"],NO_MOBILE:["No adaptada a móvil","b-red"],NO_HTTPS:["Sin HTTPS («No seguro»)","b-red"],
+const ISSUES={NO_WEB:["Sin página web","b-red"],WEB_DOWN:["Web no comprobada (ábrela tú)","b-grey"],NO_MOBILE:["No adaptada a móvil","b-red"],NO_HTTPS:["Sin HTTPS («No seguro»)","b-red"],
   OLD_SITE:["Web de hace +5 años","b-amber"],NO_SEO:["Sin SEO básico","b-amber"],NO_CTA:["Sin botón de llamada/WhatsApp","b-amber"],FREE_SITE:["Web gratuita o red social","b-amber"]};
 const WEBST={none:["Sin web","b-red"],outdated:["Web obsoleta","b-amber"],modern:["Web moderna","b-green"]};
 const TIPOS={car_repair:"taller",tyres:"neumáticos",motorcycle_repair:"taller de motos",car_wash:"lavadero",hairdresser:"peluquería",beauty:"centro de estética",massage:"masajes",cosmetics:"cosmética",spa:"spa",physiotherapist:"fisioterapeuta",podiatrist:"podólogo",psychotherapist:"psicólogo",optometrist:"óptica",optician:"óptica",alternative:"terapias",dentist:"clínica dental",veterinary:"veterinario",clinic:"clínica",estate_agent:"inmobiliaria",lawyer:"abogado",accountant:"gestoría",tax_advisor:"asesoría fiscal",notary:"notaría",insurance:"seguros",electrician:"electricista",plumber:"fontanero",painter:"pintor",carpenter:"carpintero",locksmith:"cerrajero",builder:"reformas",hvac:"climatización",tiler:"alicatador",roofer:"tejados",glazier:"cristalero",plasterer:"escayolista",stonemason:"marmolista",metal_construction:"cerrajería metálica",doityourself:"ferretería"};
@@ -239,7 +239,7 @@ function issueFrase(code,l,n){
   const busq=TIPOS[l.tipo]||n.searchExample;
   switch(code){
     case"NO_WEB":return`no tenéis página web propia: quien os busca en Google solo ve la ficha de Maps, y muchos acaban llamando a la competencia que sí la tiene`;
-    case"WEB_DOWN":return`vuestra web no carga ahora mismo, así que quien entra desde Google se encuentra un error`;
+    case"WEB_DOWN":return null;
     case"NO_MOBILE":return`vuestra web no se adapta al móvil, y la mayoría de búsquedas de «${busq}» se hacen desde el teléfono`;
     case"NO_HTTPS":return`Chrome marca la web como «No segura» (no tiene HTTPS), y eso hace que mucha gente se vaya antes de llamar`;
     case"OLD_SITE":return`la web parece sin actualizar desde ${l.auditWeb&&l.auditWeb.lastUpdateYear||"hace años"}, y transmite una imagen más antigua que la de vuestro servicio`;
