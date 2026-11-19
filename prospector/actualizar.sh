@@ -12,6 +12,10 @@ for c in portugal spain; do
   rm -f "$D/$c.osm.pbf"
   for i in 1 2 3 4 5; do curl -sL -C - -o "$D/$c.osm.pbf" "https://download.openstreetmap.fr/extracts/europe/$c-latest.osm.pbf" && break; sleep 30; done
 done
+for c in canarias melilla; do
+  rm -f "$D/$c.osm.pbf"
+  for i in 1 2 3; do curl -sL -C - -o "$D/$c.osm.pbf" "https://download.openstreetmap.fr/extracts/africa/spain/$c-latest.osm.pbf" && break; sleep 30; done
+done
 python3 - <<'PY' > /tmp/prospector-prev-ids.txt
 import json,glob
 for f in glob.glob("leads/*.json"):

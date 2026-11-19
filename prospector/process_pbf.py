@@ -50,7 +50,8 @@ class H(osmium.SimpleHandler):
 
 def main():
     h = H(); t0 = time.time()
-    for pbf in ("portugal.osm.pbf", "spain.osm.pbf"):
+    for pbf in ("portugal.osm.pbf", "spain.osm.pbf", "canarias.osm.pbf", "melilla.osm.pbf"):
+        if not os.path.exists(f"{D}/{pbf}"): print("falta", pbf, flush=True); continue
         h.apply_file(f"{D}/{pbf}", locations=True, idx="flex_mem")
         print(pbf, "POIs", len(h.pois), "núcleos", len(h.places), f"{time.time()-t0:.0f}s", flush=True)
     # núcleos por provincia
