@@ -2,13 +2,11 @@
 
 App: https://claude.ai/artifact/LRd6Bx49XXfSEDXSuDrahw
 
-Une las dos versiones:
-- Esta (rama ccr-57224d92-wej8q0): datos reales de OpenStreetMap, seguimiento guardado en la base de datos del artefacto, actualización programada, guion de llamada.
-- La anterior (rama ccr-82321a2b-vga4bg, app React + Node): auditoría web, Asesor por nicho (`niches.json`, exportado de `shared/niches.js` con los precios de Daylu), generador de mensajes, Pipeline con aviso a 3 días, CSV.
+Toda España (52 provincias) y Portugal (20 distritos). Solo se guardan los negocios con puntuación >= 70 y teléfono (los de mayor probabilidad de compra).
 
-Archivos:
-- `fetch_osm.py`: descarga negocios de la provincia de Málaga por nicho.
-- `enrich.py`: municipio, cadenas y webs mal etiquetadas.
-- `audit.py`: revisa cada web (caída, móvil, HTTPS, SEO, año, botón de llamada) y calcula la puntuación de oportunidad.
-- `actualizar.sh`: repite todo y dice cuántos negocios nuevos hay.
-- `index.html` + `leads.json` + `niches.json`: la app publicada. Seguimiento en las colecciones `seguimiento` y `eventos`.
+- `process_pbf.py`: procesa en local los extractos de OpenStreetMap (descargados de openstreetmap.fr), asigna provincia por polígono y municipio por núcleo cercano, audita webs, puntúa y escribe `leads/<ISO>.json` + `provincias.json`.
+- `fetch_all.py`: misma lógica vía Overpass (de reserva; los servidores públicos fallan a menudo). Define nichos, cadenas y exclusiones (notarías).
+- `audit.py`: auditoría de webs y puntuación.
+- `actualizar.sh`: descarga, procesa y compara con la versión anterior.
+- `index.html` + `niches.json`: la app. Seguimiento en `seguimiento` (cada documento guarda una copia del negocio en `lead`, para que los comentados no desaparezcan aunque salgan de la selección) y `eventos`.
+- `fetch_osm.py`, `enrich.py`, `leads.json`: versión antigua solo de Málaga (se conservan como referencia).

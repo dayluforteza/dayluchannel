@@ -148,11 +148,18 @@ textarea.input{min-height:72px;resize:vertical}
 
   <!-- NEGOCIOS -->
   <section id="v-negocios">
-    <div class="filters" role="search">
-      <input class="input grow" type="search" id="q" placeholder="Buscar nombre, calle o municipio" aria-label="Buscar">
-      <select class="input" id="f-nicho" aria-label="Nicho"><option value="">Todos los nichos</option></select>
+    <div class="filters" id="geo">
+      <select class="input" id="f-pais" aria-label="País"><option value="ES">España</option><option value="PT">Portugal</option></select>
+      <select class="input" id="f-prov" aria-label="Provincia o distrito"></select>
       <select class="input" id="f-muni" aria-label="Municipio"><option value="">Toda la provincia</option></select>
+      <select class="input" id="f-nicho" aria-label="Nicho"><option value="">Todos los nichos</option></select>
       <select class="input" id="f-estado" aria-label="Estado"><option value="">Cualquier estado</option></select>
+    </div>
+    <div class="filters" role="search">
+      <input class="input grow" type="search" id="q" placeholder="Buscar nombre, calle o municipio" aria-label="Buscar por nombre">
+      <input class="input grow" type="search" id="qc" placeholder="Buscar en mis comentarios" aria-label="Buscar en comentarios">
+      <button class="btn" type="button" id="f-com" aria-pressed="false">Mis comentarios <span id="f-com-n" class="mono">0</span></button>
+      <select class="input" id="f-comdesc" aria-label="Descartados en mis comentarios" hidden><option value="sin">Sin descartados</option><option value="con">Con descartados</option><option value="solo">Solo descartados</option></select>
     </div>
     <div class="filters">
       <div class="seg" role="group" aria-label="Estado de la web" id="f-web">
@@ -202,10 +209,16 @@ const EJEMPLOS={electricistas:"la web de Elsparky, un electricista de Fuengirola
 const FIRMA="Daylu Forteza · daylu.es · 663 01 19 14";
 const SECUENCIA=[["Día 0","Llamada: pide 15 minutos y cierra cita"],["Día 3","WhatsApp o email (solo si dijo que sí): captura de su web en móvil frente a la competencia"],["Día 7","Llamada de 2 minutos: «¿Pudiste ver lo que te mandé?»"],["Día 14","Mensaje de cierre: «Si no es el momento, lo dejo aquí»"],["Día 45","Reactivar con un caso real del mismo sector"]];
 
-let LEADS=[],NICHES={},SEG={},EVS=[],db=null,shown=48,webF="",view="negocios",openId=null;
+let LEADS=[],NICHES={},SEG={},EVS=[],db=null,shown=48,webF="",view="negocios",openId=null,PROV="ES-MA",INDEX={},COMVIEW=false;
+const NICHOS_ALL=["Oficios y reformas","Talleres","Peluquería y estética","Fisioterapia y salud","Clínicas dentales y veterinarias","Inmobiliarias, gestorías y abogados"];
+const leadById=id=>LEADS.find(l=>l.id===id)||(SEG[id]&&SEG[id].lead)||null;
+const snap=l=>{if(!l)return null;const{auditWeb,...r}=l;return{...r,iso:l.iso||PROV,web_cms:auditWeb&&auditWeb.cms||""}};
+// los de la provincia + los que ya tienen seguimiento (comentario, cita, estado) aunque no estén en el archivo
+function allLeads(){const ids=new Set(LEADS.map(l=>l.id));const extra=Object.entries(SEG).filter(([id,s])=>s.lead&&s.lead.iso===PROV&&!ids.has(id)&&(s.comentarios||s.cita||(s.estado&&s.estado!=="Nuevo"))).map(([,s])=>s.lead);return LEADS.concat(extra)}
+const comentados=()=>Object.entries(SEG).filter(([,s])=>s.comentarios).map(([id,s])=>LEADS.find(l=>l.id===id)||s.lead).filter(Boolean);
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const fmtTel=t=>{const d=(t||"").replace(/[^\d+]/g,"").replace(/^\+34/,"");return d.length===9?d.replace(/(\d{3})(\d{2})(\d{2})(\d{2})/,"$1 $2 $3 $4"):t};
+const fmtTel=t=>{const raw=(t||"").replace(/[^\d+]/g,"");if(raw.startsWith("+351")){const d=raw.slice(4);return d.length===9?"+351 "+d.replace(/(\d{3})(\d{3})(\d{3})/,"$1 $2 $3"):t}const d=raw.replace(/^\+34/,"");return d.length===9?d.replace(/(\d{3})(\d{2})(\d{2})(\d{2})/,"$1 $2 $3 $4"):t};
 const estadoDe=id=>(SEG[id]&&SEG[id].estado)||"Nuevo";
 const nichoDe=l=>NICHES[NICHO_KEY[l.tipo]]||NICHES[l.nicho==="Oficios y reformas"?"reformas":"generic"]||NICHES.generic;
 const zona=l=>l.zona||l.municipio||"Málaga";
@@ -261,8 +274,12 @@ function mensaje(l,canal,tono,sel){
 /* ---------- Filtros y vistas ---------- */
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),ni=$("f-nicho").value,mu=$("f-muni").value,es=$("f-estado").value;
-  const tel=$("f-tel").checked,hid=$("f-hidden").checked;
-  let r=LEADS.filter(l=>{const e=estadoDe(l.id);
+  const tel=$("f-tel").checked,hid=$("f-hidden").checked,qc=$("qc").value.trim().toLowerCase(),cd=$("f-comdesc").value;
+  const base=COMVIEW?comentados():allLeads();
+  let r=base.filter(l=>{const e=estadoDe(l.id),com=(SEG[l.id]&&SEG[l.id].comentarios||"").toLowerCase(),desc=e==="Descartado"||e==="No llamar";
+    if(qc&&!com.includes(qc))return false;
+    if(COMVIEW){if(cd==="sin"&&desc)return false;if(cd==="solo"&&!desc)return false;if(ni&&l.nicho!==ni)return false;
+      if(q&&!(`${l.nombre} ${l.direccion} ${l.municipio} ${l.zona||""}`.toLowerCase().includes(q)))return false;return true}
     if(ni&&l.nicho!==ni)return false; if(mu&&l.municipio!==mu)return false; if(es&&e!==es)return false;
     if(webF&&l.webStatus!==webF)return false; if(tel&&!l.telefono)return false;
     if(hid&&!es&&(e==="Descartado"||e==="No llamar"))return false;
@@ -278,26 +295,28 @@ function card(l){
   const iss=(l.issues||[]).filter(i=>i!=="NO_WEB").map(i=>`<span class="badge ${ISSUES[i][1]}">${ISSUES[i][0]}</span>`).join("");
   const extra=(l.motivos||[]).filter(m=>/Cadena|Solo redes/.test(m)).map(m=>`<span class="badge ${/Cadena/.test(m)?"b-red":"b-blue"}">${esc(m.replace(": decide la central",""))}</span>`).join("");
   return`<article class="card" data-id="${esc(l.id)}">
-   <div class="hd"><div style="min-width:0;flex:1"><h3>${esc(l.nombre)}</h3><div class="sub">${esc(TIPOS[l.tipo]||l.nicho)} · ${esc(l.municipio)}${l.zona?" · "+esc(l.zona):""}</div></div>${ring(l.puntuacion)}</div>
+   <div class="hd"><div style="min-width:0;flex:1"><h3>${esc(l.nombre)}</h3><div class="sub">${esc(TIPOS[l.tipo]||l.nicho)} · ${esc(l.municipio)}${l.zona?" · "+esc(l.zona):""}${COMVIEW&&l.provincia?" · "+esc(l.provincia):""}</div></div>${ring(l.puntuacion)}</div>
    <div class="bd">
      ${l.direccion?`<div class="line">${ICON.pin}<span class="t">${esc(l.direccion)}</span></div>`:""}
      ${l.telefono?`<div class="line">${ICON.tel}<span class="t mono" style="font-size:13px">${esc(fmtTel(l.telefono))}</span><button class="btn sm" type="button" data-copy="${esc(l.telefono)}">Copiar</button></div>`:`<div class="line">${ICON.tel}<span class="t">Sin teléfono: búscalo en Maps</span></div>`}
      ${l.web?`<div class="line">${ICON.web}<a class="t" href="${esc(l.web)}" target="_blank" rel="noopener" style="color:inherit">${esc(l.web.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a></div>`:""}
    </div>
+   ${s.comentarios?`<p class="note" style="margin:8px 14px 0;padding:8px 10px;background:var(--surface-2);border-radius:10px;color:var(--fg);overflow-wrap:anywhere">${esc(s.comentarios.length>160?s.comentarios.slice(0,160)+"…":s.comentarios)}</p>`:""}
    <div class="audit"><span class="badge ${ws[1]}">${ws[0]}</span>${iss}${extra}${l.webStatus==="modern"&&!iss?`<span class="badge b-grey">Ofrece SEO o mantenimiento</span>`:""}</div>
    <div class="ft"><span class="state ${ECLS[e]}">${esc(e)}${s.cita?" · "+esc(s.cita.replace("T"," ")):""}</span>
-     <span class="row">${s.comentarios?`<span class="badge b-grey" title="${esc(s.comentarios.slice(0,200))}">Con comentarios</span>`:""}${s.plexus?`<span class="badge b-violet" title="Ya está en PlexusCRM">En CRM</span>`:""}${pendiente(l.id)?`<span class="badge b-amber">Toca seguimiento (${dias(s.ts)} días)</span>`:""}<button class="btn primary" type="button" data-open="${esc(l.id)}">Abrir ficha</button></span></div>
+     <span class="row">${s.plexus?`<span class="badge b-violet" title="Ya está en PlexusCRM">En CRM</span>`:""}${pendiente(l.id)?`<span class="badge b-amber">Toca seguimiento (${dias(s.ts)} días)</span>`:""}<button class="btn sm ${e==="Descartado"?"":"danger"}" type="button" data-desc="${esc(l.id)}">${e==="Descartado"?"Recuperar":"Descartar"}</button><button class="btn primary" type="button" data-open="${esc(l.id)}">Abrir ficha</button></span></div>
   </article>`;
 }
 function renderNegocios(){
   const f=filtered();
-  $("count").textContent=`${f.length.toLocaleString("es-ES")} negocios · ${f.filter(l=>l.puntuacion>=70).length} con oportunidad alta · ${f.filter(l=>l.webStatus==="none").length} sin web`;
+  $("count").textContent=COMVIEW?`${f.length} negocios con comentarios (todas las provincias)`:`${f.length.toLocaleString("es-ES")} negocios con más probabilidad de compra · ${f.filter(l=>l.webStatus==="none").length} sin web · ${f.filter(l=>l.webStatus==="outdated").length} con web obsoleta`;
+  $("f-com-n").textContent=Object.values(SEG).filter(s=>s.comentarios).length;
   $("grid").innerHTML=f.slice(0,shown).map(card).join("")||`<p class="empty">Ningún negocio con estos filtros. Quita alguno para ver más.</p>`;
   $("more").hidden=f.length<=shown;
 }
 function renderPipeline(){
   const cols=ESTADOS.filter(e=>e.k!=="Nuevo"&&e.k!=="No llamar");
-  const by=id=>LEADS.find(l=>l.id===id);
+  const by=leadById;
   $("pipe").innerHTML=cols.map(c=>{
     const items=Object.entries(SEG).filter(([id,s])=>s.estado===c.k&&by(id)).sort((a,b)=>b[1].ts-a[1].ts);
     return`<div class="col"><h3><span class="state ${c.c}">${c.k}</span><span class="muted mono">${items.length}</span></h3>${
@@ -331,7 +350,7 @@ function marcador(){
 /* ---------- Ficha lateral ---------- */
 let drawerState={canal:"whatsapp",tono:"cercano",sel:null};
 function openDrawer(id){
-  const l=LEADS.find(x=>x.id===id); if(!l)return; openId=id;
+  const l=leadById(id); if(!l)return; openId=id;
   const n=nichoDe(l),s=SEG[id]||{},e=estadoDe(id),ws=WEBST[l.webStatus]||WEBST.none;
   drawerState.sel=(l.issues||[]).slice(0,2);
   const issuesBox=(l.issues||[]).map(i=>`<label class="chk"><input type="checkbox" data-iss="${i}" ${drawerState.sel.includes(i)?"checked":""}> ${ISSUES[i][0]}</label>`).join("");
@@ -389,10 +408,10 @@ function openDrawer(id){
   regenMsg(); document.body.style.overflow="hidden"; $("dh-t").closest(".drawer").querySelector("[data-close].btn").focus();
 }
 function regenMsg(){
-  const l=LEADS.find(x=>x.id===openId); if(!l)return;
+  const l=leadById(openId); if(!l)return;
   const m=mensaje(l,drawerState.canal,drawerState.tono,drawerState.sel);
   $("d-msg").value=m.body; $("d-asunto").hidden=drawerState.canal!=="email"; $("d-asunto").value=m.asunto||"";
-  const wa=$("d-wa"); if(wa){const t=l.telefono.replace(/[^\d]/g,""),num=t.length===9?"34"+t:t; wa.href=`https://wa.me/${num}?text=${encodeURIComponent(m.body)}`; wa.hidden=drawerState.canal!=="whatsapp";}
+  const wa=$("d-wa"); if(wa){const t=l.telefono.replace(/[^\d]/g,""),num=t.length===9?(l.pais==="PT"?"351":"34")+t:t; wa.href=`https://wa.me/${num}?text=${encodeURIComponent(m.body)}`; wa.hidden=drawerState.canal!=="whatsapp";}
 }
 function refreshDrawerState(){const st=$("d-state"); if(st){const e=estadoDe(openId); st.textContent=e; st.className="state "+ECLS[e];}}
 function closeDrawer(){ $("drawer-root").innerHTML=""; openId=null; document.body.style.overflow=""; }
@@ -409,15 +428,17 @@ document.addEventListener("click",async ev=>{
     if(g.id==="d-canal"){drawerState.canal=sb.dataset.v;regenMsg()}
     if(g.id==="d-tono"){drawerState.tono=sb.dataset.v;regenMsg()}
     return}
-  if(t.id==="d-desc"){const id=openId,prev=estadoDe(id),to=prev==="Descartado"?"Nuevo":"Descartado";
+  const dc=t.closest("[data-desc]");
+  if(t.id==="d-desc"||dc){const id=dc?dc.dataset.desc:openId,prev=estadoDe(id),to=prev==="Descartado"?"Nuevo":"Descartado";
     if(!db){t.textContent="Abre con tu cuenta";return}
-    const data={...(SEG[id]||{}),estado:to,ts:Date.now()};
+    const data={...(SEG[id]||{}),estado:to,ts:Date.now(),lead:snap(leadById(id))};
+    if(dc){try{await db.collection("seguimiento").doc(id).set(data);await db.collection("eventos").add({lead:id,estado:to,ts:data.ts});SEG[id]=data;render()}catch(e){dc.textContent="Error"}return}
     try{await db.collection("seguimiento").doc(id).set(data);await db.collection("eventos").add({lead:id,estado:to,ts:data.ts});
       SEG[id]=data;t.textContent=to==="Descartado"?"Recuperar":"Descartar";t.classList.toggle("danger",to!=="Descartado");
       const sel=$("d-estado");if(sel)sel.value=to;refreshDrawerState()}catch(e){t.textContent="Error al guardar"}return}
   if(t.id==="d-com-save"){const id=openId,out=$("d-com-saved");
     if(!db){out.textContent="No se ha guardado: abre la página con tu cuenta.";return}
-    const data={...(SEG[id]||{}),comentarios:$("d-com").value.trim(),comentariosTs:Date.now()};
+    const data={...(SEG[id]||{}),comentarios:$("d-com").value.trim(),comentariosTs:Date.now(),lead:snap(leadById(id))};
     try{await db.collection("seguimiento").doc(id).set(data);SEG[id]=data;out.textContent="Guardado"}catch(e){out.textContent="No se ha guardado"}return}
   if(t.id==="d-copy"){const txt=($("d-asunto").hidden?"":"Asunto: "+$("d-asunto").value+"\n\n")+$("d-msg").value;
     try{await navigator.clipboard.writeText(txt);t.textContent="Copiado"}catch{$("d-msg").select();t.textContent="Selecciona y copia"}return}
@@ -428,14 +449,18 @@ document.addEventListener("submit",async ev=>{
   if(ev.target.id!=="d-form")return; ev.preventDefault();
   const id=openId,out=$("d-saved"),fd=new FormData(ev.target),prev=estadoDe(id);
   const imp=parseFloat(String(fd.get("importe")||"").replace(/\./g,"").replace(",","."));
-  const data={...(SEG[id]||{}),estado:fd.get("estado"),cita:fd.get("cita")||"",notas:fd.get("notas")||"",contacto:(fd.get("contacto")||"").trim(),servicio:fd.get("servicio")||"",importe:isFinite(imp)&&imp>0?imp:"",ts:Date.now()};
+  const data={...(SEG[id]||{}),estado:fd.get("estado"),cita:fd.get("cita")||"",notas:fd.get("notas")||"",contacto:(fd.get("contacto")||"").trim(),servicio:fd.get("servicio")||"",importe:isFinite(imp)&&imp>0?imp:"",ts:Date.now(),lead:snap(leadById(id))};
   if(data.estado==="Vendido"&&!data.importe){out.textContent="Pon el importe de la venta para crear las facturas.";$("d-importe").focus();return}
   if(!db){out.textContent="No se ha guardado: abre la página con tu cuenta.";return}
   try{await db.collection("seguimiento").doc(id).set(data);
     if(data.estado!==prev||data.estado==="Llamado")await db.collection("eventos").add({lead:id,estado:data.estado,ts:data.ts});
     out.textContent="Guardado"}catch(e){out.textContent="No se ha guardado: "+(e&&e.message||"error")}
 });
-["q","f-nicho","f-muni","f-estado","f-tel","f-hidden","f-orden"].forEach(id=>$(id).addEventListener("input",()=>{shown=48;render()}));
+["q","qc","f-nicho","f-muni","f-estado","f-tel","f-hidden","f-orden","f-comdesc"].forEach(id=>$(id).addEventListener("input",()=>{shown=48;render()}));
+$("f-com").addEventListener("click",()=>{COMVIEW=!COMVIEW;$("f-com").setAttribute("aria-pressed",String(COMVIEW));$("f-com").classList.toggle("primary",COMVIEW);$("f-comdesc").hidden=!COMVIEW;
+  ["f-pais","f-prov","f-muni","f-estado"].forEach(x=>$(x).disabled=COMVIEW);shown=48;render()});
+$("f-pais").addEventListener("input",()=>{fillProv();loadProv($("f-prov").value)});
+$("f-prov").addEventListener("input",()=>loadProv($("f-prov").value));
 ["a-nicho","a-muni"].forEach(id=>$(id).addEventListener("input",renderAsesor));
 $("more").addEventListener("click",()=>{shown+=48;render()});
 ["negocios","pipeline","asesor"].forEach(v=>$("t-"+v).addEventListener("click",()=>{view=v;
@@ -445,24 +470,31 @@ $("csv").addEventListener("click",async()=>{
   const rows=[["Nombre","Tipo","Municipio","Dirección","Teléfono","Email","Web","Estado web","Problemas","Puntuación","Estado","Cita","Notas"].join(";")]
     .concat(f.map(l=>{const s=SEG[l.id]||{};return[l.nombre,TIPOS[l.tipo]||l.nicho,l.municipio,l.direccion,l.telefono,l.email,l.web,(WEBST[l.webStatus]||[""])[0],(l.issues||[]).map(i=>ISSUES[i][0]).join(", "),l.puntuacion,estadoDe(l.id),s.cita||"",s.notas||""].map(q).join(";")}));
   const b=$("csv");
-  try{const dl=await claude.use("downloads"); if(!dl)throw 0; await dl.save({filename:"prospector-malaga.csv",data:"﻿"+rows.join("\n")}); b.textContent="CSV listo"}
+  try{const dl=await claude.use("downloads"); if(!dl)throw 0; await dl.save({filename:`prospector-${COMVIEW?"comentarios":PROV}.csv`,data:"﻿"+rows.join("\n")}); b.textContent="CSV listo"}
   catch{b.textContent="No disponible aquí"}
   setTimeout(()=>b.textContent="Exportar CSV",2500);
 });
 
 /* ---------- Carga ---------- */
+const add=(sel,vals)=>vals.forEach(v=>{const[a,b]=Array.isArray(v)?v:[v,v];sel.insertAdjacentHTML("beforeend",`<option value="${esc(a)}">${esc(b)}</option>`)});
+function fillProv(sel){const pais=$("f-pais").value,ps=Object.entries(INDEX).filter(([,x])=>x.pais===pais).sort((a,b)=>a[1].nombre.localeCompare(b[1].nombre,"es"));
+  $("f-prov").innerHTML="";add($("f-prov"),ps.map(([k,x])=>[k,`${x.nombre} (${x.candidatos})`]));if(sel&&INDEX[sel])$("f-prov").value=sel}
+async function loadProv(iso){
+  if(!INDEX[iso])iso=Object.keys(INDEX)[0];PROV=iso;try{localStorage.setItem("prospector.prov",iso)}catch{}
+  const x=INDEX[iso];$("upd").textContent="Cargando "+x.nombre+"…";
+  try{LEADS=await fetch(`leads/${iso}.json`).then(r=>r.json());LEADS.forEach(l=>l.iso=iso)}catch{LEADS=[];$("upd").textContent="No se ha podido cargar "+x.nombre+". Recarga la página.";return}
+  const munis=Object.keys(x.municipios||{});
+  for(const id of ["f-muni","a-muni"]){$(id).innerHTML=`<option value="">${x.pais==="PT"?"Todo el distrito":"Toda la provincia"}</option>`;add($(id),munis.map(m=>[m,`${m} (${x.municipios[m]})`]))}
+  $("upd").textContent=`${x.candidatos.toLocaleString("es-ES")} con más probabilidad de ${x.negocios.toLocaleString("es-ES")} negocios · ${x.nombre} · actualizado ${x.actualizado.split("-").reverse().join("/")}`;
+  shown=48;render()}
 (async()=>{
   try{
-    const [a,b]=await Promise.all([fetch("leads.json").then(r=>r.json()),fetch("niches.json").then(r=>r.json())]);
-    LEADS=a; b.forEach(n=>NICHES[n.key]=n);
-    const add=(sel,vals)=>vals.forEach(v=>sel.insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`));
-    const nichos=[...new Set(LEADS.map(l=>l.nicho))]; add($("f-nicho"),nichos); add($("a-nicho"),nichos);
-    const cnt={}; LEADS.forEach(l=>cnt[l.municipio]=(cnt[l.municipio]||0)+1);
-    const munis=Object.keys(cnt).filter(Boolean).sort((x,y)=>cnt[y]-cnt[x]); add($("f-muni"),munis); add($("a-muni"),munis);
-    add($("f-estado"),ESTADOS.map(e=>e.k));
-    const fecha=LEADS.reduce((x,l)=>l.actualizado>x?l.actualizado:x,"");
-    $("upd").textContent=`${LEADS.length.toLocaleString("es-ES")} negocios · provincia de Málaga · actualizado ${fecha.split("-").reverse().join("/")}`;
-    render();
+    const [a,b]=await Promise.all([fetch("provincias.json").then(r=>r.json()),fetch("niches.json").then(r=>r.json())]);
+    INDEX=a; b.forEach(n=>NICHES[n.key]=n);
+    add($("f-nicho"),NICHOS_ALL); add($("a-nicho"),NICHOS_ALL); add($("f-estado"),ESTADOS.map(e=>e.k));
+    let saved="ES-MA";try{saved=localStorage.getItem("prospector.prov")||saved}catch{}
+    if(!INDEX[saved])saved=INDEX["ES-MA"]?"ES-MA":Object.keys(INDEX)[0];
+    $("f-pais").value=INDEX[saved].pais;fillProv(saved);await loadProv(saved);
   }catch(e){$("upd").textContent="No se han podido cargar los negocios. Recarga la página."}
   const timer=setTimeout(()=>{$("dbwarn").hidden=false},10000);
   try{ db=window.claude&&await window.claude.use("db"); clearTimeout(timer);
