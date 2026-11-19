@@ -71,6 +71,9 @@ h1{font-size:22px;line-height:1.1;margin:0;letter-spacing:-.02em}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
 .btn.primary:hover{filter:brightness(1.08);color:var(--accent-fg)}
 .btn.sm{padding:4px 9px;font-size:12px}
+.star{flex:none;width:34px;height:34px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--muted);font-size:18px;line-height:1;cursor:pointer;display:grid;place-items:center}
+.star:hover{border-color:var(--amber);color:var(--amber)}
+.star[aria-pressed="true"]{color:#e0a800;border-color:color-mix(in srgb,#e0a800 45%,var(--line));background:color-mix(in srgb,#e0a800 12%,var(--surface))}
 .btn.danger{color:var(--red);border-color:color-mix(in srgb,var(--red) 35%,var(--line))}
 .btn.danger:hover{background:var(--red-soft);color:var(--red);border-color:var(--red)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -158,6 +161,7 @@ textarea.input{min-height:72px;resize:vertical}
     <div class="filters" role="search">
       <input class="input grow" type="search" id="q" placeholder="Buscar nombre, calle o municipio" aria-label="Buscar por nombre">
       <input class="input grow" type="search" id="qc" placeholder="Buscar en mis comentarios" aria-label="Buscar en comentarios">
+      <button class="btn" type="button" id="f-fav" aria-pressed="false">★ Favoritos <span id="f-fav-n" class="mono">0</span></button>
       <button class="btn" type="button" id="f-com" aria-pressed="false">Mis comentarios <span id="f-com-n" class="mono">0</span></button>
       <select class="input" id="f-comdesc" aria-label="Descartados en mis comentarios" hidden><option value="sin">Sin descartados</option><option value="con">Con descartados</option><option value="solo">Solo descartados</option></select>
     </div>
@@ -209,12 +213,14 @@ const EJEMPLOS={electricistas:"la web de Elsparky, un electricista de Fuengirola
 const FIRMA="Daylu Forteza · daylu.es · 663 01 19 14";
 const SECUENCIA=[["Día 0","Llamada: pide 15 minutos y cierra cita"],["Día 3","WhatsApp o email (solo si dijo que sí): captura de su web en móvil frente a la competencia"],["Día 7","Llamada de 2 minutos: «¿Pudiste ver lo que te mandé?»"],["Día 14","Mensaje de cierre: «Si no es el momento, lo dejo aquí»"],["Día 45","Reactivar con un caso real del mismo sector"]];
 
-let LEADS=[],NICHES={},SEG={},EVS=[],db=null,shown=48,webF="",view="negocios",openId=null,PROV="ES-MA",INDEX={},COMVIEW=false;
+let LEADS=[],NICHES={},SEG={},EVS=[],db=null,shown=48,webF="",view="negocios",openId=null,PROV="ES-MA",INDEX={},COMVIEW=false,FAVVIEW=false;
 const NICHOS_ALL=["Oficios y reformas","Talleres","Peluquería y estética","Fisioterapia y salud","Clínicas dentales y veterinarias","Inmobiliarias, gestorías y abogados"];
 const leadById=id=>LEADS.find(l=>l.id===id)||(SEG[id]&&SEG[id].lead)||null;
 const snap=l=>{if(!l)return null;const{auditWeb,...r}=l;return{...r,iso:l.iso||PROV,web_cms:auditWeb&&auditWeb.cms||""}};
 // los de la provincia + los que ya tienen seguimiento (comentario, cita, estado) aunque no estén en el archivo
-function allLeads(){const ids=new Set(LEADS.map(l=>l.id));const extra=Object.entries(SEG).filter(([id,s])=>s.lead&&s.lead.iso===PROV&&!ids.has(id)&&(s.comentarios||s.cita||(s.estado&&s.estado!=="Nuevo"))).map(([,s])=>s.lead);return LEADS.concat(extra)}
+function allLeads(){const ids=new Set(LEADS.map(l=>l.id));const extra=Object.entries(SEG).filter(([id,s])=>s.lead&&s.lead.iso===PROV&&!ids.has(id)&&(s.comentarios||s.fav||s.cita||(s.estado&&s.estado!=="Nuevo"))).map(([,s])=>s.lead);return LEADS.concat(extra)}
+const favoritos=()=>Object.entries(SEG).filter(([,s])=>s.fav).map(([id,s])=>LEADS.find(l=>l.id===id)||s.lead).filter(Boolean);
+const starBtn=id=>{const on=!!(SEG[id]&&SEG[id].fav);return`<button class="star" type="button" data-fav="${esc(id)}" aria-pressed="${on}" aria-label="${on?"Quitar de favoritos":"Marcar como favorito"}" title="${on?"Quitar de favoritos":"Marcar como favorito"}">${on?"★":"☆"}</button>`};
 const comentados=()=>Object.entries(SEG).filter(([,s])=>s.comentarios).map(([id,s])=>LEADS.find(l=>l.id===id)||s.lead).filter(Boolean);
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -275,10 +281,10 @@ function mensaje(l,canal,tono,sel){
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),ni=$("f-nicho").value,mu=$("f-muni").value,es=$("f-estado").value;
   const tel=$("f-tel").checked,hid=$("f-hidden").checked,qc=$("qc").value.trim().toLowerCase(),cd=$("f-comdesc").value;
-  const base=COMVIEW?comentados():allLeads();
+  const LIST=COMVIEW||FAVVIEW,base=FAVVIEW?favoritos():COMVIEW?comentados():allLeads();
   let r=base.filter(l=>{const e=estadoDe(l.id),com=(SEG[l.id]&&SEG[l.id].comentarios||"").toLowerCase(),desc=e==="Descartado"||e==="No llamar";
     if(qc&&!com.includes(qc))return false;
-    if(COMVIEW){if(cd==="sin"&&desc)return false;if(cd==="solo"&&!desc)return false;if(ni&&l.nicho!==ni)return false;
+    if(LIST){if(cd==="sin"&&desc)return false;if(cd==="solo"&&!desc)return false;if(ni&&l.nicho!==ni)return false;
       if(q&&!(`${l.nombre} ${l.direccion} ${l.municipio} ${l.zona||""}`.toLowerCase().includes(q)))return false;return true}
     if(ni&&l.nicho!==ni)return false; if(mu&&l.municipio!==mu)return false; if(es&&e!==es)return false;
     if(webF&&l.webStatus!==webF)return false; if(tel&&!l.telefono)return false;
@@ -295,7 +301,7 @@ function card(l){
   const iss=(l.issues||[]).filter(i=>i!=="NO_WEB").map(i=>`<span class="badge ${ISSUES[i][1]}">${ISSUES[i][0]}</span>`).join("");
   const extra=(l.motivos||[]).filter(m=>/Cadena|Solo redes/.test(m)).map(m=>`<span class="badge ${/Cadena/.test(m)?"b-red":"b-blue"}">${esc(m.replace(": decide la central",""))}</span>`).join("");
   return`<article class="card" data-id="${esc(l.id)}">
-   <div class="hd"><div style="min-width:0;flex:1"><h3>${esc(l.nombre)}</h3><div class="sub">${esc(TIPOS[l.tipo]||l.nicho)} · ${esc(l.municipio)}${l.zona?" · "+esc(l.zona):""}${COMVIEW&&l.provincia?" · "+esc(l.provincia):""}</div></div>${ring(l.puntuacion)}</div>
+   <div class="hd"><div style="min-width:0;flex:1"><h3>${esc(l.nombre)}</h3><div class="sub">${esc(TIPOS[l.tipo]||l.nicho)} · ${esc(l.municipio)}${l.zona?" · "+esc(l.zona):""}${(COMVIEW||FAVVIEW)&&l.provincia?" · "+esc(l.provincia):""}</div></div>${ring(l.puntuacion)}${starBtn(l.id)}</div>
    <div class="bd">
      ${l.direccion?`<div class="line">${ICON.pin}<span class="t">${esc(l.direccion)}</span></div>`:""}
      ${l.telefono?`<div class="line">${ICON.tel}<span class="t mono" style="font-size:13px">${esc(fmtTel(l.telefono))}</span><button class="btn sm" type="button" data-copy="${esc(l.telefono)}">Copiar</button></div>`:`<div class="line">${ICON.tel}<span class="t">Sin teléfono: búscalo en Maps</span></div>`}
@@ -309,8 +315,9 @@ function card(l){
 }
 function renderNegocios(){
   const f=filtered();
-  $("count").textContent=COMVIEW?`${f.length} negocios con comentarios (todas las provincias)`:`${f.length.toLocaleString("es-ES")} negocios con más probabilidad de compra · ${f.filter(l=>l.webStatus==="none").length} sin web · ${f.filter(l=>l.webStatus==="outdated").length} con web obsoleta`;
+  $("count").textContent=FAVVIEW?`${f.length} favoritos (todas las provincias)`:COMVIEW?`${f.length} negocios con comentarios (todas las provincias)`:`${f.length.toLocaleString("es-ES")} negocios con más probabilidad de compra · ${f.filter(l=>l.webStatus==="none").length} sin web · ${f.filter(l=>l.webStatus==="outdated").length} con web obsoleta`;
   $("f-com-n").textContent=Object.values(SEG).filter(s=>s.comentarios).length;
+  $("f-fav-n").textContent=Object.values(SEG).filter(s=>s.fav).length;
   $("grid").innerHTML=f.slice(0,shown).map(card).join("")||`<p class="empty">Ningún negocio con estos filtros. Quita alguno para ver más.</p>`;
   $("more").hidden=f.length<=shown;
 }
@@ -358,7 +365,7 @@ function openDrawer(id){
   <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="dh-t">
    <div class="dh"><div style="flex:1;min-width:0"><h2 id="dh-t">${esc(l.nombre)}</h2><div class="muted" style="font-size:13px;margin-top:3px">${esc(TIPOS[l.tipo]||l.nicho)} · ${esc(l.municipio)} · ${esc(n.offer.price)}</div>
      <div class="row" style="margin-top:8px"><span class="badge ${ws[1]}">${ws[0]}</span><span class="state ${ECLS[e]}" id="d-state">${esc(e)}</span>${s.plexus?`<a class="badge b-violet" href="https://claude.ai/artifact/GfFjdNBRbFJtDFTLGTqn1N" target="_blank" rel="noopener">En PlexusCRM ›</a>`:""}</div></div>
-     ${ring(l.puntuacion)}<div style="display:flex;flex-direction:column;gap:6px;align-items:stretch"><button class="btn sm" type="button" data-close aria-label="Cerrar ficha">Cerrar</button><button class="btn sm ${e==="Descartado"?"":"danger"}" type="button" id="d-desc">${e==="Descartado"?"Recuperar":"Descartar"}</button></div></div>
+     ${ring(l.puntuacion)}${starBtn(l.id)}<div style="display:flex;flex-direction:column;gap:6px;align-items:stretch"><button class="btn sm" type="button" data-close aria-label="Cerrar ficha">Cerrar</button><button class="btn sm ${e==="Descartado"?"":"danger"}" type="button" id="d-desc">${e==="Descartado"?"Recuperar":"Descartar"}</button></div></div>
    <div class="db">
     <section><h3>Comentarios</h3>
       <textarea class="input" id="d-com" style="width:100%;min-height:80px;resize:vertical" placeholder="Cualquier cosa aparte de la llamada: lo que has visto en su web, quién es el dueño, ideas para la propuesta…">${esc(s.comentarios||"")}</textarea>
@@ -428,6 +435,13 @@ document.addEventListener("click",async ev=>{
     if(g.id==="d-canal"){drawerState.canal=sb.dataset.v;regenMsg()}
     if(g.id==="d-tono"){drawerState.tono=sb.dataset.v;regenMsg()}
     return}
+  const fv=t.closest("[data-fav]");
+  if(fv){const id=fv.dataset.fav,on=!(SEG[id]&&SEG[id].fav);
+    if(!db){fv.title="Abre la página con tu cuenta para guardar favoritos";return}
+    const data={...(SEG[id]||{}),fav:on,favTs:Date.now(),lead:snap(leadById(id))};
+    try{await db.collection("seguimiento").doc(id).set(data);SEG[id]=data;
+      document.querySelectorAll(`[data-fav="${CSS.escape(id)}"]`).forEach(b=>{b.setAttribute("aria-pressed",String(on));b.textContent=on?"★":"☆";b.title=b.ariaLabel=on?"Quitar de favoritos":"Marcar como favorito"});
+      if(FAVVIEW)render();else $("f-fav-n").textContent=Object.values(SEG).filter(s=>s.fav).length}catch(e){fv.title="No se ha guardado"}return}
   const dc=t.closest("[data-desc]");
   if(t.id==="d-desc"||dc){const id=dc?dc.dataset.desc:openId,prev=estadoDe(id),to=prev==="Descartado"?"Nuevo":"Descartado";
     if(!db){t.textContent="Abre con tu cuenta";return}
@@ -457,8 +471,11 @@ document.addEventListener("submit",async ev=>{
     out.textContent="Guardado"}catch(e){out.textContent="No se ha guardado: "+(e&&e.message||"error")}
 });
 ["q","qc","f-nicho","f-muni","f-estado","f-tel","f-hidden","f-orden","f-comdesc"].forEach(id=>$(id).addEventListener("input",()=>{shown=48;render()}));
-$("f-com").addEventListener("click",()=>{COMVIEW=!COMVIEW;$("f-com").setAttribute("aria-pressed",String(COMVIEW));$("f-com").classList.toggle("primary",COMVIEW);$("f-comdesc").hidden=!COMVIEW;
-  ["f-pais","f-prov","f-muni","f-estado"].forEach(x=>$(x).disabled=COMVIEW);shown=48;render()});
+function setList(mode){COMVIEW=mode==="com";FAVVIEW=mode==="fav";
+  [["f-com",COMVIEW],["f-fav",FAVVIEW]].forEach(([b,on])=>{$(b).setAttribute("aria-pressed",String(on));$(b).classList.toggle("primary",on)});
+  $("f-comdesc").hidden=!(COMVIEW||FAVVIEW);["f-pais","f-prov","f-muni","f-estado"].forEach(x=>$(x).disabled=COMVIEW||FAVVIEW);shown=48;render()}
+$("f-com").addEventListener("click",()=>setList(COMVIEW?"":"com"));
+$("f-fav").addEventListener("click",()=>setList(FAVVIEW?"":"fav"));
 $("f-pais").addEventListener("input",()=>{fillProv();loadProv($("f-prov").value)});
 $("f-prov").addEventListener("input",()=>loadProv($("f-prov").value));
 ["a-nicho","a-muni"].forEach(id=>$(id).addEventListener("input",renderAsesor));
