@@ -49,6 +49,10 @@ class H(osmium.SimpleHandler):
         if pts: s._add("way", w.id, w.tags, sum(p[0] for p in pts) / len(pts), sum(p[1] for p in pts) / len(pts))
 
 def main():
+    for need, mb in (("spain.osm.pbf", 1000), ("portugal.osm.pbf", 200)):
+        f = f"{D}/{need}"
+        if not os.path.exists(f) or os.path.getsize(f) < mb * 1024 * 1024:
+            print("ERROR: falta o está incompleto", need, "- no se tocan los datos actuales", flush=True); sys.exit(1)
     h = H(); t0 = time.time()
     for pbf in ("portugal.osm.pbf", "spain.osm.pbf", "canarias.osm.pbf", "melilla.osm.pbf"):
         if not os.path.exists(f"{D}/{pbf}"): print("falta", pbf, flush=True); continue
