@@ -1,0 +1,12 @@
+{
+  "titulo": "La IA ya recomienda negocios. ¿Recomienda el tuyo?",
+  "voz": "es-ES-AlvaroNeural",
+  "escenas": [
+    {"id": "gancho", "texto": "Tus clientes ya no buscan en Google. Se lo preguntan a la inteligencia artificial."},
+    {"id": "problema", "texto": "Y la IA contesta con dos o tres nombres. Si tu negocio no está ahí, para ese cliente no existes."},
+    {"id": "tip1", "texto": "Uno. Completa tu ficha de Google: horario, fotos y servicios. La IA lee esos datos."},
+    {"id": "tip2", "texto": "Dos. Pide reseñas que cuenten qué hiciste. Me arreglaron la fuga en una hora vale más que cinco estrellas sin texto."},
+    {"id": "tip3", "texto": "Tres. Una web propia y rápida que diga claro qué haces, dónde y cuánto cuesta."},
+    {"id": "cta", "texto": "¿Quieres saber si la IA recomienda tu negocio? Comenta IA y te lo reviso."}
+  ]
+}
