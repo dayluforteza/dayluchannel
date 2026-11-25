@@ -32,6 +32,9 @@
 **Ruta para subir de nivel:** 1) Aprende lo básico 2) Instala habilidades 3) Conecta tus herramientas 4) Automatiza procesos 5) Crea con Claude Code.
 **Idea base:** los resultados salen de buenos prompts, buenos datos y una estrategia clara.
 
+## Referencias de contenido
+- Posts e infografías que Daylu me pasa: `conocimiento/referencias-instagram.md`. Léelo antes de escribir guiones, ganchos o contenido sobre Claude.
+
 ---
 
 ## Protocolo: "Vamos a crear un agente"
